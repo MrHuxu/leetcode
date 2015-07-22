@@ -17,23 +17,28 @@ l22.next = l23;
 
 var addTwoNumbers = function (l1, l2) {
   var arr1 = [], arr2 = [];
-  do {
+  while (l1.next) {
     arr1.push(l1.val);
-    if (l1.next)
-      l1 = l1.next;
-    else
-      break;
-  } while (true)
-  do {
+    l1 = l1.next;
+  }
+  while (l2.next) {
     arr2.push(l2.val);
-    if (l2.next)
-      l2 = l2.next;
-    else
-      break;
-  } while (true)
+    l2 = l2.next;
+  }
+  arr1.push(l1.val);
+  arr2.push(l2.val);
   var num1 = parseInt(arr1.reverse().join(''));
   var num2 = parseInt(arr2.reverse().join(''));
   var sum = num1 + num2;
-}
+  var ln = new ListNode(undefined), current = ln;
+  while (sum >= 10) {
+    current.val = sum % 10;
+    current.next = new ListNode(undefined);
+    current = current.next;
+    sum = parseInt(sum / 10);
+  }
+  current.val = sum;
+  return ln;
+};
 
-addTwoNumbers(l1, l2);
+console.log(addTwoNumbers(l1, l2));
