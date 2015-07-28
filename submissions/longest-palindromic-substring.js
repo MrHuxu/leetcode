@@ -1,5 +1,7 @@
-var s = 'aaaa';
-
+/**
+ * @param {string} s
+ * @return {string}
+ */
 var getLongestPalindrome = function (st, ed, str) {
   if (st === 0 || ed === str.length - 1) {
     return [st, ed];
@@ -30,5 +32,3 @@ var longestPalindrome = function(s) {
   }
   return longestStr;
 };
-
-console.log(longestPalindrome(s));
