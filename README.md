@@ -14,6 +14,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 4. [Longest Palindromic Substring][7] [(submission)][8]
 5. [Summary Ranges][9] [(submission)][10]
 6. [ZigZag Conversion][11] [(submission)][12]
+7. [Reverse Integer][13] [(submission)][14]
 
 
   [1]: https://leetcode.com/problems/two-sum/
@@ -28,3 +29,5 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [10]: https://github.com/MrHuxu/leetcode/blob/master/submissions/summary-ramges.js
   [11]: https://leetcode.com/problems/zigzag-conversion/
   [12]: https://github.com/MrHuxu/leetcode/blob/master/submissions/zigzag-conversion.js
+  [13]: https://leetcode.com/problems/reverse-integer/
+  [14]: https://github.com/MrHuxu/leetcode/blob/master/submissions/reverse-integer.js
