@@ -15,6 +15,9 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 5. [Summary Ranges][9] [(submission)][10]
 6. [ZigZag Conversion][11] [(submission)][12]
 7. [Reverse Integer][13] [(submission)][14]
+8. [String to Integer (atoi)][15] [(submission)][16] **I think this question should be solved by using c/c++, sigh**
+9. [Palindrome Number][17] [(submission)][18]
+10. [Container With Most Water][19] [(submission)][20]
 
 
   [1]: https://leetcode.com/problems/two-sum/
@@ -31,3 +34,10 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [12]: https://github.com/MrHuxu/leetcode/blob/master/submissions/zigzag-conversion.js
   [13]: https://leetcode.com/problems/reverse-integer/
   [14]: https://github.com/MrHuxu/leetcode/blob/master/submissions/reverse-integer.js
+  [15]: https://leetcode.com/problems/string-to-integer-atoi/
+  [16]: https://github.com/MrHuxu/leetcode/blob/master/submissions/string-to-integer-atoi.js
+  [17]: https://leetcode.com/problems/palindrome-number/
+  [18]: https://github.com/MrHuxu/leetcode/blob/master/submissions/palindrome-number.js
+  [19]: https://leetcode.com/problems/container-with-most-water/
+  [20]: https://github.com/MrHuxu/leetcode/blob/master/submissions/container-with-most-water.js
+
