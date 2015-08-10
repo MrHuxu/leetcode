@@ -18,6 +18,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 8. [String to Integer (atoi)][15] [(submission)][16] **I think this question should be solved by using c/c++, sigh**
 9. [Palindrome Number][17] [(submission)][18]
 10. [Container With Most Water][19] [(submission)][20]
+11. [3Sum][21] [(submission)][22]
 
 
   [1]: https://leetcode.com/problems/two-sum/
@@ -40,4 +41,6 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [18]: https://github.com/MrHuxu/leetcode/blob/master/submissions/palindrome-number.js
   [19]: https://leetcode.com/problems/container-with-most-water/
   [20]: https://github.com/MrHuxu/leetcode/blob/master/submissions/container-with-most-water.js
+  [21]: https://leetcode.com/problems/3sum/
+  [22]: https://github.com/MrHuxu/leetcode/blob/master/submissions/3sum.js
 
