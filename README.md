@@ -20,6 +20,8 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 10. [Container With Most Water][19] [(submission)][20]
 11. [3Sum][21] [(submission)][22]
 12. [3Sum Closest][23] [(submission)][24]
+13. [Longest Common Prefix][25] [(submission)][26]
+14. [Letter Combinations of a Phone Number][27] [(submission)][28]
 
 
   [1]: https://leetcode.com/problems/two-sum/
@@ -46,3 +48,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [22]: https://github.com/MrHuxu/leetcode/blob/master/submissions/3sum.js
   [23]: https://leetcode.com/problems/3sum-closest/
   [24]: https://github.com/MrHuxu/leetcode/blob/master/submissions/3sum-closest.js
+  [25]: https://leetcode.com/problems/longest-common-prefix/
+  [26]: https://github.com/MrHuxu/leetcode/blob/master/submissions/longest-common-prefix.js
+  [27]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+  [28]: https://github.com/MrHuxu/leetcode/blob/master/submissions/letter-combinations-of-a-phone-number.js
