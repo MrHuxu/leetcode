@@ -19,6 +19,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 9. [Palindrome Number][17] [(submission)][18]
 10. [Container With Most Water][19] [(submission)][20]
 11. [3Sum][21] [(submission)][22]
+12. [3Sum Closest][23] [(submission)][24]
 
 
   [1]: https://leetcode.com/problems/two-sum/
@@ -43,4 +44,5 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [20]: https://github.com/MrHuxu/leetcode/blob/master/submissions/container-with-most-water.js
   [21]: https://leetcode.com/problems/3sum/
   [22]: https://github.com/MrHuxu/leetcode/blob/master/submissions/3sum.js
-
+  [23]: https://leetcode.com/problems/3sum-closest/
+  [24]: https://github.com/MrHuxu/leetcode/blob/master/submissions/3sum-closest.js
