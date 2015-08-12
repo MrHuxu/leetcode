@@ -32,7 +32,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [3]: https://leetcode.com/problems/add-two-numbers/
   [4]: https://github.com/MrHuxu/leetcode/blob/master/submissions/add-two-numbers.js
   [5]: https://leetcode.com/problems/longest-substring-without-repeating-characters/
-  [6]: https://github.com/MrHuxu/leetcode/blob/master/submissions/longest-substring-without-repeating-characters.jsions/add-two-numbers.js
+  [6]: https://github.com/MrHuxu/leetcode/blob/master/submissions/longest-substring-without-repeating-characters.js
   [7]: https://leetcode.com/problems/longest-palindromic-substring/
   [8]: https://github.com/MrHuxu/leetcode/blob/master/submissions/longest-palindromic-substring.js
   [9]: https://leetcode.com/problems/summary-ranges/
