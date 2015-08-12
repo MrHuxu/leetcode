@@ -23,6 +23,8 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 13. [Longest Common Prefix][25] [(submission)][26]
 14. [Letter Combinations of a Phone Number][27] [(submission)][28]
 15. [4Sum][29] [(submission)][30]
+16. [Remove Nth Node From End of List][31] [(submission)][32]
+17. [Valid Parentheses][33] [(submission)][34]
 
 
   [1]: https://leetcode.com/problems/two-sum/
@@ -55,3 +57,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [28]: https://github.com/MrHuxu/leetcode/blob/master/submissions/letter-combinations-of-a-phone-number.js
   [29]: https://leetcode.com/problems/4sum/
   [30]: https://github.com/MrHuxu/leetcode/blob/master/submissions/4sum.js
+  [31]: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+  [32]: https://github.com/MrHuxu/leetcode/blob/master/submissions/remove-nth-node-from-end-of-list.js
+  [33]: https://leetcode.com/problems/valid-parentheses/
+  [34]: https://github.com/MrHuxu/leetcode/blob/master/submissions/valid-parentheses.js
