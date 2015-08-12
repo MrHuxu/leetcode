@@ -1,3 +1,15 @@
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val) {
+ *     this.val = val;
+ *     this.next = null;
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @param {number} n
+ * @return {ListNode}
+ */
 var removeNthFromEnd = function(head, n) {
   var total = 1, tmp = head, node;
   while (tmp = tmp.next) ++total;
