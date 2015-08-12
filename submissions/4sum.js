@@ -1,5 +1,8 @@
-var nums = [-3,-1,0,2,4,5], target = 0;
-
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[][]}
+ */
 var fourSum = function (nums, target) {
   var result = [], map = {}, i, j, k, l, tmp, left, right;
   for (i = 0, l = nums.length; i < l; ++i) {
@@ -53,5 +56,3 @@ var fourSum = function (nums, target) {
   });
   return result;
 };
-
-console.log(fourSum(nums, target));

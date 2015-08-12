@@ -22,6 +22,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 12. [3Sum Closest][23] [(submission)][24]
 13. [Longest Common Prefix][25] [(submission)][26]
 14. [Letter Combinations of a Phone Number][27] [(submission)][28]
+15. [4Sum][29] [(submission)][30]
 
 
   [1]: https://leetcode.com/problems/two-sum/
@@ -52,3 +53,5 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [26]: https://github.com/MrHuxu/leetcode/blob/master/submissions/longest-common-prefix.js
   [27]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
   [28]: https://github.com/MrHuxu/leetcode/blob/master/submissions/letter-combinations-of-a-phone-number.js
+  [29]: https://leetcode.com/problems/4sum/
+  [30]: https://github.com/MrHuxu/leetcode/blob/master/submissions/4sum.js
