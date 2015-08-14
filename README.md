@@ -1,8 +1,6 @@
 # My LeetCode
 @(Learn@FreeWheel)
 
-[TOC]
-
 ## Description
 This is the repo of my LeetCode solutions, and currently I just use Javascript to solve the questions, maybe in the future, I will use other languages I like to get the ALL PASS grade.
 
@@ -25,7 +23,9 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 15. [4Sum][29] [(submission)][30]
 16. [Remove Nth Node From End of List][31] [(submission)][32]
 17. [Valid Parentheses][33] [(submission)][34]
-
+18. [Generate Parentheses][35] [(submission)][36]
+19. [Merge k Sorted Lists][37] [(submission)][38]
+20. [Swap Nodes in Pairs][39] [(submission)][40]
 
   [1]: https://leetcode.com/problems/two-sum/
   [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/two-sum.js
@@ -61,3 +61,9 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [32]: https://github.com/MrHuxu/leetcode/blob/master/submissions/remove-nth-node-from-end-of-list.js
   [33]: https://leetcode.com/problems/valid-parentheses/
   [34]: https://github.com/MrHuxu/leetcode/blob/master/submissions/valid-parentheses.js
+  [35]: https://leetcode.com/problems/generate-parentheses/
+  [36]: https://github.com/MrHuxu/leetcode/blob/master/submissions/generate-parentheses.js
+  [37]: https://leetcode.com/problems/merge-k-sorted-lists/
+  [38]: https://github.com/MrHuxu/leetcode/blob/master/submissions/merge-k-sorted-lists.js
+  [39]: https://leetcode.com/problems/swap-nodes-in-pairs/
+  [40]: https://github.com/MrHuxu/leetcode/blob/master/submissions/swap-nodes-in-pairs.js
