@@ -26,6 +26,10 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 18. [Generate Parentheses][35] [(submission)][36]
 19. [Merge Two Sorted Lists][37] [(submission)][38]
 20. [Swap Nodes in Pairs][39] [(submission)][40]
+21. [Remove Duplicates from Sorted Array][41] [(submission)][42]
+22. [Remove Element][43] [(submission)][44]
+23. [Implement strStr()][45] [(submission)][46]
+24. [Divide Two Integers][47] [(submission)][48]
 
   [1]: https://leetcode.com/problems/two-sum/
   [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/two-sum.js
@@ -67,3 +71,11 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [38]: https://github.com/MrHuxu/leetcode/blob/master/submissions/merge-two-sorted-lists.js
   [39]: https://leetcode.com/problems/swap-nodes-in-pairs/
   [40]: https://github.com/MrHuxu/leetcode/blob/master/submissions/swap-nodes-in-pairs.js
+  [41]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+  [42]: https://github.com/MrHuxu/leetcode/blob/master/submissions/remove-duplicates-from-sorted-array.js
+  [43]: https://leetcode.com/problems/remove-element/
+  [44]: https://github.com/MrHuxu/leetcode/blob/master/submissions/remove-element.js
+  [45]: https://leetcode.com/problems/implement-strstr/
+  [46]: https://github.com/MrHuxu/leetcode/blob/master/submissions/implement-strstr.js
+  [47]: https://leetcode.com/problems/divide-two-integers/
+  [48]: https://github.com/MrHuxu/leetcode/blob/master/submissions/divide-two-integers.js
