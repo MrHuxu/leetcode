@@ -31,6 +31,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 23. [Implement strStr()][45] [(submission)][46]
 24. [Divide Two Integers][47] [(submission)][48]
 25. [Search for a Range][49] [(submission)][50]
+26. [Search Insert Position][51] [(submission)][52]
 
   [1]: https://leetcode.com/problems/two-sum/
   [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/two-sum.js
@@ -82,3 +83,5 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [48]: https://github.com/MrHuxu/leetcode/blob/master/submissions/divide-two-integers.js
   [49]: https://leetcode.com/problems/search-for-a-range/ 
   [50]: https://github.com/MrHuxu/leetcode/blob/master/submissions/search-for-a-range.js
+  [51]: https://leetcode.com/problems/search-insert-position/ 
+  [52]: https://github.com/MrHuxu/leetcode/blob/master/submissions/search-insert-position.js
