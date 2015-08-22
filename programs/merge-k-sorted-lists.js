@@ -20,38 +20,36 @@ n2.next = new ListNode(0);
 var lists = [n2, node];
 
 var mergeKLists = function(lists) {
-  var l = new ListNode();
-  var head = l, min, idx;
+  var l = new ListNode(), tmp;
+  var head = l;
   while (true) {
-    min = idx = null;
-    for (var i = 0, len = lists.length; i < len; i++) {
-      if (lists[i]) {
-        if (idx !== null) {
-          if (lists[i].val < min) {
-            min = lists[i].val;
-            idx = i;
-          }
-        } else {
-          min = lists[i].val;
-          idx = i;
-        }
+    if (!lists.length)
+      break;
+    for (var i = parseInt(lists.length / 2) - 1; i >= 0; --i) {
+      if (lists[i] && lists[2 * i + 1] && lists[2 * i + 1].val < lists[i].val) {
+        tmp = lists[i];
+        lists[i] = lists[2 * i + 1];
+        lists[2 * i + 1] = tmp;
+      }
+      if (lists[i] && lists[2 * (i + 1)] && lists[2 * (i + 1)].val < lists[i].val) {
+        tmp = lists[i];
+        lists[i] = lists[2 * (i + 1)];
+        lists[2 * (i + 1)] = tmp;
       }
     }
-    if (idx !== null) {
-      l.next = new ListNode(min);
-      while (lists[idx].next && lists[idx].val === lists[idx].next.val) {
-        lists[idx] = lists[idx].next;
-        l.next = new ListNode(min);
-        l = l.next;
-      }
-      lists[idx] = lists[idx].next;
-      l.next = new ListNode(min);
+    if (lists[0]) {
+      l.next = new ListNode(lists[0].val);
       l = l.next;
+      lists[0] = lists[0].next;
+      if (!lists[0])
+        lists.shift();
     } else {
-      break;
+      lists.shift();
     }
   }
   return head.next;
 };
 
 console.log(mergeKLists(lists));
+console.log(mergeKLists([]));
+console.log(mergeKLists([null, null]));
