@@ -19,16 +19,16 @@ var combinationSum2 = function (candidates, target) {
             tmp = arr.slice(0);
             tmp.unshift(candidates[i]);
             dfs(i - 1, left - candidates[i], tmp);
-          } else if (left !== candidates[i] && candidates[i - 1] && left === candidates[i - 1]) {
+          } else if (left >= candidates[i] * 2 && candidates[i - 1] && left === candidates[i - 1]) {
             tmp = arr.slice(0);
             tmp.unshift(candidates[i]);
             dfs(i - 1, left - candidates[i], tmp);
-            tmp.unshift(candidates[i]);
-            dfs(i - 2, left - candidates[i] * 2, tmp);
             --i;
-            while (candidates[i - 1] && candidates[i - 1] === candidates[i]) --i;
+            tmp.unshift(candidates[i]);
+            dfs(i - 1, left - candidates[i] * 2, tmp);
           }
         }
+        while (candidates[i - 1] && candidates[i - 1] === candidates[i]) --i;
       }
     }
   }

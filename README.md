@@ -34,6 +34,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 26. [Search Insert Position][51] [(submission)][52]
 27. [Count and Say ][53] [(submission)][54]
 28. [Combination Sum][55] [(submission)][56]
+29. [First Missing Positive][57] [(submission)][58]
 
   [1]: https://leetcode.com/problems/two-sum/
   [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/two-sum.js
@@ -91,3 +92,5 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [54]: https://github.com/MrHuxu/leetcode/blob/master/submissions/count-and-say.js
   [55]: https://leetcode.com/problems/combination-sum/ 
   [56]: https://github.com/MrHuxu/leetcode/blob/master/submissions/combination-sum.js
+  [57]: https://leetcode.com/problems/first-missing-positive/ 
+  [58]: https://github.com/MrHuxu/leetcode/blob/master/submissions/first-missing-positive.js
