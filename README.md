@@ -35,6 +35,9 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 27. [Count and Say ][53] [(submission)][54]
 28. [Combination Sum][55] [(submission)][56]
 29. [First Missing Positive][57] [(submission)][58]
+30. [Permutations][59] [(submission)][60]
+31. [Rotate Image][61] [(submission)][62]
+32. [Spiral Matrix][63] [(submission)][64]
 
   [1]: https://leetcode.com/problems/two-sum/
   [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/two-sum.js
@@ -94,3 +97,9 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [56]: https://github.com/MrHuxu/leetcode/blob/master/submissions/combination-sum.js
   [57]: https://leetcode.com/problems/first-missing-positive/ 
   [58]: https://github.com/MrHuxu/leetcode/blob/master/submissions/first-missing-positive.js
+  [59]: https://leetcode.com/problems/permutations/ 
+  [60]: https://github.com/MrHuxu/leetcode/blob/master/submissions/permutations.js
+  [61]: https://leetcode.com/problems/rotate-image/ 
+  [62]: https://github.com/MrHuxu/leetcode/blob/master/submissions/rotate-image.js
+  [63]: https://leetcode.com/problems/spiral-matrix/ 
+  [64]: https://github.com/MrHuxu/leetcode/blob/master/submissions/spiral-matrix.js
