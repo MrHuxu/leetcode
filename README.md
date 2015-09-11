@@ -38,6 +38,8 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 30. [Permutations][59] [(submission)][60]
 31. [Rotate Image][61] [(submission)][62]
 32. [Spiral Matrix][63] [(submission)][64]
+33. [Jump Game][65] [(submission)][66]
+34. [Spiral Matrix II][67] [(submission)][68]
 
   [1]: https://leetcode.com/problems/two-sum/
   [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/two-sum.js
@@ -103,3 +105,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [62]: https://github.com/MrHuxu/leetcode/blob/master/submissions/rotate-image.js
   [63]: https://leetcode.com/problems/spiral-matrix/ 
   [64]: https://github.com/MrHuxu/leetcode/blob/master/submissions/spiral-matrix.js
+  [65]: https://leetcode.com/problems/jump-game/ 
+  [66]: https://github.com/MrHuxu/leetcode/blob/master/submissions/jump-game.js
+  [67]: https://leetcode.com/problems/spiral-matrix-ii/ 
+  [68]: https://github.com/MrHuxu/leetcode/blob/master/submissions/spiral-matrix-ii.js
