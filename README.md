@@ -119,5 +119,5 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [72]: https://github.com/MrHuxu/leetcode/blob/master/submissions/rotate-list.js
   [73]: https://leetcode.com/problems/unique-paths/ 
   [74]: https://github.com/MrHuxu/leetcode/blob/master/submissions/unique-paths.js
-  [73]: https://leetcode.com/problems/unique-paths-ii/ 
-  [74]: https://github.com/MrHuxu/leetcode/blob/master/submissions/unique-paths-ii.js
+  [75]: https://leetcode.com/problems/unique-paths-ii/ 
+  [76]: https://github.com/MrHuxu/leetcode/blob/master/submissions/unique-paths-ii.js
