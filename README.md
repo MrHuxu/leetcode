@@ -44,6 +44,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 36. [Rotate List][71] [(submission)][72]
 37. [Unique Paths][73] [(submission)][74]
 38. [Unique Paths II][75] [(submission)][76]
+39. [Simplify Path][77] [(submission)][78]
 
   [1]: https://leetcode.com/problems/two-sum/
   [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/two-sum.js
@@ -121,3 +122,5 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [74]: https://github.com/MrHuxu/leetcode/blob/master/submissions/unique-paths.js
   [75]: https://leetcode.com/problems/unique-paths-ii/ 
   [76]: https://github.com/MrHuxu/leetcode/blob/master/submissions/unique-paths-ii.js
+  [77]: https://leetcode.com/problems/simplify-path/ 
+  [78]: https://github.com/MrHuxu/leetcode/blob/master/submissions/simplify-path.js
