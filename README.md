@@ -46,6 +46,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 38. [Unique Paths II][75] [(submission)][76]
 39. [Simplify Path][77] [(submission)][78]
 40. [Set Matrix Zeroes][79] [(submission)][80]
+41. [Set Matrix Zeroes][81] [(submission)][82]
 
   [1]: https://leetcode.com/problems/two-sum/
   [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/two-sum.js
@@ -127,3 +128,5 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [78]: https://github.com/MrHuxu/leetcode/blob/master/submissions/simplify-path.js
   [79]: https://leetcode.com/problems/set-matrix-zeroes/ 
   [80]: https://github.com/MrHuxu/leetcode/blob/master/submissions/set-matrix-zeroes.js
+  [81]: https://leetcode.com/problems/sort-colors/ 
+  [82]: https://github.com/MrHuxu/leetcode/blob/master/submissions/sort-colors.js
