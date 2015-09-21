@@ -46,7 +46,8 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 38. [Unique Paths II][75] [(submission)][76]
 39. [Simplify Path][77] [(submission)][78]
 40. [Set Matrix Zeroes][79] [(submission)][80]
-41. [Set Matrix Zeroes][81] [(submission)][82]
+41. [Sort Colors][81] [(submission)][82]
+42: [Combinations][83] [(submission)][84]
 
   [1]: https://leetcode.com/problems/two-sum/
   [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/two-sum.js
@@ -96,37 +97,39 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [46]: https://github.com/MrHuxu/leetcode/blob/master/submissions/implement-strstr.js
   [47]: https://leetcode.com/problems/divide-two-integers/
   [48]: https://github.com/MrHuxu/leetcode/blob/master/submissions/divide-two-integers.js
-  [49]: https://leetcode.com/problems/search-for-a-range/ 
+  [49]: https://leetcode.com/problems/search-for-a-range/
   [50]: https://github.com/MrHuxu/leetcode/blob/master/submissions/search-for-a-range.js
-  [51]: https://leetcode.com/problems/search-insert-position/ 
+  [51]: https://leetcode.com/problems/search-insert-position/
   [52]: https://github.com/MrHuxu/leetcode/blob/master/submissions/search-insert-position.js
-  [53]: https://leetcode.com/problems/count-and-say/ 
+  [53]: https://leetcode.com/problems/count-and-say/
   [54]: https://github.com/MrHuxu/leetcode/blob/master/submissions/count-and-say.js
-  [55]: https://leetcode.com/problems/combination-sum/ 
+  [55]: https://leetcode.com/problems/combination-sum/
   [56]: https://github.com/MrHuxu/leetcode/blob/master/submissions/combination-sum.js
-  [57]: https://leetcode.com/problems/first-missing-positive/ 
+  [57]: https://leetcode.com/problems/first-missing-positive/
   [58]: https://github.com/MrHuxu/leetcode/blob/master/submissions/first-missing-positive.js
-  [59]: https://leetcode.com/problems/permutations/ 
+  [59]: https://leetcode.com/problems/permutations/
   [60]: https://github.com/MrHuxu/leetcode/blob/master/submissions/permutations.js
-  [61]: https://leetcode.com/problems/rotate-image/ 
+  [61]: https://leetcode.com/problems/rotate-image/
   [62]: https://github.com/MrHuxu/leetcode/blob/master/submissions/rotate-image.js
-  [63]: https://leetcode.com/problems/spiral-matrix/ 
+  [63]: https://leetcode.com/problems/spiral-matrix/
   [64]: https://github.com/MrHuxu/leetcode/blob/master/submissions/spiral-matrix.js
-  [65]: https://leetcode.com/problems/jump-game/ 
+  [65]: https://leetcode.com/problems/jump-game/
   [66]: https://github.com/MrHuxu/leetcode/blob/master/submissions/jump-game.js
-  [67]: https://leetcode.com/problems/spiral-matrix-ii/ 
+  [67]: https://leetcode.com/problems/spiral-matrix-ii/
   [68]: https://github.com/MrHuxu/leetcode/blob/master/submissions/spiral-matrix-ii.js
-  [69]: https://leetcode.com/problems/permutation-sequence/ 
+  [69]: https://leetcode.com/problems/permutation-sequence/
   [70]: https://github.com/MrHuxu/leetcode/blob/master/submissions/permutation-sequence.js
-  [71]: https://leetcode.com/problems/rotate-list/ 
+  [71]: https://leetcode.com/problems/rotate-list/
   [72]: https://github.com/MrHuxu/leetcode/blob/master/submissions/rotate-list.js
-  [73]: https://leetcode.com/problems/unique-paths/ 
+  [73]: https://leetcode.com/problems/unique-paths/
   [74]: https://github.com/MrHuxu/leetcode/blob/master/submissions/unique-paths.js
-  [75]: https://leetcode.com/problems/unique-paths-ii/ 
+  [75]: https://leetcode.com/problems/unique-paths-ii/
   [76]: https://github.com/MrHuxu/leetcode/blob/master/submissions/unique-paths-ii.js
-  [77]: https://leetcode.com/problems/simplify-path/ 
+  [77]: https://leetcode.com/problems/simplify-path/
   [78]: https://github.com/MrHuxu/leetcode/blob/master/submissions/simplify-path.js
-  [79]: https://leetcode.com/problems/set-matrix-zeroes/ 
+  [79]: https://leetcode.com/problems/set-matrix-zeroes/
   [80]: https://github.com/MrHuxu/leetcode/blob/master/submissions/set-matrix-zeroes.js
-  [81]: https://leetcode.com/problems/sort-colors/ 
+  [81]: https://leetcode.com/problems/sort-colors/
   [82]: https://github.com/MrHuxu/leetcode/blob/master/submissions/sort-colors.js
+  [81]: https://leetcode.com/problems/combinations/
+  [82]: https://github.com/MrHuxu/leetcode/blob/master/submissions/combinations.js
