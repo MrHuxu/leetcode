@@ -1,5 +1,4 @@
 var exist = function (board, word) {
-  var wordArr = word.split('');
   var flag = false, tmpArr, tmpUsed;
 
   var markPositon = function (used, x, y) {
@@ -12,49 +11,39 @@ var exist = function (board, word) {
     return tmpObj;
   };
 
-  var removeLetter = function (arr) {
-    var tmp = arr.slice(0);
-    tmp.shift();
-    return tmp;
-  };
-
-  var dfs = function (x, y, arr, used) {
-    if (arr.length) {
-      if (flag)
-        return;
-      else {
-        if (board[x - 1] && board[x - 1][y] && board[x - 1][y] === arr[0]) {
-          if (!(used[x - 1] && used[x - 1].indexOf(y) !== -1)) {
-            tmpArr = removeLetter(arr);
-            tmpUsed = markPositon(used, x - 1, y);
-            dfs(x - 1, y, tmpArr, tmpUsed);
-          }
-        }
-        if (board[x + 1] && board[x + 1][y] && board[x + 1][y] === arr[0]) {
-          if (!(used[x + 1] && used[x + 1].indexOf(y) !== -1)) {
-            tmpArr = removeLetter(arr);
-            tmpUsed = markPositon(used, x + 1, y);
-            dfs(x + 1, y, tmpArr, tmpUsed);
-          }
-        }
-        if (board[x][y - 1] && board[x][y - 1] === arr[0]) {
-          if (!(used[x] && used[x].indexOf(y - 1) !== -1)) {
-            tmpArr = removeLetter(arr);
-            tmpUsed = markPositon(used, x, y - 1);
-            dfs(x, y - 1, tmpArr, tmpUsed);
-          }
-        }
-        if (board[x][y + 1] && board[x][y + 1] === arr[0]) {
-          if (!(used[x] && used[x].indexOf(y + 1) !== -1)) {
-            tmpArr = removeLetter(arr);
-            tmpUsed = markPositon(used, x, y + 1);
-            dfs(x, y + 1, tmpArr, tmpUsed);
-          }
-        }
-        return;
-      }
-    } else {
+  var dfs = function (x, y, ptr, used) {
+    if (ptr === word.length) {
+      console.log(x, '====', y)
       flag = true;
+    }
+
+    if (flag)
+      return;
+    else {
+      if (!flag && board[x - 1] && board[x - 1][y] && board[x - 1][y] === word[ptr]) {
+        if (!(used[x - 1] && used[x - 1].indexOf(y) !== -1)) {
+          tmpUsed = markPositon(used, x - 1, y);
+          dfs(x - 1, y, ptr + 1, tmpUsed);
+        }
+      }
+      if (!flag && board[x + 1] && board[x + 1][y] && board[x + 1][y] === word[ptr]) {
+        if (!(used[x + 1] && used[x + 1].indexOf(y) !== -1)) {
+          tmpUsed = markPositon(used, x + 1, y);
+          dfs(x + 1, y, ptr + 1, tmpUsed);
+        }
+      }
+      if (!flag && board[x][y - 1] && board[x][y - 1] === word[ptr]) {
+        if (!(used[x] && used[x].indexOf(y - 1) !== -1)) {
+          tmpUsed = markPositon(used, x, y - 1);
+          dfs(x, y - 1, ptr + 1, tmpUsed);
+        }
+      }
+      if (!flag && board[x][y + 1] && board[x][y + 1] === word[ptr]) {
+        if (!(used[x] && used[x].indexOf(y + 1) !== -1)) {
+          tmpUsed = markPositon(used, x, y + 1);
+          dfs(x, y + 1, ptr + 1, tmpUsed);
+        }
+      }
       return;
     }
   };
@@ -62,9 +51,10 @@ var exist = function (board, word) {
   var m = board.length, n = board[0].length;
   for (var i = 0; i < m; ++i) {
     for (var j = 0; j < n; ++j) {
-      if (board[i][j] === wordArr[0]) {
-        tmpArr = removeLetter(wordArr);
-        dfs(i, j, tmpArr, {});
+      if (!flag && board[i][j] === word[0]) {
+        tmpObj = {};
+        tmpObj[i] = [j];
+        dfs(i, j, 1, tmpObj);
       }
     }
   }
@@ -72,8 +62,6 @@ var exist = function (board, word) {
   return flag;
 };
 
-var board = [
-  "aa"
-];
+var board = ["aaaa","aaaa","aaaa","aaaa","aaab"]
 
-console.log(exist(board, 'aa'));
+console.log(exist(board, "aaaaaaaaaaaaaaaaaaaa"));
