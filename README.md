@@ -49,6 +49,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 41. [Sort Colors][81] [(submission)][82]
 42. [Combinations][83] [(submission)][84]
 43. [Subsets][85] [(submission)][86]
+44. [Word Search][87] [(submission)][88]
 
   [1]: https://leetcode.com/problems/two-sum/
   [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/two-sum.js
@@ -136,3 +137,5 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [84]: https://github.com/MrHuxu/leetcode/blob/master/submissions/combinations.js
   [85]: https://leetcode.com/problems/subsets/
   [86]: https://github.com/MrHuxu/leetcode/blob/master/submissions/subsets.js
+  [87]: https://leetcode.com/problems/word-search/
+  [88]: https://github.com/MrHuxu/leetcode/blob/master/submissions/word-search.js

@@ -58,7 +58,3 @@ var exist = function (board, word) {
   
   return flag;
 };
-
-var board = ["aaaa","aaaa","aaaa","aaaa","aaab"]
-
-console.log(exist(board, "aaaaaaaaaaaaaaaaaaab"));
