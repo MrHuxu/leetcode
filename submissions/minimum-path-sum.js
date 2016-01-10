@@ -2,7 +2,6 @@
  * @param {number[][]} grid
  * @return {number}
  */
-
 var minPathSum = function (grid) {
   var values = [];
   var m = grid.length;
@@ -35,10 +34,3 @@ var minPathSum = function (grid) {
 
   return values[m - 1][n - 1];
 };
-
-var grid = [
-  [0, 0, 0],
-  [0, 0, 0]
-];
-
-console.log(minPathSum(grid));
