@@ -1,5 +1,7 @@
-'use strict';
-
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
 var removeDuplicates = function (nums) {
   var result = 0;
 
@@ -18,6 +20,3 @@ var removeDuplicates = function (nums) {
 
   return result;
 };
-
-var nums = [1, 1, 1, 2];
-console.log(removeDuplicates(nums));
