@@ -51,6 +51,8 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 43. [Subsets][85] [(submission)][86]
 44. [Word Search][87] [(submission)][88]
 45. [Minimum Path Sum][89] [(submission)][90]
+46. [Remove Duplicates from Sorted Array II][91] [(submission)][92]
+47. [Remove Duplicates from Sorted List][93] [(submission)][94]
 
   [1]: https://leetcode.com/problems/two-sum/
   [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/two-sum.js
@@ -142,4 +144,8 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [88]: https://github.com/MrHuxu/leetcode/blob/master/submissions/word-search.js
   [89]: https://leetcode.com/problems/minimum-path-sum/
   [90]: https://github.com/MrHuxu/leetcode/blob/master/submissions/minimum-path-sum.js
+  [91]: https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+  [92]: https://github.com/MrHuxu/leetcode/blob/master/submissions/remove-duplicates-from-sorted-array-ii.js
+  [93]: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+  [94]: https://github.com/MrHuxu/leetcode/blob/master/submissions/remove-duplicates-from-sorted-list.js
 
