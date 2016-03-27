@@ -53,6 +53,10 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 45. [Minimum Path Sum][89] [(submission)][90]
 46. [Remove Duplicates from Sorted Array II][91] [(submission)][92]
 47. [Remove Duplicates from Sorted List][93] [(submission)][94]
+48. [Merge Sorted Array][95] [(submission)][96]
+49. [Gray Code][97] [(submission)][98]
+50. [Subsets II][99] [(submission)][100]
+51. [Reverse Linked List II][101] [(submission)][102]
 
   [1]: https://leetcode.com/problems/two-sum/
   [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/two-sum.js
@@ -148,4 +152,11 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [92]: https://github.com/MrHuxu/leetcode/blob/master/submissions/remove-duplicates-from-sorted-array-ii.js
   [93]: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
   [94]: https://github.com/MrHuxu/leetcode/blob/master/submissions/remove-duplicates-from-sorted-list.js
-
+  [95]: https://leetcode.com/problems/merge-sorted-array/
+  [96]: https://github.com/MrHuxu/leetcode/blob/master/submissions/merge-sorted-array.js
+  [97]: https://leetcode.com/problems/gray-code/
+  [98]: https://github.com/MrHuxu/leetcode/blob/master/submissions/gray-code.js
+  [99]: https://leetcode.com/problems/subsets-ii/
+  [100]: https://github.com/MrHuxu/leetcode/blob/master/submissions/subsets-ii.js
+  [101]: https://leetcode.com/problems/reverse-linked-list-ii/
+  [102]: https://github.com/MrHuxu/leetcode/blob/master/submissions/reverse-linked-list-ii.js
