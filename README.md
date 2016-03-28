@@ -57,6 +57,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 49. [Gray Code][97] [(submission)][98]
 50. [Subsets II][99] [(submission)][100]
 51. [Reverse Linked List II][101] [(submission)][102]
+51. [Restore IP Addresses][103] [(submission)][104]
 
   [1]: https://leetcode.com/problems/two-sum/
   [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/two-sum.js
@@ -160,3 +161,5 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [100]: https://github.com/MrHuxu/leetcode/blob/master/submissions/subsets-ii.js
   [101]: https://leetcode.com/problems/reverse-linked-list-ii/
   [102]: https://github.com/MrHuxu/leetcode/blob/master/submissions/reverse-linked-list-ii.js
+  [103]: https://leetcode.com/problems/restore-ip-addresses/
+  [104]: https://github.com/MrHuxu/leetcode/blob/master/submissions/restore-ip-addresses.js
