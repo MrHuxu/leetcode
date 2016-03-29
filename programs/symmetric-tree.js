@@ -19,7 +19,8 @@ var isSymmetric = function(root) {
       }
     });
 
-    compare(lowerNodes);
+    console.log(lowerNodes);
+    if (flag) compare(lowerNodes);
   }
   compare([root]);
 
@@ -57,7 +58,7 @@ var root1 = {
 };
 
 var root2 = {
-    val: 1,
+  val: 1,
   left: {
     val: 2,
     left: null,
@@ -78,5 +79,4 @@ var root2 = {
   }
 }
 
-console.log(isSymmetric(root1));
 console.log(isSymmetric(root2));
