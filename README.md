@@ -57,7 +57,12 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 49. [Gray Code][97] [(submission)][98]
 50. [Subsets II][99] [(submission)][100]
 51. [Reverse Linked List II][101] [(submission)][102]
-51. [Restore IP Addresses][103] [(submission)][104]
+52. [Restore IP Addresses][103] [(submission)][104]
+53. [Binary Tree Inorder Traversal][105] [(submission)][106]
+54. [Symmetric Tree][107] [(submission)][108]
+55. [Binary Tree Level Order Traversal][109] [(submission)][110]
+56. [Path Sum][111] [(submission)][102]
+57. [Path Sum II][113] [(submission)][114]
 
   [1]: https://leetcode.com/problems/two-sum/
   [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/two-sum.js
@@ -163,3 +168,13 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [102]: https://github.com/MrHuxu/leetcode/blob/master/submissions/reverse-linked-list-ii.js
   [103]: https://leetcode.com/problems/restore-ip-addresses/
   [104]: https://github.com/MrHuxu/leetcode/blob/master/submissions/restore-ip-addresses.js
+  [105]: https://leetcode.com/problems/binary-tree-inorder-traversal/
+  [106]: https://github.com/MrHuxu/leetcode/blob/master/submissions/binary-tree-inorder-traversal.js
+  [107]: https://leetcode.com/problems/symmetric-tree/
+  [108]: https://github.com/MrHuxu/leetcode/blob/master/submissions/symmetric-tree.js
+  [109]: https://leetcode.com/problems/binary-tree-level-order-traversal/
+  [110]: https://github.com/MrHuxu/leetcode/blob/master/submissions/binary-tree-level-order-traversal.js
+  [111]: https://leetcode.com/problems/path-sum/
+  [112]: https://github.com/MrHuxu/leetcode/blob/master/submissions/path-sum.js
+  [113]: https://leetcode.com/problems/path-sum-ii/
+  [114]: https://github.com/MrHuxu/leetcode/blob/master/submissions/path-sum-ii.js
