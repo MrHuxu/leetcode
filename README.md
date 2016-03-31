@@ -63,6 +63,8 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 55. [Binary Tree Level Order Traversal][109] [(submission)][110]
 56. [Path Sum][111] [(submission)][102]
 57. [Path Sum II][113] [(submission)][114]
+58. [Pascal's Triangle][115] [(submission)][106]
+59. [Pascal's Triangle II][117] [(submission)][118]
 
   [1]: https://leetcode.com/problems/two-sum/
   [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/two-sum.js
@@ -178,3 +180,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [112]: https://github.com/MrHuxu/leetcode/blob/master/submissions/path-sum.js
   [113]: https://leetcode.com/problems/path-sum-ii/
   [114]: https://github.com/MrHuxu/leetcode/blob/master/submissions/path-sum-ii.js
+  [115]: https://leetcode.com/problems/pascals-triangle/
+  [116]: https://github.com/MrHuxu/leetcode/blob/master/submissions/pascals-triangle.js
+  [117]: https://leetcode.com/problems/pascals-triangle-ii/
+  [118]: https://github.com/MrHuxu/leetcode/blob/master/submissions/pascals-triangle-ii.js
