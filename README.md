@@ -65,6 +65,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 57. [Path Sum II][113] [(submission)][114]
 58. [Pascal's Triangle][115] [(submission)][106]
 59. [Pascal's Triangle II][117] [(submission)][118]
+60. [Decode Ways][119] [(submission)][120]
 
   [1]: https://leetcode.com/problems/two-sum/
   [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/two-sum.js
@@ -184,3 +185,5 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
   [116]: https://github.com/MrHuxu/leetcode/blob/master/submissions/pascals-triangle.js
   [117]: https://leetcode.com/problems/pascals-triangle-ii/
   [118]: https://github.com/MrHuxu/leetcode/blob/master/submissions/pascals-triangle-ii.js
+  [119]: https://leetcode.com/problems/decode-ways/
+  [120]: https://github.com/MrHuxu/leetcode/blob/master/submissions/decode-ways.js
