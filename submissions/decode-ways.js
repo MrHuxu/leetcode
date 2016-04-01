@@ -22,6 +22,3 @@ var numDecodings = function(s) {
 
   return dp[s.length];
 };
-
-console.log(numDecodings("4757562545844617494555774581341211511296816786586787755257741178599337186486723247528324612117156948"));
-console.log(numDecodings(''));
