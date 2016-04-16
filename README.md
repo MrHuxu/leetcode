@@ -6,7 +6,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 ## Questions and Summissions
 
 | Sequence      | Title         | Difficulty  | Submission  |
-| ------------- |:------------- | -----------:| ----------: |
+| ------------- |:------------- | :----------:| :---------- |
 | 1 | [Two Sum][1] | Easy | [001_two-sum.js][2] |
 | 2 | [Add Two Numbers][3] | Medium | [002_add-two-numbers.js][4] |
 | 3 | [Longest Substring Without Repeating Characters][5] | Medium | [003_longest-substring-without-repeating-characters.js][6] |
