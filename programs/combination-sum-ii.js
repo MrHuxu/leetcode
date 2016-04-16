@@ -3,40 +3,39 @@ var combinationSum2 = function (candidates, target) {
   candidates.sort(function (a, b) {
     return a < b ? -1 : 1;
   });
-  var dfs = function (index, left, arr) {
-    if (left === 0) {
+  
+  var recursion = function (arr, sum, pos) {
+    if (pos >= candidates.length) return;
+    if (sum + candidates[pos] > target) {
+      return;
+    } else if (sum + candidates[pos] === target) {
+      arr.push(candidates[pos]);
       result.push(arr);
-    } else if (left > 0) {
-      for (var i = index; i >= 0; --i) {
-        /*
-        console.log('i: ' + i);
-        console.log('index: ' + index);
-        console.log('candidates: ' + candidates);
-        console.log('left: ' + left);
-        */
-        if (left >= candidates[i]) {
-          if (!(candidates[i - 1] && left === candidates[i - 1])) {
-            tmp = arr.slice(0);
-            tmp.unshift(candidates[i]);
-            dfs(i - 1, left - candidates[i], tmp);
-          } else if (left >= candidates[i] * 2 && candidates[i - 1] && left === candidates[i - 1]) {
-            tmp = arr.slice(0);
-            tmp.unshift(candidates[i]);
-            dfs(i - 1, left - candidates[i], tmp);
-            --i;
-            tmp.unshift(candidates[i]);
-            dfs(i - 1, left - candidates[i] * 2, tmp);
-          }
-        }
-        while (candidates[i - 1] && candidates[i - 1] === candidates[i]) --i;
-      }
+      return;
+    } else {
+      tmp = arr.slice();
+      recursion(tmp, sum, pos + 1);
+      
+      tmp = arr.slice();
+      tmp.push(candidates[pos]);
+      recursion(tmp, sum + candidates[pos], pos + 1);
+    }
+  };
+  
+  for (var i = 0, len = candidates.length; i < len; ++i) {
+    if (candidates[i] !== candidates[i - 1]) {
+      if (candidates[i] === target)
+        result.push([candidates[i]]);
+      else
+        recursion([candidates[i]], candidates[i], i + 1);
     }
   }
-  dfs(candidates.length - 1, target, []);
+  
   return result;
 };
+
 console.log(combinationSum2([2, 2, 2], 4));
-
 console.log(combinationSum2([1], 1));
-
+console.log(combinationSum2([2, 3, 6, 7], 7));
+console.log(combinationSum2([2,5,2,1,2], 5));
 console.log(combinationSum2([10, 1, 2, 7, 6, 1, 5], 8));
