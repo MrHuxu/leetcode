@@ -55,16 +55,17 @@ Promise.all(promiseSet)
   var tableItems = [];
   var links = [];
   
+  tableItems.push('| Sequence      | Title         | Difficulty  | Submission  |\n| ------------- |:------------- | :----------:| :---------- |');
   results.forEach(result => {
     var problemUrlNum = parseInt(result.sequence) * 2 - 1;
     var submissionUrlNum = parseInt(result.sequence) * 2;
     
-    tableItems.push(`| ${result.sequence} | [${result.title}][${problemUrlNum}] | ${result.difficulty} | [${result.submission}][${submissionUrlNum}] |`);
+    tableItems.push(`\n| ${result.sequence} | [${result.title}][${problemUrlNum}] | ${result.difficulty} | [${result.submission}][${submissionUrlNum}] |`);
     links.push(
       `\n  [${problemUrlNum}]: ${result.url}\n  [${submissionUrlNum}]: https://github.com/MrHuxu/leetcode/blob/master/submissions/${result.submission}`
     );
   });
   
-  console.log(tableItems.join('\n'));
+  console.log(tableItems.join(''));
   console.log(links.join(''));
 });
