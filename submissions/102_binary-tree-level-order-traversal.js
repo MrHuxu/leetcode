@@ -16,7 +16,7 @@ var levelOrder = function(root) {
   var traversal = function (nodes) {
     if (!nodes.length) return;
 
-  var lowerNodes = [], tmp = [];
+    var lowerNodes = [], tmp = [];
     nodes.forEach(function (node) {
       tmp.push(node.val);
       if (node.left) lowerNodes.push(node.left);
