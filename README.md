@@ -120,6 +120,8 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 217 | [Contains Duplicate][433] | Easy | [217_contains-duplicate.js][434] |
 | 219 | [Contains Duplicate II][437] | Easy | [219_contains-duplicate-ii.js][438] |
 | 220 | [Contains Duplicate III][439] | Medium | [220_contains-duplicate-iii.js][440] |
+| 223 | [Rectangle Area][445] | Easy | [223_rectangle-area.js][446] |
+| 226 | [Invert Binary Tree][451] | Easy | [226_invert-binary-tree.js][452] |
 | 228 | [Summary Ranges][455] | Medium | [228_summary-ranges.js][456] |
 
 [1]: https://leetcode.com/problems/two-sum/
@@ -348,5 +350,9 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 [438]: https://github.com/MrHuxu/leetcode/blob/master/submissions/219_contains-duplicate-ii.js
 [439]: https://leetcode.com/problems/contains-duplicate-iii/
 [440]: https://github.com/MrHuxu/leetcode/blob/master/submissions/220_contains-duplicate-iii.js
+[445]: https://leetcode.com/problems/rectangle-area/
+[446]: https://github.com/MrHuxu/leetcode/blob/master/submissions/223_rectangle-area.js
+[451]: https://leetcode.com/problems/invert-binary-tree/
+[452]: https://github.com/MrHuxu/leetcode/blob/master/submissions/226_invert-binary-tree.js
 [455]: https://leetcode.com/problems/summary-ranges/
 [456]: https://github.com/MrHuxu/leetcode/blob/master/submissions/228_summary-ranges.js
