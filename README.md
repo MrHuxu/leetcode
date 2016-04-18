@@ -120,6 +120,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 217 | [Contains Duplicate][433] | Easy | [217_contains-duplicate.js][434] |
 | 219 | [Contains Duplicate II][437] | Easy | [219_contains-duplicate-ii.js][438] |
 | 220 | [Contains Duplicate III][439] | Medium | [220_contains-duplicate-iii.js][440] |
+| 221 | [Maximal Square][441] | Medium | [221_maximal-square.js][442] |
 | 223 | [Rectangle Area][445] | Easy | [223_rectangle-area.js][446] |
 | 226 | [Invert Binary Tree][451] | Easy | [226_invert-binary-tree.js][452] |
 | 228 | [Summary Ranges][455] | Medium | [228_summary-ranges.js][456] |
@@ -350,6 +351,8 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 [438]: https://github.com/MrHuxu/leetcode/blob/master/submissions/219_contains-duplicate-ii.js
 [439]: https://leetcode.com/problems/contains-duplicate-iii/
 [440]: https://github.com/MrHuxu/leetcode/blob/master/submissions/220_contains-duplicate-iii.js
+[441]: https://leetcode.com/problems/maximal-square/
+[442]: https://github.com/MrHuxu/leetcode/blob/master/submissions/221_maximal-square.js
 [445]: https://leetcode.com/problems/rectangle-area/
 [446]: https://github.com/MrHuxu/leetcode/blob/master/submissions/223_rectangle-area.js
 [451]: https://leetcode.com/problems/invert-binary-tree/
