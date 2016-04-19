@@ -122,8 +122,11 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 220 | [Contains Duplicate III][439] | Medium | [220_contains-duplicate-iii.js][440] |
 | 221 | [Maximal Square][441] | Medium | [221_maximal-square.js][442] |
 | 223 | [Rectangle Area][445] | Easy | [223_rectangle-area.js][446] |
+| 224 | [Basic Calculator][447] | Hard | [224_basic-calculator.js][448] |
 | 226 | [Invert Binary Tree][451] | Easy | [226_invert-binary-tree.js][452] |
+| 227 | [Basic Calculator II][453] | Medium | [227_basic-calculator-ii.js][454] |
 | 228 | [Summary Ranges][455] | Medium | [228_summary-ranges.js][456] |
+| 231 | [Power of Two][461] | Easy | [231_power-of-two.js][462] |
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/001_two-sum.js
@@ -355,7 +358,13 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 [442]: https://github.com/MrHuxu/leetcode/blob/master/submissions/221_maximal-square.js
 [445]: https://leetcode.com/problems/rectangle-area/
 [446]: https://github.com/MrHuxu/leetcode/blob/master/submissions/223_rectangle-area.js
+[447]: https://leetcode.com/problems/basic-calculator/
+[448]: https://github.com/MrHuxu/leetcode/blob/master/submissions/224_basic-calculator.js
 [451]: https://leetcode.com/problems/invert-binary-tree/
 [452]: https://github.com/MrHuxu/leetcode/blob/master/submissions/226_invert-binary-tree.js
+[453]: https://leetcode.com/problems/basic-calculator-ii/
+[454]: https://github.com/MrHuxu/leetcode/blob/master/submissions/227_basic-calculator-ii.js
 [455]: https://leetcode.com/problems/summary-ranges/
 [456]: https://github.com/MrHuxu/leetcode/blob/master/submissions/228_summary-ranges.js
+[461]: https://leetcode.com/problems/power-of-two/
+[462]: https://github.com/MrHuxu/leetcode/blob/master/submissions/231_power-of-two.js
