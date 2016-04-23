@@ -1,3 +1,7 @@
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
 var majorityElement = function(nums) {
   var maj = [], count = [];
   var result = [];
@@ -42,5 +46,3 @@ var majorityElement = function(nums) {
   
   return result;
 };
-
-console.log(majorityElement([1, 2, 3, 3]));
