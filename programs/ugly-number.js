@@ -1,4 +1,5 @@
 var isUgly = function(num) {
+  if (!num) return false;
   while (true) {
     if (num % 2 === 0) {
       num /= 2;
