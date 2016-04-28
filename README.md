@@ -126,7 +126,20 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 226 | [Invert Binary Tree][451] | Easy | [226_invert-binary-tree.js][452] |
 | 227 | [Basic Calculator II][453] | Medium | [227_basic-calculator-ii.js][454] |
 | 228 | [Summary Ranges][455] | Medium | [228_summary-ranges.js][456] |
+| 229 | [Majority Element II][457] | Medium | [229_majority-element-ii.js][458] |
 | 231 | [Power of Two][461] | Easy | [231_power-of-two.js][462] |
+| 234 | [Palindrome Linked List][467] | Easy | [234_palindrome-linked-list.js][468] |
+| 237 | [Delete Node in a Linked List][473] | Easy | [237_delete-node-in-a-linked-list.js][474] |
+| 238 | [Product of Array Except Self][475] | Medium | [238_product-of-array-except-self.js][476] |
+| 240 | [Search a 2D Matrix II][479] | Medium | [240_search-a-2d-matrix-ii.js][480] |
+| 242 | [Valid Anagram][483] | Easy | [242_valid-anagram.js][484] |
+| 258 | [Add Digits][515] | Easy | [258_add-digits.js][516] |
+| 263 | [Ugly Number][525] | Easy | [263_ugly-number.js][526] |
+| 264 | [Ugly Number II][527] | Medium | [264_ugly-number-ii.js][528] |
+| 268 | [Missing Number][535] | Medium | [268_missing-number.js][536] |
+| 278 | [First Bad Version][555] | Easy | [278_first-bad-version.js][556] |
+| 279 | [Perfect Squares][557] | Medium | [279_perfect-squares.js][558] |
+| 283 | [Move Zeroes][565] | Easy | [283_move-zeroes.js][566] |
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/001_two-sum.js
@@ -366,5 +379,31 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 [454]: https://github.com/MrHuxu/leetcode/blob/master/submissions/227_basic-calculator-ii.js
 [455]: https://leetcode.com/problems/summary-ranges/
 [456]: https://github.com/MrHuxu/leetcode/blob/master/submissions/228_summary-ranges.js
+[457]: https://leetcode.com/problems/majority-element-ii/
+[458]: https://github.com/MrHuxu/leetcode/blob/master/submissions/229_majority-element-ii.js
 [461]: https://leetcode.com/problems/power-of-two/
 [462]: https://github.com/MrHuxu/leetcode/blob/master/submissions/231_power-of-two.js
+[467]: https://leetcode.com/problems/palindrome-linked-list/
+[468]: https://github.com/MrHuxu/leetcode/blob/master/submissions/234_palindrome-linked-list.js
+[473]: https://leetcode.com/problems/delete-node-in-a-linked-list/
+[474]: https://github.com/MrHuxu/leetcode/blob/master/submissions/237_delete-node-in-a-linked-list.js
+[475]: https://leetcode.com/problems/product-of-array-except-self/
+[476]: https://github.com/MrHuxu/leetcode/blob/master/submissions/238_product-of-array-except-self.js
+[479]: https://leetcode.com/problems/search-a-2d-matrix-ii/
+[480]: https://github.com/MrHuxu/leetcode/blob/master/submissions/240_search-a-2d-matrix-ii.js
+[483]: https://leetcode.com/problems/valid-anagram/
+[484]: https://github.com/MrHuxu/leetcode/blob/master/submissions/242_valid-anagram.js
+[515]: https://leetcode.com/problems/add-digits/
+[516]: https://github.com/MrHuxu/leetcode/blob/master/submissions/258_add-digits.js
+[525]: https://leetcode.com/problems/ugly-number/
+[526]: https://github.com/MrHuxu/leetcode/blob/master/submissions/263_ugly-number.js
+[527]: https://leetcode.com/problems/ugly-number-ii/
+[528]: https://github.com/MrHuxu/leetcode/blob/master/submissions/264_ugly-number-ii.js
+[535]: https://leetcode.com/problems/missing-number/
+[536]: https://github.com/MrHuxu/leetcode/blob/master/submissions/268_missing-number.js
+[555]: https://leetcode.com/problems/first-bad-version/
+[556]: https://github.com/MrHuxu/leetcode/blob/master/submissions/278_first-bad-version.js
+[557]: https://leetcode.com/problems/perfect-squares/
+[558]: https://github.com/MrHuxu/leetcode/blob/master/submissions/279_perfect-squares.js
+[565]: https://leetcode.com/problems/move-zeroes/
+[566]: https://github.com/MrHuxu/leetcode/blob/master/submissions/283_move-zeroes.js
