@@ -82,7 +82,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 136 | [Single Number][271] | Medium | [136_single-number.js][272] |
 | 137 | [Single Number II][273] | Medium | [137_single-number-ii.js][274] |
 | 139 | [Word Break][277] | Medium | [139_word-break.js][278] |
-| 141 | [Linked List Cycle][281] | Medium | [141_linked-list-cycle.js][282] |
+| 141 | [Linked List Cycle][281] | Easy | [141_linked-list-cycle.js][282] |
 | 142 | [Linked List Cycle II][283] | Medium | [142_linked-list-cycle-ii.js][284] |
 | 143 | [Reorder List][285] | Medium | [143_reorder-list.js][286] |
 | 144 | [Binary Tree Preorder Traversal][287] | Medium | [144_binary-tree-preorder-traversal.js][288] |
@@ -140,6 +140,24 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 278 | [First Bad Version][555] | Easy | [278_first-bad-version.js][556] |
 | 279 | [Perfect Squares][557] | Medium | [279_perfect-squares.js][558] |
 | 283 | [Move Zeroes][565] | Easy | [283_move-zeroes.js][566] |
+| 289 | [Game of Life][577] | Medium | [289_game-of-life.js][578] |
+| 290 | [Word Pattern][579] | Easy | [290_word-pattern.js][580] |
+| 292 | [Nim Game][583] | Easy | [292_nim-game.js][584] |
+| 299 | [Bulls and Cows][597] | Easy | [299_bulls-and-cows.js][598] |
+| 300 | [Longest Increasing Subsequence][599] | Medium | [300_longest-increasing-subsequence.js][600] |
+| 303 | [Range Sum Query - Immutable][605] | Easy | [303_range-sum-query-immutable.js][606] |
+| 304 | [Range Sum Query 2D - Immutable][607] | Medium | [304_range-sum-query-2d-immutable.js][608] |
+| 306 | [Additive Number][611] | Medium | [306_additive-number.js][612] |
+| 307 | [Range Sum Query - Mutable][613] | Medium | [307_range-sum-query-mutable.js][614] |
+| 318 | [Maximum Product of Word Lengths][635] | Medium | [318_maximum-product-of-word-lengths.js][636] |
+| 322 | [Coin Change][643] | Medium | [322_coin-change.js][644] |
+| 326 | [Power of Three][651] | Easy | [326_power-of-three.js][652] |
+| 338 | [Counting Bits][675] | Medium | [338_counting-bits.js][676] |
+| 344 | [Reverse String][687] | Easy | [344_reverse-string.js][688] |
+| 345 | [Reverse Vowels of a String][689] | Easy | [345_reverse-vowels-of-a-string.js][690] |
+| 347 | [Top K Frequent Elements][693] | Medium | [347_top-k-frequent-elements.js][694] |
+| 349 | [Intersection of Two Arrays][697] | Easy | [349_intersection-of-two-arrays.js][698] |
+| 350 | [Intersection of Two Arrays II][699] | Easy | [350_intersection-of-two-arrays-ii.js][700] |
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/001_two-sum.js
@@ -407,3 +425,39 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 [558]: https://github.com/MrHuxu/leetcode/blob/master/submissions/279_perfect-squares.js
 [565]: https://leetcode.com/problems/move-zeroes/
 [566]: https://github.com/MrHuxu/leetcode/blob/master/submissions/283_move-zeroes.js
+[577]: https://leetcode.com/problems/game-of-life/
+[578]: https://github.com/MrHuxu/leetcode/blob/master/submissions/289_game-of-life.js
+[579]: https://leetcode.com/problems/word-pattern/
+[580]: https://github.com/MrHuxu/leetcode/blob/master/submissions/290_word-pattern.js
+[583]: https://leetcode.com/problems/nim-game/
+[584]: https://github.com/MrHuxu/leetcode/blob/master/submissions/292_nim-game.js
+[597]: https://leetcode.com/problems/bulls-and-cows/
+[598]: https://github.com/MrHuxu/leetcode/blob/master/submissions/299_bulls-and-cows.js
+[599]: https://leetcode.com/problems/longest-increasing-subsequence/
+[600]: https://github.com/MrHuxu/leetcode/blob/master/submissions/300_longest-increasing-subsequence.js
+[605]: https://leetcode.com/problems/range-sum-query-immutable/
+[606]: https://github.com/MrHuxu/leetcode/blob/master/submissions/303_range-sum-query-immutable.js
+[607]: https://leetcode.com/problems/range-sum-query-2d-immutable/
+[608]: https://github.com/MrHuxu/leetcode/blob/master/submissions/304_range-sum-query-2d-immutable.js
+[611]: https://leetcode.com/problems/additive-number/
+[612]: https://github.com/MrHuxu/leetcode/blob/master/submissions/306_additive-number.js
+[613]: https://leetcode.com/problems/range-sum-query-mutable/
+[614]: https://github.com/MrHuxu/leetcode/blob/master/submissions/307_range-sum-query-mutable.js
+[635]: https://leetcode.com/problems/maximum-product-of-word-lengths/
+[636]: https://github.com/MrHuxu/leetcode/blob/master/submissions/318_maximum-product-of-word-lengths.js
+[643]: https://leetcode.com/problems/coin-change/
+[644]: https://github.com/MrHuxu/leetcode/blob/master/submissions/322_coin-change.js
+[651]: https://leetcode.com/problems/power-of-three/
+[652]: https://github.com/MrHuxu/leetcode/blob/master/submissions/326_power-of-three.js
+[675]: https://leetcode.com/problems/counting-bits/
+[676]: https://github.com/MrHuxu/leetcode/blob/master/submissions/338_counting-bits.js
+[687]: https://leetcode.com/problems/reverse-string/
+[688]: https://github.com/MrHuxu/leetcode/blob/master/submissions/344_reverse-string.js
+[689]: https://leetcode.com/problems/reverse-vowels-of-a-string/
+[690]: https://github.com/MrHuxu/leetcode/blob/master/submissions/345_reverse-vowels-of-a-string.js
+[693]: https://leetcode.com/problems/top-k-frequent-elements/
+[694]: https://github.com/MrHuxu/leetcode/blob/master/submissions/347_top-k-frequent-elements.js
+[697]: https://leetcode.com/problems/intersection-of-two-arrays/
+[698]: https://github.com/MrHuxu/leetcode/blob/master/submissions/349_intersection-of-two-arrays.js
+[699]: https://leetcode.com/problems/intersection-of-two-arrays-ii/
+[700]: https://github.com/MrHuxu/leetcode/blob/master/submissions/350_intersection-of-two-arrays-ii.js
