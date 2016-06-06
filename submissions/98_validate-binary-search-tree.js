@@ -16,29 +16,17 @@ var isValidBST = function(root) {
     if (flag && node) {
       if (node.left) {
         if (max) {
-          if (node.left.val < node.val && node.left.val > max)
-            validate(node.left, node.val, max);
-          else
-            flag = false;
+          (node.left.val < node.val && node.left.val > max) ? validate(node.left, node.val, max) : flag = false;
         } else {
-          if (node.left.val < node.val)
-            validate(node.left, node.val, max);
-          else
-            flag = false;
+          (node.left.val < node.val) ? validate(node.left, node.val, max) : flag = false;
         }
       }
       
       if (node.right) {
         if (min) {
-          if (node.right.val > node.val && node.right.val < min)
-            validate(node.right, min, node.val);
-          else
-            flag = false;
+          (node.right.val > node.val && node.right.val < min) ? validate(node.right, min, node.val) : flag = false;
         } else {
-          if (node.right.val > node.val)
-            validate(node.right, min, node.val);
-          else
-            flag = false;
+          (node.right.val > node.val) ? validate(node.right, min, node.val) : flag = false;
         }
       }
     }
