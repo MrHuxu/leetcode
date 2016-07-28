@@ -16,3 +16,4 @@ var hIndex = function(citations) {
 };
 
 console.log(hIndex([3, 0, 6, 1, 5]));
+console.log(hIndex([100]));
