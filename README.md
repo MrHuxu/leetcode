@@ -158,6 +158,9 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 347 | [Top K Frequent Elements][693] | Medium | [347_top-k-frequent-elements.js][694] |
 | 349 | [Intersection of Two Arrays][697] | Easy | [349_intersection-of-two-arrays.js][698] |
 | 350 | [Intersection of Two Arrays II][699] | Easy | [350_intersection-of-two-arrays-ii.js][700] |
+| 367 | [Valid Perfect Square][701] | Medium | [367_valid-perfect-square.js][702] |
+| 378 | [Kth Smallest Element in a Sorted Matrix][703] | Medium | [378_kth-smallest-element-in-a-sorted-matrix.js][704] |
+| 383 | [Ransom Note][705] | Easy | [383_ransom-note.js][706] |
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/001_two-sum.js
@@ -461,3 +464,9 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 [698]: https://github.com/MrHuxu/leetcode/blob/master/submissions/349_intersection-of-two-arrays.js
 [699]: https://leetcode.com/problems/intersection-of-two-arrays-ii/
 [700]: https://github.com/MrHuxu/leetcode/blob/master/submissions/350_intersection-of-two-arrays-ii.js
+[701]: https://leetcode.com/problems/valid-perfect-square/
+[702]: https://github.com/MrHuxu/leetcode/blob/master/submissions/367_valid-perfect-square.js
+[703]: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+[704]: https://github.com/MrHuxu/leetcode/blob/master/submissions/378_kth-smallest-element-in-a-sorted-matrix.js
+[705]: https://leetcode.com/problems/ransom-note/
+[706]: https://github.com/MrHuxu/leetcode/blob/master/submissions/383_ransom-note.js
