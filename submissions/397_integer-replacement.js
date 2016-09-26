@@ -1,3 +1,7 @@
+/**
+ * @param {number} n
+ * @return {number}
+ */
 var integerReplacement = function(n) {
   if (n <= 3) {
     return n - 1;
@@ -9,10 +13,3 @@ var integerReplacement = function(n) {
     }
   }
 };
-
-console.log(integerReplacement(1));
-console.log(integerReplacement(2));
-console.log(integerReplacement(3));
-console.log(integerReplacement(4));
-console.log(integerReplacement(7));
-console.log(integerReplacement(8));
