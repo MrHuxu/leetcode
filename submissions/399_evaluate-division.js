@@ -1,3 +1,9 @@
+/**
+ * @param {string[][]} equations
+ * @param {number[]} values
+ * @param {string[][]} queries
+ * @return {number[]}
+ */
 var calcEquation = function(equations, values, queries) {
   var valueMap = {};
   var ids = {};
@@ -36,9 +42,3 @@ var calcEquation = function(equations, values, queries) {
 
   return result;
 };
-
-// console.log(calcEquation([ ["a", "b"], ["b", "c"] ], [2.0, 3.0], [ ["a", "c"], ["b", "a"], ["a", "e"], ["a", "a"], ["x", "x"] ]));
-
-console.log(calcEquation([["x1","x2"],["x2","x3"],["x1","x4"],["x2","x5"]],
-[3.0,0.5,3.4,5.6],
-[["x2","x4"],["x1","x5"],["x1","x3"],["x5","x5"],["x5","x1"],["x3","x4"],["x4","x3"],["x6","x6"],["x0","x0"]]));
