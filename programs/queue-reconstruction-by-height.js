@@ -1,6 +1,10 @@
 var reconstructQueue = function (people) {
   people.sort(function (p1, p2) {
-    return p1[0] === p2[0] ? p1[1] > p2[1] : p1[0] < p2[0];
+    if (p1[0] === p2[0]) {
+      return p1[1] > p2[1] ? 1 : -1;
+    } else {
+      return p1[0] < p2[0] ? 1 : -1;
+    }
   });
 
   var result = [];
