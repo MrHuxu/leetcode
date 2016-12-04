@@ -32,7 +32,7 @@ var generatePromise = (url) => {
           for (var i = 0, times = 3 - sequence.length; i < times; ++i) {
             submitSequence = '0' + submitSequence;
           }
-          var submission = `${submitSequence}_${urlArr[urlArr.length - 2]}.js`;
+          var submission = `${submitSequence}_${urlArr[urlArr.length - 1]}.js`;
 
           resolve({
             url:        url,
