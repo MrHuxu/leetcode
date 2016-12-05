@@ -7,66 +7,66 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 
 | Sequence      | Title         | Difficulty  | Submission  |
 | ------------- |:------------- | :----------:| :---------- |
-| 1 | [Two Sum][1] | Easy | [1_two-sum.js][2] |
-| 2 | [Add Two Numbers][3] | Medium | [2_add-two-numbers.js][4] |
-| 3 | [Longest Substring Without Repeating Characters][5] | Medium | [3_longest-substring-without-repeating-characters.js][6] |
-| 5 | [Longest Palindromic Substring][9] | Medium | [5_longest-palindromic-substring.js][10] |
-| 6 | [ZigZag Conversion][11] | Easy | [6_zigzag-conversion.js][12] |
-| 7 | [Reverse Integer][13] | Easy | [7_reverse-integer.js][14] |
-| 8 | [String to Integer (atoi)][15] | Easy | [8_string-to-integer-atoi.js][16] |
-| 9 | [Palindrome Number][17] | Easy | [9_palindrome-number.js][18] |
-| 11 | [Container With Most Water][21] | Medium | [11_container-with-most-water.js][22] |
-| 12 | [Integer to Roman][23] | Medium | [12_integer-to-roman.js][24] |
-| 13 | [Roman to Integer][25] | Easy | [13_roman-to-integer.js][26] |
-| 14 | [Longest Common Prefix][27] | Easy | [14_longest-common-prefix.js][28] |
-| 15 | [3Sum][29] | Medium | [15_3sum.js][30] |
-| 16 | [3Sum Closest][31] | Medium | [16_3sum-closest.js][32] |
-| 17 | [Letter Combinations of a Phone Number][33] | Medium | [17_letter-combinations-of-a-phone-number.js][34] |
-| 18 | [4Sum][35] | Medium | [18_4sum.js][36] |
-| 19 | [Remove Nth Node From End of List][37] | Easy | [19_remove-nth-node-from-end-of-list.js][38] |
-| 20 | [Valid Parentheses][39] | Easy | [20_valid-parentheses.js][40] |
-| 21 | [Merge Two Sorted Lists][41] | Easy | [21_merge-two-sorted-lists.js][42] |
-| 22 | [Generate Parentheses][43] | Medium | [22_generate-parentheses.js][44] |
-| 24 | [Swap Nodes in Pairs][47] | Easy | [24_swap-nodes-in-pairs.js][48] |
-| 26 | [Remove Duplicates from Sorted Array][51] | Easy | [26_remove-duplicates-from-sorted-array.js][52] |
-| 27 | [Remove Element][53] | Easy | [27_remove-element.js][54] |
-| 28 | [Implement strStr()][55] | Easy | [28_implement-strstr.js][56] |
-| 29 | [Divide Two Integers][57] | Medium | [29_divide-two-integers.js][58] |
-| 34 | [Search for a Range][67] | Medium | [34_search-for-a-range.js][68] |
-| 35 | [Search Insert Position][69] | Medium | [35_search-insert-position.js][70] |
-| 38 | [Count and Say][75] | Easy | [38_count-and-say.js][76] |
-| 39 | [Combination Sum][77] | Medium | [39_combination-sum.js][78] |
-| 41 | [First Missing Positive][81] | Hard | [41_first-missing-positive.js][82] |
-| 46 | [Permutations][91] | Medium | [46_permutations.js][92] |
-| 48 | [Rotate Image][95] | Medium | [48_rotate-image.js][96] |
-| 49 | [Group Anagrams][97] | Medium | [49_anagrams.js][98] |
-| 53 | [Maximum Subarray][105] | Medium | [53_maximum-subarray.js][106] |
-| 54 | [Spiral Matrix][107] | Medium | [54_spiral-matrix.js][108] |
-| 55 | [Jump Game][109] | Medium | [55_jump-game.js][110] |
-| 58 | [Length of Last Word][115] | Easy | [58_length-of-last-word.js][116] |
-| 59 | [Spiral Matrix II][117] | Medium | [59_spiral-matrix-ii.js][118] |
-| 60 | [Permutation Sequence][119] | Medium | [60_permutation-sequence.js][120] |
-| 61 | [Rotate List][121] | Medium | [61_rotate-list.js][122] |
-| 62 | [Unique Paths][123] | Medium | [62_unique-paths.js][124] |
-| 63 | [Unique Paths II][125] | Medium | [63_unique-paths-ii.js][126] |
-| 64 | [Minimum Path Sum][127] | Medium | [64_minimum-path-sum.js][128] |
-| 69 | [Sqrt(x)][137] | Medium | [69_sqrtx.js][138] |
-| 71 | [Simplify Path][141] | Medium | [71_simplify-path.js][142] |
-| 73 | [Set Matrix Zeroes][145] | Medium | [73_set-matrix-zeroes.js][146] |
-| 75 | [Sort Colors][149] | Medium | [75_sort-colors.js][150] |
-| 77 | [Combinations][153] | Medium | [77_combinations.js][154] |
-| 78 | [Subsets][155] | Medium | [78_subsets.js][156] |
-| 79 | [Word Search][157] | Medium | [79_word-search.js][158] |
-| 80 | [Remove Duplicates from Sorted Array II][159] | Medium | [80_remove-duplicates-from-sorted-array-ii.js][160] |
-| 83 | [Remove Duplicates from Sorted List][165] | Easy | [83_remove-duplicates-from-sorted-list.js][166] |
-| 88 | [Merge Sorted Array][175] | Easy | [88_merge-sorted-array.js][176] |
-| 89 | [Gray Code][177] | Medium | [89_gray-code.js][178] |
-| 90 | [Subsets II][179] | Medium | [90_subsets-ii.js][180] |
-| 91 | [Decode Ways][181] | Medium | [91_decode-ways.js][182] |
-| 92 | [Reverse Linked List II][183] | Medium | [92_reverse-linked-list-ii.js][184] |
-| 93 | [Restore IP Addresses][185] | Medium | [93_restore-ip-addresses.js][186] |
-| 94 | [Binary Tree Inorder Traversal][187] | Medium | [94_binary-tree-inorder-traversal.js][188] |
-| 98 | [Validate Binary Search Tree][195] | Medium | [98_validate-binary-search-tree.js][196] |
+| 1 | [Two Sum][1] | Easy | [001_two-sum.js][2] |
+| 2 | [Add Two Numbers][3] | Medium | [002_add-two-numbers.js][4] |
+| 3 | [Longest Substring Without Repeating Characters][5] | Medium | [003_longest-substring-without-repeating-characters.js][6] |
+| 5 | [Longest Palindromic Substring][9] | Medium | [005_longest-palindromic-substring.js][10] |
+| 6 | [ZigZag Conversion][11] | Easy | [006_zigzag-conversion.js][12] |
+| 7 | [Reverse Integer][13] | Easy | [007_reverse-integer.js][14] |
+| 8 | [String to Integer (atoi)][15] | Easy | [008_string-to-integer-atoi.js][16] |
+| 9 | [Palindrome Number][17] | Easy | [009_palindrome-number.js][18] |
+| 11 | [Container With Most Water][21] | Medium | [011_container-with-most-water.js][22] |
+| 12 | [Integer to Roman][23] | Medium | [012_integer-to-roman.js][24] |
+| 13 | [Roman to Integer][25] | Easy | [013_roman-to-integer.js][26] |
+| 14 | [Longest Common Prefix][27] | Easy | [014_longest-common-prefix.js][28] |
+| 15 | [3Sum][29] | Medium | [015_3sum.js][30] |
+| 16 | [3Sum Closest][31] | Medium | [016_3sum-closest.js][32] |
+| 17 | [Letter Combinations of a Phone Number][33] | Medium | [017_letter-combinations-of-a-phone-number.js][34] |
+| 18 | [4Sum][35] | Medium | [018_4sum.js][36] |
+| 19 | [Remove Nth Node From End of List][37] | Easy | [019_remove-nth-node-from-end-of-list.js][38] |
+| 20 | [Valid Parentheses][39] | Easy | [020_valid-parentheses.js][40] |
+| 21 | [Merge Two Sorted Lists][41] | Easy | [021_merge-two-sorted-lists.js][42] |
+| 22 | [Generate Parentheses][43] | Medium | [022_generate-parentheses.js][44] |
+| 24 | [Swap Nodes in Pairs][47] | Easy | [024_swap-nodes-in-pairs.js][48] |
+| 26 | [Remove Duplicates from Sorted Array][51] | Easy | [026_remove-duplicates-from-sorted-array.js][52] |
+| 27 | [Remove Element][53] | Easy | [027_remove-element.js][54] |
+| 28 | [Implement strStr()][55] | Easy | [028_implement-strstr.js][56] |
+| 29 | [Divide Two Integers][57] | Medium | [029_divide-two-integers.js][58] |
+| 34 | [Search for a Range][67] | Medium | [034_search-for-a-range.js][68] |
+| 35 | [Search Insert Position][69] | Medium | [035_search-insert-position.js][70] |
+| 38 | [Count and Say][75] | Easy | [038_count-and-say.js][76] |
+| 39 | [Combination Sum][77] | Medium | [039_combination-sum.js][78] |
+| 41 | [First Missing Positive][81] | Hard | [041_first-missing-positive.js][82] |
+| 46 | [Permutations][91] | Medium | [046_permutations.js][92] |
+| 48 | [Rotate Image][95] | Medium | [048_rotate-image.js][96] |
+| 49 | [Group Anagrams][97] | Medium | [049_anagrams.js][98] |
+| 53 | [Maximum Subarray][105] | Medium | [053_maximum-subarray.js][106] |
+| 54 | [Spiral Matrix][107] | Medium | [054_spiral-matrix.js][108] |
+| 55 | [Jump Game][109] | Medium | [055_jump-game.js][110] |
+| 58 | [Length of Last Word][115] | Easy | [058_length-of-last-word.js][116] |
+| 59 | [Spiral Matrix II][117] | Medium | [059_spiral-matrix-ii.js][118] |
+| 60 | [Permutation Sequence][119] | Medium | [060_permutation-sequence.js][120] |
+| 61 | [Rotate List][121] | Medium | [061_rotate-list.js][122] |
+| 62 | [Unique Paths][123] | Medium | [062_unique-paths.js][124] |
+| 63 | [Unique Paths II][125] | Medium | [063_unique-paths-ii.js][126] |
+| 64 | [Minimum Path Sum][127] | Medium | [064_minimum-path-sum.js][128] |
+| 69 | [Sqrt(x)][137] | Medium | [069_sqrtx.js][138] |
+| 71 | [Simplify Path][141] | Medium | [071_simplify-path.js][142] |
+| 73 | [Set Matrix Zeroes][145] | Medium | [073_set-matrix-zeroes.js][146] |
+| 75 | [Sort Colors][149] | Medium | [075_sort-colors.js][150] |
+| 77 | [Combinations][153] | Medium | [077_combinations.js][154] |
+| 78 | [Subsets][155] | Medium | [078_subsets.js][156] |
+| 79 | [Word Search][157] | Medium | [079_word-search.js][158] |
+| 80 | [Remove Duplicates from Sorted Array II][159] | Medium | [080_remove-duplicates-from-sorted-array-ii.js][160] |
+| 83 | [Remove Duplicates from Sorted List][165] | Easy | [083_remove-duplicates-from-sorted-list.js][166] |
+| 88 | [Merge Sorted Array][175] | Easy | [088_merge-sorted-array.js][176] |
+| 89 | [Gray Code][177] | Medium | [089_gray-code.js][178] |
+| 90 | [Subsets II][179] | Medium | [090_subsets-ii.js][180] |
+| 91 | [Decode Ways][181] | Medium | [091_decode-ways.js][182] |
+| 92 | [Reverse Linked List II][183] | Medium | [092_reverse-linked-list-ii.js][184] |
+| 93 | [Restore IP Addresses][185] | Medium | [093_restore-ip-addresses.js][186] |
+| 94 | [Binary Tree Inorder Traversal][187] | Medium | [094_binary-tree-inorder-traversal.js][188] |
+| 98 | [Validate Binary Search Tree][195] | Medium | [098_validate-binary-search-tree.js][196] |
 | 101 | [Symmetric Tree][201] | Easy | [101_symmetric-tree.js][202] |
 | 102 | [Binary Tree Level Order Traversal][203] | Easy | [102_binary-tree-level-order-traversal.js][204] |
 | 111 | [Minimum Depth of Binary Tree][221] | Easy | [111_minimum-depth-of-binary-tree.js][222] |
@@ -195,125 +195,125 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 417 | [Pacific Atlantic Water Flow][833] | Medium | [417_pacific-atlantic-water-flow.js][834] |
 
 [1]: https://leetcode.com/problems/two-sum
-[2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/1_two-sum.js
+[2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/001_two-sum.js
 [3]: https://leetcode.com/problems/add-two-numbers
-[4]: https://github.com/MrHuxu/leetcode/blob/master/submissions/2_add-two-numbers.js
+[4]: https://github.com/MrHuxu/leetcode/blob/master/submissions/002_add-two-numbers.js
 [5]: https://leetcode.com/problems/longest-substring-without-repeating-characters
-[6]: https://github.com/MrHuxu/leetcode/blob/master/submissions/3_longest-substring-without-repeating-characters.js
+[6]: https://github.com/MrHuxu/leetcode/blob/master/submissions/003_longest-substring-without-repeating-characters.js
 [9]: https://leetcode.com/problems/longest-palindromic-substring
-[10]: https://github.com/MrHuxu/leetcode/blob/master/submissions/5_longest-palindromic-substring.js
+[10]: https://github.com/MrHuxu/leetcode/blob/master/submissions/005_longest-palindromic-substring.js
 [11]: https://leetcode.com/problems/zigzag-conversion
-[12]: https://github.com/MrHuxu/leetcode/blob/master/submissions/6_zigzag-conversion.js
+[12]: https://github.com/MrHuxu/leetcode/blob/master/submissions/006_zigzag-conversion.js
 [13]: https://leetcode.com/problems/reverse-integer
-[14]: https://github.com/MrHuxu/leetcode/blob/master/submissions/7_reverse-integer.js
+[14]: https://github.com/MrHuxu/leetcode/blob/master/submissions/007_reverse-integer.js
 [15]: https://leetcode.com/problems/string-to-integer-atoi
-[16]: https://github.com/MrHuxu/leetcode/blob/master/submissions/8_string-to-integer-atoi.js
+[16]: https://github.com/MrHuxu/leetcode/blob/master/submissions/008_string-to-integer-atoi.js
 [17]: https://leetcode.com/problems/palindrome-number
-[18]: https://github.com/MrHuxu/leetcode/blob/master/submissions/9_palindrome-number.js
+[18]: https://github.com/MrHuxu/leetcode/blob/master/submissions/009_palindrome-number.js
 [21]: https://leetcode.com/problems/container-with-most-water
-[22]: https://github.com/MrHuxu/leetcode/blob/master/submissions/11_container-with-most-water.js
+[22]: https://github.com/MrHuxu/leetcode/blob/master/submissions/011_container-with-most-water.js
 [23]: https://leetcode.com/problems/integer-to-roman
-[24]: https://github.com/MrHuxu/leetcode/blob/master/submissions/12_integer-to-roman.js
+[24]: https://github.com/MrHuxu/leetcode/blob/master/submissions/012_integer-to-roman.js
 [25]: https://leetcode.com/problems/roman-to-integer
-[26]: https://github.com/MrHuxu/leetcode/blob/master/submissions/13_roman-to-integer.js
+[26]: https://github.com/MrHuxu/leetcode/blob/master/submissions/013_roman-to-integer.js
 [27]: https://leetcode.com/problems/longest-common-prefix
-[28]: https://github.com/MrHuxu/leetcode/blob/master/submissions/14_longest-common-prefix.js
+[28]: https://github.com/MrHuxu/leetcode/blob/master/submissions/014_longest-common-prefix.js
 [29]: https://leetcode.com/problems/3sum
-[30]: https://github.com/MrHuxu/leetcode/blob/master/submissions/15_3sum.js
+[30]: https://github.com/MrHuxu/leetcode/blob/master/submissions/015_3sum.js
 [31]: https://leetcode.com/problems/3sum-closest
-[32]: https://github.com/MrHuxu/leetcode/blob/master/submissions/16_3sum-closest.js
+[32]: https://github.com/MrHuxu/leetcode/blob/master/submissions/016_3sum-closest.js
 [33]: https://leetcode.com/problems/letter-combinations-of-a-phone-number
-[34]: https://github.com/MrHuxu/leetcode/blob/master/submissions/17_letter-combinations-of-a-phone-number.js
+[34]: https://github.com/MrHuxu/leetcode/blob/master/submissions/017_letter-combinations-of-a-phone-number.js
 [35]: https://leetcode.com/problems/4sum
-[36]: https://github.com/MrHuxu/leetcode/blob/master/submissions/18_4sum.js
+[36]: https://github.com/MrHuxu/leetcode/blob/master/submissions/018_4sum.js
 [37]: https://leetcode.com/problems/remove-nth-node-from-end-of-list
-[38]: https://github.com/MrHuxu/leetcode/blob/master/submissions/19_remove-nth-node-from-end-of-list.js
+[38]: https://github.com/MrHuxu/leetcode/blob/master/submissions/019_remove-nth-node-from-end-of-list.js
 [39]: https://leetcode.com/problems/valid-parentheses
-[40]: https://github.com/MrHuxu/leetcode/blob/master/submissions/20_valid-parentheses.js
+[40]: https://github.com/MrHuxu/leetcode/blob/master/submissions/020_valid-parentheses.js
 [41]: https://leetcode.com/problems/merge-two-sorted-lists
-[42]: https://github.com/MrHuxu/leetcode/blob/master/submissions/21_merge-two-sorted-lists.js
+[42]: https://github.com/MrHuxu/leetcode/blob/master/submissions/021_merge-two-sorted-lists.js
 [43]: https://leetcode.com/problems/generate-parentheses
-[44]: https://github.com/MrHuxu/leetcode/blob/master/submissions/22_generate-parentheses.js
+[44]: https://github.com/MrHuxu/leetcode/blob/master/submissions/022_generate-parentheses.js
 [47]: https://leetcode.com/problems/swap-nodes-in-pairs
-[48]: https://github.com/MrHuxu/leetcode/blob/master/submissions/24_swap-nodes-in-pairs.js
+[48]: https://github.com/MrHuxu/leetcode/blob/master/submissions/024_swap-nodes-in-pairs.js
 [51]: https://leetcode.com/problems/remove-duplicates-from-sorted-array
-[52]: https://github.com/MrHuxu/leetcode/blob/master/submissions/26_remove-duplicates-from-sorted-array.js
+[52]: https://github.com/MrHuxu/leetcode/blob/master/submissions/026_remove-duplicates-from-sorted-array.js
 [53]: https://leetcode.com/problems/remove-element
-[54]: https://github.com/MrHuxu/leetcode/blob/master/submissions/27_remove-element.js
+[54]: https://github.com/MrHuxu/leetcode/blob/master/submissions/027_remove-element.js
 [55]: https://leetcode.com/problems/implement-strstr
-[56]: https://github.com/MrHuxu/leetcode/blob/master/submissions/28_implement-strstr.js
+[56]: https://github.com/MrHuxu/leetcode/blob/master/submissions/028_implement-strstr.js
 [57]: https://leetcode.com/problems/divide-two-integers
-[58]: https://github.com/MrHuxu/leetcode/blob/master/submissions/29_divide-two-integers.js
+[58]: https://github.com/MrHuxu/leetcode/blob/master/submissions/029_divide-two-integers.js
 [67]: https://leetcode.com/problems/search-for-a-range
-[68]: https://github.com/MrHuxu/leetcode/blob/master/submissions/34_search-for-a-range.js
+[68]: https://github.com/MrHuxu/leetcode/blob/master/submissions/034_search-for-a-range.js
 [69]: https://leetcode.com/problems/search-insert-position
-[70]: https://github.com/MrHuxu/leetcode/blob/master/submissions/35_search-insert-position.js
+[70]: https://github.com/MrHuxu/leetcode/blob/master/submissions/035_search-insert-position.js
 [75]: https://leetcode.com/problems/count-and-say
-[76]: https://github.com/MrHuxu/leetcode/blob/master/submissions/38_count-and-say.js
+[76]: https://github.com/MrHuxu/leetcode/blob/master/submissions/038_count-and-say.js
 [77]: https://leetcode.com/problems/combination-sum
-[78]: https://github.com/MrHuxu/leetcode/blob/master/submissions/39_combination-sum.js
+[78]: https://github.com/MrHuxu/leetcode/blob/master/submissions/039_combination-sum.js
 [81]: https://leetcode.com/problems/first-missing-positive
-[82]: https://github.com/MrHuxu/leetcode/blob/master/submissions/41_first-missing-positive.js
+[82]: https://github.com/MrHuxu/leetcode/blob/master/submissions/041_first-missing-positive.js
 [91]: https://leetcode.com/problems/permutations
-[92]: https://github.com/MrHuxu/leetcode/blob/master/submissions/46_permutations.js
+[92]: https://github.com/MrHuxu/leetcode/blob/master/submissions/046_permutations.js
 [95]: https://leetcode.com/problems/rotate-image
-[96]: https://github.com/MrHuxu/leetcode/blob/master/submissions/48_rotate-image.js
+[96]: https://github.com/MrHuxu/leetcode/blob/master/submissions/048_rotate-image.js
 [97]: https://leetcode.com/problems/anagrams
-[98]: https://github.com/MrHuxu/leetcode/blob/master/submissions/49_anagrams.js
+[98]: https://github.com/MrHuxu/leetcode/blob/master/submissions/049_anagrams.js
 [105]: https://leetcode.com/problems/maximum-subarray
-[106]: https://github.com/MrHuxu/leetcode/blob/master/submissions/53_maximum-subarray.js
+[106]: https://github.com/MrHuxu/leetcode/blob/master/submissions/053_maximum-subarray.js
 [107]: https://leetcode.com/problems/spiral-matrix
-[108]: https://github.com/MrHuxu/leetcode/blob/master/submissions/54_spiral-matrix.js
+[108]: https://github.com/MrHuxu/leetcode/blob/master/submissions/054_spiral-matrix.js
 [109]: https://leetcode.com/problems/jump-game
-[110]: https://github.com/MrHuxu/leetcode/blob/master/submissions/55_jump-game.js
+[110]: https://github.com/MrHuxu/leetcode/blob/master/submissions/055_jump-game.js
 [115]: https://leetcode.com/problems/length-of-last-word
-[116]: https://github.com/MrHuxu/leetcode/blob/master/submissions/58_length-of-last-word.js
+[116]: https://github.com/MrHuxu/leetcode/blob/master/submissions/058_length-of-last-word.js
 [117]: https://leetcode.com/problems/spiral-matrix-ii
-[118]: https://github.com/MrHuxu/leetcode/blob/master/submissions/59_spiral-matrix-ii.js
+[118]: https://github.com/MrHuxu/leetcode/blob/master/submissions/059_spiral-matrix-ii.js
 [119]: https://leetcode.com/problems/permutation-sequence
-[120]: https://github.com/MrHuxu/leetcode/blob/master/submissions/60_permutation-sequence.js
+[120]: https://github.com/MrHuxu/leetcode/blob/master/submissions/060_permutation-sequence.js
 [121]: https://leetcode.com/problems/rotate-list
-[122]: https://github.com/MrHuxu/leetcode/blob/master/submissions/61_rotate-list.js
+[122]: https://github.com/MrHuxu/leetcode/blob/master/submissions/061_rotate-list.js
 [123]: https://leetcode.com/problems/unique-paths
-[124]: https://github.com/MrHuxu/leetcode/blob/master/submissions/62_unique-paths.js
+[124]: https://github.com/MrHuxu/leetcode/blob/master/submissions/062_unique-paths.js
 [125]: https://leetcode.com/problems/unique-paths-ii
-[126]: https://github.com/MrHuxu/leetcode/blob/master/submissions/63_unique-paths-ii.js
+[126]: https://github.com/MrHuxu/leetcode/blob/master/submissions/063_unique-paths-ii.js
 [127]: https://leetcode.com/problems/minimum-path-sum
-[128]: https://github.com/MrHuxu/leetcode/blob/master/submissions/64_minimum-path-sum.js
+[128]: https://github.com/MrHuxu/leetcode/blob/master/submissions/064_minimum-path-sum.js
 [137]: https://leetcode.com/problems/sqrtx
-[138]: https://github.com/MrHuxu/leetcode/blob/master/submissions/69_sqrtx.js
+[138]: https://github.com/MrHuxu/leetcode/blob/master/submissions/069_sqrtx.js
 [141]: https://leetcode.com/problems/simplify-path
-[142]: https://github.com/MrHuxu/leetcode/blob/master/submissions/71_simplify-path.js
+[142]: https://github.com/MrHuxu/leetcode/blob/master/submissions/071_simplify-path.js
 [145]: https://leetcode.com/problems/set-matrix-zeroes
-[146]: https://github.com/MrHuxu/leetcode/blob/master/submissions/73_set-matrix-zeroes.js
+[146]: https://github.com/MrHuxu/leetcode/blob/master/submissions/073_set-matrix-zeroes.js
 [149]: https://leetcode.com/problems/sort-colors
-[150]: https://github.com/MrHuxu/leetcode/blob/master/submissions/75_sort-colors.js
+[150]: https://github.com/MrHuxu/leetcode/blob/master/submissions/075_sort-colors.js
 [153]: https://leetcode.com/problems/combinations
-[154]: https://github.com/MrHuxu/leetcode/blob/master/submissions/77_combinations.js
+[154]: https://github.com/MrHuxu/leetcode/blob/master/submissions/077_combinations.js
 [155]: https://leetcode.com/problems/subsets
-[156]: https://github.com/MrHuxu/leetcode/blob/master/submissions/78_subsets.js
+[156]: https://github.com/MrHuxu/leetcode/blob/master/submissions/078_subsets.js
 [157]: https://leetcode.com/problems/word-search
-[158]: https://github.com/MrHuxu/leetcode/blob/master/submissions/79_word-search.js
+[158]: https://github.com/MrHuxu/leetcode/blob/master/submissions/079_word-search.js
 [159]: https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii
-[160]: https://github.com/MrHuxu/leetcode/blob/master/submissions/80_remove-duplicates-from-sorted-array-ii.js
+[160]: https://github.com/MrHuxu/leetcode/blob/master/submissions/080_remove-duplicates-from-sorted-array-ii.js
 [165]: https://leetcode.com/problems/remove-duplicates-from-sorted-list
-[166]: https://github.com/MrHuxu/leetcode/blob/master/submissions/83_remove-duplicates-from-sorted-list.js
+[166]: https://github.com/MrHuxu/leetcode/blob/master/submissions/083_remove-duplicates-from-sorted-list.js
 [175]: https://leetcode.com/problems/merge-sorted-array
-[176]: https://github.com/MrHuxu/leetcode/blob/master/submissions/88_merge-sorted-array.js
+[176]: https://github.com/MrHuxu/leetcode/blob/master/submissions/088_merge-sorted-array.js
 [177]: https://leetcode.com/problems/gray-code
-[178]: https://github.com/MrHuxu/leetcode/blob/master/submissions/89_gray-code.js
+[178]: https://github.com/MrHuxu/leetcode/blob/master/submissions/089_gray-code.js
 [179]: https://leetcode.com/problems/subsets-ii
-[180]: https://github.com/MrHuxu/leetcode/blob/master/submissions/90_subsets-ii.js
+[180]: https://github.com/MrHuxu/leetcode/blob/master/submissions/090_subsets-ii.js
 [181]: https://leetcode.com/problems/decode-ways
-[182]: https://github.com/MrHuxu/leetcode/blob/master/submissions/91_decode-ways.js
+[182]: https://github.com/MrHuxu/leetcode/blob/master/submissions/091_decode-ways.js
 [183]: https://leetcode.com/problems/reverse-linked-list-ii
-[184]: https://github.com/MrHuxu/leetcode/blob/master/submissions/92_reverse-linked-list-ii.js
+[184]: https://github.com/MrHuxu/leetcode/blob/master/submissions/092_reverse-linked-list-ii.js
 [185]: https://leetcode.com/problems/restore-ip-addresses
-[186]: https://github.com/MrHuxu/leetcode/blob/master/submissions/93_restore-ip-addresses.js
+[186]: https://github.com/MrHuxu/leetcode/blob/master/submissions/093_restore-ip-addresses.js
 [187]: https://leetcode.com/problems/binary-tree-inorder-traversal
-[188]: https://github.com/MrHuxu/leetcode/blob/master/submissions/94_binary-tree-inorder-traversal.js
+[188]: https://github.com/MrHuxu/leetcode/blob/master/submissions/094_binary-tree-inorder-traversal.js
 [195]: https://leetcode.com/problems/validate-binary-search-tree
-[196]: https://github.com/MrHuxu/leetcode/blob/master/submissions/98_validate-binary-search-tree.js
+[196]: https://github.com/MrHuxu/leetcode/blob/master/submissions/098_validate-binary-search-tree.js
 [201]: https://leetcode.com/problems/symmetric-tree
 [202]: https://github.com/MrHuxu/leetcode/blob/master/submissions/101_symmetric-tree.js
 [203]: https://leetcode.com/problems/binary-tree-level-order-traversal

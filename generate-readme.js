@@ -25,7 +25,7 @@ var generatePromise = (url) => {
         try {
           var $ = cheerio.load(chunk);
           var title = $('.question-title')[0].children[1].children[0].data.split('. ')[1].split('\n')[0];
-          var sequence = Number($('.question-title')[0].children[1].children[0].data.split('. ')[0]);
+          var sequence = $('.question-title')[0].children[1].children[0].data.split('. ')[0].trim();
           var difficulty = $('.question-info.text-info ul')[0].children[5].children[1].children[0].data;
 
           var urlArr = url.split('/'), submitSequence = sequence;
