@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "## Description This is the repo of my LeetCode solutions, and currently I just use Javascript to solve the questions, maybe in the future, I will use other languages I like to get the ALL PASS grade.",
   "scripts": {
+    "g:files": "node ./scripts/generate-files",
+    "g:readme": "node ./scripts/generate-readme",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +18,7 @@
   },
   "homepage": "https://github.com/MrHuxu/leetcode#readme",
   "dependencies": {
-    "cheerio": "^0.20.0",
-    "request": "^2.71.0"
+    "cheerio": "^0.22.0",
+    "request": "^2.79.0"
   }
 }
