@@ -18,7 +18,6 @@ var originalDigits = function(s) {
   count['r'] -= nums[0];
   count['o'] -= nums[0];
 
-  
   nums[6] = count['x'];
   count['s'] -= nums[6];
   count['i'] -= nums[6];
@@ -27,12 +26,12 @@ var originalDigits = function(s) {
   count['t'] -= nums[3];
   count['r'] -= nums[3];
   count['e'] -= nums[3] * 2;
-  
+
   nums[7] = count['s'];
   count['e'] -= nums[7] * 2;
   count['v'] -= nums[7];
   count['n'] -= nums[7];
-  
+
   nums[5] = count['v'];
   count['f'] -= nums[5];
   count['i'] -= nums[5];
@@ -51,8 +50,8 @@ var originalDigits = function(s) {
   count['n'] -= nums[1];
   count['e'] -= nums[1];
 
-  nums[8] = count['e'];
-  nums[9] = count['n'];
+  nums[8] = count['g'];
+  nums[9] = count['n'] / 2;
 
   var result = '';
   for (i = 0; i < 10; ++i) {
@@ -66,3 +65,4 @@ var originalDigits = function(s) {
 
 console.log(originalDigits('owoztneoer'));
 console.log(originalDigits('fviefuro'));
+console.log(originalDigits('ienn'));
