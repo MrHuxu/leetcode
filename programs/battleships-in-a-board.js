@@ -1,0 +1,3 @@
+var countBattleships = function(board) {
+  
+};
