@@ -1,7 +1,8 @@
 var wordBreak = function (s, wordDict) {
-  var dictMap = {};
+  var dictMap = {}, maxLength = 0;
   wordDict.forEach(function (word) {
     dictMap[word] = true;
+    maxLength = Math.max(word.length, maxLength);
   });
 
   var dp = [[{ arr: [], prefix: '' }]];
@@ -12,7 +13,8 @@ var wordBreak = function (s, wordDict) {
 
     prev.forEach(function (p) {
       var word = p.prefix + letter;
-      curr.push({ arr: p.arr, prefix: word });
+
+      if (word.length <= maxLength) curr.push({ arr: p.arr, prefix: word });
 
       var tmp = p.arr.slice();
       if (dictMap[word]) {
@@ -20,6 +22,7 @@ var wordBreak = function (s, wordDict) {
         curr.push({ arr: tmp, prefix: '' });
       }
     });
+    console.log(curr);
     dp.push(curr);
   }
 
