@@ -1,0 +1,102 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard",
+    "standard-react"
+  ],
+  "plugins": [
+    "react",
+    "import"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "globals": {
+    "__DEV__": false,
+    "__PROD__": false,
+    "__DEBUG__": false,
+    "__COVERAGE__": false,
+    "__BASENAME__": false
+  },
+  "rules": {
+    "yoda": [2, "always", {
+      "onlyEquality": true
+    }],
+    "no-return-assign": 0,
+    "semi": [2, "always"],
+    "max-len": [2, 500, 2],
+    "key-spacing": [2, {
+      "singleLine": {
+        "beforeColon": false,
+        "afterColon": true
+      },
+      "multiLine": {
+        "align": "colon",
+        "beforeColon": true,
+        "afterColon": true
+      }
+    }],
+    "no-multi-spaces": [2, {
+      "exceptions": {
+        "VariableDeclarator": true
+      }
+    }],
+    "import/extensions": 1,
+    "react/display-name": 1,
+    "react/jsx-boolean-value": 1,
+    "react/jsx-no-undef": 1,
+    "react/jsx-uses-react": 1,
+    "react/jsx-uses-vars": 1,
+    "react/no-did-update-set-state": 1,
+    "react/no-multi-comp": 1,
+    "react/no-unknown-property": 1,
+    "react/prop-types": 2,
+    "react/react-in-jsx-scope": 1,
+    "react/self-closing-comp": 1,
+    "react/sort-comp": [1, {
+      "order": [
+        "static-methods",
+        "constructor",
+        "lifecycle",
+        "everything-else",
+        "render"
+      ],
+      "groups": {
+        "lifecycle": [
+          "displayName",
+          "propTypes",
+          "contextTypes",
+          "childContextTypes",
+          "mixins",
+          "statics",
+          "defaultProps",
+          "getDefaultProps",
+          "getInitialState",
+          "state",
+          "getChildContext",
+          "componentWillMount",
+          "componentDidMount",
+          "componentWillReceiveProps",
+          "shouldComponentUpdate",
+          "componentWillUpdate",
+          "componentDidUpdate",
+          "componentWillUnmount"
+        ]
+      }
+    }],
+    "react/jsx-wrap-multilines": 1,
+    "react/jsx-equals-spacing": [1, "always"],
+    "react/jsx-no-bind": [1, {
+      "allowArrowFunctions": true,
+      "allowBind": true
+    }]
+  }
+}
