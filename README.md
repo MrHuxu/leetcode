@@ -11,9 +11,9 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 2 | [Add Two Numbers][3] | Medium | [002_add-two-numbers.js][4] |
 | 3 | [Longest Substring Without Repeating Characters][5] | Medium | [003_longest-substring-without-repeating-characters.js][6] |
 | 5 | [Longest Palindromic Substring][9] | Medium | [005_longest-palindromic-substring.js][10] |
-| 6 | [ZigZag Conversion][11] | Easy | [006_zigzag-conversion.js][12] |
+| 6 | [ZigZag Conversion][11] | Medium | [006_zigzag-conversion.js][12] |
 | 7 | [Reverse Integer][13] | Easy | [007_reverse-integer.js][14] |
-| 8 | [String to Integer (atoi)][15] | Easy | [008_string-to-integer-atoi.js][16] |
+| 8 | [String to Integer (atoi)][15] | Medium | [008_string-to-integer-atoi.js][16] |
 | 9 | [Palindrome Number][17] | Easy | [009_palindrome-number.js][18] |
 | 11 | [Container With Most Water][21] | Medium | [011_container-with-most-water.js][22] |
 | 12 | [Integer to Roman][23] | Medium | [012_integer-to-roman.js][24] |
@@ -23,24 +23,24 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 16 | [3Sum Closest][31] | Medium | [016_3sum-closest.js][32] |
 | 17 | [Letter Combinations of a Phone Number][33] | Medium | [017_letter-combinations-of-a-phone-number.js][34] |
 | 18 | [4Sum][35] | Medium | [018_4sum.js][36] |
-| 19 | [Remove Nth Node From End of List][37] | Easy | [019_remove-nth-node-from-end-of-list.js][38] |
+| 19 | [Remove Nth Node From End of List][37] | Medium | [019_remove-nth-node-from-end-of-list.js][38] |
 | 20 | [Valid Parentheses][39] | Easy | [020_valid-parentheses.js][40] |
 | 21 | [Merge Two Sorted Lists][41] | Easy | [021_merge-two-sorted-lists.js][42] |
 | 22 | [Generate Parentheses][43] | Medium | [022_generate-parentheses.js][44] |
-| 24 | [Swap Nodes in Pairs][47] | Easy | [024_swap-nodes-in-pairs.js][48] |
+| 24 | [Swap Nodes in Pairs][47] | Medium | [024_swap-nodes-in-pairs.js][48] |
 | 26 | [Remove Duplicates from Sorted Array][51] | Easy | [026_remove-duplicates-from-sorted-array.js][52] |
 | 27 | [Remove Element][53] | Easy | [027_remove-element.js][54] |
 | 28 | [Implement strStr()][55] | Easy | [028_implement-strstr.js][56] |
 | 29 | [Divide Two Integers][57] | Medium | [029_divide-two-integers.js][58] |
 | 34 | [Search for a Range][67] | Medium | [034_search-for-a-range.js][68] |
-| 35 | [Search Insert Position][69] | Medium | [035_search-insert-position.js][70] |
+| 35 | [Search Insert Position][69] | Easy | [035_search-insert-position.js][70] |
 | 38 | [Count and Say][75] | Easy | [038_count-and-say.js][76] |
 | 39 | [Combination Sum][77] | Medium | [039_combination-sum.js][78] |
 | 41 | [First Missing Positive][81] | Hard | [041_first-missing-positive.js][82] |
 | 46 | [Permutations][91] | Medium | [046_permutations.js][92] |
 | 48 | [Rotate Image][95] | Medium | [048_rotate-image.js][96] |
 | 49 | [Group Anagrams][97] | Medium | [049_anagrams.js][98] |
-| 53 | [Maximum Subarray][105] | Medium | [053_maximum-subarray.js][106] |
+| 53 | [Maximum Subarray][105] | Easy | [053_maximum-subarray.js][106] |
 | 54 | [Spiral Matrix][107] | Medium | [054_spiral-matrix.js][108] |
 | 55 | [Jump Game][109] | Medium | [055_jump-game.js][110] |
 | 58 | [Length of Last Word][115] | Easy | [058_length-of-last-word.js][116] |
@@ -50,7 +50,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 62 | [Unique Paths][123] | Medium | [062_unique-paths.js][124] |
 | 63 | [Unique Paths II][125] | Medium | [063_unique-paths-ii.js][126] |
 | 64 | [Minimum Path Sum][127] | Medium | [064_minimum-path-sum.js][128] |
-| 69 | [Sqrt(x)][137] | Medium | [069_sqrtx.js][138] |
+| 69 | [Sqrt(x)][137] | Easy | [069_sqrtx.js][138] |
 | 71 | [Simplify Path][141] | Medium | [071_simplify-path.js][142] |
 | 73 | [Set Matrix Zeroes][145] | Medium | [073_set-matrix-zeroes.js][146] |
 | 75 | [Sort Colors][149] | Medium | [075_sort-colors.js][150] |
@@ -68,7 +68,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 94 | [Binary Tree Inorder Traversal][187] | Medium | [094_binary-tree-inorder-traversal.js][188] |
 | 98 | [Validate Binary Search Tree][195] | Medium | [098_validate-binary-search-tree.js][196] |
 | 101 | [Symmetric Tree][201] | Easy | [101_symmetric-tree.js][202] |
-| 102 | [Binary Tree Level Order Traversal][203] | Easy | [102_binary-tree-level-order-traversal.js][204] |
+| 102 | [Binary Tree Level Order Traversal][203] | Medium | [102_binary-tree-level-order-traversal.js][204] |
 | 111 | [Minimum Depth of Binary Tree][221] | Easy | [111_minimum-depth-of-binary-tree.js][222] |
 | 112 | [Path Sum][223] | Easy | [112_path-sum.js][224] |
 | 113 | [Path Sum II][225] | Medium | [113_path-sum-ii.js][226] |
@@ -78,7 +78,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 119 | [Pascal's Triangle II][237] | Easy | [119_pascals-triangle-ii.js][238] |
 | 120 | [Triangle][239] | Medium | [120_triangle.js][240] |
 | 121 | [Best Time to Buy and Sell Stock][241] | Easy | [121_best-time-to-buy-and-sell-stock.js][242] |
-| 122 | [Best Time to Buy and Sell Stock II][243] | Medium | [122_best-time-to-buy-and-sell-stock-ii.js][244] |
+| 122 | [Best Time to Buy and Sell Stock II][243] | Easy | [122_best-time-to-buy-and-sell-stock-ii.js][244] |
 | 125 | [Valid Palindrome][249] | Easy | [125_valid-palindrome.js][250] |
 | 129 | [Sum Root to Leaf Numbers][257] | Medium | [129_sum-root-to-leaf-numbers.js][258] |
 | 130 | [Surrounded Regions][259] | Medium | [130_surrounded-regions.js][260] |
@@ -100,7 +100,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 155 | [Min Stack][309] | Easy | [155_min-stack.js][310] |
 | 160 | [Intersection of Two Linked Lists][319] | Easy | [160_intersection-of-two-linked-lists.js][320] |
 | 162 | [Find Peak Element][323] | Medium | [162_find-peak-element.js][324] |
-| 165 | [Compare Version Numbers][329] | Easy | [165_compare-version-numbers.js][330] |
+| 165 | [Compare Version Numbers][329] | Medium | [165_compare-version-numbers.js][330] |
 | 168 | [Excel Sheet Column Title][335] | Easy | [168_excel-sheet-column-title.js][336] |
 | 169 | [Majority Element][337] | Easy | [169_majority-element.js][338] |
 | 171 | [Excel Sheet Column Number][341] | Easy | [171_excel-sheet-column-number.js][342] |
@@ -126,7 +126,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 219 | [Contains Duplicate II][437] | Easy | [219_contains-duplicate-ii.js][438] |
 | 220 | [Contains Duplicate III][439] | Medium | [220_contains-duplicate-iii.js][440] |
 | 221 | [Maximal Square][441] | Medium | [221_maximal-square.js][442] |
-| 223 | [Rectangle Area][445] | Easy | [223_rectangle-area.js][446] |
+| 223 | [Rectangle Area][445] | Medium | [223_rectangle-area.js][446] |
 | 224 | [Basic Calculator][447] | Hard | [224_basic-calculator.js][448] |
 | 226 | [Invert Binary Tree][451] | Easy | [226_invert-binary-tree.js][452] |
 | 227 | [Basic Calculator II][453] | Medium | [227_basic-calculator-ii.js][454] |
@@ -143,7 +143,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 258 | [Add Digits][515] | Easy | [258_add-digits.js][516] |
 | 263 | [Ugly Number][525] | Easy | [263_ugly-number.js][526] |
 | 264 | [Ugly Number II][527] | Medium | [264_ugly-number-ii.js][528] |
-| 268 | [Missing Number][535] | Medium | [268_missing-number.js][536] |
+| 268 | [Missing Number][535] | Easy | [268_missing-number.js][536] |
 | 274 | [H-Index][547] | Medium | [274_h-index.js][548] |
 | 275 | [H-Index II][549] | Medium | [275_h-index-ii.js][550] |
 | 278 | [First Bad Version][555] | Easy | [278_first-bad-version.js][556] |
@@ -152,7 +152,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 289 | [Game of Life][577] | Medium | [289_game-of-life.js][578] |
 | 290 | [Word Pattern][579] | Easy | [290_word-pattern.js][580] |
 | 292 | [Nim Game][583] | Easy | [292_nim-game.js][584] |
-| 299 | [Bulls and Cows][597] | Easy | [299_bulls-and-cows.js][598] |
+| 299 | [Bulls and Cows][597] | Medium | [299_bulls-and-cows.js][598] |
 | 300 | [Longest Increasing Subsequence][599] | Medium | [300_longest-increasing-subsequence.js][600] |
 | 303 | [Range Sum Query - Immutable][605] | Easy | [303_range-sum-query-immutable.js][606] |
 | 304 | [Range Sum Query 2D - Immutable][607] | Medium | [304_range-sum-query-2d-immutable.js][608] |
@@ -171,7 +171,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 347 | [Top K Frequent Elements][693] | Medium | [347_top-k-frequent-elements.js][694] |
 | 349 | [Intersection of Two Arrays][697] | Easy | [349_intersection-of-two-arrays.js][698] |
 | 350 | [Intersection of Two Arrays II][699] | Easy | [350_intersection-of-two-arrays-ii.js][700] |
-| 367 | [Valid Perfect Square][733] | Medium | [367_valid-perfect-square.js][734] |
+| 367 | [Valid Perfect Square][733] | Easy | [367_valid-perfect-square.js][734] |
 | 368 | [Largest Divisible Subset][735] | Medium | [368_largest-divisible-subset.js][736] |
 | 378 | [Kth Smallest Element in a Sorted Matrix][755] | Medium | [378_kth-smallest-element-in-a-sorted-matrix.js][756] |
 | 383 | [Ransom Note][765] | Easy | [383_ransom-note.js][766] |
@@ -193,6 +193,20 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 415 | [Add Strings][829] | Easy | [415_add-strings.js][830] |
 | 416 | [Partition Equal Subset Sum][831] | Medium | [416_partition-equal-subset-sum.js][832] |
 | 417 | [Pacific Atlantic Water Flow][833] | Medium | [417_pacific-atlantic-water-flow.js][834] |
+| 419 | [Battleships in a Board][837] | Medium | [419_battleships-in-a-board.js][838] |
+| 423 | [Reconstruct Original Digits from English][845] | Medium | [423_reconstruct-original-digits-from-english.js][846] |
+| 434 | [Number of Segments in a String][867] | Easy | [434_number-of-segments-in-a-string.js][868] |
+| 485 | [Max Consecutive Ones][969] | Easy | [485_max-consecutive-ones.js][970] |
+| 492 | [Construct the Rectangle][983] | Easy | [492_construct-the-rectangle.js][984] |
+| 494 | [Target Sum][987] | Medium | [494_target-sum.js][988] |
+| 506 | [Relative Ranks][1011] | Easy | [506_relative-ranks.js][1012] |
+| 508 | [Most Frequent Subtree Sum][1015] | Medium | [508_most-frequent-subtree-sum.js][1016] |
+| 513 | [Find Bottom Left Tree Value][1025] | Medium | [513_find-bottom-left-tree-value.js][1026] |
+| 515 | [Find Largest Value in Each Tree Row][1029] | Medium | [515_find-largest-value-in-each-tree-row.js][1030] |
+| 520 | [Detect Capital][1039] | Easy | [520_detect-capital.js][1040] |
+| 529 | [Minesweeper][1057] | Medium | [529_minesweeper.js][1058] |
+| 530 | [Minimum Absolute Difference in BST][1059] | Easy | [530_minimum-absolute-difference-in-bst.js][1060] |
+| 539 | [Minimum Time Difference][1077] | Medium | [539_minimum-time-difference.js][1078] |
 
 [1]: https://leetcode.com/problems/two-sum
 [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/001_two-sum.js
@@ -566,3 +580,31 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 [832]: https://github.com/MrHuxu/leetcode/blob/master/submissions/416_partition-equal-subset-sum.js
 [833]: https://leetcode.com/problems/pacific-atlantic-water-flow
 [834]: https://github.com/MrHuxu/leetcode/blob/master/submissions/417_pacific-atlantic-water-flow.js
+[837]: https://leetcode.com/problems/battleships-in-a-board
+[838]: https://github.com/MrHuxu/leetcode/blob/master/submissions/419_battleships-in-a-board.js
+[845]: https://leetcode.com/problems/reconstruct-original-digits-from-english
+[846]: https://github.com/MrHuxu/leetcode/blob/master/submissions/423_reconstruct-original-digits-from-english.js
+[867]: https://leetcode.com/problems/number-of-segments-in-a-string
+[868]: https://github.com/MrHuxu/leetcode/blob/master/submissions/434_number-of-segments-in-a-string.js
+[969]: https://leetcode.com/problems/max-consecutive-ones
+[970]: https://github.com/MrHuxu/leetcode/blob/master/submissions/485_max-consecutive-ones.js
+[983]: https://leetcode.com/problems/construct-the-rectangle
+[984]: https://github.com/MrHuxu/leetcode/blob/master/submissions/492_construct-the-rectangle.js
+[987]: https://leetcode.com/problems/target-sum
+[988]: https://github.com/MrHuxu/leetcode/blob/master/submissions/494_target-sum.js
+[1011]: https://leetcode.com/problems/relative-ranks
+[1012]: https://github.com/MrHuxu/leetcode/blob/master/submissions/506_relative-ranks.js
+[1015]: https://leetcode.com/problems/most-frequent-subtree-sum
+[1016]: https://github.com/MrHuxu/leetcode/blob/master/submissions/508_most-frequent-subtree-sum.js
+[1025]: https://leetcode.com/problems/find-bottom-left-tree-value
+[1026]: https://github.com/MrHuxu/leetcode/blob/master/submissions/513_find-bottom-left-tree-value.js
+[1029]: https://leetcode.com/problems/find-largest-value-in-each-tree-row
+[1030]: https://github.com/MrHuxu/leetcode/blob/master/submissions/515_find-largest-value-in-each-tree-row.js
+[1039]: https://leetcode.com/problems/detect-capital
+[1040]: https://github.com/MrHuxu/leetcode/blob/master/submissions/520_detect-capital.js
+[1057]: https://leetcode.com/problems/minesweeper
+[1058]: https://github.com/MrHuxu/leetcode/blob/master/submissions/529_minesweeper.js
+[1059]: https://leetcode.com/problems/minimum-absolute-difference-in-bst
+[1060]: https://github.com/MrHuxu/leetcode/blob/master/submissions/530_minimum-absolute-difference-in-bst.js
+[1077]: https://leetcode.com/problems/minimum-time-difference
+[1078]: https://github.com/MrHuxu/leetcode/blob/master/submissions/539_minimum-time-difference.js
