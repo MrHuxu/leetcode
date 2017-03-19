@@ -8,16 +8,16 @@ var updateBoard = function (board, click) {
     var result = 0;
     if (board[x - 1]) {
       for (var i = y - 1; i <= y + 1; ++i) {
-        if (board[x - 1][i] === 'M') ++result;
+        if ('M' === board[x - 1][i]) ++result;
       }
     }
     if (board[x + 1]) {
       for (var i = y - 1; i <= y + 1; ++i) {
-        if (board[x + 1][i] === 'M') ++result;
+        if ('M' === board[x + 1][i]) ++result;
       } 
     }
-    if (board[x][y - 1] === 'M') ++result;
-    if (board[x][y + 1] === 'M') ++result;
+    if ('M' === board[x][y - 1]) ++result;
+    if ('M' === board[x][y + 1]) ++result;
     return result;
   };
 
@@ -29,22 +29,22 @@ var updateBoard = function (board, click) {
       board[x][y] = 'B';
       if (board[x - 1]) {
         for (var i = y - 1; i <= y + 1; ++i) {
-          if (board[x - 1][i] === 'E') visit(x - 1, i);
+          if ('E' === board[x - 1][i]) visit(x - 1, i);
         }
       }
       if (board[x + 1]) {
         for (var i = y - 1; i <= y + 1; ++i) {
-          if (board[x + 1][i] === 'E') visit(x + 1, i);
+          if ('E' === board[x + 1][i]) visit(x + 1, i);
         } 
       }
-      if (board[x][y - 1] === 'E') visit(x, y - 1);
-      if (board[x][y + 1] === 'E') visit(x, y + 1);
+      if ('E' === board[x][y - 1]) visit(x, y - 1);
+      if ('E' === board[x][y + 1]) visit(x, y + 1);
     }
   };
 
-  if (board[click[0]][click[1]] === 'M') {
+  if ('M' === board[click[0]][click[1]]) {
     board[click[0]][click[1]] = 'X';
-  } else if (board[click[0]][click[1]] === 'E') {
+  } else if ('E' === board[click[0]][click[1]]) {
     visit(click[0], click[1]);
   }
 

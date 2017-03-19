@@ -32,7 +32,7 @@ var isSymmetric = function(root) {
 
     console.log(lowerNodes);
     if (flag) compare(lowerNodes);
-  }
+  };
   compare([root]);
 
   return flag;

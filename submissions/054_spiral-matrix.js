@@ -3,10 +3,10 @@
  * @return {number[]}
  */
 var spiralOrder = function (matrix) {
-  if (matrix.length === 0)
+  if (0 === matrix.length)
     return [];
   var m = matrix.length;
-  var used = matrix.map(function () { return []; })
+  var used = matrix.map(function () { return []; });
   var n = matrix[0].length;
   var i, j, k, l, result = [];
   for (l = 0; l < m / 2 && l < n / 2; ++l) {
@@ -36,4 +36,4 @@ var spiralOrder = function (matrix) {
     }
   }
   return result;
-}
+};

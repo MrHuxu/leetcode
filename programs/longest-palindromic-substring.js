@@ -1,7 +1,7 @@
 var s = 'aaaa';
 
 var getLongestPalindrome = function (st, ed, str) {
-  if (st === 0 || ed === str.length - 1) {
+  if (0 === st || ed === str.length - 1) {
     return [st, ed];
   } else {
     while (st > 0 && ed < str.length - 1 && str[st] === str[ed]) {
@@ -10,7 +10,7 @@ var getLongestPalindrome = function (st, ed, str) {
     }
     return str[st] === str[ed] ? [st, ed] : [st + 1, ed - 1];
   }
-}
+};
 
 var longestPalindrome = function(s) {
   var max = 1, longestStr = s[0], result;

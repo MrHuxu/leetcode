@@ -15,7 +15,7 @@ var decodeString = function(s) {
       } else {
         stack.push(num - 48);
       }
-    } else if (num === 91) {
+    } else if (91 === num) {
       num = s[i + 1].charCodeAt();
       if (num >= 48 && num <= 57) {
         stack.push(num - 48);
@@ -23,7 +23,7 @@ var decodeString = function(s) {
         stack.push(s[i + 1]);
       }
       ++i;
-    } else if (num === 93) {
+    } else if (93 === num) {
       str = '';
       while (tmp = stack.pop()) {
         if (Number.isInteger(tmp)) {
@@ -38,7 +38,7 @@ var decodeString = function(s) {
         stack[stack.length - 1] += str;
       }
     } else {
-      if (typeof last === 'string') {
+      if ('string' === typeof last) {
         stack[stack.length - 1] = last + s[i];
       } else {
         stack.push(s[i]);

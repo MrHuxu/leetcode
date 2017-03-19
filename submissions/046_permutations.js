@@ -10,7 +10,7 @@ var permute = function (nums) {
       result.push(arr);
     else {
       for (var i = 0; i < n; ++i) {
-        if (used[i] === false) {
+        if (false === used[i]) {
           tmp1 = arr.slice(0);
           tmp1.push(nums[i]);
           tmp2 = used.slice(0);
@@ -19,7 +19,7 @@ var permute = function (nums) {
         }
       }
     }
-  }
+  };
   dfs([], used);
   return result;
 };

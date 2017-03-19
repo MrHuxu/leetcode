@@ -11,8 +11,8 @@ var maximalSquare = function(matrix) {
   
   for (i = 0; i < len1; ++i) {
     for (j = 0; j < len2; ++j) {
-      if (matrix[i][j] === '1') {
-        if ((matrix[i - 1] && matrix[i - 1][j] === '1') && matrix[i][j - 1] === '1') {
+      if ('1' === matrix[i][j]) {
+        if ((matrix[i - 1] && '1' === matrix[i - 1][j]) && '1' === matrix[i][j - 1]) {
           if (dp[i - 1][j] === dp[i][j - 1] && dp[i][j - 1] === dp[i - 1][j - 1])
             dp[i][j] = dp[i - 1][j - 1] + 1;
           else

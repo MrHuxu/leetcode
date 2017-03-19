@@ -15,5 +15,5 @@ var isHappy = function(n) {
     n = tmp;
   }
 
-  return n === 1;
+  return 1 === n;
 };

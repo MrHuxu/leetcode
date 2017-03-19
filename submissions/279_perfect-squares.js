@@ -6,7 +6,7 @@ var numSquares = function (num) {
   var dp = [], min, i, j;
 
   for (i = 1; i <= num; ++i) {
-    if (Math.sqrt(i) % 1 === 0)
+    if (0 === Math.sqrt(i) % 1)
       dp[i] = 1;
     else {
       min = i;

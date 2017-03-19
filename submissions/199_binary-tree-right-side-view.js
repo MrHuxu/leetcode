@@ -23,7 +23,7 @@ var rightSideView = function(root) {
       if (node.right) lowerNodes.push(node.right);
     });
     traversal(lowerNodes);
-  }
+  };
   traversal([root]);
 
   return result;

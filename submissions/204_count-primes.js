@@ -14,7 +14,7 @@ var countPrimes = function(n) {
 
   var count = 0;
   for (var i = 2; i < n; ++i) {
-    if (visited[i] === 1) count++;
+    if (1 === visited[i]) count++;
   }
 
   return count;

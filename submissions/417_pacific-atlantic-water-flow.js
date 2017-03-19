@@ -46,7 +46,7 @@ var pacificAtlantic = function (matrix) {
         visit(i, j + 1, arr);
       }
     }
-  }
+  };
 
   for (var i = 0; i < m; ++i) {
     visit(i, 0, visitPac);

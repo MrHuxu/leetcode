@@ -17,7 +17,7 @@ var preorderTraversal = function(root) {
         if (node.left) traversal(node.left);
         if (node.right) traversal(node.right);
         return;
-    }
+    };
     traversal(root);
     return result;
 };

@@ -15,6 +15,6 @@ var connect = function(root) {
       if (nodes[i].right) lowerNodes.push(nodes[i].right);
     }
     traversal(lowerNodes);
-  }
+  };
   traversal([root]);
 };

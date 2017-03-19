@@ -5,11 +5,11 @@
 var fizzBuzz = function(n) {
     var result = [];
     for (var i = 1; i <= n; ++i) {
-        if (i % 3 === 0 && i % 5 === 0) {
+        if (0 === i % 3 && 0 === i % 5) {
             result.push('FizzBuzz');
-        } else if (i % 3 === 0) {
+        } else if (0 === i % 3) {
             result.push('Fizz');
-        } else if (i % 5 === 0) {
+        } else if (0 === i % 5) {
             result.push('Buzz');
         } else {
             result.push(i.toString());

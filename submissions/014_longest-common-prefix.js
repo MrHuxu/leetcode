@@ -3,9 +3,9 @@
  * @return {string}
  */
 var longestCommonPrefix = function (strs) {
-  if (strs.length === 0)
+  if (0 === strs.length)
     return '';
-  else if (strs.length === 1)
+  else if (1 === strs.length)
     return strs[0];
   else {
     var result = '', i, l, j = 0, finish;

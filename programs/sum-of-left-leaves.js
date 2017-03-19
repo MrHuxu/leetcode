@@ -9,30 +9,30 @@ var sumOfLeftLeaves = function(root) {
       if (node.left) visit(node.left, true);
       if (node.right) visit(node.right, false);
     }
-  }
+  };
   if (root) visit(root, false);
 
   return sum;
 };
 
 var test1 = {
-  val: 3,
-  left: {
-    val: 9,
-    left: null,
-    right: null
+  val  : 3,
+  left : {
+    val   : 9,
+    left  : null,
+    right : null
   },
-  right: {
-    val: 20,
-    left: {
-      val: 15,
-      left: null,
-      right: null
+  right : {
+    val  : 20,
+    left : {
+      val   : 15,
+      left  : null,
+      right : null
     },
-    right: {
-      val: 7,
-      left: null,
-      right: null
+    right : {
+      val   : 7,
+      left  : null,
+      right : null
     }
   }
 };

@@ -10,7 +10,7 @@ var constructRectangle = function (area) {
   } else {
     var l, w;
     while (num++) {
-      if (area % num === 0) return [num, area / num];
+      if (0 === area % num) return [num, area / num];
     }
   }
 };

@@ -20,7 +20,7 @@ var invertTree = function(root) {
     
     if (node.left) recursion(node.left);
     if (node.right) recursion(node.right);
-  }
+  };
   recursion(root);
   
   return root;

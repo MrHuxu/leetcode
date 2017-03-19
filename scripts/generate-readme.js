@@ -35,20 +35,20 @@ var generatePromise = (url) => {
           var submission = `${submitSequence}_${urlArr[urlArr.length - 1]}.js`;
 
           resolve({
-            url:        url,
-            title:      title,
-            sequence:   sequence,
-            difficulty: difficulty,
-            submission: submission
-          })
+            url        : url,
+            title      : title,
+            sequence   : sequence,
+            difficulty : difficulty,
+            submission : submission
+          });
         } catch (e) {
           console.log(e);
           resolve({
-            url:        undefined,
-            title:      url,
-            sequence:   undefined,
-            difficulty: undefined,
-            submission: undefined
+            url        : undefined,
+            title      : url,
+            sequence   : undefined,
+            difficulty : undefined,
+            submission : undefined
           });
         }
       });

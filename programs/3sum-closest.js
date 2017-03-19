@@ -8,7 +8,7 @@ var threeSumClosest = function (nums, target) {
   });
   for (var i = 0, l = nums.length; (i < l - 2 && diff !== 0); ++i) {
     for (left = i + 1, right = l - 1; (left < right && diff !== 0);) {
-      tmp = nums[i] + nums[left] + nums[right]
+      tmp = nums[i] + nums[left] + nums[right];
       if (diff) {
         if (tmp > target) {
           if (tmp - target <= diff) {

@@ -1,15 +1,15 @@
 var reverseVowels = function(s) {
   var vowels = {
-    a: true,
-    e: true,
-    i: true,
-    o: true,
-    u: true,
-    A: true,
-    E: true,
-    I: true,
-    O: true,
-    U: true
+    a : true,
+    e : true,
+    i : true,
+    o : true,
+    u : true,
+    A : true,
+    E : true,
+    I : true,
+    O : true,
+    U : true
   };
   
   var str = s.split(''), tmp;
@@ -29,4 +29,4 @@ var reverseVowels = function(s) {
   return str.join('');
 };
 
-console.log(reverseVowels('hello'))
+console.log(reverseVowels('hello'));

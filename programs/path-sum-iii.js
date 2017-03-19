@@ -23,61 +23,61 @@ var pathSum = function(root, sum) {
 };
 
 var root = {
-  val: 10,
-  left: {
-    val: 5,
-    left: {
-      val: 3,
-      left: {
-        val: 3,
-        left: null,
-        right: null
+  val  : 10,
+  left : {
+    val  : 5,
+    left : {
+      val  : 3,
+      left : {
+        val   : 3,
+        left  : null,
+        right : null
       },
-      right: {
-        val: -2,
-        left: null,
-        right: null
+      right : {
+        val   : -2,
+        left  : null,
+        right : null
       }
     },
-    right: {
-      val: 2,
-      left: null,
-      right: {
-        val: 1,
-        left: null,
-        right: null
+    right : {
+      val   : 2,
+      left  : null,
+      right : {
+        val   : 1,
+        left  : null,
+        right : null
       }
     }
   },
-  right: {
-    val: -3,
-    left: null,
-    right: {
-      val: 11,
-      left: null,
-      right: null
+  right : {
+    val   : -3,
+    left  : null,
+    right : {
+      val   : 11,
+      left  : null,
+      right : null
     }
   }
 };
 var root2 = {
-  val: 1,
-  left: null,
-  right: null
+  val   : 1,
+  left  : null,
+  right : null
 };
 
 var root3 = {
-  val: 0,
-  left: {
-    val: 1,
-    left: null,
-    right: null
+  val  : 0,
+  left : {
+    val   : 1,
+    left  : null,
+    right : null
   },
-  right: {
-    val: 1,
-    left: null,
-    right: null
+  right : {
+    val   : 1,
+    left  : null,
+    right : null
   }
-}
+};
 
 console.log(pathSum(root, 8));
 console.log(pathSum(root2, 0));

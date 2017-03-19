@@ -10,5 +10,5 @@ var detectCapitalUse = function (word) {
     if (upperChars[word[i]]) ++capitalAmount;
   }
 
-  return capitalAmount === word.length || !capitalAmount || !!(capitalAmount === 1 && upperChars[word[0]]);
+  return capitalAmount === word.length || !capitalAmount || !!(1 === capitalAmount && upperChars[word[0]]);
 };

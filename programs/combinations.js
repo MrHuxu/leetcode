@@ -5,7 +5,7 @@ var combine = function (n, k) {
     if (arr.length === k)
       result.push(arr);
     else {
-      var start = arr.length === 0 ? 1 : (arr[arr.length - 1] + 1);
+      var start = 0 === arr.length ? 1 : (arr[arr.length - 1] + 1);
       for (var i = start; i <= n; ++i) {
         if (!used[i]) {
           var tmp = arr.slice(0);

@@ -4,7 +4,7 @@ var combinationSum = function (candidates, target) {
     return a < b ? -1 : 1;
   });
   var dfs = function (index, left, arr) {
-    if (left === 0) {
+    if (0 === left) {
       result.push(arr);
       for (var i = index - 1; i >= 0; --i) {
         tmp = arr.slice(0);
@@ -20,7 +20,7 @@ var combinationSum = function (candidates, target) {
         }
       }
     }
-  }
+  };
   dfs(candidates.length - 1, target, []);
   return result;
 };

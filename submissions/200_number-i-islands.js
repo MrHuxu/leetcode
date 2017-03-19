@@ -14,13 +14,13 @@ var numIslands = function(board) {
     for (var i = 0, len = nodes.length; i < len; ++i) {
       if (!visited[nodes[i][0]][nodes[i][1]]) {
         visited[nodes[i][0]][nodes[i][1]] = true;
-        if (board[nodes[i][0]] && board[nodes[i][0]][nodes[i][1] - 1] === '1' && !visited[nodes[i][0]][nodes[i][1] - 1])
+        if (board[nodes[i][0]] && '1' === board[nodes[i][0]][nodes[i][1] - 1] && !visited[nodes[i][0]][nodes[i][1] - 1])
           widerNodes.push([nodes[i][0], nodes[i][1] - 1]);
-        if (board[nodes[i][0] + 1] && board[nodes[i][0] + 1][nodes[i][1]] === '1' && !visited[nodes[i][0] + 1][nodes[i][1]])
+        if (board[nodes[i][0] + 1] && '1' === board[nodes[i][0] + 1][nodes[i][1]] && !visited[nodes[i][0] + 1][nodes[i][1]])
           widerNodes.push([nodes[i][0] + 1, nodes[i][1]]);
-        if (board[nodes[i][0]] && board[nodes[i][0]][nodes[i][1] + 1] === '1' && !visited[nodes[i][0]][nodes[i][1] + 1])
+        if (board[nodes[i][0]] && '1' === board[nodes[i][0]][nodes[i][1] + 1] && !visited[nodes[i][0]][nodes[i][1] + 1])
           widerNodes.push([nodes[i][0], nodes[i][1] + 1]);
-        if (board[nodes[i][0] - 1] && board[nodes[i][0] - 1][nodes[i][1]] === '1' && !visited[nodes[i][0] - 1][nodes[i][1]])
+        if (board[nodes[i][0] - 1] && '1' === board[nodes[i][0] - 1][nodes[i][1]] && !visited[nodes[i][0] - 1][nodes[i][1]])
           widerNodes.push([nodes[i][0] - 1, nodes[i][1]]);
       }
     }
@@ -29,7 +29,7 @@ var numIslands = function(board) {
 
   for (var i = 0; i < lenY; ++i) {
     for (var j = 0; j < lenX; ++j) {
-      if (board[i][j] === '1' && !visited[i][j]) {
+      if ('1' === board[i][j] && !visited[i][j]) {
         ++result;
         recursion([[i, j]]);
       }

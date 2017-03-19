@@ -1,7 +1,7 @@
 var removeElements = function(head, val) {
   var tmpHead = {
-    val: null,
-    next: head
+    val  : null,
+    next : head
   };
   var iterator = tmpHead;
 
@@ -16,9 +16,9 @@ var removeElements = function(head, val) {
 };
 
 console.log(removeElements({
-  val: 2,
-  next: {
-    val: 1,
-    next: null
+  val  : 2,
+  next : {
+    val  : 1,
+    next : null
   }
 }, 2));

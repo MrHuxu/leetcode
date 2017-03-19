@@ -17,7 +17,7 @@ var flatten = function(root) {
       if (node.left) traversal(node.left);
       if (node.right) traversal(node.right);
       return;
-  }
+  };
   traversal(root);
   var iterator = root;
   for (var i = 1, len = result.length; i <= len; ++i) {

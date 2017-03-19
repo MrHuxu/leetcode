@@ -19,5 +19,5 @@ var minSubArrayLen = function(s, nums) {
   return miniLen === nums.length + 1 ? 0 : miniLen;
 };
 
-console.log(minSubArrayLen(7, [2,3,1,2,4,3]))
+console.log(minSubArrayLen(7, [2,3,1,2,4,3]));
 console.log(minSubArrayLen(100, []));

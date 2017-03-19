@@ -8,7 +8,7 @@ var toHex = function(num) {
 
   var itoa = function (i) {
     return i < 10 ? i.toString() : String.fromCharCode(i + 87);
-  }
+  };
 
   var calc = function (n) {
     if (n > 15) {
@@ -17,7 +17,7 @@ var toHex = function(num) {
     } else {
       result = itoa(n) + result;
     }
-  }
+  };
 
   calc(num);
   return result;

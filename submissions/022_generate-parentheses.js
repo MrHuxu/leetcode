@@ -17,7 +17,7 @@ var generateParenthesis = function (n) {
     for (var j = sum; j > 0; --j) {
       search(str + ')', n, left, j - 1);
     }
-  }
+  };
   search('', n, 0, 0);
   return result;
 };

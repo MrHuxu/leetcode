@@ -14,13 +14,13 @@ var solve = function(board) {
     for (var i = 0, len = nodes.length; i < len; ++i) {
       if (!visited[nodes[i][0]][nodes[i][1]]) {
         visited[nodes[i][0]][nodes[i][1]] = true;
-        if (board[nodes[i][0]] && board[nodes[i][0]][nodes[i][1] - 1] === 'O' && !visited[nodes[i][0]][nodes[i][1] - 1])
+        if (board[nodes[i][0]] && 'O' === board[nodes[i][0]][nodes[i][1] - 1] && !visited[nodes[i][0]][nodes[i][1] - 1])
           widerNodes.push([nodes[i][0], nodes[i][1] - 1]);
-        if (board[nodes[i][0] + 1] && board[nodes[i][0] + 1][nodes[i][1]] === 'O' && !visited[nodes[i][0] + 1][nodes[i][1]])
+        if (board[nodes[i][0] + 1] && 'O' === board[nodes[i][0] + 1][nodes[i][1]] && !visited[nodes[i][0] + 1][nodes[i][1]])
           widerNodes.push([nodes[i][0] + 1, nodes[i][1]]);
-        if (board[nodes[i][0]] && board[nodes[i][0]][nodes[i][1] + 1] === 'O' && !visited[nodes[i][0]][nodes[i][1] + 1])
+        if (board[nodes[i][0]] && 'O' === board[nodes[i][0]][nodes[i][1] + 1] && !visited[nodes[i][0]][nodes[i][1] + 1])
           widerNodes.push([nodes[i][0], nodes[i][1] + 1]);
-        if (board[nodes[i][0] - 1] && board[nodes[i][0] - 1][nodes[i][1]] === 'O' && !visited[nodes[i][0] - 1][nodes[i][1]])
+        if (board[nodes[i][0] - 1] && 'O' === board[nodes[i][0] - 1][nodes[i][1]] && !visited[nodes[i][0] - 1][nodes[i][1]])
           widerNodes.push([nodes[i][0] - 1, nodes[i][1]]);
       }
     }
@@ -29,12 +29,12 @@ var solve = function(board) {
 
   var nodes = [];
   for (var i = 0; i < lenX; ++i) {
-    if (board[0][i] === 'O') nodes.push([0, i]);
-    if (board[lenY - 1][i] === 'O') nodes.push([lenY - 1, i]);
+    if ('O' === board[0][i]) nodes.push([0, i]);
+    if ('O' === board[lenY - 1][i]) nodes.push([lenY - 1, i]);
   }
   for (var i = 1; i < lenY - 1; ++i) {
-    if (board[i][0] === 'O') nodes.push([i, 0]);
-    if (board[i][lenX - 1] === 'O') nodes.push([i, lenX - 1]);
+    if ('O' === board[i][0]) nodes.push([i, 0]);
+    if ('O' === board[i][lenX - 1]) nodes.push([i, lenX - 1]);
   }
   recursion(nodes);
 

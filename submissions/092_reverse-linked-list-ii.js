@@ -13,15 +13,15 @@
  */
 var reverseBetween = function(head, m, n) {
   var root = {
-    value: undefined,
-    next: head
+    value : undefined,
+    next  : head
   };
   var front = root, tail = root, tmpHead = root, tmp;
   for (var i = 0; i < m - 1; ++i) {
     tmpHead = tmpHead.next;
   }
   for (var i = 0; i < m; ++i) {
-    front = front.next
+    front = front.next;
   }
   for (var i = 0; i <= n; ++i) {
     tail = tail.next;

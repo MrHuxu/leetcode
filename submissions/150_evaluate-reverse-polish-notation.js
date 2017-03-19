@@ -28,7 +28,7 @@ var evalRPN = function(tokens) {
   };
 
   for (var i = 0, l = tokens.length; i < l; ++i) {
-    if (tokens[i].length === 1 && tokens[i].charCodeAt() >= 42 && tokens[i].charCodeAt() <= 47) {
+    if (1 === tokens[i].length && tokens[i].charCodeAt() >= 42 && tokens[i].charCodeAt() <= 47) {
       calc(tokens[i]);
     } else {
       stack.push(parseInt(tokens[i]));

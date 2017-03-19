@@ -6,21 +6,21 @@ var gameOfLife = function(board) {
   var visit = function (x, y) {
     var count = 0;
     for (k = x - 1; k <= x + 1; ++k) {
-      if (board[k] && board[k][y - 1] == 1) ++count;
-      if (board[k] && board[k][y + 1] == 1) ++count;
+      if (board[k] && 1 == board[k][y - 1]) ++count;
+      if (board[k] && 1 == board[k][y + 1]) ++count;
     }
-    if (board[x - 1] && board[x - 1][y] == 1) ++count;
-    if (board[x + 1] && board[x + 1][y] == 1) ++count;
+    if (board[x - 1] && 1 == board[x - 1][y]) ++count;
+    if (board[x + 1] && 1 == board[x + 1][y]) ++count;
     return count;
-  }
+  };
   
   for (i = 0; i < m; ++i) {
     for (j = 0; j < n; ++j) {
       liveNum = visit(i, j);
-      if (board[i][j] == 1 && liveNum < 2) result[i][j] = 0;
-      if (board[i][j] == 1 && (liveNum == 2 || liveNum == 3)) result[i][j] = 1;
-      if (board[i][j] == 1 && liveNum > 3) result[i][j] = 0;
-      if (board[i][j] == 0 && liveNum == 3) result[i][j] = 1;
+      if (1 == board[i][j] && liveNum < 2) result[i][j] = 0;
+      if (1 == board[i][j] && (2 == liveNum || 3 == liveNum)) result[i][j] = 1;
+      if (1 == board[i][j] && liveNum > 3) result[i][j] = 0;
+      if (0 == board[i][j] && 3 == liveNum) result[i][j] = 1;
     }
   }
   

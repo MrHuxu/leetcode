@@ -13,20 +13,20 @@ var calculate = function(s) {
   };
   
   for (i = 0; i < len; ++i) {
-    if (s[i] === '(') {
+    if ('(' === s[i]) {
       nums.push(s[i]);
     } else if (s[i] >= '0' && s[i] <= '9') {
       tmp = '';
       for (; s[i] >= '0' && s[i] <= '9'; ++i) tmp = tmp + s[i];
-      if (nums[nums.length - 1] === undefined || nums[nums.length - 1] === '(')
+      if (nums[nums.length - 1] === undefined || '(' === nums[nums.length - 1])
         nums.push(parseInt(tmp));
       else
         nums.push(calc(operators.pop(), { 1: nums.pop(), 2: parseInt(tmp) }));
       --i;
-    } else if (s[i] === '+' || s[i] === '-') {
+    } else if ('+' === s[i] || '-' === s[i]) {
       operators.push(s[i]);
-    } else if (s[i] === ')') {
-      if (nums[nums.length - 2] === '(') {
+    } else if (')' === s[i]) {
+      if ('(' === nums[nums.length - 2]) {
         tmp = nums.pop();
         nums.pop();
         nums.push(tmp);

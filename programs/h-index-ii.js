@@ -9,6 +9,6 @@ var hIndex = function(citations) {
   return result;
 };
 
-console.log(hIndex([11, 15]))
-console.log(hIndex([0]))
-console.log(hIndex([100]))
+console.log(hIndex([11, 15]));
+console.log(hIndex([0]));
+console.log(hIndex([100]));

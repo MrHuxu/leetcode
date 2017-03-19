@@ -4,7 +4,7 @@
  */
 var canJump = function (nums) {
   var max = 0, flag = true, step = 1, l = nums.length;
-  if (l === 0)
+  if (0 === l)
     flag = false;
   else {
     for (var i = 0; i < l; ++i) {
@@ -13,7 +13,7 @@ var canJump = function (nums) {
         max = i + nums[i];
         step = nums[i];
       }
-      if (step === 0 && i < l - 1) {
+      if (0 === step && i < l - 1) {
         flag = false;
         break;
       }

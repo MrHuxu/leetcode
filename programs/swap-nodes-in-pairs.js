@@ -19,7 +19,7 @@ n3 = new ListNode(3);
 n4 = new ListNode(4);
 head.next = n2;
 n2.next = n3;
-n3.next = n4
+n3.next = n4;
 
 head = head;
 

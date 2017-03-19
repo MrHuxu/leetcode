@@ -9,7 +9,7 @@ var largestDivisibleSubset = function(nums) {
   nums.forEach(function (num, index) {
     dp[num] = { max: 1 };
     for (var i = index - 1; i >= 0; --i) {
-      if (num % nums[i] === 0 && dp[nums[i]].max >= dp[num].max - 1) {
+      if (0 === num % nums[i] && dp[nums[i]].max >= dp[num].max - 1) {
         dp[num].max = dp[nums[i]].max + 1;
         dp[num].pre = i;
       }

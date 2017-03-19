@@ -15,7 +15,7 @@ var wordBreak = function(s, wordDict) {
       if (j > 0) {
         dp[i] = wordDict.has(tmp) && dp[j - 1];
         if (dp[i]) break;
-      } else if (j === 0) {
+      } else if (0 === j) {
         dp[i] = wordDict.has(tmp);
       }
     }

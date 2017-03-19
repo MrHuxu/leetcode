@@ -5,13 +5,13 @@
 var intToRoman = function(num) {
   var result = '', i;
   var numToLetter = {
-    1: 'I',
-    5: 'V',
-    10: 'X',
-    50: 'L',
-    100: 'C',
-    500: 'D',
-    1000: 'M'
+    1    : 'I',
+    5    : 'V',
+    10   : 'X',
+    50   : 'L',
+    100  : 'C',
+    500  : 'D',
+    1000 : 'M'
   };
 
   while (num) {
@@ -21,7 +21,7 @@ var intToRoman = function(num) {
       num = num % 1000;
     } else if (num / 100 >= 1) {
       var times = parseInt(num / 100);
-      if (times === 9) {
+      if (9 === times) {
         result += 'CM';
       } else if (times < 4) {
         for (i = 0; i < times; ++i) result += 'C';
@@ -33,7 +33,7 @@ var intToRoman = function(num) {
       num = num % 100;
     } else if (num / 10 >= 1) {
       var times = parseInt(num / 10);
-      if (times === 9) {
+      if (9 === times) {
         result += 'XC';
       } else if (times < 4) {
         for (i = 0; i < times; ++i) result += 'X';
@@ -44,7 +44,7 @@ var intToRoman = function(num) {
       }
       num = num % 10;
     } else {
-      if (num === 9) {
+      if (9 === num) {
         result += 'IX';
       } else if (num < 4) {
         for (i = 0; i < num; ++i) result += 'I';

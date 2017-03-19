@@ -25,29 +25,29 @@ var head = null;
 console.log(reorderList(head));
 
 head = {
-  val: 1,
-  next: null
+  val  : 1,
+  next : null
 };
 console.log(reorderList(head));
 
 head = {
-  val: 1,
-  next: {
-    val: 2,
-    next: null
+  val  : 1,
+  next : {
+    val  : 2,
+    next : null
   }
 };
 console.log(reorderList(head));
 
 head = {
-  val: 1,
-  next: {
-    val: 2,
-    next: {
-      val: 3,
-      next: {
-        val: 4,
-        next: null
+  val  : 1,
+  next : {
+    val  : 2,
+    next : {
+      val  : 3,
+      next : {
+        val  : 4,
+        next : null
       }
     }
   }
@@ -55,16 +55,16 @@ head = {
 console.log(reorderList(head).next.next);
 
 head = {
-  val: 1,
-  next: {
-    val: 2,
-    next: {
-      val: 3,
-      next: {
-        val: 4,
-        next: {
-          val: 5,
-          next: null
+  val  : 1,
+  next : {
+    val  : 2,
+    next : {
+      val  : 3,
+      next : {
+        val  : 4,
+        next : {
+          val  : 5,
+          next : null
         }
       }
     }

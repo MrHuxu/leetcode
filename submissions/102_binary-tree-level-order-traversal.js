@@ -24,7 +24,7 @@ var levelOrder = function(root) {
     });
     result.push(tmp);
     traversal(lowerNodes);
-  }
+  };
   traversal([root]);
 
   return result;

@@ -17,4 +17,4 @@ var findPeakElement = function(nums) {
   return mid;
 };
 
-console.log(findPeakElement([1, 7, 2, 3, 6, 1]))
+console.log(findPeakElement([1, 7, 2, 3, 6, 1]));

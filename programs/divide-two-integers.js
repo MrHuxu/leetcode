@@ -14,7 +14,7 @@ var divide = function (dividend, divisor) {
     dividend = dividend - divisor * parseInt(tmp / 2);
     result += parseInt(tmp / 2);
   }
-  if (sym === -1) {
+  if (-1 === sym) {
     return sym * (result <= 2147483648 ? result : 2147483648);
   } else {
     return result <= 2147483647 ? result : 2147483647;

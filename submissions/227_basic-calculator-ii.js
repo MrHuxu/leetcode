@@ -27,9 +27,9 @@ var calculate = function(s) {
       nums.push(parseInt(tmp));
       --i;
       
-      if (operators[operators.length - 1] === '*' || operators[operators.length - 1] === '/')
+      if ('*' === operators[operators.length - 1] || '/' === operators[operators.length - 1])
         nums.push(calc(operators.pop(), { 2: nums.pop(), 1: nums.pop() }));
-    } else if (s[i] === '+' || s[i] === '-' || s[i] === '*' || s[i] === '/') {
+    } else if ('+' === s[i] || '-' === s[i] || '*' === s[i] || '/' === s[i]) {
       operators.push(s[i]);
     }
   }

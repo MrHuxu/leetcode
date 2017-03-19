@@ -1,5 +1,5 @@
 var findMinHeightTrees = function(n, edges) {
-  if (n === 0) return [];
+  if (0 === n) return [];
   var map = [], max, min = n * 2, maxArr = [], result = [];
   var i, j, k, len, tmp;
   for (i = 0; i < n; ++i) {

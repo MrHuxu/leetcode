@@ -4,7 +4,7 @@ var findRepeatedDnaSequences = function(s) {
 
   for (var i = 9; i < len; ++i) {
     var subStr = s.slice(i - 9, i + 1);
-    if (map[subStr] === 1) {
+    if (1 === map[subStr]) {
       result.push(subStr);
     } else if (map[subStr] === undefined) {
       map[subStr] = 0;

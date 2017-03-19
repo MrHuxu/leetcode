@@ -11,7 +11,7 @@ var restoreIpAddresses = function(s) {
   };
 
   var dfs = function (pos, str, len) {
-    if (s[pos] === undefined && len === 4) {
+    if (s[pos] === undefined && 4 === len) {
       result.push(str);
       return;
     } else {

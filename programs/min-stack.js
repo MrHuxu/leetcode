@@ -13,7 +13,7 @@ var MinStack = function() {
  */
 MinStack.prototype.push = function(x) {
   this.data[++this.cursor] = x;
-  if (this.cursor === 0) {
+  if (0 === this.cursor) {
     this.min[this.cursor] = x;
   } else {
     this.min[this.cursor] = x < this.min[this.cursor - 1] ? x : this.min[this.cursor - 1];
@@ -42,9 +42,9 @@ MinStack.prototype.getMin = function() {
 };
 
 var minStack = new MinStack();
-minStack.push(2147483646)
-minStack.push(2147483646)
-minStack.push(2147483647)
+minStack.push(2147483646);
+minStack.push(2147483646);
+minStack.push(2147483647);
 console.log(minStack.top());
 minStack.pop();
 console.log(minStack.getMin());

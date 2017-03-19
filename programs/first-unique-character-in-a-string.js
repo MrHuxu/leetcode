@@ -5,7 +5,7 @@ var firstUniqChar = function(s) {
   }
 
   for (i = 0; i < s.length; ++i) {
-    if (times[s[i]] === 1) {
+    if (1 === times[s[i]]) {
       result = i;
       break;
     }

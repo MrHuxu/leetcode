@@ -13,18 +13,18 @@ var isAdditiveNumber = function(num) {
       return;
     }
     if (!flag) {
-      if (arr.length === 0) {
+      if (0 === arr.length) {
         var tmp = 0;
-        if (num[pos] === '0') dfs([0], pos + 1);
+        if ('0' === num[pos]) dfs([0], pos + 1);
         else {
           for (; pos <= len / 2; ++pos) {
             tmp = tmp * 10 + num[pos].charCodeAt() - 48;
             dfs([tmp], pos + 1);
           }
         }
-      } else if (arr.length === 1) {
+      } else if (1 === arr.length) {
         var tmp = 0;
-        if (num[pos] === '0') dfs([arr[0], 0], pos + 1);
+        if ('0' === num[pos]) dfs([arr[0], 0], pos + 1);
         else {
           for (; pos < len - 1; ++pos) {
             tmp = tmp * 10 + num[pos].charCodeAt() - 48;
@@ -38,7 +38,7 @@ var isAdditiveNumber = function(num) {
         var sum = arr[arr.length - 1] + arr[arr.length - 2];
         var tmp = 0;
         
-        if (num[pos] === '0') {
+        if ('0' === num[pos]) {
           arr.push(0);
           dfs(arr, pos + 1);
         } else {

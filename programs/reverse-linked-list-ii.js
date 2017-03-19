@@ -1,14 +1,14 @@
 var reverseBetween = function(head, m, n) {
   var root = {
-    value: undefined,
-    next: head
+    value : undefined,
+    next  : head
   };
   var front = root, tail = root, tmpHead = root, tmp;
   for (var i = 0; i < m - 1; ++i) {
     tmpHead = tmpHead.next;
   }
   for (var i = 0; i < m; ++i) {
-    front = front.next
+    front = front.next;
   }
   for (var i = 0; i <= n; ++i) {
     tail = tail.next;
@@ -27,16 +27,16 @@ var reverseBetween = function(head, m, n) {
 };
 
 console.log(reverseBetween({
-  value: 1,
-  next: {
-    value: 2,
-    next: {
-      value: 3,
-      next: {
-        value: 4,
-        next: {
-          value: 5,
-          next: null
+  value : 1,
+  next  : {
+    value : 2,
+    next  : {
+      value : 3,
+      next  : {
+        value : 4,
+        next  : {
+          value : 5,
+          next  : null
         }
       }
     }
@@ -44,9 +44,9 @@ console.log(reverseBetween({
 }, 2, 4));
 
 console.log(reverseBetween({
-  value: 3,
-  next: {
-    value: 5,
-    next: null
+  value : 3,
+  next  : {
+    value : 5,
+    next  : null
   }
-}, 1, 2))
+}, 1, 2));

@@ -25,7 +25,7 @@ var oddEvenList = function (head) {
   var evenHead = evenList;
   var init = 1;
   while (head) {
-    if (init % 2 === 0) {
+    if (0 === init % 2) {
       evenList.next = head;
       evenList = evenList.next;
     } else {

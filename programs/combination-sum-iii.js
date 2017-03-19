@@ -23,7 +23,7 @@ var combinationSum3 = function(k, n) {
         recursion(tmp, sum, num + 1);
       }
     }
-  }
+  };
   recursion([], 0, 1);
   
   return result;

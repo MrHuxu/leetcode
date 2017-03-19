@@ -7,7 +7,7 @@ var numDecodings = function(s) {
   var dp = [1], flag = true;
 
   var decodable = function (str) {
-    if (str[0] === '0') return false;
+    if ('0' === str[0]) return false;
     var num = parseInt(str, 10);
     return num >= 1 && num <= 26;
   };

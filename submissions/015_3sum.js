@@ -16,7 +16,7 @@ var threeSum = function (nums) {
   for (i = 0; i < l - 2; ++i) {
     for (left = i + 1, right = l - 1; left < right;) {
       tmp = nums[i] + nums[left] + nums[right];
-      if (tmp === 0) {
+      if (0 === tmp) {
         while (nums[left + 1] === nums[left]) ++left;
         while (nums[right - 1] === nums[right]) --right;
         result.push([nums[i], nums[left], nums[right]]);

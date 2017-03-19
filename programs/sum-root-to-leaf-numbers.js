@@ -3,7 +3,7 @@ var sumNumbers = function(root) {
   var result = 0;
 
   var recursion = function (node, str) {
-    if (node.left === null && node.right === null) {
+    if (null === node.left && null === node.right) {
       result += parseInt(str + node.val, 10);
     } else {
       if (node.left !== null)
@@ -11,23 +11,23 @@ var sumNumbers = function(root) {
       if (node.right !== null)
         recursion(node.right, str + node.val);
     }
-  }
+  };
   recursion(root, '');
 
   return result;
 };
 
 var root = {
-  val: 1,
-  left: {
-    val: 2,
-    left: null,
-    right: null
+  val  : 1,
+  left : {
+    val   : 2,
+    left  : null,
+    right : null
   },
-  right: {
-    val: 3,
-    left: null,
-    right: null
+  right : {
+    val   : 3,
+    left  : null,
+    right : null
   }
 };
 console.log(sumNumbers(root));

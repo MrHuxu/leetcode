@@ -46,24 +46,24 @@ var getMinimumDifference = function (root) {
 };
 
 const root = {
-  val: 2404,
-  left: {
-    val: 687,
-    left: {
-      val: 3,
-      left: null,
-      right: null
+  val  : 2404,
+  left : {
+    val  : 687,
+    left : {
+      val   : 3,
+      left  : null,
+      right : null
     },
-    right: null
+    right : null
   },
-  right: {
-    val: 4310,
-    left: {
-      val: 3395,
-      left: null,
-      right: null,
+  right : {
+    val  : 4310,
+    left : {
+      val   : 3395,
+      left  : null,
+      right : null,
     },
-    right: null
+    right : null
   }
 };
 console.log(getMinimumDifference(root));

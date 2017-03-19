@@ -13,7 +13,7 @@ var insertionSortList = function(head) {
   if (!head || !head.next) return head;
   var result = new ListNode(null);
   while (head) {
-    if (result.val === null) {
+    if (null === result.val) {
       result = new ListNode(head.val);
     } else {
       if (head.val <= result.val) {

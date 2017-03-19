@@ -5,14 +5,14 @@
 var isValid = function (s) {
   var stack = [],
       map = {')': '(', ']': '[', '}': '{'};
-  if (s.length % 2 === 1) {
+  if (1 === s.length % 2) {
     return false;
-  } else if (s.length === 0) {
+  } else if (0 === s.length) {
     return true;
   } else {
     for (var i = 0, l = s.length; i < l; ++i) {
-      if (stack.length === 0) {
-        stack.push(s[i])
+      if (0 === stack.length) {
+        stack.push(s[i]);
       } else {
         if (stack[stack.length - 1] === map[s[i]])
           stack.pop();
@@ -20,6 +20,6 @@ var isValid = function (s) {
           stack.push(s[i]);
       }
     }
-    return stack.length === 0 ? true : false;
+    return 0 === stack.length ? true : false;
   }
 };

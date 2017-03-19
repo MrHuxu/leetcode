@@ -12,8 +12,8 @@
  */
 var removeElements = function(head, val) {
   var tmpHead = {
-    val: null,
-    next: head
+    val  : null,
+    next : head
   };
   var iterator = tmpHead;
 

@@ -16,7 +16,7 @@ var partition = function(s) {
     }
 
     return cache[start + ',' + end];
-  }
+  };
 
   var dfs = function (start, arr) {
     if (start === s.length) {
@@ -32,7 +32,7 @@ var partition = function(s) {
         }
       }
     }
-  }
+  };
   dfs(0, []);
 
   return result;

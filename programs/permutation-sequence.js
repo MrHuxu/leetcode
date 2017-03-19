@@ -4,13 +4,13 @@ var getPermutation = function (n, k) {
   while (result.length !== n) {
     if (result.length === n - 1) {
       for (var i = 1; i <= n; ++i)
-        if (used.indexOf(i) === -1) {
+        if (-1 === used.indexOf(i)) {
           result += i;
           break;
         }
     } else {
       for (var i = 1; i <= n; ++i) {
-        if (used.indexOf(i) === -1) {
+        if (-1 === used.indexOf(i)) {
           if (k <= count[n - result.length - 1]) {
             result += i;
             used.push(i);

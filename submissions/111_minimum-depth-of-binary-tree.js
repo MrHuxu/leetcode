@@ -30,7 +30,7 @@ var minDepth = function(root) {
       ++result;
       traversal(lowerNodes);
     }
-  }
+  };
   traversal([root]);
 
   return result;

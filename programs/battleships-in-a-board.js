@@ -3,12 +3,12 @@ var countBattleships = function(board) {
   var m = board.length, n = board[0] && board[0].length, i, j;
 
   var check = function (i, j) {
-    return (board[i - 1] && board[i - 1][j] === 'X') || (board[i][j - 1] && board[i][j - 1] === 'X');
-  }
+    return (board[i - 1] && 'X' === board[i - 1][j]) || (board[i][j - 1] && 'X' === board[i][j - 1]);
+  };
 
   for (i = 0; i < m; ++i) {
     for (j = 0; j < n; ++j) {
-      if (board[i][j] === 'X' && !check(i, j)) ++result;
+      if ('X' === board[i][j] && !check(i, j)) ++result;
     }
   }
 

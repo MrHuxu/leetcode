@@ -20,7 +20,7 @@ var sumOfLeftLeaves = function(root) {
       if (node.left) visit(node.left, true);
       if (node.right) visit(node.right, false);
     }
-  }
+  };
   if (root) visit(root, false);
 
   return sum;

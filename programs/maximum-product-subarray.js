@@ -3,7 +3,7 @@ var maxProduct = function(nums) {
   var result = nums[0];
 
   for (var i = 0, l = nums.length; i < l; ++i) {
-    if (nums[i] === 0) {
+    if (0 === nums[i]) {
       result = Math.max(result, 0);
       maxPos = minNeg = undefined;
     } else {

@@ -3,4 +3,4 @@ var rotate = function(nums, k) {
   Array.prototype.unshift.apply(nums, nums.splice(nums.length - k, k));
 };
 
-rotate([1, 2, 3, 4, 5, 6], 2)
+rotate([1, 2, 3, 4, 5, 6], 2);

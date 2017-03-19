@@ -13,7 +13,7 @@ var MinStack = function() {
  */
 MinStack.prototype.push = function(x) {
   this.data[++this.cursor] = x;
-  if (this.cursor === 0) {
+  if (0 === this.cursor) {
     this.min[this.cursor] = x;
   } else {
     this.min[this.cursor] = x < this.min[this.cursor - 1] ? x : this.min[this.cursor - 1];

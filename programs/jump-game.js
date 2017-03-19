@@ -2,7 +2,7 @@ var nums = [2,0,6,9,8,4,5,0,8,9,1,2,9,6,8,8,0,6,3,1,2,2,1,2,6,5,3,1,2,2,6,4,2,4,
 
 var canJump = function (nums) {
   var max = 0, flag = true, step = 1, l = nums.length;
-  if (l === 0)
+  if (0 === l)
     flag = false;
   else {
     for (var i = 0; i < l; ++i) {
@@ -11,7 +11,7 @@ var canJump = function (nums) {
         max = i + nums[i];
         step = nums[i];
       }
-      if (step === 0 && i < l - 1) {
+      if (0 === step && i < l - 1) {
         flag = false;
         break;
       }

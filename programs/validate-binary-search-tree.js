@@ -19,38 +19,38 @@ var isValidBST = function(root) {
         }
       }
     }
-  }
+  };
   validate(root, null, null);
   
   return flag;
 };
 
 var root1 = {
-  val: 2,
-  left: {
-    val: 1,
-    left: null,
-    right: null
+  val  : 2,
+  left : {
+    val   : 1,
+    left  : null,
+    right : null
   },
-  right: {
-    val: 3,
-    left: null,
-    right: null
+  right : {
+    val   : 3,
+    left  : null,
+    right : null
   }
 };
 console.log(isValidBST(root1));
 
 var root2 = {
-  val: 1,
-  left: {
-    val: 2,
-    left: null,
-    right: null
+  val  : 1,
+  left : {
+    val   : 2,
+    left  : null,
+    right : null
   },
-  right: {
-    val: 3,
-    left: null,
-    right: null
+  right : {
+    val   : 3,
+    left  : null,
+    right : null
   }
 };
 console.log(isValidBST(root2));

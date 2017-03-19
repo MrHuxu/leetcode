@@ -7,7 +7,7 @@ var insertionSortList = function(head) {
   if (!head || !head.next) return head;
   var result = new ListNode(null);
   while (head) {
-    if (result.val === null) {
+    if (null === result.val) {
       result = new ListNode(head.val);
     } else {
       if (head.val <= result.val) {
@@ -32,23 +32,23 @@ var insertionSortList = function(head) {
 };
 
 var root = {
-  val: 1,
-  next: {
-    val: 1,
-    next: null
+  val  : 1,
+  next : {
+    val  : 1,
+    next : null
   }
 };
 console.log(insertionSortList(root));
 
 var root = {
-  val: 2,
-  next: {
-    val: 1,
-    next: {
-      val: 4,
-      next: {
-        val: 3,
-        next: null
+  val  : 2,
+  next : {
+    val  : 1,
+    next : {
+      val  : 4,
+      next : {
+        val  : 3,
+        next : null
       }
     }
   }

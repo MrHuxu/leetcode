@@ -14,10 +14,10 @@ var partition = function(head, x) {
       var tmp1 = cursor;
       var tmp2 = divide.next;
       console.log(tmp1);
-      console.log(tmp2)
+      console.log(tmp2);
       while (cursor.next && cursor.next.val < x) cursor = cursor.next;
-      console.log(cursor)
-      console.log('divide', divide)
+      console.log(cursor);
+      console.log('divide', divide);
       divide.next = tmp1.next;
       tmp1.next = cursor.next;
       cursor.next = tmp2;

@@ -14,7 +14,7 @@ var largestValues = function (root) {
 
   var row = [root], result = [];
   while (row.length) {
-    var max = -Number.MAX_VALUE
+    var max = -Number.MAX_VALUE;
     var nextRow = [];
     for (var i = 0; i < row.length; ++i) {
       max = Math.max(max, row[i].val);
@@ -28,29 +28,29 @@ var largestValues = function (root) {
 };
 
 var root2 = {
-  val: 0,
-  left: {
-    val: -1
+  val  : 0,
+  left : {
+    val : -1
   }
 };
 
 console.log(largestValues(root2));
 
 var root1 = {
-  val: 1,
-  left: {
-    val: 3,
-    left: {
-      val: 5,
+  val  : 1,
+  left : {
+    val  : 3,
+    left : {
+      val : 5,
     },
-    right: {
-      val: 3
+    right : {
+      val : 3
     }
   },
-  right: {
-    val: 2,
-    right: {
-      val: 9
+  right : {
+    val   : 2,
+    right : {
+      val : 9
     }
   }
 };

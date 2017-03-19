@@ -4,7 +4,7 @@
  */
 var countAndSay = function (n) {
   var pre = '1', result = '', count;
-  if (n === 1) {
+  if (1 === n) {
     result = '1';
   } else {
     while (--n) {

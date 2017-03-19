@@ -11,7 +11,7 @@ var searchRange = function (nums, target) {
     } else if (nums[start] === target || nums[end] === target) {
       exist = true;
       index = nums[start] === target ? start : null;
-      index = (index === null && nums[end] === target) ? end : index;
+      index = (null === index && nums[end] === target) ? end : index;
       break;
     } else {
       if (end - start <= 1)

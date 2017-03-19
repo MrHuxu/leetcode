@@ -17,7 +17,7 @@ var postorderTraversal = function(root) {
         if (node.right) traversal(node.right);
         result.push(node.val);
         return;
-    }
+    };
     traversal(root);
     return result;
 };

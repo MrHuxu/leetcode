@@ -11,11 +11,11 @@ var majorityElement = function(nums) {
       if (nums[i] === maj[0])
         ++count[0];
       else if (nums[i] === maj[1])
-        ++count[1]
-      else if (count[0] === 0) {
+        ++count[1];
+      else if (0 === count[0]) {
         maj[0] = nums[i];
         count[0] = 1;
-      } else if (count[1] === 0) {
+      } else if (0 === count[1]) {
         maj[1] = nums[i];
         count[1] = 1;
       } else {

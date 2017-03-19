@@ -12,8 +12,8 @@ var titleToNumber = function(s) {
 };
 
 
-console.log(titleToNumber('A'))
-console.log(titleToNumber('C'))
-console.log(titleToNumber('Z'))
-console.log(titleToNumber('AA'))
-console.log(titleToNumber('AB'))
+console.log(titleToNumber('A'));
+console.log(titleToNumber('C'));
+console.log(titleToNumber('Z'));
+console.log(titleToNumber('AA'));
+console.log(titleToNumber('AB'));

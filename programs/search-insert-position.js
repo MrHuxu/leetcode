@@ -1,6 +1,6 @@
 var searchInsert = function (nums, target) {
   var result;
-  if (nums.length === 0) {
+  if (0 === nums.length) {
     result = 0;
   } else {
     if (nums[0] > target)

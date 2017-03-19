@@ -3,10 +3,10 @@ var isPowerOfThree = function(n) {
     if (n % 3)
       break;
     else
-      n /= 3
+      n /= 3;
   }
   
-  return n === 1;
+  return 1 === n;
 };
 
 console.log(isPowerOfThree(243));

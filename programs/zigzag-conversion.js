@@ -4,7 +4,7 @@ var numRows = 3;
 var convert = function (s, numRows) {
   var base = numRows * 2 - 2, tmp, line, result = '';
   var lines = {};
-  if (numRows === 1) {
+  if (1 === numRows) {
     return s;
   } else {
     for (var i = 0; i < s.length; i++) {

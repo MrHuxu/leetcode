@@ -10,7 +10,7 @@ var summaryRanges = function (nums) {
       break;
     } else {
       for (var j = i + 1; j < l;) {
-        if (nums[j] - nums[j - 1] === 1)
+        if (1 === nums[j] - nums[j - 1])
           j++;
         else
           break;

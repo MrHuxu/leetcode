@@ -1,7 +1,7 @@
 var nums = [1, 2];
 
 var nextPermutation = function (nums) {
-  if (nums.length === 2) {
+  if (2 === nums.length) {
     if (nums[1] > nums[0])
       nums.reverse();
   } else if (nums.length > 2) {

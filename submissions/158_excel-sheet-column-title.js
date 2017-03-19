@@ -5,7 +5,7 @@
 var convertToTitle = function(n) {
   var result = [];
   while (n > 26) {
-    if (n % 26 === 0) {
+    if (0 === n % 26) {
       result.unshift(90);
       n = n / 26 - 1;
       break;

@@ -6,7 +6,7 @@ var readBinaryWatch = function(num) {
   var result = [];
 
   var dfs = function (num, done, left) {
-    if (done === 10) {
+    if (10 === done) {
       if (!left) {
         var hour = (num & 960) >> 6;
         var min = num & 63;

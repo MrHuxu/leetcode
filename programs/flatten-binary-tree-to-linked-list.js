@@ -11,7 +11,7 @@ var flatten = function(root) {
       if (node.left) traversal(node.left);
       if (node.right) traversal(node.right);
       return;
-  }
+  };
   traversal(root);
   var iterator = root;
   for (var i = 1, len = result.length; i <= len; ++i) {
@@ -22,11 +22,11 @@ var flatten = function(root) {
 };
 
 console.log(flatten({
-  val: 1,
-  left: {
-    val: 2,
-    left: null,
-    right: null
+  val  : 1,
+  left : {
+    val   : 2,
+    left  : null,
+    right : null
   },
-  right: null
+  right : null
 }));

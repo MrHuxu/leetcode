@@ -22,8 +22,8 @@ var NumArray = function(nums) {
  */
 NumArray.prototype.update = function(i, val) {
   this.updateCache.push({
-    pos: i,
-    value: val - this.data[i]
+    pos   : i,
+    value : val - this.data[i]
   });
   this.data[i] = val;
 };

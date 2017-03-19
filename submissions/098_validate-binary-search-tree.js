@@ -30,7 +30,7 @@ var isValidBST = function(root) {
         }
       }
     }
-  }
+  };
   validate(root, null, null);
   
   return flag;

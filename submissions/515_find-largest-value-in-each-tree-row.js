@@ -14,7 +14,7 @@ var largestValues = function (root) {
 
   var row = [root], result = [];
   while (row.length) {
-    var max = -Number.MAX_VALUE
+    var max = -Number.MAX_VALUE;
     var nextRow = [];
     for (var i = 0; i < row.length; ++i) {
       max = Math.max(max, row[i].val);
