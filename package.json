@@ -5,6 +5,7 @@
   "scripts": {
     "g:files": "node ./scripts/generate-files",
     "g:readme": "node ./scripts/generate-readme",
+    "f:questions": "node ./scripts/fetch-question",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +19,9 @@
   },
   "homepage": "https://github.com/MrHuxu/leetcode#readme",
   "dependencies": {
+    "better-console": "^1.0.0",
     "cheerio": "^0.22.0",
+    "inquirer": "^3.0.6",
     "request": "^2.79.0"
   }
 }
