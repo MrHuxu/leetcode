@@ -4,6 +4,7 @@ const { load } = require('cheerio');
 const { prompt } = require('inquirer');
 const { info } = require('better-console');
 
+const { clearConsole } = require('./util.js');
 const createFiles = require('./create-question-files');
 
 const ALGORITHM_URL = `https://leetcode.com/api/problems/algorithms/`;
@@ -104,7 +105,7 @@ const actionToQuestion = action => {
 };
 
 const SelectAndSolve = () => {
-  console.log('\x1Bc');
+  clearConsole();
   getQuestions(ALGORITHM_URL).then(
     questions => showQuestionSelection(questions),
     err => Promise.reject(err)
