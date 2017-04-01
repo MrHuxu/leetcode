@@ -1,15 +1,15 @@
-const { closeSync, openSync } = require('fs');
+const { writeFileSync, closeSync, openSync } = require('fs');
 const { get } = require('request');
 const { load } = require('cheerio');
 const { prompt } = require('inquirer');
 const { info } = require('better-console');
 
-const { clearConsole } = require('./util.js');
-const createFiles = require('./create-question-files');
+const { clearConsole, traverseNode, unicodeToChar, createFiles } = require('./util.js');
 
 const ALGORITHM_URL = `https://leetcode.com/api/problems/algorithms/`;
 const QUESTION_URL = slug => `https://leetcode.com/problems/${slug}/`;
-var titleQuestionMap, selectedQuestionSlug;
+const FETCH_JS_RE = /{\'value\': \'javascript\'[\w\W\s]+?\},/;
+const FETCH_CODE_RE = /\/\*\*[\w\W\s]+?\};/;
 
 const difficultyMap = { 1: 'Easy', 2: 'Medium', 3: 'Hard' };
 
@@ -43,65 +43,54 @@ const getQuestions = url => new Promise((resolve, reject) => {
 const showQuestionSelection = questions => {
   titleQuestionMap = mapTitleToQuestion(questions);
   return prompt({
-    type: 'list',
-    name: 'title',
-    message: 'Which problem do you want to solve?',
-    choices: questions.map(questionOption)
+    type    : 'list',
+    name    : 'title',
+    message : 'Which problem do you want to solve?',
+    choices : questions.map(questionOption)
   });
-};
-
-const getQuestionDescription = node => {
-  let texts = [];
-  const dfs = node => {
-    if ('text' === node.type) {
-      texts.push(node.data);
-    } else {
-      node.children.forEach(dfs);
-    }
-  };
-  dfs(node);
-  return texts;
 };
 
 const getQuestionContent = title => new Promise((resolve, reject) => {
   let question = titleQuestionMap[title];
   let { question__article__slug, question__title_slug } = question.stat;
-  selectedQuestionSlug = question__article__slug || question__title_slug;
+  let selectedQuestionSlug = question__article__slug || question__title_slug;
   get(QUESTION_URL(selectedQuestionSlug)).on('response', res => {
     let chunk = '';
     res.on('data', data => chunk += data);
     res.on('error', err => reject(err));
     res.on('end', () => {
       const $ = load(chunk);
-      resolve(getQuestionDescription($('.question-content')[0]));
+      resolve({
+        slug        : selectedQuestionSlug,
+        code        : unicodeToChar($('.container[ng-app=app]')[0].attribs['ng-init']).match(FETCH_JS_RE)[0].match(FETCH_CODE_RE)[0],
+        description : $('meta[name=description]')[0].attribs['content'],
+      });
     });
   });
 });
 
-const formatDescription = texts => {
-  let usefulTexts = texts.slice(0, texts.indexOf('Subscribe') - 2);
-  info(usefulTexts.join(''));
-  return prompt({
-    type: 'list',
-    name: 'action',
-    message: 'Do you want to solve the problem?',
-    choices: ['solve', 'back']
+const actionToQuestion = question => {
+  let { slug, code, description } = question;
+  info(description);
+  prompt({
+    type    : 'list',
+    name    : 'action',
+    message : 'Do you want to solve the problem?',
+    choices : ['solve', 'back']
+  }).then(answer => {
+    switch (answer.action) {
+      case 'back':
+        SelectAndSolve();
+        return;
+
+      case 'solve':
+        createFiles(slug, code);
+        return;
+
+      default:
+        return;
+    }
   });
-};
-
-const actionToQuestion = action => {
-  switch (action) {
-    case 'back':
-      SelectAndSolve();
-      return;
-    
-    case 'solve':
-      createFiles(selectedQuestionSlug);
-      return;
-
-    default:
-      return;
-  }
 };
 
 const SelectAndSolve = () => {
@@ -113,10 +102,7 @@ const SelectAndSolve = () => {
     answer => getQuestionContent(answer.title),
     err => Promise.reject(err)
   ).then(
-    texts => formatDescription(texts),
-    err => Promise.reject(err)
-  ).then(
-    answer => actionToQuestion(answer.action)
+    question => actionToQuestion(question)
   );
 };
 
