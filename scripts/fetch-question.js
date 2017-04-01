@@ -19,7 +19,7 @@ const questionTitle = question => {
   let { difficulty, paid_only, stat } = question;
   let { question_id, question__title, total_acs, total_submitted } = stat;
   let { level } = question.difficulty;
-  return `${question_id}\t${difficultyMap[level]}\t${(total_acs / total_submitted).toString().slice(0, 4)}%\t${question__title}`;
+  return `${question_id}\t${difficultyMap[level]}\t${(total_acs / total_submitted * 100).toString().slice(0, 4)}%\t${question__title}`;
 };
 
 const questionOption = question => {
