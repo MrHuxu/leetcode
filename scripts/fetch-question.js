@@ -1,4 +1,5 @@
-const { writeFileSync, closeSync, openSync } = require('fs');
+const { writeFileSync, closeSync, openSync, existsSync } = require('fs');
+const { resolve } = require('path');
 const { get } = require('request');
 const { load } = require('cheerio');
 const { prompt } = require('inquirer');
@@ -8,6 +9,7 @@ const { clearConsole, traverseNode, unicodeToChar, createFiles } = require('./ut
 
 const ALGORITHM_URL = `https://leetcode.com/api/problems/algorithms/`;
 const QUESTION_URL = slug => `https://leetcode.com/problems/${slug}/`;
+const PROGRAM_URL = slug => resolve(__dirname, `../programs/${slug}.js`);
 const FETCH_JS_RE = /{\'value\': \'javascript\'[\w\W\s]+?\},/;
 const FETCH_CODE_RE = /\/\*\*[\w\W\s]+?\};/;
 
@@ -21,8 +23,19 @@ const questionTitle = question => {
 };
 
 const questionOption = question => {
-  let { paid_only } = question;
-  return paid_only ? { name: questionTitle(question), disabled: 'Paid only'} : questionTitle(question);
+  let { paid_only, stat } = question;
+
+  let { question__article__slug, question__title_slug } = stat;
+  let slug = question__article__slug || question__title_slug;
+  let solved = existsSync(PROGRAM_URL(slug));
+
+  if (paid_only) {
+    return { name: questionTitle(question), disabled: 'Paid only' };
+  } else if (solved) {
+    return { name: questionTitle(question), disabled: 'Solved'};
+  } else {
+    return questionTitle(question);
+  }
 };
 
 const mapTitleToQuestion = questions => questions.reduce((pre, curr) => {
