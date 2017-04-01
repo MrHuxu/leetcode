@@ -23,7 +23,7 @@ module.exports.createFiles = (slug, code) => {
       writeFileSync(`./programs/${programName}`, code);
       writeFileSync(`./submissions/${submissionName}`, code);
 
-      console.log(`${programName} & ${submissionName} are successfully created!`);
+      console.log(`programs/${programName} & submissions/${submissionName} are successfully created!`);
     });
   });
 };
