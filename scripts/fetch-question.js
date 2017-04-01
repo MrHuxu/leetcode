@@ -26,7 +26,7 @@ const questionOption = question => {
   let { paid_only, stat } = question;
 
   let { question__article__slug, question__title_slug } = stat;
-  let slug = question__article__slug || question__title_slug;
+  let slug = question__title_slug || question__article__slug;
   let solved = existsSync(PROGRAM_URL(slug));
 
   if (paid_only) {
@@ -66,7 +66,7 @@ const showQuestionSelection = questions => {
 const getQuestionContent = title => new Promise((resolve, reject) => {
   let question = titleQuestionMap[title];
   let { question__article__slug, question__title_slug } = question.stat;
-  let selectedQuestionSlug = question__article__slug || question__title_slug;
+  let selectedQuestionSlug = question__title_slug || question__article__slug;
   get(QUESTION_URL(selectedQuestionSlug)).on('response', res => {
     let chunk = '';
     res.on('data', data => chunk += data);
@@ -84,20 +84,20 @@ const getQuestionContent = title => new Promise((resolve, reject) => {
 
 const actionToQuestion = question => {
   let { slug, code, description } = question;
-  info(description);
+  info(`\n${description}`);
   prompt({
     type    : 'list',
     name    : 'action',
     message : 'Do you want to solve the problem?',
-    choices : ['solve', 'back']
+    choices : ['Yes', 'No']
   }).then(answer => {
     switch (answer.action) {
-      case 'back':
-        SelectAndSolve();
+      case 'Yes':
+        createFiles(slug, code);
         return;
 
-      case 'solve':
-        createFiles(slug, code);
+      case 'No':
+        SelectAndSolve();
         return;
 
       default:
