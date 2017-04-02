@@ -1,4 +1,4 @@
-const { writeFileSync } = require('fs');
+const { writeFileSync, closeSync, openSync } = require('fs');
 const { get } = require('request');
 const { load } = require('cheerio');
 
@@ -21,7 +21,7 @@ module.exports.createFiles = (slug, code) => {
       var programName = `${slug}.js`;
       var submissionName = `${formatSeq(sequence)}_${programName}`;
       writeFileSync(`./programs/${programName}`, code);
-      writeFileSync(`./submissions/${submissionName}`, code);
+      closeSync(openSync(`./submissions/${submissionName}`, 'w'));
 
       console.log(`programs/${programName} & submissions/${submissionName} are successfully created!`);
     });
