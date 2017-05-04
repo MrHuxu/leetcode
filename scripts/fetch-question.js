@@ -10,8 +10,6 @@ const { clearConsole, traverseNode, unicodeToChar, createFiles } = require('./ut
 const ALGORITHM_URL = `https://leetcode.com/api/problems/algorithms/`;
 const QUESTION_URL = slug => `https://leetcode.com/problems/${slug}/`;
 const PROGRAM_URL = slug => resolve(__dirname, `../programs/${slug}.js`);
-const FETCH_JS_RE = /{\'value\': \'javascript\'[\w\W\s]+?\},/;
-const FETCH_CODE_RE = /\/\*\*[\w\W\s]+?\};/;
 
 const difficultyMap = { 1: 'Easy', 2: 'Medium', 3: 'Hard' };
 
@@ -69,9 +67,9 @@ const getInfosFromPagedata = $ => {
   }).children[0].data);
 
   return {
-    slug: pageData.questionTitleSlug,
-    code: pageData.codeDefinition.find(definition => 'javascript' === definition.value).defaultCode,
-    description: $('meta[name=description]')[0].attribs['content']
+    slug        : pageData.questionTitleSlug,
+    code        : pageData.codeDefinition.find(definition => 'javascript' === definition.value).defaultCode,
+    description : $('meta[name=description]')[0].attribs['content']
   };
 };
 
