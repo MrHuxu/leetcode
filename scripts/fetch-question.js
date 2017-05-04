@@ -63,6 +63,18 @@ const showQuestionSelection = questions => {
   });
 };
 
+const getInfosFromPagedata = $ => {
+  eval($('script').toArray().find(elem => {
+    return elem.children.length && elem.children[0].data.includes('pageData');
+  }).children[0].data);
+
+  return {
+    slug: pageData.questionTitleSlug,
+    code: pageData.codeDefinition.find(definition => 'javascript' === definition.value).defaultCode,
+    description: $('meta[name=description]')[0].attribs['content']
+  };
+};
+
 const getQuestionContent = title => new Promise((resolve, reject) => {
   let question = titleQuestionMap[title];
   let { question__article__slug, question__title_slug } = question.stat;
@@ -72,12 +84,7 @@ const getQuestionContent = title => new Promise((resolve, reject) => {
     res.on('data', data => chunk += data);
     res.on('error', err => reject(err));
     res.on('end', () => {
-      const $ = load(chunk);
-      resolve({
-        slug        : selectedQuestionSlug,
-        code        : unicodeToChar($('.container[ng-app=app]')[0].attribs['ng-init']).match(FETCH_JS_RE)[0].match(FETCH_CODE_RE)[0],
-        description : $('meta[name=description]')[0].attribs['content'],
-      });
+      resolve(getInfosFromPagedata(load(chunk)));
     });
   });
 });
