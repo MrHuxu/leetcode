@@ -39,7 +39,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 41 | [First Missing Positive][81] | Hard | [041_first-missing-positive.js][82] |
 | 46 | [Permutations][91] | Medium | [046_permutations.js][92] |
 | 48 | [Rotate Image][95] | Medium | [048_rotate-image.js][96] |
-| 49 | [Group Anagrams][97] | Medium | [049_anagrams.js][98] |
+| 49 | [Group Anagrams][97] | Medium | [049_group-anagrams.js][98] |
 | 53 | [Maximum Subarray][105] | Easy | [053_maximum-subarray.js][106] |
 | 54 | [Spiral Matrix][107] | Medium | [054_spiral-matrix.js][108] |
 | 55 | [Jump Game][109] | Medium | [055_jump-game.js][110] |
@@ -196,9 +196,13 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 419 | [Battleships in a Board][837] | Medium | [419_battleships-in-a-board.js][838] |
 | 423 | [Reconstruct Original Digits from English][845] | Medium | [423_reconstruct-original-digits-from-english.js][846] |
 | 434 | [Number of Segments in a String][867] | Easy | [434_number-of-segments-in-a-string.js][868] |
+| 438 | [Find All Anagrams in a String][875] | Easy | [438_find-all-anagrams-in-a-string.js][876] |
+| 441 | [Arranging Coins][881] | Easy | [441_arranging-coins.js][882] |
+| 442 | [Find All Duplicates in an Array][883] | Medium | [442_find-all-duplicates-in-an-array.js][884] |
 | 485 | [Max Consecutive Ones][969] | Easy | [485_max-consecutive-ones.js][970] |
 | 492 | [Construct the Rectangle][983] | Easy | [492_construct-the-rectangle.js][984] |
 | 494 | [Target Sum][987] | Medium | [494_target-sum.js][988] |
+| 496 | [Next Greater Element I][991] | Easy | [496_next-greater-element-i.js][992] |
 | 506 | [Relative Ranks][1011] | Easy | [506_relative-ranks.js][1012] |
 | 508 | [Most Frequent Subtree Sum][1015] | Medium | [508_most-frequent-subtree-sum.js][1016] |
 | 513 | [Find Bottom Left Tree Value][1025] | Medium | [513_find-bottom-left-tree-value.js][1026] |
@@ -206,7 +210,18 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 520 | [Detect Capital][1039] | Easy | [520_detect-capital.js][1040] |
 | 529 | [Minesweeper][1057] | Medium | [529_minesweeper.js][1058] |
 | 530 | [Minimum Absolute Difference in BST][1059] | Easy | [530_minimum-absolute-difference-in-bst.js][1060] |
+| 538 | [Convert BST to Greater Tree][1075] | Medium | [538_convert-bst-to-greater-tree.js][1076] |
 | 539 | [Minimum Time Difference][1077] | Medium | [539_minimum-time-difference.js][1078] |
+| 542 | [01 Matrix][1083] | Medium | [542_01-matrix.js][1084] |
+| 560 | [Subarray Sum Equals K][1119] | Medium | [560_subarray-sum-equals-k.js][1120] |
+| 561 | [Array Partition I][1121] | Easy | [561_array-partition-i.js][1122] |
+| 563 | [Binary Tree Tilt][1125] | Easy | [563_binary-tree-tilt.js][1126] |
+| 566 | [Reshape the Matrix][1131] | Easy | [566_reshape-the-matrix.js][1132] |
+| 567 | [Permutation in String][1133] | Medium | [567_permutation-in-string.js][1134] |
+| 581 | [Shortest Unsorted Continuous Subarray][1161] | Easy | [581_shortest-unsorted-continuous-subarray.js][1162] |
+| 592 | [Fraction Addition and Subtraction][1183] | Medium | [592_fraction-addition-and-subtraction.js][1184] |
+| 593 | [Valid Square][1185] | Medium | [593_valid-square.js][1186] |
+| 594 | [Longest Harmonious Subsequence][1187] | Easy | [594_longest-harmonious-subsequence.js][1188] |
 
 [1]: https://leetcode.com/problems/two-sum
 [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/001_two-sum.js
@@ -272,8 +287,8 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 [92]: https://github.com/MrHuxu/leetcode/blob/master/submissions/046_permutations.js
 [95]: https://leetcode.com/problems/rotate-image
 [96]: https://github.com/MrHuxu/leetcode/blob/master/submissions/048_rotate-image.js
-[97]: https://leetcode.com/problems/anagrams
-[98]: https://github.com/MrHuxu/leetcode/blob/master/submissions/049_anagrams.js
+[97]: https://leetcode.com/problems/group-anagrams
+[98]: https://github.com/MrHuxu/leetcode/blob/master/submissions/049_group-anagrams.js
 [105]: https://leetcode.com/problems/maximum-subarray
 [106]: https://github.com/MrHuxu/leetcode/blob/master/submissions/053_maximum-subarray.js
 [107]: https://leetcode.com/problems/spiral-matrix
@@ -586,12 +601,20 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 [846]: https://github.com/MrHuxu/leetcode/blob/master/submissions/423_reconstruct-original-digits-from-english.js
 [867]: https://leetcode.com/problems/number-of-segments-in-a-string
 [868]: https://github.com/MrHuxu/leetcode/blob/master/submissions/434_number-of-segments-in-a-string.js
+[875]: https://leetcode.com/problems/find-all-anagrams-in-a-string
+[876]: https://github.com/MrHuxu/leetcode/blob/master/submissions/438_find-all-anagrams-in-a-string.js
+[881]: https://leetcode.com/problems/arranging-coins
+[882]: https://github.com/MrHuxu/leetcode/blob/master/submissions/441_arranging-coins.js
+[883]: https://leetcode.com/problems/find-all-duplicates-in-an-array
+[884]: https://github.com/MrHuxu/leetcode/blob/master/submissions/442_find-all-duplicates-in-an-array.js
 [969]: https://leetcode.com/problems/max-consecutive-ones
 [970]: https://github.com/MrHuxu/leetcode/blob/master/submissions/485_max-consecutive-ones.js
 [983]: https://leetcode.com/problems/construct-the-rectangle
 [984]: https://github.com/MrHuxu/leetcode/blob/master/submissions/492_construct-the-rectangle.js
 [987]: https://leetcode.com/problems/target-sum
 [988]: https://github.com/MrHuxu/leetcode/blob/master/submissions/494_target-sum.js
+[991]: https://leetcode.com/problems/next-greater-element-i
+[992]: https://github.com/MrHuxu/leetcode/blob/master/submissions/496_next-greater-element-i.js
 [1011]: https://leetcode.com/problems/relative-ranks
 [1012]: https://github.com/MrHuxu/leetcode/blob/master/submissions/506_relative-ranks.js
 [1015]: https://leetcode.com/problems/most-frequent-subtree-sum
@@ -606,5 +629,27 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 [1058]: https://github.com/MrHuxu/leetcode/blob/master/submissions/529_minesweeper.js
 [1059]: https://leetcode.com/problems/minimum-absolute-difference-in-bst
 [1060]: https://github.com/MrHuxu/leetcode/blob/master/submissions/530_minimum-absolute-difference-in-bst.js
+[1075]: https://leetcode.com/problems/convert-bst-to-greater-tree
+[1076]: https://github.com/MrHuxu/leetcode/blob/master/submissions/538_convert-bst-to-greater-tree.js
 [1077]: https://leetcode.com/problems/minimum-time-difference
 [1078]: https://github.com/MrHuxu/leetcode/blob/master/submissions/539_minimum-time-difference.js
+[1083]: https://leetcode.com/problems/01-matrix
+[1084]: https://github.com/MrHuxu/leetcode/blob/master/submissions/542_01-matrix.js
+[1119]: https://leetcode.com/problems/subarray-sum-equals-k
+[1120]: https://github.com/MrHuxu/leetcode/blob/master/submissions/560_subarray-sum-equals-k.js
+[1121]: https://leetcode.com/problems/array-partition-i
+[1122]: https://github.com/MrHuxu/leetcode/blob/master/submissions/561_array-partition-i.js
+[1125]: https://leetcode.com/problems/binary-tree-tilt
+[1126]: https://github.com/MrHuxu/leetcode/blob/master/submissions/563_binary-tree-tilt.js
+[1131]: https://leetcode.com/problems/reshape-the-matrix
+[1132]: https://github.com/MrHuxu/leetcode/blob/master/submissions/566_reshape-the-matrix.js
+[1133]: https://leetcode.com/problems/permutation-in-string
+[1134]: https://github.com/MrHuxu/leetcode/blob/master/submissions/567_permutation-in-string.js
+[1161]: https://leetcode.com/problems/shortest-unsorted-continuous-subarray
+[1162]: https://github.com/MrHuxu/leetcode/blob/master/submissions/581_shortest-unsorted-continuous-subarray.js
+[1183]: https://leetcode.com/problems/fraction-addition-and-subtraction
+[1184]: https://github.com/MrHuxu/leetcode/blob/master/submissions/592_fraction-addition-and-subtraction.js
+[1185]: https://leetcode.com/problems/valid-square
+[1186]: https://github.com/MrHuxu/leetcode/blob/master/submissions/593_valid-square.js
+[1187]: https://leetcode.com/problems/longest-harmonious-subsequence
+[1188]: https://github.com/MrHuxu/leetcode/blob/master/submissions/594_longest-harmonious-subsequence.js
