@@ -16,7 +16,7 @@ module.exports.createFiles = (slug, code) => {
     res.on('data', data => chunk += data);
     res.on('end', () => {
       var $ = load(chunk);
-      var sequence = $('.question-title')[0].children[1].children[0].data.split('. ')[0].trim();
+      var sequence = $('.question-title')[0].children[1].children[1].children[1].children[0].data.split('. ')[0].trim();
 
       var programName = `${slug}.js`;
       var submissionName = `${formatSeq(sequence)}_${programName}`;
