@@ -25,14 +25,12 @@ var printTree = function(root) {
 
   const traverse = (node, depth) => {
     const val = node ? node.val.toString() : null;
-
     const l = depth === height ? [] : traverse(node ? node.left : null, depth + 1);
     const r = depth === height ? [] : traverse(node ? node.right : null, depth + 1);
-
     return [...l, { depth, val }, ...r];
   };
-
   const metadata = traverse(root, 1);
+
   let result = [];
   for (let i = 1; i <= height; ++i) {
     const tmp = metadata.map(d => (d.depth === i && d.val !== null) ? d.val : '');
