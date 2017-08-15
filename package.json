@@ -20,7 +20,7 @@
   "dependencies": {
     "better-console": "^1.0.0",
     "cheerio": "^0.22.0",
-    "inquirer": "^3.0.6",
+    "inquirer": "^3.2.1",
     "request": "^2.81.0"
   }
 }
