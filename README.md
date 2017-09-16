@@ -3,7 +3,13 @@
 ## Description
 This is the repo of my LeetCode solutions, and currently I just use Javascript to solve the questions, maybe in the future, I will use other languages I like to get the ALL PASS grade.
 
-## Questions and Summissions
+## Get Problems in Terminal
+
+In this repo there is a npm script `npm run f:question`, which can help you fetch the content of the problems in the terminal. It will create two files, one is for coding which contains the notations provided by leetcode, another is an empty file which should be filled with the final submisson and will be listed below.
+
+![](https://github.com/MrHuxu/img-repo/blob/master/leetcode/leetcode2.gif?raw=true)
+
+## Summissions
 
 | Sequence      | Title         | Difficulty  | Submission  |
 | ------------- |:------------- | :----------:| :---------- |
