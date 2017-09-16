@@ -1,30 +1,22 @@
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {boolean}
+ */
 var isSymmetric = function(root) {
-  var i, j, lowerNodes, flag;
+  if (!root) return true;
 
-  var compare = function (nodes) {
-    if (!nodes.length) return;
-
-    flag = true;
-    for (var i = 0, j = nodes.length - 1; i <= j; ++i, --j) {
-      if (!((!nodes[i] && !nodes[j]) || (nodes[i] && nodes[j] && nodes[i].val === nodes[j].val))) {
-        flag = false;
-        break;
-      }
-    }
-    lowerNodes = [];
-    nodes.forEach(function (node) {
-      if (node) {
-        lowerNodes.push(node.left);
-        lowerNodes.push(node.right);
-      }
-    });
-
-    console.log(lowerNodes);
-    if (flag) compare(lowerNodes);
+  const compare = (l, r) => {
+    return (!l && !r) || ((l && r) && l.val === r.val && compare(l.left, r.right) && compare(l.right, r.left));
   };
-  compare([root]);
 
-  return flag;
+  return !!compare(root.left, root.right);
 };
 
 var root1 = {
@@ -32,49 +24,36 @@ var root1 = {
   left : {
     val  : 2,
     left : {
-      val   : 3,
-      left  : null,
-      right : null
+      val : 3,
     },
     right : {
-      val   : 4,
-      left  : null,
-      right : null
+      val : 4,
     }
   },
   right : {
     val  : 2,
     left : {
-      val   : 3,
-      left  : null,
-      right : null
+      val : 4,
     },
     right : {
-      val   : 4,
-      left  : null,
-      right : null
+      val : 3,
     }
   }
 };
+console.log(isSymmetric(root1));
 
 var root2 = {
   val  : 1,
   left : {
     val   : 2,
-    left  : null,
     right : {
-      val   : 3,
-      left  : null,
-      right : null
+      val : 3,
     }
   },
   right : {
     val   : 2,
-    left  : null,
     right : {
-      val   : 3,
-      left  : null,
-      right : null
+      val : 3,
     }
   }
 };

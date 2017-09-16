@@ -10,30 +10,11 @@
  * @return {boolean}
  */
 var isSymmetric = function(root) {
-  var i, j, lowerNodes, flag;
+  if (!root) return true;
 
-  var compare = function (nodes) {
-    if (!nodes.length) return;
-
-    flag = true;
-    for (var i = 0, j = nodes.length - 1; i <= j; ++i, --j) {
-      if (!((!nodes[i] && !nodes[j]) || (nodes[i] && nodes[j] && nodes[i].val === nodes[j].val))) {
-        flag = false;
-        break;
-      }
-    }
-    lowerNodes = [];
-    nodes.forEach(function (node) {
-      if (node) {
-        lowerNodes.push(node.left);
-        lowerNodes.push(node.right);
-      }
-    });
-
-    console.log(lowerNodes);
-    if (flag) compare(lowerNodes);
+  const compare = (l, r) => {
+    return (!l && !r) || ((l && r) && l.val === r.val && compare(l.left, r.right) && compare(l.right, r.left));
   };
-  compare([root]);
 
-  return flag;
+  return !!compare(root.left, root.right);
 };
