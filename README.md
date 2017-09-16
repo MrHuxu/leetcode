@@ -67,6 +67,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 93 | [Restore IP Addresses][185] | Medium | [093_restore-ip-addresses.js][186] |
 | 94 | [Binary Tree Inorder Traversal][187] | Medium | [094_binary-tree-inorder-traversal.js][188] |
 | 98 | [Validate Binary Search Tree][195] | Medium | [098_validate-binary-search-tree.js][196] |
+| 100 | [Same Tree][199] | Easy | [100_same-tree.js][200] |
 | 101 | [Symmetric Tree][201] | Easy | [101_symmetric-tree.js][202] |
 | 102 | [Binary Tree Level Order Traversal][203] | Medium | [102_binary-tree-level-order-traversal.js][204] |
 | 111 | [Minimum Depth of Binary Tree][221] | Easy | [111_minimum-depth-of-binary-tree.js][222] |
@@ -119,6 +120,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 204 | [Count Primes][407] | Easy | [204_count-primes.js][408] |
 | 205 | [Isomorphic Strings][409] | Easy | [205_isomorphic-strings.js][410] |
 | 206 | [Reverse Linked List][411] | Easy | [206_reverse-linked-list.js][412] |
+| 207 | [Course Schedule][413] | Medium | [207_course-schedule.js][414] |
 | 209 | [Minimum Size Subarray Sum][417] | Medium | [209_minimum-size-subarray-sum.js][418] |
 | 215 | [Kth Largest Element in an Array][429] | Medium | [215_kth-largest-element-in-an-array.js][430] |
 | 216 | [Combination Sum III][431] | Medium | [216_combination-sum-iii.js][432] |
@@ -199,6 +201,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 438 | [Find All Anagrams in a String][875] | Easy | [438_find-all-anagrams-in-a-string.js][876] |
 | 441 | [Arranging Coins][881] | Easy | [441_arranging-coins.js][882] |
 | 442 | [Find All Duplicates in an Array][883] | Medium | [442_find-all-duplicates-in-an-array.js][884] |
+| 453 | [Minimum Moves to Equal Array Elements][905] | Easy | [453_minimum-moves-to-equal-array-elements.js][906] |
 | 485 | [Max Consecutive Ones][969] | Easy | [485_max-consecutive-ones.js][970] |
 | 492 | [Construct the Rectangle][983] | Easy | [492_construct-the-rectangle.js][984] |
 | 494 | [Target Sum][987] | Medium | [494_target-sum.js][988] |
@@ -210,7 +213,7 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 520 | [Detect Capital][1039] | Easy | [520_detect-capital.js][1040] |
 | 529 | [Minesweeper][1057] | Medium | [529_minesweeper.js][1058] |
 | 530 | [Minimum Absolute Difference in BST][1059] | Easy | [530_minimum-absolute-difference-in-bst.js][1060] |
-| 538 | [Convert BST to Greater Tree][1075] | Medium | [538_convert-bst-to-greater-tree.js][1076] |
+| 538 | [Convert BST to Greater Tree][1075] | Easy | [538_convert-bst-to-greater-tree.js][1076] |
 | 539 | [Minimum Time Difference][1077] | Medium | [539_minimum-time-difference.js][1078] |
 | 542 | [01 Matrix][1083] | Medium | [542_01-matrix.js][1084] |
 | 560 | [Subarray Sum Equals K][1119] | Medium | [560_subarray-sum-equals-k.js][1120] |
@@ -222,6 +225,13 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 | 592 | [Fraction Addition and Subtraction][1183] | Medium | [592_fraction-addition-and-subtraction.js][1184] |
 | 593 | [Valid Square][1185] | Medium | [593_valid-square.js][1186] |
 | 594 | [Longest Harmonious Subsequence][1187] | Easy | [594_longest-harmonious-subsequence.js][1188] |
+| 617 | [Merge Two Binary Trees][1233] | Easy | [617_merge-two-binary-trees.js][1234] |
+| 646 | [Maximum Length of Pair Chain][1291] | Medium | [646_maximum-length-of-pair-chain.js][1292] |
+| 655 | [Print Binary Tree][1309] | Medium | [655_print-binary-tree.js][1310] |
+| 669 | [Trim a Binary Search Tree][1337] | Easy | [669_trim-a-binary-search-tree.js][1338] |
+| 670 | [Maximum Swap][1339] | Medium | [670_maximum-swap.js][1340] |
+| 671 | [Second Minimum Node In a Binary Tree][1341] | Easy | [671_second-minimum-node-in-a-binary-tree.js][1342] |
+| 674 | [Longest Continuous Increasing Subsequence][1347] | Easy | [674_longest-continuous-increasing-subsequence.js][1348] |
 
 [1]: https://leetcode.com/problems/two-sum
 [2]: https://github.com/MrHuxu/leetcode/blob/master/submissions/001_two-sum.js
@@ -343,6 +353,8 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 [188]: https://github.com/MrHuxu/leetcode/blob/master/submissions/094_binary-tree-inorder-traversal.js
 [195]: https://leetcode.com/problems/validate-binary-search-tree
 [196]: https://github.com/MrHuxu/leetcode/blob/master/submissions/098_validate-binary-search-tree.js
+[199]: https://leetcode.com/problems/same-tree
+[200]: https://github.com/MrHuxu/leetcode/blob/master/submissions/100_same-tree.js
 [201]: https://leetcode.com/problems/symmetric-tree
 [202]: https://github.com/MrHuxu/leetcode/blob/master/submissions/101_symmetric-tree.js
 [203]: https://leetcode.com/problems/binary-tree-level-order-traversal
@@ -447,6 +459,8 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 [410]: https://github.com/MrHuxu/leetcode/blob/master/submissions/205_isomorphic-strings.js
 [411]: https://leetcode.com/problems/reverse-linked-list
 [412]: https://github.com/MrHuxu/leetcode/blob/master/submissions/206_reverse-linked-list.js
+[413]: https://leetcode.com/problems/course-schedule
+[414]: https://github.com/MrHuxu/leetcode/blob/master/submissions/207_course-schedule.js
 [417]: https://leetcode.com/problems/minimum-size-subarray-sum
 [418]: https://github.com/MrHuxu/leetcode/blob/master/submissions/209_minimum-size-subarray-sum.js
 [429]: https://leetcode.com/problems/kth-largest-element-in-an-array
@@ -607,6 +621,8 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 [882]: https://github.com/MrHuxu/leetcode/blob/master/submissions/441_arranging-coins.js
 [883]: https://leetcode.com/problems/find-all-duplicates-in-an-array
 [884]: https://github.com/MrHuxu/leetcode/blob/master/submissions/442_find-all-duplicates-in-an-array.js
+[905]: https://leetcode.com/problems/minimum-moves-to-equal-array-elements
+[906]: https://github.com/MrHuxu/leetcode/blob/master/submissions/453_minimum-moves-to-equal-array-elements.js
 [969]: https://leetcode.com/problems/max-consecutive-ones
 [970]: https://github.com/MrHuxu/leetcode/blob/master/submissions/485_max-consecutive-ones.js
 [983]: https://leetcode.com/problems/construct-the-rectangle
@@ -653,3 +669,17 @@ This is the repo of my LeetCode solutions, and currently I just use Javascript t
 [1186]: https://github.com/MrHuxu/leetcode/blob/master/submissions/593_valid-square.js
 [1187]: https://leetcode.com/problems/longest-harmonious-subsequence
 [1188]: https://github.com/MrHuxu/leetcode/blob/master/submissions/594_longest-harmonious-subsequence.js
+[1233]: https://leetcode.com/problems/merge-two-binary-trees
+[1234]: https://github.com/MrHuxu/leetcode/blob/master/submissions/617_merge-two-binary-trees.js
+[1291]: https://leetcode.com/problems/maximum-length-of-pair-chain
+[1292]: https://github.com/MrHuxu/leetcode/blob/master/submissions/646_maximum-length-of-pair-chain.js
+[1309]: https://leetcode.com/problems/print-binary-tree
+[1310]: https://github.com/MrHuxu/leetcode/blob/master/submissions/655_print-binary-tree.js
+[1337]: https://leetcode.com/problems/trim-a-binary-search-tree
+[1338]: https://github.com/MrHuxu/leetcode/blob/master/submissions/669_trim-a-binary-search-tree.js
+[1339]: https://leetcode.com/problems/maximum-swap
+[1340]: https://github.com/MrHuxu/leetcode/blob/master/submissions/670_maximum-swap.js
+[1341]: https://leetcode.com/problems/second-minimum-node-in-a-binary-tree
+[1342]: https://github.com/MrHuxu/leetcode/blob/master/submissions/671_second-minimum-node-in-a-binary-tree.js
+[1347]: https://leetcode.com/problems/longest-continuous-increasing-subsequence
+[1348]: https://github.com/MrHuxu/leetcode/blob/master/submissions/674_longest-continuous-increasing-subsequence.js
