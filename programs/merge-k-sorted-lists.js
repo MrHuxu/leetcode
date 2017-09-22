@@ -20,6 +20,7 @@ var mergeKLists = function(lists) {
       }
       head = head.next;
     }
+
     let left = l1 || l2;
     while (left) {
       head.next = left;
