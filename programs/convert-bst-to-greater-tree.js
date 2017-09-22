@@ -28,45 +28,45 @@ var convertBST = function (root) {
 };
 
 let node = {
-  val: 5,
-  left: {
-    val: 2
+  val  : 5,
+  left : {
+    val : 2
   },
-  right: {
-    val: 13
+  right : {
+    val : 13
   }
 };
 console.log(convertBST(node));
-[2,0,3,-4,1]
+[2,0,3,-4,1];
 let node2 = {
-  val: 2,
-  left: {
-    val: 0,
-    left: {
-      val: -4
+  val  : 2,
+  left : {
+    val  : 0,
+    left : {
+      val : -4
     },
-    right: {
-      val: 1
+    right : {
+      val : 1
     }
   },
-  right: {
-    val: 3
+  right : {
+    val : 3
   }
 };
-console.log(convertBST(node2))
+console.log(convertBST(node2));
 
 let node3 = {
-  val: 1,
-  left: {
-    val: 0,
-    left: {
-      val: -2
+  val  : 1,
+  left : {
+    val  : 0,
+    left : {
+      val : -2
     }
   },
-  right: {
-    val: 4,
-    left: {
-      val: 3
+  right : {
+    val  : 4,
+    left : {
+      val : 3
     }
   }
 };

@@ -29,7 +29,7 @@ const questionOption = question => {
   let slug = question__title_slug || question__article__slug;
   try {
     execSync(`ls ${SUBMISSION_PATH(slug)}`, { stdio: 'ignore' });
-    return { name: questionTitle(question), disabled: 'Solved'};
+    return { name: questionTitle(question), disabled: 'Solved' };
   } catch (e) {
     return questionTitle(question);
   };

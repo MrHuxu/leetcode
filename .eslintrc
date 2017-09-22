@@ -1,7 +1,7 @@
 {
   "env": {
     "es6": true,
-    "node": true,
+    "node": true
   },
   "rules": {
     "yoda": [2, "always", {
@@ -9,7 +9,8 @@
     }],
     "no-return-assign": 0,
     "semi": [2, "always"],
-    "max-len": [2, 500, 2],
+    "max-len": [1, 500, 2],
+    "object-curly-spacing": [1, "always"],
     "key-spacing": [2, {
       "singleLine": {
         "beforeColon": false,

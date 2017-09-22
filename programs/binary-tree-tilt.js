@@ -27,11 +27,11 @@ var findTilt = function (root) {
 };
 
 console.log(findTilt({
-  val: 1,
-  left: {
-    val: 2
+  val  : 1,
+  left : {
+    val : 2
   },
-  right: {
-    val: 3
+  right : {
+    val : 3
   }
 }));
