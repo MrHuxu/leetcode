@@ -1,55 +1,51 @@
-/**
- * Definition for singly-linked list.
- * function ListNode(val) {
- *     this.val = val;
- *     this.next = null;
- * }
- */
-/**
- * @param {ListNode[]} lists
- * @return {ListNode}
- */
 function ListNode(val) {
   this.val = val;
   this.next = null;
 }
 
-var node = new ListNode(1);
-var n2 = new ListNode(0);
-n2.next = new ListNode(0);
-var lists = [n2, node];
-
 var mergeKLists = function(lists) {
-  var l = new ListNode(), tmp;
-  var head = l;
-  while (true) {
-    if (!lists.length)
-      break;
-    for (var i = parseInt(lists.length / 2) - 1; i >= 0; --i) {
-      if (lists[i] && lists[2 * i + 1] && lists[2 * i + 1].val < lists[i].val) {
-        tmp = lists[i];
-        lists[i] = lists[2 * i + 1];
-        lists[2 * i + 1] = tmp;
+  const merge2Lists = (l1, l2) => {
+    if (!l1 && l2) return l2;
+    if (l1 && !l2) return l1;
+    
+    let head = new ListNode(null);
+    const result = head;
+    while (l1 && l2) {
+      if (l1.val <= l2.val) {
+        head.next = l1;
+        l1 = l1.next;
+      } else {
+        head.next = l2;
+        l2 = l2.next;
       }
-      if (lists[i] && lists[2 * (i + 1)] && lists[2 * (i + 1)].val < lists[i].val) {
-        tmp = lists[i];
-        lists[i] = lists[2 * (i + 1)];
-        lists[2 * (i + 1)] = tmp;
-      }
+      head = head.next;
     }
-    if (lists[0]) {
-      l.next = new ListNode(lists[0].val);
-      l = l.next;
-      lists[0] = lists[0].next;
-      if (!lists[0])
-        lists.shift();
-    } else {
-      lists.shift();
+    let left = l1 || l2;
+    while (left) {
+      head.next = left;
+      head = head.next;
+      left = left.next;
     }
+
+    return result.next;
+  };
+
+  while (lists.length > 1) {
+    let tmp = [];
+    for (let i = 0; i < lists.length / 2; ++i) {
+      tmp.push(merge2Lists(lists[i * 2], lists[i * 2 + 1]));
+    }
+    lists = tmp;
   }
-  return head.next;
+
+  return lists[0] || null;
 };
 
-console.log(mergeKLists(lists));
-console.log(mergeKLists([]));
-console.log(mergeKLists([null, null]));
+const lists1 = [{ val: 2 }, { val: 0 }];
+console.log(mergeKLists(lists1));;
+
+const lists2 = [null, null];
+console.log(mergeKLists(lists2));
+
+const lists3 = [{ val: 2 }, null, { val: 1 }];
+console.log(mergeKLists(lists3));
