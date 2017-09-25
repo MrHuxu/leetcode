@@ -7,13 +7,15 @@ var validPalindrome = function(s) {
 
   const traverse = (i, j, changed) => {
     if (flag) return;
-    if (i === j || (i === j - 1 && s[i] === s[j]) || i > j) {
+    while (s[i] === s[j] && i < j) {
+      i += 1;
+      j -= 1;
+    }
+    if (i >= j) {
       flag = true;
       return;
     }
-
-    if (s[i] === s[j]) traverse(i + 1, j - 1, changed);
-    else if (!changed) {
+    if (!changed) {
       if (s[i + 1] === s[j]) {
         traverse(i + 1, j, true);
       }
