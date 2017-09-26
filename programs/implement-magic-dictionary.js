@@ -2,6 +2,7 @@
  * Initialize your data structure here.
  */
 var MagicDictionary = function(val = '') {
+  this.isWord = false;
   this.children = {};
 };
 
@@ -17,6 +18,7 @@ MagicDictionary.prototype.buildDict = function(dict) {
       if (!children[word[i]]) {
         children[word[i]] = new MagicDictionary(word[i]);
       }
+      if (i === word.length - 1) children[word[i]].isWord = true;
       children = children[word[i]].children;
     }
   }
@@ -29,23 +31,25 @@ MagicDictionary.prototype.buildDict = function(dict) {
  */
 MagicDictionary.prototype.search = function(word) {
   let flag = false;
-  const search = (children, i, changed) => {
+  const search = (isWord, children, i, changed) => {
     if (flag) return;
 
-    if (i === word.length && !Object.keys(children).length && changed) {
+    if (i === word.length && isWord && changed) {
       flag = true;
       return;
     }
 
     if (children[word[i]]) {
-      search(children[word[i]].children, i + 1, changed);
-    } else if (!changed) {
-      for (let dict of Object.keys(children).map(key => children[key])) {
-        search(dict.children, i + 1, true);
+      search(children[word[i]].isWord, children[word[i]].children, i + 1, changed);
+    }
+
+    if (!changed) {
+      for (let key of Object.keys(children)) {
+        if (key !== word[i]) search(children[key].isWord, children[key].children, i + 1, true);
       }
     }
   };
-  search(this.children, 0, false);
+  search(this.isWord, this.children, 0, false);
 
   return flag;
 };
@@ -57,16 +61,21 @@ MagicDictionary.prototype.search = function(word) {
  * var param_2 = obj.search(word)
  */
 
-// const dict = new MagicDictionary();
-// dict.buildDict(["hello", "leetcode"]);
-// console.log(dict.search("hello"));
-// console.log(dict.search("hhllo"));
-// console.log(dict.search("hell"));
-// console.log(dict.search("leetcoded"));
+const dict = new MagicDictionary();
+dict.buildDict(["hello", "leetcode"]);
+console.log(dict.search("hello"));
+console.log(dict.search("hhllo"));
+console.log(dict.search("hell"));
+console.log(dict.search("leetcoded"));
 
 const dict2 = new MagicDictionary();
 dict2.buildDict(["hello","hallo","leetcode"]);
+console.log(JSON.stringify(dict2.children));
 console.log(dict2.search("hello")); //true
 console.log(dict2.search("hhllo"));
 console.log(dict2.search("hell"));
 console.log(dict2.search("leetcoded"));
+
+const dict3 = new MagicDictionary();
+dict3.buildDict(['a', 'b', 'ab']);
+console.log(dict3.search('b'));
