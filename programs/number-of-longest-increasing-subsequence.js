@@ -3,21 +3,25 @@
  * @return {number}
  */
 var findNumberOfLIS = function(nums) {
-  const result = [];
-  const dfs = (num, count, i) => {
-    result[count] = result[count] ? result[count] + 1 : 1;
+  const dp = [], result = [0];
+  for (let i = 0; i < nums.length; ++i) {
+    dp[i] = 1;
+    result[dp[i]] = result[dp[i]] ? result[dp[i]] + 1 : 1;
 
-    for (let j = i + 1; j < nums.length; ++j) {
-      if (nums[j] > num) {
-        dfs(nums[j], count + 1, j);
+    for (let j = 0; j < i; ++j) {
+      if (nums[i] > nums[j]) {
+        dp[i] = Math.max(dp[i], dp[j] + 1);
+        result[dp[i]] = result[dp[i]] ? result[dp[i]] + 1 : 1;
       }
     }
-  };
-  dfs(Number.MIN_SAFE_INTEGER, 0, -1);
-  return nums.length && result.pop();
+  }
+  console.log(dp, result);
+
+  return result.pop();
 };
 
-console.log(findNumberOfLIS([]));
-console.log(findNumberOfLIS([1]));
-console.log(findNumberOfLIS([1, 3, 5, 4, 7]));
-console.log(findNumberOfLIS([2, 2, 2, 2, 2]));
+// console.log(findNumberOfLIS([]));
+// console.log(findNumberOfLIS([1]));
+// console.log(findNumberOfLIS([1, 3, 5, 4, 7]));
+console.log(findNumberOfLIS([1,2,4,3,5,4,7,2]));
+// console.log(findNumberOfLIS([2, 2, 2, 2, 2]));
