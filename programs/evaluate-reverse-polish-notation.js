@@ -5,21 +5,21 @@ var evalRPN = function(tokens) {
     var num2 = stack.pop();
     var num1 = stack.pop();
     switch (tokens[i]) {
-      case '+':
-        stack.push(parseInt(num1 + num2));
-        break;
+    case '+':
+      stack.push(parseInt(num1 + num2));
+      break;
 
-      case '-':
-        stack.push(parseInt(num1 - num2));
-        break;
+    case '-':
+      stack.push(parseInt(num1 - num2));
+      break;
 
-      case '*':
-        stack.push(parseInt(num1 * num2));
-        break;
+    case '*':
+      stack.push(parseInt(num1 * num2));
+      break;
 
-      case '/':
-        stack.push(parseInt(num1 / num2));
-        break;
+    case '/':
+      stack.push(parseInt(num1 / num2));
+      break;
     }
   };
 

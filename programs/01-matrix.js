@@ -20,7 +20,7 @@ var updateMatrix = function (matrix) {
       }
     }
 
-   if (matrix[x + 1] && matrix[x + 1][y]) {
+    if (matrix[x + 1] && matrix[x + 1][y]) {
       if (result[x + 1][y] === undefined) {
         result[x + 1][y] = init;
         nodes.push([x + 1, y]);

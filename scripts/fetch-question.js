@@ -96,16 +96,16 @@ const actionToQuestion = question => {
     choices : ['Yes', 'No']
   }).then(answer => {
     switch (answer.action) {
-      case 'Yes':
-        createFiles(slug, code);
-        return;
+    case 'Yes':
+      createFiles(slug, code);
+      return;
 
-      case 'No':
-        SelectAndSolve();
-        return;
+    case 'No':
+      SelectAndSolve();
+      return;
 
-      default:
-        return;
+    default:
+      return;
     }
   });
 };

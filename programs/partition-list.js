@@ -1,6 +1,6 @@
 function ListNode(val) {
-    this.val = val;
-    this.next = null;
+  this.val = val;
+  this.next = null;
 }
 
 var partition = function(head, x) {

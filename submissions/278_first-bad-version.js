@@ -13,19 +13,19 @@
  * @return {function}
  */
 var solution = function(isBadVersion) {
-    /**
+  /**
      * @param {integer} n Total versions
      * @return {integer} The first bad version
      */
-    return function(n) {
-        var front = 1, tail = n, mid;
-        while (tail > front + 1) {
-            mid = parseInt((front + tail) / 2);
-            if (isBadVersion(mid))
-                tail = mid;
-            else
-                front = mid;
-        }
-        return isBadVersion(front) ? front : tail;
-    };
+  return function(n) {
+    var front = 1, tail = n, mid;
+    while (tail > front + 1) {
+      mid = parseInt((front + tail) / 2);
+      if (isBadVersion(mid))
+        tail = mid;
+      else
+        front = mid;
+    }
+    return isBadVersion(front) ? front : tail;
+  };
 };

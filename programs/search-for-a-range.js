@@ -1,5 +1,5 @@
 var nums = [1, 2, 2, 3, 4, 4, 4];
-    target = 4;
+target = 4;
 
 var searchRange = function (nums, target) {
   var start = 0, end = nums.length - 1, mid, index, exist = false;

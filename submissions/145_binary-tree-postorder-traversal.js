@@ -10,14 +10,14 @@
  * @return {number[]}
  */
 var postorderTraversal = function(root) {
-    if (!root) return [];
-    var result = [];
-    var traversal = function (node) {
-        if (node.left) traversal(node.left);
-        if (node.right) traversal(node.right);
-        result.push(node.val);
-        return;
-    };
-    traversal(root);
-    return result;
+  if (!root) return [];
+  var result = [];
+  var traversal = function (node) {
+    if (node.left) traversal(node.left);
+    if (node.right) traversal(node.right);
+    result.push(node.val);
+    return;
+  };
+  traversal(root);
+  return result;
 };

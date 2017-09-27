@@ -41,7 +41,7 @@ var threeSum = function (nums) {
       seqa = [map[a[0]][0], map[a[1]][0], map[a[2]][0]];
     seqa.sort();
 
-   if (b[0] === b[2])
+    if (b[0] === b[2])
       seqb = [map[b[0]][0], map[b[1]][1], map[b[2]][2]];
     else if (b[0] === b[1])
       seqb = [map[b[0]][0], map[b[1]][1], map[b[2]][0]];

@@ -29,4 +29,4 @@ var letterCombinations = function (digits) {
   return result;
 };
 
-  console.log(letterCombinations(digits));
+console.log(letterCombinations(digits));

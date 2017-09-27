@@ -41,5 +41,5 @@ var solve = function(board) {
 
 solve(null);
 solve([
-"X"
+  "X"
 ]);

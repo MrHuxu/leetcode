@@ -4,7 +4,7 @@
  */
 var isValid = function (s) {
   var stack = [],
-      map = { ')': '(', ']': '[', '}': '{' };
+    map = { ')': '(', ']': '[', '}': '{' };
   if (1 === s.length % 2) {
     return false;
   } else if (0 === s.length) {

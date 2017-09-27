@@ -7,14 +7,14 @@ var singleNumber = function(nums) {
   
   nums.forEach(function (num) {
     switch (cache[num]) {
-      case undefined:
-        cache[num] = 1;
-        break;
-      case 1:
-        ++cache[num];
-        break;
-      case 2:
-        delete cache[num];
+    case undefined:
+      cache[num] = 1;
+      break;
+    case 1:
+      ++cache[num];
+      break;
+    case 2:
+      delete cache[num];
     }
   });
   

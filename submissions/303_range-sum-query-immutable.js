@@ -3,15 +3,15 @@
  * @param {number[]} nums
  */
 var NumArray = function(nums) {
-    this.data = nums;
-    this.sums = [];
-    var i, len = nums.length;
-    for (i = 0; i < len; ++i) {
-      if (this.sums[i - 1] === undefined)
-        this.sums[i] = nums[i];
-      else
-        this.sums[i] = nums[i] + this.sums[i - 1];
-    }
+  this.data = nums;
+  this.sums = [];
+  var i, len = nums.length;
+  for (i = 0; i < len; ++i) {
+    if (this.sums[i - 1] === undefined)
+      this.sums[i] = nums[i];
+    else
+      this.sums[i] = nums[i] + this.sums[i - 1];
+  }
 };
 
 /**

@@ -16,7 +16,7 @@ var combine = function (n, k) {
           var tmp = arr.slice(0);
           tmp.push(i);
           var str = JSON.stringify(used);
-              obj = JSON.parse(str);
+          obj = JSON.parse(str);
           obj[i] = true;
           dfs(tmp, obj);
         }

@@ -26,7 +26,7 @@ var longestPalindrome = function(s) {
       flag = (result[1] - result[0] + 1) > max;
       max = flag ? result[1] - result[0] + 1 : max;
       longestStr = flag ? s.slice(result[0], result[1] + 1) : longestStr;
-   }
+    }
   }
   return longestStr;
 };

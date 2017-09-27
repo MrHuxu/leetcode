@@ -13,10 +13,10 @@ var flatten = function(root) {
   if (!root) return;
   var result = [];
   var traversal = function (node) {
-      result.push(node.val);
-      if (node.left) traversal(node.left);
-      if (node.right) traversal(node.right);
-      return;
+    result.push(node.val);
+    if (node.left) traversal(node.left);
+    if (node.right) traversal(node.right);
+    return;
   };
   traversal(root);
   var iterator = root;

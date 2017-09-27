@@ -34,10 +34,10 @@ var computeArea = function(A, B, C, D, E, F, G, H) {
 };
 
 console.log(computeArea(0,
-0,
-0,
-0,
--1,
--1,
-1,
-1));
+  0,
+  0,
+  0,
+  -1,
+  -1,
+  1,
+  1));
