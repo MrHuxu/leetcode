@@ -10,6 +10,8 @@
  * @param {TreeNode} t2
  * @return {TreeNode}
  */
+const { TreeNode } = require('../../scripts/problem-utils');
+
 var mergeTrees = function(t1, t2) {
   const traverse = (src1, src2, dist) => {
     const num1 = null === src1 ? 0 : src1.val;

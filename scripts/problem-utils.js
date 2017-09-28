@@ -18,8 +18,24 @@ function TreeNode(val) {
   this.left = this.right = null;
 }
 
+const buildTree = nodes => {
+  const build = i => {
+    if (nodes[i] !== null && nodes[i] !== undefined) {
+      const node = new TreeNode(nodes[i]);
+      node.left = build(i * 2 + 1);
+      node.right = build((i + 1) * 2);
+      return node;
+    } else {
+      return null;
+    }
+  };
+  return build(0);
+};
+console.log(buildTree([3, 2, null, 1]));
+
 module.exports = {
   ListNode,
   buildList,
-  TreeNode
+  TreeNode,
+  buildTree
 };
