@@ -25,9 +25,7 @@ const executeCase = problem => {
   describe(problem, () => {
     try{
       if (testCases.length) unlinkSync(resolve(__dirname, '../programs', problem.split('_')[1] + '.js'));
-    } catch(e) {
-
-    }
+    } catch(e) {}
     testCases.forEach(testCase => {
       const { input, output } = testCase;
       it (`Input: ${JSON.stringify(...input).slice(0, 66)}\t Output: ${JSON.stringify(output)}`, () => {
