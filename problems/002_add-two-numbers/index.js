@@ -10,6 +10,8 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
+const { ListNode } = require('../../scripts/problem-utils');
+
 var addTwoNumbers = function (l1, l2) {
   var arr1 = [], arr2 = [];
   while (l1.next) {
