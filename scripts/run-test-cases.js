@@ -24,7 +24,7 @@ const executeCase = problem => {
   const testCases = require(resolve(PROBLEMS_DIR, problem, 'test-cases'));
   describe(problem, () => {
     try{
-      if (testCases.length) unlinkSync(resolve(__dirname, '../programs', problem.split('_')[1] + '.js'));
+      if (testCases.length) unlinkSync(resolve(__dirname, '../drafts', problem.split('_')[1] + '.js'));
     } catch(e) {}
     testCases.forEach(testCase => {
       const { input, output } = testCase;
