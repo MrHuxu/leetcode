@@ -20,4 +20,4 @@ var moveZeroes = function(nums) {
   }
 };
 
-console.log(moveZeroes([0, 1, 0, 2, 0, 4, 0, 3]));
+moveZeroes([0, 1, 0, 2, 0, 4, 0, 3]);

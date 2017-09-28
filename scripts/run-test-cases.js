@@ -26,7 +26,7 @@ const executeCase = problem => {
     testCases.forEach(testCase => {
       const { input, output } = testCase;
       it (`Input: ${JSON.stringify(...input).slice(0, 66)}\t Output: ${JSON.stringify(output)}`, () => {
-        expect(program.apply(null, input)).to.deep.equal(output);
+        expect(program(...input)).to.deep.equal(output);
       });
     });
   });

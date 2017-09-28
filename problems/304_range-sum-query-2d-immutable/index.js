@@ -20,7 +20,6 @@ var NumMatrix = function(matrix) {
       this.sums[i][j] = tmp2 - tmp1 + tmp3 + this.data[i][j];
     }
   }
-  console.log(this.sums);
 };
 
 /**
@@ -48,4 +47,12 @@ NumMatrix.prototype.sumRegion = function(row1, col1, row2, col2) {
  * numMatrix.sumRegion(0, 1, 2, 3);
  * numMatrix.sumRegion(1, 2, 3, 4);
  */
-module.exports = NumMatrix;
+
+var numMatrix = new NumMatrix([
+  [3, 0, 1, 4, 2],
+  [5, 6, 3, 2, 1],
+  [1, 2, 0, 1, 5],
+  [4, 1, 0, 1, 7],
+  [1, 0, 3, 0, 5]
+]);
+module.exports = numMatrix.sumRegion.bind(numMatrix);
