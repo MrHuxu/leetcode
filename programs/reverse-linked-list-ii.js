@@ -13,7 +13,6 @@ var reverseBetween = function(head, m, n) {
   for (var i = 0; i <= n; ++i) {
     tail = tail.next;
   }
-  console.log('front: ', front, 'tail: ', tail);
 
   for (var i = m; i <= n; ++i) {
     tmp = front.next;

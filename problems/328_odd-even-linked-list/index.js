@@ -9,6 +9,8 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
+const { ListNode } = require('../../scripts/problem-utils');
+
 var oddEvenList = function (head) {
   if (!head || !head.next || !head.next.next) return head;
 
