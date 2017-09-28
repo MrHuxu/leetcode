@@ -1,5 +1,5 @@
 const { resolve } = require('path');
-const { readdirSync } = require('fs');
+const { readdirSync, unlinkSync } = require('fs');
 const { expect } = require('chai');
 
 const PROBLEMS_DIR = resolve(__dirname, '../problems');
@@ -23,6 +23,11 @@ const executeCase = problem => {
   const program = require(resolve(PROBLEMS_DIR, problem, 'index'));
   const testCases = require(resolve(PROBLEMS_DIR, problem, 'test-cases'));
   describe(problem, () => {
+    try{
+      if (testCases.length) unlinkSync(resolve(__dirname, '../programs', problem.split('_')[1] + '.js'));
+    } catch(e) {
+
+    }
     testCases.forEach(testCase => {
       const { input, output } = testCase;
       it (`Input: ${JSON.stringify(...input).slice(0, 66)}\t Output: ${JSON.stringify(output)}`, () => {
