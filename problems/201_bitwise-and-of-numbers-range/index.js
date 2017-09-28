@@ -1,3 +1,8 @@
+/**
+ * @param {number} m
+ * @param {number} n
+ * @return {number}
+ */
 var rangeBitwiseAnd = function(m, n) {
   var result = 0;
 
@@ -10,4 +15,4 @@ var rangeBitwiseAnd = function(m, n) {
   return m << result;
 };
 
-console.log(rangeBitwiseAnd(600000000, 2311111111));
+module.exports = rangeBitwiseAnd;

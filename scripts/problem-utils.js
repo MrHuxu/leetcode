@@ -31,7 +31,6 @@ const buildTree = nodes => {
   };
   return build(0);
 };
-console.log(buildTree([3, 2, null, 1]));
 
 module.exports = {
   ListNode,
