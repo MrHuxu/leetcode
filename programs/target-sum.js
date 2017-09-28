@@ -19,7 +19,6 @@ var findTargetSumWays = function (nums, S) {
       curr[num] = (curr[num] || 0) + 1;
       curr[-num] = (curr[-num] || 0) + 1;
     }
-    console.log(curr);
     return curr;
   }, {});
 

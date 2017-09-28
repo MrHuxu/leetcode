@@ -52,4 +52,4 @@ n4.next = n5;
 // n6.next = n7;
 // n7.next = n8;
 
-console.log(oddEvenList(n1));
+console.log(JSON.stringify(oddEvenList(n1)));

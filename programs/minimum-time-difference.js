@@ -7,7 +7,6 @@ var findMinDifference = function (timePoints) {
     var arr = point.split(':');
     return Number(arr[0]) * 60 + Number(arr[1]);
   });
-  console.log(timeNums);
 
   var tmp;
   var buildHeap = function (arr) {
@@ -27,7 +26,6 @@ var findMinDifference = function (timePoints) {
   };
 
   buildHeap(timeNums);
-  console.log(timeNums);
   var maxNum = timeNums[0], init = timeNums.shift(), min = 1500;
   for (var i = 1; i < timePoints.length; ++i) {
     buildHeap(timeNums);

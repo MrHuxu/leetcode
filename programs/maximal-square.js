@@ -23,8 +23,6 @@ var maximalSquare = function(matrix) {
     }
   }
   
-  console.log(dp);
-  
   return maxWidth * maxWidth;
 };
 

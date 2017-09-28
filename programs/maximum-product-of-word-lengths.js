@@ -12,8 +12,6 @@ var maxProduct = function(words) {
     }
   });
   
-  console.log(sums);
-  
   return max;
 };
 

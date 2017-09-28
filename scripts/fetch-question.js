@@ -6,7 +6,7 @@ const { load } = require('cheerio');
 const { prompt } = require('inquirer');
 const { info } = require('better-console');
 
-const { clearConsole, traverseNode, unicodeToChar, createFiles } = require('./util.js');
+const { clearConsole, traverseNode, unicodeToChar, createFiles } = require('./file-utils.js');
 
 const ALGORITHM_URL = `https://leetcode.com/api/problems/algorithms/`;
 const QUESTION_URL = slug => `https://leetcode.com/problems/${slug}/`;

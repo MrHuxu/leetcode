@@ -26,5 +26,5 @@ var findItinerary = function (tickets) {
   return result.reverse();
 };
 
-// console.log(findItinerary([["JFK","SFO"],["JFK","ATL"],["SFO","ATL"],["ATL","JFK"],["ATL","SFO"]]))
+console.log(findItinerary([["JFK","SFO"],["JFK","ATL"],["SFO","ATL"],["ATL","JFK"],["ATL","SFO"]]));
 console.log(findItinerary([["JFK","KUL"],["JFK","NRT"],["NRT","JFK"]]));

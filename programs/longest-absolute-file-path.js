@@ -17,7 +17,6 @@ var lengthLongestPath = function(input) {
     }
   }
 
-  console.log(lens);
   return result;
 };
 

@@ -5,7 +5,7 @@
   "scripts": {
     "g:readme": "node ./scripts/generate-readme",
     "f:question": "node ./scripts/fetch-question",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha ./scripts/run-test-cases.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,10 @@
   "homepage": "https://github.com/MrHuxu/leetcode#readme",
   "dependencies": {
     "better-console": "^1.0.0",
+    "chai": "^4.1.2",
     "cheerio": "^0.22.0",
     "inquirer": "^3.2.1",
+    "mocha": "^3.5.3",
     "request": "^2.81.0"
   }
 }

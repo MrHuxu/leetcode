@@ -14,7 +14,7 @@ var countBits = function(num) {
 };
 
 console.log(countBits(5));
-// console.log(countBits(6));
-// console.log(countBits(0));
+console.log(countBits(6));
+console.log(countBits(0));
 // console.log(countBits(234));
 // console.log(countBits(123456));
