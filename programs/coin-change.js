@@ -17,11 +17,11 @@ var coinChange = function (coins, amount) {
   return dp[amount];
 };
 
-// console.log(coinChange([1, 3, 5], 11));
-// console.log(coinChange([2], 3));
-// console.log(coinChange([3, 5], 7));
-// console.log(coinChange([1], 11));
-// console.log(coinChange([], 3));
-// console.log(coinChange([1], 0));
-// console.log(coinChange([186,419,83,408], 6249));
+console.log(coinChange([1, 3, 5], 11));
+console.log(coinChange([2], 3));
+console.log(coinChange([3, 5], 7));
+console.log(coinChange([1], 11));
+console.log(coinChange([], 3));
+console.log(coinChange([1], 0));
+console.log(coinChange([186,419,83,408], 6249));
 console.log(coinChange([1, 3], 2));

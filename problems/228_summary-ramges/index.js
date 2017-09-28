@@ -22,7 +22,6 @@ var summaryRanges = function (nums) {
       }
       i = j;
     }
-    console.log(i);
   }
   return result;
 };

@@ -6,7 +6,6 @@ var findMin = function(nums) {
     mid = parseInt((tail - head) / 2) + head;
     if (nums[mid] >= nums[head] && nums[tail] <= nums[head]) head = mid + 1;
     else tail = mid;
-    console.log(head, tail, mid);
   }
 
   return nums[head];
