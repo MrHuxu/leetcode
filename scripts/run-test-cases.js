@@ -3,9 +3,23 @@ const { readdirSync } = require('fs');
 const { expect } = require('chai');
 
 const PROBLEMS_DIR = resolve(__dirname, '../problems');
-const problems = readdirSync(PROBLEMS_DIR);
 
-problems.forEach(problem => {
+const getTestProblems = testNum => readdirSync(PROBLEMS_DIR).filter(p => p.startsWith(testNum));
+
+const getTestProblemNum = () => {
+  let problemNum = process.argv[process.argv.length - 1];
+  if (/[0-9]+/.test(problemNum)) {
+    const len = problemNum.length;
+    for (let i = 0; i < 3 - len; ++i) {
+      problemNum = '0' + problemNum;
+    }
+    return problemNum;
+  } else {
+    return '';
+  }
+};
+
+const executeCase = problem => {
   const program = require(resolve(PROBLEMS_DIR, problem, 'index'));
   const testCases = require(resolve(PROBLEMS_DIR, problem, 'test-cases'));
   describe(problem, () => {
@@ -16,4 +30,8 @@ problems.forEach(problem => {
       });
     });
   });
-});
+};
+
+const testProblems = problems => problems.forEach(executeCase);
+
+testProblems(getTestProblems(getTestProblemNum()));
