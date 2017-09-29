@@ -1,7 +1,7 @@
-function ListNode(val) {
+const ListNode = function(val) {
   this.val = val;
   this.next = null;
-}
+};
 
 const buildList = nodes => {
   let list = new ListNode(null);
@@ -13,10 +13,10 @@ const buildList = nodes => {
   return head.next;
 };
 
-function TreeNode(val) {
+const TreeNode = function(val) {
   this.val = val;
   this.left = this.right = null;
-}
+};
 
 const buildTree = nodes => {
   const build = i => {
