@@ -27,10 +27,16 @@ const executeCase = problem => {
       if (testCases.length) unlinkSync(resolve(__dirname, '../drafts', problem.split('_')[1] + '.js'));
     } catch(e) {}
     testCases.forEach(testCase => {
-      const { input, output } = testCase;
-      it (`Input: ${JSON.stringify(...input).slice(0, 66)}\t Output: ${JSON.stringify(output)}`, () => {
-        expect(program(...input)).to.deep.equal(output);
-      });
+      const { input, output, func } = testCase;
+      if (func) {
+        it (`Func: ${func.name}\nInput: ${(JSON.stringify(...input) || '').slice(0, 66)}\t Output: ${JSON.stringify(output)}`, () => {
+          expect(func(...input)).to.deep.equal(output);
+        });
+      } else {
+        it (`Input: ${JSON.stringify(...input).slice(0, 66)}\t Output: ${JSON.stringify(output)}`, () => {
+          expect(program(...input)).to.deep.equal(output);
+        });
+      }
     });
   });
 };
