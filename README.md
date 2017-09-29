@@ -5,11 +5,28 @@
 ## Description
 This is the repo of my LeetCode solutions, and currently I just use Javascript to solve the questions, maybe in the future, I will use other languages I like to get the ALL PASS grade.
 
-## Get Problems in Terminal
+## Features
 
-In this repo there is a npm script `npm run f:question`, which can help you fetch the content of the problems in the terminal. It will create two files, one is for coding which contains the notations provided by leetcode, another is an empty file which should be filled with the final submission and will be listed below.
+First of all, you need to install all dependencis:
 
-![](https://github.com/MrHuxu/img-repo/blob/master/leetcode/leetcode2.gif?raw=true)
+    npm i
+
+### Fetch Problems in Terminal
+
+By executing the command you can browse all the problems in your terminal, and select any one to solve.
+
+    npm run f:question
+
+![](https://github.com/MrHuxu/img-repo/blob/master/leetcode/leetcode.gif?raw=true)
+
+### Test Cases
+
+I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test the programs, the test cases are defined in the `problems/*/test-cases.js`:
+
+    npm test                    # test all test cases
+    npm test [problem number]   # test single problem
+
+![](https://raw.githubusercontent.com/MrHuxu/img-repo/master/leetcode/leetcode%20test.gif)
 
 ## Submissions
 
