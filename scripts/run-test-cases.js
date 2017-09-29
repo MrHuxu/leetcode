@@ -42,9 +42,7 @@ const executeCase = problem => {
   const program = require(resolve(PROBLEMS_DIR, problem, 'index'));
   const testCases = require(resolve(PROBLEMS_DIR, problem, 'test-cases'));
   describe(problem, () => {
-    try{
-      if (testCases.length) unlinkSync(resolve(__dirname, '../drafts', problem.split('_')[1] + '.js'));
-    } catch(e) {}
+    if (!testCases.length) console.log(problem);
     testCases.forEach(testCase => {
       const { mutate, func, input, output } = testCase;
       if (mutate) testMutateInput(program, input, output);
