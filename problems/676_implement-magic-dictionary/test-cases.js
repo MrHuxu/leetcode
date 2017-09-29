@@ -2,22 +2,12 @@ const MagicDictionary = require('./index');
 
 const dict = new MagicDictionary();
 dict.buildDict(["hello", "leetcode"]);
-console.log(dict.search("hello"));
-console.log(dict.search("hhllo"));
-console.log(dict.search("hell"));
-console.log(dict.search("leetcoded"));
 
 const dict2 = new MagicDictionary();
 dict2.buildDict(["hello","hallo","leetcode"]);
-console.log(JSON.stringify(dict2.children));
-console.log(dict2.search("hello")); //true
-console.log(dict2.search("hhllo"));
-console.log(dict2.search("hell"));
-console.log(dict2.search("leetcoded"));
 
 const dict3 = new MagicDictionary();
 dict3.buildDict(['a', 'b', 'ab']);
-console.log(dict3.search('b'));
 
 module.exports = [{
   func   : dict.search.bind(dict),
