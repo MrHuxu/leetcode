@@ -9,7 +9,7 @@ const formatSeq = seq => {
   return seq;
 };
 
-module.exports.createFiles = (slug, code) => {
+const createFiles = (slug, code) => {
   get(PROBLEM_URL(slug)).on('response', res => {
     res.setEncoding('utf8');
     var chunk = '';
@@ -47,11 +47,11 @@ const createTestFile = submissionName => {
   );
 };
 
-module.exports.clearConsole = () => process.stdout.write(
+const clearConsole = () => process.stdout.write(
   'win32' === process.platform ? '\x1Bc' : '\x1B[2J\x1B[3J\x1B[H'
 );
 
-module.exports.traverseNode = node => {
+const traverseNode = node => {
   let texts = [];
   const dfs = node => {
     if ('text' === node.type) {
@@ -64,6 +64,13 @@ module.exports.traverseNode = node => {
   return texts;
 };
 
-module.exports.unicodeToChar = text => text.replace(/\\u[\dA-F]{4}/gi, match => {
+const unicodeToChar = text => text.replace(/\\u[\dA-F]{4}/gi, match => {
   return String.fromCharCode(parseInt(match.replace(/\\u/g, ''), 16));
 });
+
+module.exports = {
+  createFiles,
+  clearConsole,
+  traverseNode,
+  unicodeToChar
+};
