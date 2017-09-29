@@ -71,9 +71,9 @@ Promise.all(promiseSet).then((results) => {
     var problemUrlNum = parseInt(result.sequence) * 2 - 1;
     var submissionUrlNum = parseInt(result.sequence) * 2;
 
-    tableItems.push(`\n| ${result.sequence} | [${result.title}][${problemUrlNum}] | ${result.difficulty} | [${result.submission}][${submissionUrlNum}] |`);
+    tableItems.push(`\n| ${result.sequence} | [${result.title}][${problemUrlNum}] | ${result.difficulty} | [${result.submission.split('.')[0]}][${submissionUrlNum}] |`);
     links.push(
-      `\n[${problemUrlNum}]: ${result.url}\n[${submissionUrlNum}]: https://github.com/MrHuxu/leetcode/blob/master/submissions/${result.submission}`
+      `\n[${problemUrlNum}]: ${result.url}\n[${submissionUrlNum}]: https://github.com/MrHuxu/leetcode/blob/master/problems/${result.submission.split('.')[0]}/index.js`
     );
   });
 
