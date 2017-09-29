@@ -10,7 +10,7 @@ const { clearConsole, traverseNode, unicodeToChar, createFiles } = require('./fi
 
 const ALGORITHM_URL = `https://leetcode.com/api/problems/algorithms/`;
 const QUESTION_URL = slug => `https://leetcode.com/problems/${slug}/`;
-const SUBMISSION_PATH = slug => resolve(__dirname, `../submissions/*${slug}.js`);
+const SUBMISSION_PATH = slug => resolve(__dirname, `../problems/*${slug}/index.js`);
 
 const difficultyMap = { 1: 'Easy', 2: 'Medium', 3: 'Hard' };
 
