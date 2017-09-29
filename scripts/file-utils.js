@@ -1,4 +1,4 @@
-const { writeFileSync, closeSync, openSync, mkdirSync } = require('fs');
+const { writeFileSync, mkdirSync } = require('fs');
 const { get } = require('request');
 const { load } = require('cheerio');
 
