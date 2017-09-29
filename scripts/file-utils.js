@@ -1,4 +1,4 @@
-const { writeFileSync, closeSync, openSync } = require('fs');
+const { writeFileSync, closeSync, openSync, mkdirSync } = require('fs');
 const { get } = require('request');
 const { load } = require('cheerio');
 
@@ -18,14 +18,33 @@ module.exports.createFiles = (slug, code) => {
       var $ = load(chunk);
       var sequence = $('.question-title')[0].children[1].children[1].children[1].children[0].data.split('. ')[0].trim();
 
-      var programName = `${slug}.js`;
-      var submissionName = `${formatSeq(sequence)}_${programName}`;
-      writeFileSync(`./drafts/${programName}`, code);
-      closeSync(openSync(`./submissions/${submissionName}`, 'w'));
+      var submissionName = `${formatSeq(sequence)}_${slug}`;
+      mkdirSync(`./problems/${submissionName}`);
+      createIndexFile(submissionName, code);
+      createTestFile(submissionName);
 
-      console.log(`drafts/${programName} & submissions/${submissionName} are successfully created!`);
+      console.log(`problems/${submissionName}/index.js & problems/${submissionName}/test-cases.js are successfully created!`);
     });
   });
+};
+
+const createIndexFile = (submissionName, code) => {
+  const re = /var\ .*\ =\ function/;
+  const funcName = re.exec(code)[0].split(' ')[1];
+  writeFileSync(
+    `./problems/${submissionName}/index.js`,
+    code + `
+
+module.exports = ${funcName};
+`
+  );
+};
+
+const createTestFile = submissionName => {
+  writeFileSync(
+    `./problems/${submissionName}/test-cases.js`,
+    `module.exports = [];`
+  );
 };
 
 module.exports.clearConsole = () => process.stdout.write(

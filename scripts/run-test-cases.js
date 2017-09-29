@@ -20,31 +20,40 @@ const getTestProblemNum = () => {
 };
 
 const testMutateInput = (program, input, output) => {
-  it (`Input: ${JSON.stringify(...input).slice(0, 66)}\tshould be modified to\tOutput: ${JSON.stringify(output)}`, () => {
-    program(...input);
-    expect(input).to.deep.equal(output);
-  });
+  it (
+    `Input: ${JSON.stringify(...input).slice(0, 66)}\tshould be modified to\tOutput: ${JSON.stringify(output)}`,
+    () => {
+      program(...input);
+      expect(input).to.deep.equal(output);
+    }
+  );
 };
 
 const testByFunc = (func, input, output) => {
-  it (`Func: ${func.name}\nInput: ${(JSON.stringify(...input) || '').slice(0, 66)}\t Output: ${JSON.stringify(output)}`, () => {
-    expect(func(...input)).to.deep.equal(output);
-  });
+  it (
+    `Func: ${func.name}\nInput: ${(JSON.stringify(...input) || '').slice(0, 66)}\t Output: ${JSON.stringify(output)}`,
+    () => {
+      expect(func(...input)).to.deep.equal(output);
+    }
+  );
 };
 
 const testInput = (program, input, output) => {
-  it (`Input: ${JSON.stringify(...input).slice(0, 66)}\t Output: ${JSON.stringify(output)}`, () => {
-    expect(program(...input)).to.deep.equal(output);
-  });
+  it (
+    `Input: ${JSON.stringify(...input).slice(0, 66)}\t Output: ${JSON.stringify(output)}`,
+    () => {
+      expect(program(...input)).to.deep.equal(output);
+    }
+  );
 };
 
 const executeCase = problem => {
   const program = require(resolve(PROBLEMS_DIR, problem, 'index'));
   const testCases = require(resolve(PROBLEMS_DIR, problem, 'test-cases'));
   describe(problem, () => {
-    if (!testCases.length) console.log(problem);
     testCases.forEach(testCase => {
       const { mutate, func, input, output } = testCase;
+
       if (mutate) testMutateInput(program, input, output);
       else if (func) testByFunc(func, input, output);
       else testInput(program, input, output);
