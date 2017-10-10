@@ -21,7 +21,7 @@ const getTestProblemNum = () => {
 
 const testMutateInput = (program, input, output) => {
   it (
-    `Input: ${JSON.stringify(...input).slice(0, 66)}\tshould be modified to\tOutput: ${JSON.stringify(output)}`,
+    `Input: ${JSON.stringify(input).slice(0, 66)}\tshould be modified to\tOutput: ${JSON.stringify(output)}`,
     () => {
       program(...input);
       expect(input).to.deep.equal(output);
@@ -31,7 +31,7 @@ const testMutateInput = (program, input, output) => {
 
 const testByFunc = (func, input, output) => {
   it (
-    `Func: ${func.name}\nInput: ${(JSON.stringify(...input) || '').slice(0, 66)}\t Output: ${JSON.stringify(output)}`,
+    `Func: ${func.name}\nInput: ${(JSON.stringify(input) || '').slice(0, 66)}\t Output: ${JSON.stringify(output)}`,
     () => {
       expect(func(...input)).to.deep.equal(output);
     }
@@ -40,7 +40,7 @@ const testByFunc = (func, input, output) => {
 
 const testInput = (program, input, output) => {
   it (
-    `Input: ${JSON.stringify(...input).slice(0, 66)}\t Output: ${JSON.stringify(output)}`,
+    `Input: ${JSON.stringify(input).slice(0, 66)}\t Output: ${JSON.stringify(output)}`,
     () => {
       expect(program(...input)).to.deep.equal(output);
     }
