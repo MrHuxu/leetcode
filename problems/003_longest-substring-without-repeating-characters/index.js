@@ -3,14 +3,14 @@
  * @return {number}
  */
 var lengthOfLongestSubstring = function(s) {
-  var maxLen = 0, numArr = [], index;
+  var maxLen = 0, subArr = [], index;
   for (var i = 0; i < s.length; i++) {
-    index = numArr.indexOf(s[i]);
+    index = subArr.indexOf(s[i]);
     if (index !== -1) {
-      numArr = numArr.slice(index + 1, numArr.length);
+      subArr = subArr.slice(index + 1, subArr.length);
     }
-    numArr.push(s[i]);
-    maxLen = numArr.length > maxLen ? numArr.length : maxLen;
+    subArr.push(s[i]);
+    maxLen = subArr.length > maxLen ? subArr.length : maxLen;
   }
   return maxLen;
 };
