@@ -13,23 +13,26 @@ var longestUnivaluePath = function(root) {
   let max = 0;
 
   const traverse = node => {
-    let len = 0;
+    let len = 0, l = 0, r = 0;
     if (node.left) {
+      l = traverse(node.left);
       if (node.val === node.left.val) {
-        len += traverse(node.left) + 1;
+        len += ++l;
       } else {
-        traverse(node.left);
+        l = 0;
       }
     }
     if (node.right) {
+      r = traverse(node.right);
       if (node.val === node.right.val) {
-        len += traverse(node.right) + 1;
+        len += ++r;
       } else {
-        traverse(node.right);
+        r = 0;
       }
     }
+
     max = Math.max(max, len);
-    return len;
+    return Math.max(l, r);
   };
   if (root) traverse(root);
 
