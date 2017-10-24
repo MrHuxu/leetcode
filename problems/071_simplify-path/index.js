@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/simplify-path/description/
+ */
+/**
  * @param {string} path
  * @return {string}
  */

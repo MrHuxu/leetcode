@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/text-justification/description/
+ */
+/**
  * @param {string[]} words
  * @param {number} maxWidth
  * @return {string[]}

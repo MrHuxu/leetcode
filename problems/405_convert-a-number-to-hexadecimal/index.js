@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/
+ */
+/**
  * @param {number} num
  * @return {string}
  */

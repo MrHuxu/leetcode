@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/valid-square/description/
+ */
+/**
  * @param {number[]} p1
  * @param {number[]} p2
  * @param {number[]} p3

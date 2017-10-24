@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/arranging-coins/description/
+ */
+/**
  * @param {number} n
  * @return {number}
  */

@@ -1,3 +1,6 @@
+/**
+ * Problem: https://leetcode.com/problems/contains-duplicate-ii/description/
+ */
 var containsNearbyDuplicate = function(nums, k) {
   var flag = false, cached = {};
   

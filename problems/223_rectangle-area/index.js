@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/rectangle-area/description/
+ */
+/**
  * @param {number} A
  * @param {number} B
  * @param {number} C

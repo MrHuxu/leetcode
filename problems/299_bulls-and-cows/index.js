@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/bulls-and-cows/description/
+ */
+/**
  * @param {string} secret
  * @param {string} guess
  * @return {string}

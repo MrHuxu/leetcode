@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/map-sum-pairs/description/
+ */
+/**
  * Initialize your data structure here.
  */
 var MapSum = function(val = 0) {

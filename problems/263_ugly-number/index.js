@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/ugly-number/description/
+ */
+/**
  * @param {number} num
  * @return {boolean}
  */

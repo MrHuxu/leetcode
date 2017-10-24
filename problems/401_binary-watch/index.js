@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/binary-watch/description/
+ */
+/**
  * @param {number} num
  * @return {string[]}
  */

@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/integer-replacement/description/
+ */
+/**
  * @param {number} n
  * @return {number}
  */

@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/maximum-product-subarray/description/
+ */
+/**
  * @param {number[]} nums
  * @return {number}
  */

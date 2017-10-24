@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/nim-game/description/
+ */
+/**
  * @param {number} n
  * @return {boolean}
  */

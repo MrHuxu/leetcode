@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/power-of-three/description/
+ */
+/**
  * @param {number} n
  * @return {boolean}
  */

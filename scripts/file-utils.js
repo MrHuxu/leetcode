@@ -20,7 +20,7 @@ const createFiles = (slug, code) => {
 
       var submissionName = `${formatSeq(sequence)}_${slug}`;
       mkdirSync(`./problems/${submissionName}`);
-      createIndexFile(submissionName, code);
+      createIndexFile(submissionName, slug, code);
       createTestFile(submissionName);
 
       console.log(`problems/${submissionName}/index.js & problems/${submissionName}/test-cases.js are successfully created!`);
@@ -28,12 +28,14 @@ const createFiles = (slug, code) => {
   });
 };
 
-const createIndexFile = (submissionName, code) => {
+const createIndexFile = (submissionName, slug, code) => {
   const re = /var\ .*\ =\ function/;
   const funcName = re.exec(code)[0].split(' ')[1];
   writeFileSync(
-    `./problems/${submissionName}/index.js`,
-    code + `
+    `./problems/${submissionName}/index.js`, `/**
+ * Problem: https://leetcode.com/problems/${slug}/description/
+ */
+` + code + `
 
 module.exports = ${funcName};
 `

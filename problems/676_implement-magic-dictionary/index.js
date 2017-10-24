@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/implement-magic-dictionary/description/
+ */
+/**
  * Initialize your data structure here.
  */
 var MagicDictionary = function(val = '') {

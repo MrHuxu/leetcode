@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/power-of-two/description/
+ */
+/**
  * @param {number} n
  * @return {boolean}
  */

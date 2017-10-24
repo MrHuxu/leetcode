@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/pascals-triangle/description/
+ */
+/**
  * @param {number} numRows
  * @return {number[][]}
  */

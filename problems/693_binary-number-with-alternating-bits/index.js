@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/binary-number-with-alternating-bits/description/
+ */
+/**
  * @param {number} n
  * @return {boolean}
  */

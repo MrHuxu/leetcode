@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/lexicographical-numbers/description/
+ */
+/**
  * @param {number} n
  * @return {number[]}
  */

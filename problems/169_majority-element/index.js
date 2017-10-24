@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/majority-element/description/
+ */
+/**
  * @param {number[]} nums
  * @return {number}
  */

@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/decode-string/description/
+ */
+/**
  * @param {string} s
  * @return {string}
  */

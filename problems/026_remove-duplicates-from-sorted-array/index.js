@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
+ */
+/**
  * @param {number[]} nums
  * @return {number}
  */

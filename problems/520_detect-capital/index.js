@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/detect-capital/description/
+ */
+/**
  * @param {string} word
  * @return {boolean}
  */

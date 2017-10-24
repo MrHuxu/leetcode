@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/maximum-product-of-word-lengths/description/
+ */
+/**
  * @param {string[]} words
  * @return {number}
  */

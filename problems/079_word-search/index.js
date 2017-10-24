@@ -1,3 +1,6 @@
+/**
+ * Problem: https://leetcode.com/problems/word-search/description/
+ */
 var exist = function (board, word) {
   var flag = false;
   var used = [];

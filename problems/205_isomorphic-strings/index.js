@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/isomorphic-strings/description/
+ */
+/**
  * @param {string} s
  * @param {string} t
  * @return {boolean}

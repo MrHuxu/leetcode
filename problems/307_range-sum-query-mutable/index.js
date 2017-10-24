@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/range-sum-query-mutable/description/
+ */
+/**
  * @constructor
  * @param {number[]} nums
  */

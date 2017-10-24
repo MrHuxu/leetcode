@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/first-unique-character-in-a-string/description/
+ */
+/**
  * @param {string} s
  * @return {number}
  */

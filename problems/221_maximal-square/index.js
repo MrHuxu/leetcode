@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/maximal-square/description/
+ */
+/**
  * @param {character[][]} matrix
  * @return {number}
  */

@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/implement-strstr/description/
+ */
+/**
  * @param {string} haystack
  * @param {string} needle
  * @return {number}

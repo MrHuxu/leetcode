@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/remove-element/description/
+ */
+/**
  * @param {number[]} nums
  * @param {number} val
  * @return {number}

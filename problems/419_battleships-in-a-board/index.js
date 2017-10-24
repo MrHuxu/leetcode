@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/battleships-in-a-board/description/
+ */
+/**
  * @param {character[][]} board
  * @return {number}
  */

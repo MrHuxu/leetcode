@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/word-pattern/description/
+ */
+/**
  * @param {string} pattern
  * @param {string} str
  * @return {boolean}

@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/minesweeper/description/
+ */
+/**
  * @param {character[][]} board
  * @param {number[]} click
  * @return {character[][]}

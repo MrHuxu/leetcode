@@ -1,4 +1,7 @@
 /**
+ * Problem: https://leetcode.com/problems/max-consecutive-ones/description/
+ */
+/**
  * @param {number[]} nums
  * @return {number}
  */
