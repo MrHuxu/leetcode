@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/MrHuxu/leetcode#readme",
   "dependencies": {
-    "better-console": "^1.0.0",
+    "better-console": "^1.0.1",
     "chai": "^4.1.2",
     "cheerio": "^0.22.0",
     "inquirer": "^3.3.0",
