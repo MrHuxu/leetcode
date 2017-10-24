@@ -15,7 +15,7 @@ var numSubarrayProductLessThanK = function(nums, k) {
 
     while (!key.done) {
       const prd = key.value * num;
-      const inc = prevDp.has(key.value) ? prevDp.get(key.value) : 1;
+      const inc = prevDp.get(key.value);
       if (prd < k) {
         dp.set(prd, inc);
         count += inc;
