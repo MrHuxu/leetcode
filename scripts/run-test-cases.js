@@ -19,8 +19,8 @@ const getTestProblemNum = () => {
   }
 };
 
-const testMutateInput = (program, input, output) => {
-  it (
+const testMutateInput = (pending, program, input, output) => {
+  (pending ? xit : it) (
     `Input: ${JSON.stringify(input).slice(0, 66)}\tshould be modified to\tOutput: ${JSON.stringify(output)}`,
     () => {
       program(...input);
@@ -29,8 +29,8 @@ const testMutateInput = (program, input, output) => {
   );
 };
 
-const testByFunc = (func, input, output) => {
-  it (
+const testByFunc = (pending, func, input, output) => {
+  (pending ? xit : it) (
     `Func: ${func.name}\nInput: ${(JSON.stringify(input) || '').slice(0, 66)}\t Output: ${JSON.stringify(output)}`,
     () => {
       expect(func(...input)).to.deep.equal(output);
@@ -38,8 +38,8 @@ const testByFunc = (func, input, output) => {
   );
 };
 
-const testInput = (program, input, output) => {
-  it (
+const testInput = (pending, program, input, output) => {
+  (pending ? xit : it) (
     `Input: ${JSON.stringify(input).slice(0, 66)}\t Output: ${JSON.stringify(output)}`,
     () => {
       expect(program(...input)).to.deep.equal(output);
@@ -52,11 +52,11 @@ const executeCase = problem => {
   const testCases = require(resolve(PROBLEMS_DIR, problem, 'test-cases'));
   describe(problem, () => {
     testCases.forEach(testCase => {
-      const { mutate, func, input, output } = testCase;
+      const { mutate, func, pending, input, output } = testCase;
 
-      if (mutate) testMutateInput(program, input, output);
-      else if (func) testByFunc(func, input, output);
-      else testInput(program, input, output);
+      if (mutate) testMutateInput(pending, program, input, output);
+      else if (func) testByFunc(pending, func, input, output);
+      else testInput(pending, program, input, output);
     });
   });
 };
