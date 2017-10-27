@@ -40,6 +40,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 7 | [Reverse Integer][13] | Easy | [007_reverse-integer][14] |
 | 8 | [String to Integer (atoi)][15] | Medium | [008_string-to-integer-atoi][16] |
 | 9 | [Palindrome Number][17] | Easy | [009_palindrome-number][18] |
+| 10 | [Regular Expression Matching][19] | Hard | [010_regular-expression-matching][20] |
 | 11 | [Container With Most Water][21] | Medium | [011_container-with-most-water][22] |
 | 12 | [Integer to Roman][23] | Medium | [012_integer-to-roman][24] |
 | 13 | [Roman to Integer][25] | Easy | [013_roman-to-integer][26] |
@@ -52,6 +53,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 20 | [Valid Parentheses][39] | Easy | [020_valid-parentheses][40] |
 | 21 | [Merge Two Sorted Lists][41] | Easy | [021_merge-two-sorted-lists][42] |
 | 22 | [Generate Parentheses][43] | Medium | [022_generate-parentheses][44] |
+| 23 | [Merge k Sorted Lists][45] | Hard | [023_merge-k-sorted-lists][46] |
 | 24 | [Swap Nodes in Pairs][47] | Medium | [024_swap-nodes-in-pairs][48] |
 | 26 | [Remove Duplicates from Sorted Array][51] | Easy | [026_remove-duplicates-from-sorted-array][52] |
 | 27 | [Remove Element][53] | Easy | [027_remove-element][54] |
@@ -75,6 +77,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 62 | [Unique Paths][123] | Medium | [062_unique-paths][124] |
 | 63 | [Unique Paths II][125] | Medium | [063_unique-paths-ii][126] |
 | 64 | [Minimum Path Sum][127] | Medium | [064_minimum-path-sum][128] |
+| 68 | [Text Justification][135] | Hard | [068_text-justification][136] |
 | 69 | [Sqrt(x)][137] | Easy | [069_sqrtx][138] |
 | 71 | [Simplify Path][141] | Medium | [071_simplify-path][142] |
 | 73 | [Set Matrix Zeroes][145] | Medium | [073_set-matrix-zeroes][146] |
@@ -253,10 +256,23 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 617 | [Merge Two Binary Trees][1233] | Easy | [617_merge-two-binary-trees][1234] |
 | 646 | [Maximum Length of Pair Chain][1291] | Medium | [646_maximum-length-of-pair-chain][1292] |
 | 655 | [Print Binary Tree][1309] | Medium | [655_print-binary-tree][1310] |
+| 662 | [Maximum Width of Binary Tree][1323] | Medium | [662_maximum-width-of-binary-tree][1324] |
 | 669 | [Trim a Binary Search Tree][1337] | Easy | [669_trim-a-binary-search-tree][1338] |
 | 670 | [Maximum Swap][1339] | Medium | [670_maximum-swap][1340] |
 | 671 | [Second Minimum Node In a Binary Tree][1341] | Easy | [671_second-minimum-node-in-a-binary-tree][1342] |
+| 673 | [Number of Longest Increasing Subsequence][1345] | Medium | [673_number-of-longest-increasing-subsequence][1346] |
 | 674 | [Longest Continuous Increasing Subsequence][1347] | Easy | [674_longest-continuous-increasing-subsequence][1348] |
+| 676 | [Implement Magic Dictionary][1351] | Medium | [676_implement-magic-dictionary][1352] |
+| 677 | [Map Sum Pairs][1353] | Medium | [677_map-sum-pairs][1354] |
+| 678 | [Valid Parenthesis String][1355] | Medium | [678_valid-parenthesis-string][1356] |
+| 680 | [Valid Palindrome II][1359] | Easy | [680_valid-palindrome-ii][1360] |
+| 682 | [Baseball Game][1363] | Easy | [682_baseball-game][1364] |
+| 687 | [Longest Univalue Path][1373] | Easy | [687_longest-univalue-path][1374] |
+| 693 | [Binary Number with Alternating Bits][1385] | Easy | [693_binary-number-with-alternating-bits][1386] |
+| 695 | [Max Area of Island][1389] | Easy | [695_max-area-of-island][1390] |
+| 698 | [Partition to K Equal Sum Subsets][1395] | Medium | [698_partition-to-k-equal-sum-subsets][1396] |
+| 713 | [Subarray Product Less Than K][1425] | Medium | [713_subarray-product-less-than-k][1426] |
+| 714 | [Best Time to Buy and Sell Stock with Transaction Fee][1427] | Medium | [714_best-time-to-buy-and-sell-stock-with-transaction-fee][1428] |
 
 [1]: https://leetcode.com/problems/two-sum
 [2]: https://github.com/MrHuxu/leetcode/blob/master/problems/001_two-sum/index.js
@@ -274,6 +290,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [16]: https://github.com/MrHuxu/leetcode/blob/master/problems/008_string-to-integer-atoi/index.js
 [17]: https://leetcode.com/problems/palindrome-number
 [18]: https://github.com/MrHuxu/leetcode/blob/master/problems/009_palindrome-number/index.js
+[19]: https://leetcode.com/problems/regular-expression-matching
+[20]: https://github.com/MrHuxu/leetcode/blob/master/problems/010_regular-expression-matching/index.js
 [21]: https://leetcode.com/problems/container-with-most-water
 [22]: https://github.com/MrHuxu/leetcode/blob/master/problems/011_container-with-most-water/index.js
 [23]: https://leetcode.com/problems/integer-to-roman
@@ -298,6 +316,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [42]: https://github.com/MrHuxu/leetcode/blob/master/problems/021_merge-two-sorted-lists/index.js
 [43]: https://leetcode.com/problems/generate-parentheses
 [44]: https://github.com/MrHuxu/leetcode/blob/master/problems/022_generate-parentheses/index.js
+[45]: https://leetcode.com/problems/merge-k-sorted-lists
+[46]: https://github.com/MrHuxu/leetcode/blob/master/problems/023_merge-k-sorted-lists/index.js
 [47]: https://leetcode.com/problems/swap-nodes-in-pairs
 [48]: https://github.com/MrHuxu/leetcode/blob/master/problems/024_swap-nodes-in-pairs/index.js
 [51]: https://leetcode.com/problems/remove-duplicates-from-sorted-array
@@ -344,6 +364,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [126]: https://github.com/MrHuxu/leetcode/blob/master/problems/063_unique-paths-ii/index.js
 [127]: https://leetcode.com/problems/minimum-path-sum
 [128]: https://github.com/MrHuxu/leetcode/blob/master/problems/064_minimum-path-sum/index.js
+[135]: https://leetcode.com/problems/text-justification
+[136]: https://github.com/MrHuxu/leetcode/blob/master/problems/068_text-justification/index.js
 [137]: https://leetcode.com/problems/sqrtx
 [138]: https://github.com/MrHuxu/leetcode/blob/master/problems/069_sqrtx/index.js
 [141]: https://leetcode.com/problems/simplify-path
@@ -700,11 +722,37 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1292]: https://github.com/MrHuxu/leetcode/blob/master/problems/646_maximum-length-of-pair-chain/index.js
 [1309]: https://leetcode.com/problems/print-binary-tree
 [1310]: https://github.com/MrHuxu/leetcode/blob/master/problems/655_print-binary-tree/index.js
+[1323]: https://leetcode.com/problems/maximum-width-of-binary-tree
+[1324]: https://github.com/MrHuxu/leetcode/blob/master/problems/662_maximum-width-of-binary-tree/index.js
 [1337]: https://leetcode.com/problems/trim-a-binary-search-tree
 [1338]: https://github.com/MrHuxu/leetcode/blob/master/problems/669_trim-a-binary-search-tree/index.js
 [1339]: https://leetcode.com/problems/maximum-swap
 [1340]: https://github.com/MrHuxu/leetcode/blob/master/problems/670_maximum-swap/index.js
 [1341]: https://leetcode.com/problems/second-minimum-node-in-a-binary-tree
 [1342]: https://github.com/MrHuxu/leetcode/blob/master/problems/671_second-minimum-node-in-a-binary-tree/index.js
+[1345]: https://leetcode.com/problems/number-of-longest-increasing-subsequence
+[1346]: https://github.com/MrHuxu/leetcode/blob/master/problems/673_number-of-longest-increasing-subsequence/index.js
 [1347]: https://leetcode.com/problems/longest-continuous-increasing-subsequence
 [1348]: https://github.com/MrHuxu/leetcode/blob/master/problems/674_longest-continuous-increasing-subsequence/index.js
+[1351]: https://leetcode.com/problems/implement-magic-dictionary
+[1352]: https://github.com/MrHuxu/leetcode/blob/master/problems/676_implement-magic-dictionary/index.js
+[1353]: https://leetcode.com/problems/map-sum-pairs
+[1354]: https://github.com/MrHuxu/leetcode/blob/master/problems/677_map-sum-pairs/index.js
+[1355]: https://leetcode.com/problems/valid-parenthesis-string
+[1356]: https://github.com/MrHuxu/leetcode/blob/master/problems/678_valid-parenthesis-string/index.js
+[1359]: https://leetcode.com/problems/valid-palindrome-ii
+[1360]: https://github.com/MrHuxu/leetcode/blob/master/problems/680_valid-palindrome-ii/index.js
+[1363]: https://leetcode.com/problems/baseball-game
+[1364]: https://github.com/MrHuxu/leetcode/blob/master/problems/682_baseball-game/index.js
+[1373]: https://leetcode.com/problems/longest-univalue-path
+[1374]: https://github.com/MrHuxu/leetcode/blob/master/problems/687_longest-univalue-path/index.js
+[1385]: https://leetcode.com/problems/binary-number-with-alternating-bits
+[1386]: https://github.com/MrHuxu/leetcode/blob/master/problems/693_binary-number-with-alternating-bits/index.js
+[1389]: https://leetcode.com/problems/max-area-of-island
+[1390]: https://github.com/MrHuxu/leetcode/blob/master/problems/695_max-area-of-island/index.js
+[1395]: https://leetcode.com/problems/partition-to-k-equal-sum-subsets
+[1396]: https://github.com/MrHuxu/leetcode/blob/master/problems/698_partition-to-k-equal-sum-subsets/index.js
+[1425]: https://leetcode.com/problems/subarray-product-less-than-k
+[1426]: https://github.com/MrHuxu/leetcode/blob/master/problems/713_subarray-product-less-than-k/index.js
+[1427]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee
+[1428]: https://github.com/MrHuxu/leetcode/blob/master/problems/714_best-time-to-buy-and-sell-stock-with-transaction-fee/index.js
