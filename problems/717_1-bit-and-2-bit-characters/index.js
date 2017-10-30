@@ -9,11 +9,7 @@ var isOneBitCharacter = function(bits) {
   let pre = null;
   for (let i = 0; i < bits.length - 1; i++) {
     if (bits[i]) {
-      if (pre) {
-        pre = null;
-      } else {
-        pre = bits[i];
-      }
+      pre = pre ? null : bits[i];
     } else {
       pre = null;
     }
