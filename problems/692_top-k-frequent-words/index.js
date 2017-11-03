@@ -11,7 +11,8 @@ var topKFrequent = function(words, k) {
   for (let word of words) {
     times[word] = times[word] ? times[word] + 1 : 1;
   }
-  return Object.keys(times).sort((w1, w2) => {
+
+  const larger = (w1, w2) => {
     if (times[w1] === times[w2]) {
       let i = 0, j = 0;
       while (w1[i] === w2[j]) {
@@ -19,15 +20,41 @@ var topKFrequent = function(words, k) {
         j++;
       }
       if (w1[i] === undefined)
-        return -1;
+        return false;
       else if (w2[j] === undefined)
-        return 1;
+        return true;
       else
-        return w1[i].charCodeAt() > w2[j].charCodeAt() ? 1 : -1;
+        return w1[i].charCodeAt() > w2[j].charCodeAt();
     } else {
-      return times[w1] > times[w2] ? -1 : 1;
+      return times[w1] < times[w2];
     }
-  }).slice(0, k);
+  };
+
+  const uniqWords = Object.keys(times), result = [];
+  let curr, left, right, tmp;
+  for (let i = 0; i < k; i++) {
+    for (let j = parseInt(uniqWords.length / 2); j > 0; j--) {
+      curr = j - 1;
+      left = j * 2 - 1;
+      right = j * 2;
+      
+      if (larger(uniqWords[curr], uniqWords[left])) {
+        tmp = uniqWords[curr];
+        uniqWords[curr] = uniqWords[left];
+        uniqWords[left] = tmp;
+      }
+
+      if (larger(uniqWords[curr], uniqWords[right])) {
+        tmp = uniqWords[curr];
+        uniqWords[curr] = uniqWords[right];
+        uniqWords[right] = tmp;
+      }
+    }
+
+    result.push(uniqWords.shift());
+  }
+  
+  return result;
 };
 
 module.exports = topKFrequent;
