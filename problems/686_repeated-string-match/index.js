@@ -16,7 +16,7 @@ var repeatedStringMatch = function(A, B) {
       str += A;
       result++;
     }
-  } while (str.length <= B.length * 2);
+  } while (result <= 2 || str.length <= B.length * 2);
 
   return found ? result : - 1;
 };
