@@ -267,12 +267,19 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 678 | [Valid Parenthesis String][1355] | Medium | [678_valid-parenthesis-string][1356] |
 | 680 | [Valid Palindrome II][1359] | Easy | [680_valid-palindrome-ii][1360] |
 | 682 | [Baseball Game][1363] | Easy | [682_baseball-game][1364] |
+| 686 | [Repeated String Match][1371] | Easy | [686_repeated-string-match][1372] |
 | 687 | [Longest Univalue Path][1373] | Easy | [687_longest-univalue-path][1374] |
+| 692 | [Top K Frequent Words][1383] | Medium | [692_top-k-frequent-words][1384] |
 | 693 | [Binary Number with Alternating Bits][1385] | Easy | [693_binary-number-with-alternating-bits][1386] |
 | 695 | [Max Area of Island][1389] | Easy | [695_max-area-of-island][1390] |
+| 696 | [Count Binary Substrings][1391] | Easy | [696_count-binary-substrings][1392] |
+| 697 | [Degree of an Array][1393] | Easy | [697_degree-of-an-array][1394] |
 | 698 | [Partition to K Equal Sum Subsets][1395] | Medium | [698_partition-to-k-equal-sum-subsets][1396] |
 | 713 | [Subarray Product Less Than K][1425] | Medium | [713_subarray-product-less-than-k][1426] |
 | 714 | [Best Time to Buy and Sell Stock with Transaction Fee][1427] | Medium | [714_best-time-to-buy-and-sell-stock-with-transaction-fee][1428] |
+| 717 | [1-bit and 2-bit Characters][1433] | Easy | [717_1-bit-and-2-bit-characters][1434] |
+| 720 | [Longest Word in Dictionary][1439] | Easy | [720_longest-word-in-dictionary][1440] |
+| 721 | [Accounts Merge][1441] | Medium | [721_accounts-merge][1442] |
 
 [1]: https://leetcode.com/problems/two-sum
 [2]: https://github.com/MrHuxu/leetcode/blob/master/problems/001_two-sum/index.js
@@ -744,15 +751,29 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1360]: https://github.com/MrHuxu/leetcode/blob/master/problems/680_valid-palindrome-ii/index.js
 [1363]: https://leetcode.com/problems/baseball-game
 [1364]: https://github.com/MrHuxu/leetcode/blob/master/problems/682_baseball-game/index.js
+[1371]: https://leetcode.com/problems/repeated-string-match
+[1372]: https://github.com/MrHuxu/leetcode/blob/master/problems/686_repeated-string-match/index.js
 [1373]: https://leetcode.com/problems/longest-univalue-path
 [1374]: https://github.com/MrHuxu/leetcode/blob/master/problems/687_longest-univalue-path/index.js
+[1383]: https://leetcode.com/problems/top-k-frequent-words
+[1384]: https://github.com/MrHuxu/leetcode/blob/master/problems/692_top-k-frequent-words/index.js
 [1385]: https://leetcode.com/problems/binary-number-with-alternating-bits
 [1386]: https://github.com/MrHuxu/leetcode/blob/master/problems/693_binary-number-with-alternating-bits/index.js
 [1389]: https://leetcode.com/problems/max-area-of-island
 [1390]: https://github.com/MrHuxu/leetcode/blob/master/problems/695_max-area-of-island/index.js
+[1391]: https://leetcode.com/problems/count-binary-substrings
+[1392]: https://github.com/MrHuxu/leetcode/blob/master/problems/696_count-binary-substrings/index.js
+[1393]: https://leetcode.com/problems/degree-of-an-array
+[1394]: https://github.com/MrHuxu/leetcode/blob/master/problems/697_degree-of-an-array/index.js
 [1395]: https://leetcode.com/problems/partition-to-k-equal-sum-subsets
 [1396]: https://github.com/MrHuxu/leetcode/blob/master/problems/698_partition-to-k-equal-sum-subsets/index.js
 [1425]: https://leetcode.com/problems/subarray-product-less-than-k
 [1426]: https://github.com/MrHuxu/leetcode/blob/master/problems/713_subarray-product-less-than-k/index.js
 [1427]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee
 [1428]: https://github.com/MrHuxu/leetcode/blob/master/problems/714_best-time-to-buy-and-sell-stock-with-transaction-fee/index.js
+[1433]: https://leetcode.com/problems/1-bit-and-2-bit-characters
+[1434]: https://github.com/MrHuxu/leetcode/blob/master/problems/717_1-bit-and-2-bit-characters/index.js
+[1439]: https://leetcode.com/problems/longest-word-in-dictionary
+[1440]: https://github.com/MrHuxu/leetcode/blob/master/problems/720_longest-word-in-dictionary/index.js
+[1441]: https://leetcode.com/problems/accounts-merge
+[1442]: https://github.com/MrHuxu/leetcode/blob/master/problems/721_accounts-merge/index.js
