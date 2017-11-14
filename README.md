@@ -256,7 +256,9 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 617 | [Merge Two Binary Trees][1233] | Easy | [617_merge-two-binary-trees][1234] |
 | 646 | [Maximum Length of Pair Chain][1291] | Medium | [646_maximum-length-of-pair-chain][1292] |
 | 655 | [Print Binary Tree][1309] | Medium | [655_print-binary-tree][1310] |
+| 659 | [Split Array into Consecutive Subsequences][1317] | Medium | [659_split-array-into-consecutive-subsequences][1318] |
 | 662 | [Maximum Width of Binary Tree][1323] | Medium | [662_maximum-width-of-binary-tree][1324] |
+| 665 | [Non-decreasing Array][1329] | Easy | [665_non-decreasing-array][1330] |
 | 669 | [Trim a Binary Search Tree][1337] | Easy | [669_trim-a-binary-search-tree][1338] |
 | 670 | [Maximum Swap][1339] | Medium | [670_maximum-swap][1340] |
 | 671 | [Second Minimum Node In a Binary Tree][1341] | Easy | [671_second-minimum-node-in-a-binary-tree][1342] |
@@ -280,6 +282,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 717 | [1-bit and 2-bit Characters][1433] | Easy | [717_1-bit-and-2-bit-characters][1434] |
 | 720 | [Longest Word in Dictionary][1439] | Easy | [720_longest-word-in-dictionary][1440] |
 | 721 | [Accounts Merge][1441] | Medium | [721_accounts-merge][1442] |
+| 724 | [Find Pivot Index][1447] | Easy | [724_find-pivot-index][1448] |
+| 726 | [Number of Atoms][1451] | Hard | [726_number-of-atoms][1452] |
 
 [1]: https://leetcode.com/problems/two-sum
 [2]: https://github.com/MrHuxu/leetcode/blob/master/problems/001_two-sum/index.js
@@ -729,8 +733,12 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1292]: https://github.com/MrHuxu/leetcode/blob/master/problems/646_maximum-length-of-pair-chain/index.js
 [1309]: https://leetcode.com/problems/print-binary-tree
 [1310]: https://github.com/MrHuxu/leetcode/blob/master/problems/655_print-binary-tree/index.js
+[1317]: https://leetcode.com/problems/split-array-into-consecutive-subsequences
+[1318]: https://github.com/MrHuxu/leetcode/blob/master/problems/659_split-array-into-consecutive-subsequences/index.js
 [1323]: https://leetcode.com/problems/maximum-width-of-binary-tree
 [1324]: https://github.com/MrHuxu/leetcode/blob/master/problems/662_maximum-width-of-binary-tree/index.js
+[1329]: https://leetcode.com/problems/non-decreasing-array
+[1330]: https://github.com/MrHuxu/leetcode/blob/master/problems/665_non-decreasing-array/index.js
 [1337]: https://leetcode.com/problems/trim-a-binary-search-tree
 [1338]: https://github.com/MrHuxu/leetcode/blob/master/problems/669_trim-a-binary-search-tree/index.js
 [1339]: https://leetcode.com/problems/maximum-swap
@@ -777,3 +785,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1440]: https://github.com/MrHuxu/leetcode/blob/master/problems/720_longest-word-in-dictionary/index.js
 [1441]: https://leetcode.com/problems/accounts-merge
 [1442]: https://github.com/MrHuxu/leetcode/blob/master/problems/721_accounts-merge/index.js
+[1447]: https://leetcode.com/problems/find-pivot-index
+[1448]: https://github.com/MrHuxu/leetcode/blob/master/problems/724_find-pivot-index/index.js
+[1451]: https://leetcode.com/problems/number-of-atoms
+[1452]: https://github.com/MrHuxu/leetcode/blob/master/problems/726_number-of-atoms/index.js
