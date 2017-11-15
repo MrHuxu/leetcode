@@ -11,49 +11,56 @@ var removeComments = function(source) {
   const reMulEnd = /\*\/.*/;
   let isCommenting = false;
   let unfinishedLine = '';
+  const result = [];
 
-  return source.reduce((result, line) => {
-    let matchIndex;
-
+  for (let i = 0; i < source.length; ) {
+    const line = source[i];
     if (!isCommenting) {
-      matchIndex = line.search(reSingle);
-      if (matchIndex > 0) {
-        result.push(line.split('').slice(0, matchIndex).join(''));
-        return result;
+      const singleIndex = line.search(reSingle);
+      const multiIndex = line.search(reMulStart);
+
+      if (singleIndex !== -1 && (singleIndex < multiIndex || -1 === multiIndex)) {
+        const arr = line.split('');
+        if (singleIndex) result.push(arr.slice(0, singleIndex).join(''));
+        i++;
+        continue;
       }
 
-      matchIndex = line.search(reMulStart);
-      if (matchIndex !== -1) {
-        const endIndex = line.search(reMulEnd);
+      if (multiIndex !== -1 && (multiIndex < singleIndex || -1 === singleIndex)) {
+        const arr = line.split('');
+        const endIndex = arr.slice(multiIndex + 2).join('').search(reMulEnd);
 
-        console.log({ line, matchIndex, endIndex });
         if (endIndex !== -1) {
-          const arr = line.split('');
-          const unComment = [...arr.slice(0, matchIndex), ...arr.slice(endIndex + 2)];
-          if (unComment.length) result.push(unComment.join(''));
+          const unComment = [...arr.slice(0, multiIndex), ...arr.slice(endIndex + 4 + multiIndex)];
+          if (unComment.length) source[i] = unComment.join('');
+          else i++;
+          continue;
         } else {
           isCommenting = true;
-          unfinishedLine = line.split('').slice(0, matchIndex).join('');
+          unfinishedLine = arr.slice(0, multiIndex).join('');
+          i++;
+          continue;
         }
-        return result;
       }
 
-      result.push(line);
-      return result;
+      i++;
+      if (line.length) result.push(line);
     } else {
-      matchIndex = line.search(reMulEnd);
-      if (matchIndex > 0) {
+      const matchIndex = line.search(reMulEnd);
+      if (matchIndex != -1) {
         isCommenting = false;
         unfinishedLine += line.split('').slice(matchIndex + 2).join('');
-        if (unfinishedLine.length) result.push(unfinishedLine);
+        if (unfinishedLine.length) source[i] = unfinishedLine;
+        else i++;
         unfinishedLine = '';
-
-        return result;
+        continue;
       }
 
-      return result;
+      i++;
     }
-  }, []);
+  }
+
+  return result;
 };
 
 module.exports = removeComments;
