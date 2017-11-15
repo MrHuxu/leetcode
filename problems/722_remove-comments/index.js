@@ -23,10 +23,10 @@ var removeComments = function(source) {
       }
 
       matchIndex = line.search(reMulStart);
-      if (matchIndex > 0) {
+      if (matchIndex !== -1) {
         const endIndex = line.search(reMulEnd);
 
-        console.log({ matchIndex, endIndex });
+        console.log({ line, matchIndex, endIndex });
         if (endIndex !== -1) {
           const arr = line.split('');
           const unComment = [...arr.slice(0, matchIndex), ...arr.slice(endIndex + 2)];
