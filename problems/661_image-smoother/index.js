@@ -14,17 +14,19 @@ var imageSmoother = function(M) {
     let count = 1;
     let sum = M[i][j];
     
-    if (M[i - 1] && M[i - 1][j - 1] !== undefined) {
-      count++;
-      sum += M[i - 1][j - 1];
-    }
-    if (M[i - 1] && M[i - 1][j] !== undefined) {
-      count++;
-      sum += M[i - 1][j];
-    }
-    if (M[i - 1] && M[i - 1][j + 1] !== undefined) {
-      count++;
-      sum += M[i - 1][j + 1];
+    if (M[i - 1]) {
+      if (M[i - 1][j - 1] !== undefined) {
+        count++;
+        sum += M[i - 1][j - 1];
+      }
+      if (M[i - 1][j] !== undefined) {
+        count++;
+        sum += M[i - 1][j];
+      }
+      if (M[i - 1][j + 1] !== undefined) {
+        count++;
+        sum += M[i - 1][j + 1];
+      }
     }
     if (M[i][j - 1] !== undefined) {
       count++;
@@ -34,17 +36,19 @@ var imageSmoother = function(M) {
       count++;
       sum += M[i][j + 1];
     }
-    if (M[i + 1] && M[i + 1][j - 1] !== undefined) {
-      count++;
-      sum += M[i + 1][j - 1];
-    }
-    if (M[i + 1] && M[i + 1][j] !== undefined) {
-      count++;
-      sum += M[i + 1][j];
-    }
-    if (M[i + 1] && M[i + 1][j + 1] !== undefined) {
-      count++;
-      sum += M[i + 1][j + 1];
+    if (M[i + 1]) {
+      if (M[i + 1][j - 1] !== undefined) {
+        count++;
+        sum += M[i + 1][j - 1];
+      }
+      if (M[i + 1][j] !== undefined) {
+        count++;
+        sum += M[i + 1][j];
+      }
+      if (M[i + 1][j + 1] !== undefined) {
+        count++;
+        sum += M[i + 1][j + 1];
+      }
     }
     return floor(sum / count);
   };
