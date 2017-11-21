@@ -32,7 +32,6 @@ var constructMaximumBinaryTree = function(nums) {
     return node;
   };
 
-  const result = build(0, nums.length);
   return build(0, nums.length);
 };
 
