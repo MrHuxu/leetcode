@@ -8,17 +8,21 @@
 var minSteps = function(n) {
   const { floor, sqrt } = Math;
   let result = 0;
-  while (true) {
-    let i;
-    for (i = floor(sqrt(n)); i >= 0; i--) {
-      if (0 === n % i) break;
+  while (n !== 1) {
+    let found = false, i;
+    for (i = 2; i <= floor(sqrt(n)); i++) {
+      if (0 === n % i) {
+        found = true;
+        break;
+      }
     }
-    if (1 === i) {
-      result += n / i;
-      break;
-    } else {
+
+    if (found) {
       result += i;
       n /= i;
+    } else {
+      result += n;
+      break;
     }
   }
   return result;
