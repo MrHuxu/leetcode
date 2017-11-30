@@ -6,12 +6,10 @@
  * @return {number[]}
  */
 var asteroidCollision = function(asteroids) {
-  if (0 === asteroids.length && 1 === asteroids.length) return asteroids;
-
-  let changed = true, used = {}, result = asteroids;
+  let changed = true, result = asteroids;
   while (changed) {
-    const nextResult = [];
     changed = false;
+    const nextResult = [];
     for (let i = 0; i < result.length; i++) {
       const left = result[i], right = result[i + 1];
       if (left > 0 && right !== undefined && right < 0) {
