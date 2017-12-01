@@ -254,9 +254,19 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 593 | [Valid Square][1185] | Medium | [593_valid-square][1186] |
 | 594 | [Longest Harmonious Subsequence][1187] | Easy | [594_longest-harmonious-subsequence][1188] |
 | 617 | [Merge Two Binary Trees][1233] | Easy | [617_merge-two-binary-trees][1234] |
+| 633 | [Sum of Square Numbers][1265] | Easy | [633_sum-of-square-numbers][1266] |
+| 637 | [Average of Levels in Binary Tree][1273] | Easy | [637_average-of-levels-in-binary-tree][1274] |
+| 640 | [Solve the Equation][1279] | Medium | [640_solve-the-equation][1280] |
 | 646 | [Maximum Length of Pair Chain][1291] | Medium | [646_maximum-length-of-pair-chain][1292] |
+| 647 | [Palindromic Substrings][1293] | Medium | [647_palindromic-substrings][1294] |
+| 648 | [Replace Words][1295] | Medium | [648_replace-words][1296] |
+| 650 | [2 Keys Keyboard][1299] | Medium | [650_2-keys-keyboard][1300] |
+| 653 | [Two Sum IV - Input is a BST][1305] | Easy | [653_two-sum-iv-input-is-a-bst][1306] |
+| 654 | [Maximum Binary Tree][1307] | Medium | [654_maximum-binary-tree][1308] |
 | 655 | [Print Binary Tree][1309] | Medium | [655_print-binary-tree][1310] |
+| 657 | [Judge Route Circle][1313] | Easy | [657_judge-route-circle][1314] |
 | 659 | [Split Array into Consecutive Subsequences][1317] | Medium | [659_split-array-into-consecutive-subsequences][1318] |
+| 661 | [Image Smoother][1321] | Easy | [661_image-smoother][1322] |
 | 662 | [Maximum Width of Binary Tree][1323] | Medium | [662_maximum-width-of-binary-tree][1324] |
 | 665 | [Non-decreasing Array][1329] | Easy | [665_non-decreasing-array][1330] |
 | 669 | [Trim a Binary Search Tree][1337] | Easy | [669_trim-a-binary-search-tree][1338] |
@@ -282,8 +292,12 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 717 | [1-bit and 2-bit Characters][1433] | Easy | [717_1-bit-and-2-bit-characters][1434] |
 | 720 | [Longest Word in Dictionary][1439] | Easy | [720_longest-word-in-dictionary][1440] |
 | 721 | [Accounts Merge][1441] | Medium | [721_accounts-merge][1442] |
+| 722 | [Remove Comments][1443] | Medium | [722_remove-comments][1444] |
 | 724 | [Find Pivot Index][1447] | Easy | [724_find-pivot-index][1448] |
 | 726 | [Number of Atoms][1451] | Hard | [726_number-of-atoms][1452] |
+| 728 | [Self Dividing Numbers][1455] | Easy | [728_self-dividing-numbers][1456] |
+| 734 | [Sentence Similarity][1467] | Easy | [734_sentence-similarity][1468] |
+| 735 | [Asteroid Collision][1469] | Medium | [735_asteroid-collision][1470] |
 
 [1]: https://leetcode.com/problems/two-sum
 [2]: https://github.com/MrHuxu/leetcode/blob/master/problems/001_two-sum/index.js
@@ -729,12 +743,32 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1188]: https://github.com/MrHuxu/leetcode/blob/master/problems/594_longest-harmonious-subsequence/index.js
 [1233]: https://leetcode.com/problems/merge-two-binary-trees
 [1234]: https://github.com/MrHuxu/leetcode/blob/master/problems/617_merge-two-binary-trees/index.js
+[1265]: https://leetcode.com/problems/sum-of-square-numbers
+[1266]: https://github.com/MrHuxu/leetcode/blob/master/problems/633_sum-of-square-numbers/index.js
+[1273]: https://leetcode.com/problems/average-of-levels-in-binary-tree
+[1274]: https://github.com/MrHuxu/leetcode/blob/master/problems/637_average-of-levels-in-binary-tree/index.js
+[1279]: https://leetcode.com/problems/solve-the-equation
+[1280]: https://github.com/MrHuxu/leetcode/blob/master/problems/640_solve-the-equation/index.js
 [1291]: https://leetcode.com/problems/maximum-length-of-pair-chain
 [1292]: https://github.com/MrHuxu/leetcode/blob/master/problems/646_maximum-length-of-pair-chain/index.js
+[1293]: https://leetcode.com/problems/palindromic-substrings
+[1294]: https://github.com/MrHuxu/leetcode/blob/master/problems/647_palindromic-substrings/index.js
+[1295]: https://leetcode.com/problems/replace-words
+[1296]: https://github.com/MrHuxu/leetcode/blob/master/problems/648_replace-words/index.js
+[1299]: https://leetcode.com/problems/2-keys-keyboard
+[1300]: https://github.com/MrHuxu/leetcode/blob/master/problems/650_2-keys-keyboard/index.js
+[1305]: https://leetcode.com/problems/two-sum-iv-input-is-a-bst
+[1306]: https://github.com/MrHuxu/leetcode/blob/master/problems/653_two-sum-iv-input-is-a-bst/index.js
+[1307]: https://leetcode.com/problems/maximum-binary-tree
+[1308]: https://github.com/MrHuxu/leetcode/blob/master/problems/654_maximum-binary-tree/index.js
 [1309]: https://leetcode.com/problems/print-binary-tree
 [1310]: https://github.com/MrHuxu/leetcode/blob/master/problems/655_print-binary-tree/index.js
+[1313]: https://leetcode.com/problems/judge-route-circle
+[1314]: https://github.com/MrHuxu/leetcode/blob/master/problems/657_judge-route-circle/index.js
 [1317]: https://leetcode.com/problems/split-array-into-consecutive-subsequences
 [1318]: https://github.com/MrHuxu/leetcode/blob/master/problems/659_split-array-into-consecutive-subsequences/index.js
+[1321]: https://leetcode.com/problems/image-smoother
+[1322]: https://github.com/MrHuxu/leetcode/blob/master/problems/661_image-smoother/index.js
 [1323]: https://leetcode.com/problems/maximum-width-of-binary-tree
 [1324]: https://github.com/MrHuxu/leetcode/blob/master/problems/662_maximum-width-of-binary-tree/index.js
 [1329]: https://leetcode.com/problems/non-decreasing-array
@@ -785,7 +819,15 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1440]: https://github.com/MrHuxu/leetcode/blob/master/problems/720_longest-word-in-dictionary/index.js
 [1441]: https://leetcode.com/problems/accounts-merge
 [1442]: https://github.com/MrHuxu/leetcode/blob/master/problems/721_accounts-merge/index.js
+[1443]: https://leetcode.com/problems/remove-comments
+[1444]: https://github.com/MrHuxu/leetcode/blob/master/problems/722_remove-comments/index.js
 [1447]: https://leetcode.com/problems/find-pivot-index
 [1448]: https://github.com/MrHuxu/leetcode/blob/master/problems/724_find-pivot-index/index.js
 [1451]: https://leetcode.com/problems/number-of-atoms
 [1452]: https://github.com/MrHuxu/leetcode/blob/master/problems/726_number-of-atoms/index.js
+[1455]: https://leetcode.com/problems/self-dividing-numbers
+[1456]: https://github.com/MrHuxu/leetcode/blob/master/problems/728_self-dividing-numbers/index.js
+[1467]: https://leetcode.com/problems/sentence-similarity
+[1468]: https://github.com/MrHuxu/leetcode/blob/master/problems/734_sentence-similarity/index.js
+[1469]: https://leetcode.com/problems/asteroid-collision
+[1470]: https://github.com/MrHuxu/leetcode/blob/master/problems/735_asteroid-collision/index.js
