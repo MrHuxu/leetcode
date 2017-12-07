@@ -18,16 +18,15 @@ function Interval(start, end) {
 }
 
 var merge = function(intervals) {
-  const starts = [];
-  const pair = intervals.reduce((pre, interval) => {
-    if (pre[interval.start] === undefined) {
-      pre[interval.start] = interval.end;
+  const [pair, starts] = intervals.reduce(([pair, starts], interval) => {
+    if (pair[interval.start] === undefined) {
+      pair[interval.start] = interval.end;
       starts.push(interval.start);
-    } else pre[interval.start] = Math.max(pre[interval.start], interval.end);
-    return pre;
-  }, {});
-
+    } else pair[interval.start] = Math.max(pair[interval.start], interval.end);
+    return [pair, starts];
+  }, [{}, []]);
   starts.sort((s1, s2) => s1 > s2 ? 1 : -1);
+
   for (let i = 0; i < starts.length; i++) {
     const start = starts[i];
     if (pair[start] !== undefined) {
