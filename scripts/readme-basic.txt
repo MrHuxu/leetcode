@@ -3,7 +3,7 @@
 [![Build Status](https://www.travis-ci.org/MrHuxu/leetcode.svg?branch=master)](https://www.travis-ci.org/MrHuxu/leetcode)
 
 ## Description
-This is the repo of my LeetCode solutions, and currently I just use Javascript to solve the questions, maybe in the future, I will use other languages I like to get the ALL PASS grade.
+This is the repo of my LeetCode solutions, and currently I just use JavaScript to solve the questions, maybe in the future, I will use other languages I like to get the ALL PASS grade.
 
 ## Features
 
