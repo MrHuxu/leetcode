@@ -64,12 +64,14 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 38 | [Count and Say][75] | Easy | [038_count-and-say][76] |
 | 39 | [Combination Sum][77] | Medium | [039_combination-sum][78] |
 | 41 | [First Missing Positive][81] | Hard | [041_first-missing-positive][82] |
+| 43 | [Multiply Strings][85] | Medium | [043_multiply-strings][86] |
 | 46 | [Permutations][91] | Medium | [046_permutations][92] |
 | 48 | [Rotate Image][95] | Medium | [048_rotate-image][96] |
 | 49 | [Group Anagrams][97] | Medium | [049_group-anagrams][98] |
 | 53 | [Maximum Subarray][105] | Easy | [053_maximum-subarray][106] |
 | 54 | [Spiral Matrix][107] | Medium | [054_spiral-matrix][108] |
 | 55 | [Jump Game][109] | Medium | [055_jump-game][110] |
+| 56 | [Merge Intervals][111] | Medium | [056_merge-intervals][112] |
 | 58 | [Length of Last Word][115] | Easy | [058_length-of-last-word][116] |
 | 59 | [Spiral Matrix II][117] | Medium | [059_spiral-matrix-ii][118] |
 | 60 | [Permutation Sequence][119] | Medium | [060_permutation-sequence][120] |
@@ -77,6 +79,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 62 | [Unique Paths][123] | Medium | [062_unique-paths][124] |
 | 63 | [Unique Paths II][125] | Medium | [063_unique-paths-ii][126] |
 | 64 | [Minimum Path Sum][127] | Medium | [064_minimum-path-sum][128] |
+| 66 | [Plus One][131] | Easy | [066_plus-one][132] |
+| 67 | [Add Binary][133] | Easy | [067_add-binary][134] |
 | 68 | [Text Justification][135] | Hard | [068_text-justification][136] |
 | 69 | [Sqrt(x)][137] | Easy | [069_sqrtx][138] |
 | 71 | [Simplify Path][141] | Medium | [071_simplify-path][142] |
@@ -87,6 +91,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 79 | [Word Search][157] | Medium | [079_word-search][158] |
 | 80 | [Remove Duplicates from Sorted Array II][159] | Medium | [080_remove-duplicates-from-sorted-array-ii][160] |
 | 83 | [Remove Duplicates from Sorted List][165] | Easy | [083_remove-duplicates-from-sorted-list][166] |
+| 86 | [Partition List][171] | Medium | [086_partition-list][172] |
 | 88 | [Merge Sorted Array][175] | Easy | [088_merge-sorted-array][176] |
 | 89 | [Gray Code][177] | Medium | [089_gray-code][178] |
 | 90 | [Subsets II][179] | Medium | [090_subsets-ii][180] |
@@ -98,6 +103,12 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 100 | [Same Tree][199] | Easy | [100_same-tree][200] |
 | 101 | [Symmetric Tree][201] | Easy | [101_symmetric-tree][202] |
 | 102 | [Binary Tree Level Order Traversal][203] | Medium | [102_binary-tree-level-order-traversal][204] |
+| 103 | [Binary Tree Zigzag Level Order Traversal][205] | Medium | [103_binary-tree-zigzag-level-order-traversal][206] |
+| 104 | [Maximum Depth of Binary Tree][207] | Easy | [104_maximum-depth-of-binary-tree][208] |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal][209] | Medium | [105_construct-binary-tree-from-preorder-and-inorder-traversal][210] |
+| 106 | [Construct Binary Tree from Inorder and Postorder Traversal][211] | Medium | [106_construct-binary-tree-from-inorder-and-postorder-traversal][212] |
+| 107 | [Binary Tree Level Order Traversal II][213] | Easy | [107_binary-tree-level-order-traversal-ii][214] |
+| 110 | [Balanced Binary Tree][219] | Easy | [110_balanced-binary-tree][220] |
 | 111 | [Minimum Depth of Binary Tree][221] | Easy | [111_minimum-depth-of-binary-tree][222] |
 | 112 | [Path Sum][223] | Easy | [112_path-sum][224] |
 | 113 | [Path Sum II][225] | Medium | [113_path-sum-ii][226] |
@@ -298,6 +309,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 728 | [Self Dividing Numbers][1455] | Easy | [728_self-dividing-numbers][1456] |
 | 734 | [Sentence Similarity][1467] | Easy | [734_sentence-similarity][1468] |
 | 735 | [Asteroid Collision][1469] | Medium | [735_asteroid-collision][1470] |
+| 742 | [Closest Leaf in a Binary Tree][1483] | Medium | [742_closest-leaf-in-a-binary-tree][1484] |
+| 744 | [Find Smallest Letter Greater Than Target][1487] | Easy | [744_find-smallest-letter-greater-than-target][1488] |
 
 [1]: https://leetcode.com/problems/two-sum
 [2]: https://github.com/MrHuxu/leetcode/blob/master/problems/001_two-sum/index.js
@@ -363,6 +376,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [78]: https://github.com/MrHuxu/leetcode/blob/master/problems/039_combination-sum/index.js
 [81]: https://leetcode.com/problems/first-missing-positive
 [82]: https://github.com/MrHuxu/leetcode/blob/master/problems/041_first-missing-positive/index.js
+[85]: https://leetcode.com/problems/multiply-strings
+[86]: https://github.com/MrHuxu/leetcode/blob/master/problems/043_multiply-strings/index.js
 [91]: https://leetcode.com/problems/permutations
 [92]: https://github.com/MrHuxu/leetcode/blob/master/problems/046_permutations/index.js
 [95]: https://leetcode.com/problems/rotate-image
@@ -375,6 +390,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [108]: https://github.com/MrHuxu/leetcode/blob/master/problems/054_spiral-matrix/index.js
 [109]: https://leetcode.com/problems/jump-game
 [110]: https://github.com/MrHuxu/leetcode/blob/master/problems/055_jump-game/index.js
+[111]: https://leetcode.com/problems/merge-intervals
+[112]: https://github.com/MrHuxu/leetcode/blob/master/problems/056_merge-intervals/index.js
 [115]: https://leetcode.com/problems/length-of-last-word
 [116]: https://github.com/MrHuxu/leetcode/blob/master/problems/058_length-of-last-word/index.js
 [117]: https://leetcode.com/problems/spiral-matrix-ii
@@ -389,6 +406,10 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [126]: https://github.com/MrHuxu/leetcode/blob/master/problems/063_unique-paths-ii/index.js
 [127]: https://leetcode.com/problems/minimum-path-sum
 [128]: https://github.com/MrHuxu/leetcode/blob/master/problems/064_minimum-path-sum/index.js
+[131]: https://leetcode.com/problems/plus-one
+[132]: https://github.com/MrHuxu/leetcode/blob/master/problems/066_plus-one/index.js
+[133]: https://leetcode.com/problems/add-binary
+[134]: https://github.com/MrHuxu/leetcode/blob/master/problems/067_add-binary/index.js
 [135]: https://leetcode.com/problems/text-justification
 [136]: https://github.com/MrHuxu/leetcode/blob/master/problems/068_text-justification/index.js
 [137]: https://leetcode.com/problems/sqrtx
@@ -409,6 +430,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [160]: https://github.com/MrHuxu/leetcode/blob/master/problems/080_remove-duplicates-from-sorted-array-ii/index.js
 [165]: https://leetcode.com/problems/remove-duplicates-from-sorted-list
 [166]: https://github.com/MrHuxu/leetcode/blob/master/problems/083_remove-duplicates-from-sorted-list/index.js
+[171]: https://leetcode.com/problems/partition-list
+[172]: https://github.com/MrHuxu/leetcode/blob/master/problems/086_partition-list/index.js
 [175]: https://leetcode.com/problems/merge-sorted-array
 [176]: https://github.com/MrHuxu/leetcode/blob/master/problems/088_merge-sorted-array/index.js
 [177]: https://leetcode.com/problems/gray-code
@@ -431,6 +454,18 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [202]: https://github.com/MrHuxu/leetcode/blob/master/problems/101_symmetric-tree/index.js
 [203]: https://leetcode.com/problems/binary-tree-level-order-traversal
 [204]: https://github.com/MrHuxu/leetcode/blob/master/problems/102_binary-tree-level-order-traversal/index.js
+[205]: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal
+[206]: https://github.com/MrHuxu/leetcode/blob/master/problems/103_binary-tree-zigzag-level-order-traversal/index.js
+[207]: https://leetcode.com/problems/maximum-depth-of-binary-tree
+[208]: https://github.com/MrHuxu/leetcode/blob/master/problems/104_maximum-depth-of-binary-tree/index.js
+[209]: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal
+[210]: https://github.com/MrHuxu/leetcode/blob/master/problems/105_construct-binary-tree-from-preorder-and-inorder-traversal/index.js
+[211]: https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal
+[212]: https://github.com/MrHuxu/leetcode/blob/master/problems/106_construct-binary-tree-from-inorder-and-postorder-traversal/index.js
+[213]: https://leetcode.com/problems/binary-tree-level-order-traversal-ii
+[214]: https://github.com/MrHuxu/leetcode/blob/master/problems/107_binary-tree-level-order-traversal-ii/index.js
+[219]: https://leetcode.com/problems/balanced-binary-tree
+[220]: https://github.com/MrHuxu/leetcode/blob/master/problems/110_balanced-binary-tree/index.js
 [221]: https://leetcode.com/problems/minimum-depth-of-binary-tree
 [222]: https://github.com/MrHuxu/leetcode/blob/master/problems/111_minimum-depth-of-binary-tree/index.js
 [223]: https://leetcode.com/problems/path-sum
@@ -831,3 +866,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1468]: https://github.com/MrHuxu/leetcode/blob/master/problems/734_sentence-similarity/index.js
 [1469]: https://leetcode.com/problems/asteroid-collision
 [1470]: https://github.com/MrHuxu/leetcode/blob/master/problems/735_asteroid-collision/index.js
+[1483]: https://leetcode.com/problems/closest-leaf-in-a-binary-tree
+[1484]: https://github.com/MrHuxu/leetcode/blob/master/problems/742_closest-leaf-in-a-binary-tree/index.js
+[1487]: https://leetcode.com/problems/find-smallest-letter-greater-than-target
+[1488]: https://github.com/MrHuxu/leetcode/blob/master/problems/744_find-smallest-letter-greater-than-target/index.js
