@@ -14,29 +14,22 @@
  * @return {number}
  */
 var findClosestLeaf = function(root, k) {
-  const NewTreeNode = function(val, depth) {
-    this.val = val;
-    this.left = this.right = null;
-    this.targetInChildren = false;
-    this.depth = depth;
-  };
-
   let targetDepth;
-  const buildNewTree = (node, depth) => {
+  const expandTree = (node, depth) => {
     if (node) {
-      const newNode = new NewTreeNode(node.val, depth);
-      newNode.left = buildNewTree(node.left, depth + 1);
-      newNode.right = buildNewTree(node.right, depth + 1);
+      node.depth = depth;
+      node.left = expandTree(node.left, depth + 1);
+      node.right = expandTree(node.right, depth + 1);
       if (node.val === k) {
         targetDepth = depth;
-        newNode.targetInChildren = true;
+        node.targetInChildren = true;
       } else {
-        newNode.targetInChildren = (newNode.left && newNode.left.targetInChildren) || !!(newNode.right && newNode.right.targetInChildren);
+        node.targetInChildren = (node.left && node.left.targetInChildren) || (node.right && node.right.targetInChildren);
       }
-      return newNode; 
+      return node;
     } else return null;
   };
-  const newRoot = buildNewTree(root, 0);
+  expandTree(root, 0);
 
   let min = Number.MAX_SAFE_INTEGER, result;
   const traverse = (node, targetInParent, plusDepth) => {
@@ -55,7 +48,7 @@ var findClosestLeaf = function(root, k) {
       }
     }
   };
-  traverse(newRoot, false, 0);
+  traverse(root, false, 0);
 
   return result;
 };
