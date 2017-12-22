@@ -1,6 +1,5 @@
 const { writeFileSync, mkdirSync } = require('fs');
 const { get } = require('request');
-const { load } = require('cheerio');
 
 const PROBLEM_URL = slug => `https://leetcode.com/problems/${slug}/`;
 
@@ -12,13 +11,12 @@ const formatSeq = seq => {
 const createFiles = (slug, code) => {
   get(PROBLEM_URL(slug)).on('response', res => {
     res.setEncoding('utf8');
-    var chunk = '';
+    let chunk = '';
     res.on('data', data => chunk += data);
     res.on('end', () => {
-      var $ = load(chunk);
-      var sequence = $('.question-title')[0].children[1].children[1].children[1].children[0].data.split('. ')[0].trim();
+      const sequence = /\d+/.exec(/questionId\:\ \'\d+\'/.exec(chunk)[0])[0];
 
-      var submissionName = `${formatSeq(sequence)}_${slug}`;
+      const submissionName = `${formatSeq(sequence)}_${slug}`;
       mkdirSync(`./problems/${submissionName}`);
       createIndexFile(submissionName, slug, code);
       createTestFile(submissionName);
@@ -29,15 +27,15 @@ const createFiles = (slug, code) => {
 };
 
 const createIndexFile = (submissionName, slug, code) => {
-  const re = /var\ .*\ =\ function/;
-  const funcName = re.exec(code)[0].split(' ')[1];
+  // const re = /var\ .*\ =\ function/;
+  // const funcName = re.exec(code)[0].split(' ')[1];
   writeFileSync(
     `./problems/${submissionName}/index.js`, `/**
  * Problem: https://leetcode.com/problems/${slug}/description/
  */
 ` + code + `
 
-module.exports = ${funcName};
+module.exports = ;
 `
   );
 };

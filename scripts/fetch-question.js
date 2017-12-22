@@ -67,7 +67,12 @@ const getInfosFromPagedata = $ => {
 
   return {
     slug        : pageData.questionTitleSlug,
-    code        : pageData.codeDefinition.find(definition => 'javascript' === definition.value).defaultCode,
+    code        : '',
+    /*
+     * pageData.codeDefinition.find(definition => 'javascript' === definition.value).defaultCode,
+     * it won't work anymore since leetcode now use graphql to load code
+     * definition dynamically and all the requests need to be authenticated
+     */
     description : $('meta[name=description]')[0].attribs['content']
   };
 };
