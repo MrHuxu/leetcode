@@ -23,7 +23,6 @@ const shortestCompletingWord = (licensePlate, words) => {
     return arr;
   }, []);
 
-  let i = 0;
   for (let i = 0; i < licensePlate.length; i++) {
     const ch = licensePlate[i].toLowerCase();
     if (ch.charCodeAt() >= 97 && ch.charCodeAt() <= 122) {
