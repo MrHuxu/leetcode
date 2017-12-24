@@ -29,13 +29,19 @@ const createFiles = (slug, code) => {
 const createIndexFile = (submissionName, slug, code) => {
   // const re = /var\ .*\ =\ function/;
   // const funcName = re.exec(code)[0].split(' ')[1];
+  const funcName = slug.split('-').map((str, i) => (
+    i ? Array.from(str).map((ch, j) => j ? ch : ch.toUpperCase()).join('') : str
+  )).join('');
   writeFileSync(
     `./problems/${submissionName}/index.js`, `/**
  * Problem: https://leetcode.com/problems/${slug}/description/
  */
 ` + code + `
+const ${funcName} = () => {
 
-module.exports = ;
+};
+
+module.exports = ${funcName};
 `
   );
 };
