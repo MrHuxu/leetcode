@@ -17,7 +17,7 @@ let linkStr = '["https://leetcode.com/problems/two-sum","https://leetcode.com/pr
 let request = require('request');
 let cheerio = require('cheerio');
 
-let generatePromise = (url) => {
+let generatePromise = url => {
   return new Promise((resolve, reject) => {
     request.get(url).on('response', response => {
       response.setEncoding('utf8');
@@ -26,9 +26,8 @@ let generatePromise = (url) => {
       response.on('end', () => {
         try {
           let $ = cheerio.load(chunk);
-          let title = $('.question-title')[0].children[1].children[1].children[1].children[0].data.split('. ')[1].split('\n')[0];
-          let sequence = $('.question-title')[0].children[1].children[1].children[1].children[0].data.split('. ')[0].trim();
-          let difficulty = $('#desktop-side-bar ul.side-bar-list li.list-item')[0].children[1].children[0].data;
+          const title = $('meta[property="og:title"]')[0].attribs.content;
+          const sequence = /\d+/.exec(/questionId\:\ \'\d+\'/.exec(chunk)[0])[0];
 
           let urlArr = url.split('/'), submitSequence = sequence;
           for (let i = 0, times = 3 - sequence.length; i < times; ++i) {
@@ -40,18 +39,10 @@ let generatePromise = (url) => {
             url        : url,
             title      : title,
             sequence   : sequence,
-            difficulty : difficulty,
             submission : submission
           });
         } catch (e) {
-          console.log(e);
-          resolve({
-            url        : undefined,
-            title      : url,
-            sequence   : undefined,
-            difficulty : undefined,
-            submission : undefined
-          });
+          console.log({ url, e });
         }
       });
     });
@@ -68,12 +59,12 @@ Promise.all(promiseSet).then((results) => {
   let tableItems = [];
   let links = [];
 
-  tableItems.push('| Sequence      | Title         | Difficulty  | Submission  |\n| ------------- |:------------- | :----------:| :---------- |');
+  tableItems.push('| Sequence      | Title         | Submission  |\n| ------------- |:------------- | :----------:| :---------- |');
   results.forEach(result => {
     let problemUrlNum = parseInt(result.sequence) * 2 - 1;
     let submissionUrlNum = parseInt(result.sequence) * 2;
 
-    tableItems.push(`\n| ${result.sequence} | [${result.title}][${problemUrlNum}] | ${result.difficulty} | [${result.submission.split('.')[0]}][${submissionUrlNum}] |`);
+    tableItems.push(`\n| ${result.sequence} | [${result.title}][${problemUrlNum}] | [${result.submission.split('.')[0]}][${submissionUrlNum}] |`);
     links.push(
       `\n[${problemUrlNum}]: ${result.url}\n[${submissionUrlNum}]: https://github.com/MrHuxu/leetcode/blob/master/problems/${result.submission.split('.')[0]}/index.js`
     );
