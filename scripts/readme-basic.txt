@@ -17,7 +17,7 @@ By executing the command you can browse all the problems in your terminal, and s
 
     npm run f:question
 
-![](https://github.com/MrHuxu/img-repo/blob/master/leetcode/leetcode.gif?raw=true)
+![](https://raw.githubusercontent.com/MrHuxu/img-repo/master/leetcode/leetcode%20fetch%20question.gif)
 
 ### Test Cases
 
