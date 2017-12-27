@@ -61,7 +61,7 @@ const getProblemsTableContent = results => results.reduce(([items, links], resul
     return [items, links];
   }
 }, [
-  ['| Sequence      | Title         | Submission  |\n| ------------- |:------------- | :----------:| :---------- |'],
+  ['| Sequence      | Title         | Submission  |\n| ------------- |:------------- | :---------- |'],
   []
 ]);
 

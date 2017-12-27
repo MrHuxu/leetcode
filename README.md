@@ -31,7 +31,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 ## Submissions
 
 | Sequence      | Title         | Submission  |
-| ------------- |:------------- | :----------:| :---------- |
+| ------------- |:------------- | :---------- |
 | 1 | [Two Sum][1] | [001_two-sum][2] |
 | 2 | [Add Two Numbers][3] | [002_add-two-numbers][4] |
 | 3 | [Longest Substring Without Repeating Characters][5] | [003_longest-substring-without-repeating-characters][6] |
