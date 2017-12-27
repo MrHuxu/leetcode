@@ -30,287 +30,287 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 
 ## Submissions
 
-| Sequence      | Title         | Difficulty  | Submission  |
+| Sequence      | Title         | Submission  |
 | ------------- |:------------- | :----------:| :---------- |
-| 1 | [Two Sum][1] | Easy | [001_two-sum][2] |
-| 2 | [Add Two Numbers][3] | Medium | [002_add-two-numbers][4] |
-| 3 | [Longest Substring Without Repeating Characters][5] | Medium | [003_longest-substring-without-repeating-characters][6] |
-| 5 | [Longest Palindromic Substring][9] | Medium | [005_longest-palindromic-substring][10] |
-| 6 | [ZigZag Conversion][11] | Medium | [006_zigzag-conversion][12] |
-| 7 | [Reverse Integer][13] | Easy | [007_reverse-integer][14] |
-| 8 | [String to Integer (atoi)][15] | Medium | [008_string-to-integer-atoi][16] |
-| 9 | [Palindrome Number][17] | Easy | [009_palindrome-number][18] |
-| 10 | [Regular Expression Matching][19] | Hard | [010_regular-expression-matching][20] |
-| 11 | [Container With Most Water][21] | Medium | [011_container-with-most-water][22] |
-| 12 | [Integer to Roman][23] | Medium | [012_integer-to-roman][24] |
-| 13 | [Roman to Integer][25] | Easy | [013_roman-to-integer][26] |
-| 14 | [Longest Common Prefix][27] | Easy | [014_longest-common-prefix][28] |
-| 15 | [3Sum][29] | Medium | [015_3sum][30] |
-| 16 | [3Sum Closest][31] | Medium | [016_3sum-closest][32] |
-| 17 | [Letter Combinations of a Phone Number][33] | Medium | [017_letter-combinations-of-a-phone-number][34] |
-| 18 | [4Sum][35] | Medium | [018_4sum][36] |
-| 19 | [Remove Nth Node From End of List][37] | Medium | [019_remove-nth-node-from-end-of-list][38] |
-| 20 | [Valid Parentheses][39] | Easy | [020_valid-parentheses][40] |
-| 21 | [Merge Two Sorted Lists][41] | Easy | [021_merge-two-sorted-lists][42] |
-| 22 | [Generate Parentheses][43] | Medium | [022_generate-parentheses][44] |
-| 23 | [Merge k Sorted Lists][45] | Hard | [023_merge-k-sorted-lists][46] |
-| 24 | [Swap Nodes in Pairs][47] | Medium | [024_swap-nodes-in-pairs][48] |
-| 26 | [Remove Duplicates from Sorted Array][51] | Easy | [026_remove-duplicates-from-sorted-array][52] |
-| 27 | [Remove Element][53] | Easy | [027_remove-element][54] |
-| 28 | [Implement strStr()][55] | Easy | [028_implement-strstr][56] |
-| 29 | [Divide Two Integers][57] | Medium | [029_divide-two-integers][58] |
-| 34 | [Search for a Range][67] | Medium | [034_search-for-a-range][68] |
-| 35 | [Search Insert Position][69] | Easy | [035_search-insert-position][70] |
-| 38 | [Count and Say][75] | Easy | [038_count-and-say][76] |
-| 39 | [Combination Sum][77] | Medium | [039_combination-sum][78] |
-| 41 | [First Missing Positive][81] | Hard | [041_first-missing-positive][82] |
-| 43 | [Multiply Strings][85] | Medium | [043_multiply-strings][86] |
-| 46 | [Permutations][91] | Medium | [046_permutations][92] |
-| 48 | [Rotate Image][95] | Medium | [048_rotate-image][96] |
-| 49 | [Group Anagrams][97] | Medium | [049_group-anagrams][98] |
-| 53 | [Maximum Subarray][105] | Easy | [053_maximum-subarray][106] |
-| 54 | [Spiral Matrix][107] | Medium | [054_spiral-matrix][108] |
-| 55 | [Jump Game][109] | Medium | [055_jump-game][110] |
-| 56 | [Merge Intervals][111] | Medium | [056_merge-intervals][112] |
-| 58 | [Length of Last Word][115] | Easy | [058_length-of-last-word][116] |
-| 59 | [Spiral Matrix II][117] | Medium | [059_spiral-matrix-ii][118] |
-| 60 | [Permutation Sequence][119] | Medium | [060_permutation-sequence][120] |
-| 61 | [Rotate List][121] | Medium | [061_rotate-list][122] |
-| 62 | [Unique Paths][123] | Medium | [062_unique-paths][124] |
-| 63 | [Unique Paths II][125] | Medium | [063_unique-paths-ii][126] |
-| 64 | [Minimum Path Sum][127] | Medium | [064_minimum-path-sum][128] |
-| 66 | [Plus One][131] | Easy | [066_plus-one][132] |
-| 67 | [Add Binary][133] | Easy | [067_add-binary][134] |
-| 68 | [Text Justification][135] | Hard | [068_text-justification][136] |
-| 69 | [Sqrt(x)][137] | Easy | [069_sqrtx][138] |
-| 71 | [Simplify Path][141] | Medium | [071_simplify-path][142] |
-| 73 | [Set Matrix Zeroes][145] | Medium | [073_set-matrix-zeroes][146] |
-| 75 | [Sort Colors][149] | Medium | [075_sort-colors][150] |
-| 77 | [Combinations][153] | Medium | [077_combinations][154] |
-| 78 | [Subsets][155] | Medium | [078_subsets][156] |
-| 79 | [Word Search][157] | Medium | [079_word-search][158] |
-| 80 | [Remove Duplicates from Sorted Array II][159] | Medium | [080_remove-duplicates-from-sorted-array-ii][160] |
-| 83 | [Remove Duplicates from Sorted List][165] | Easy | [083_remove-duplicates-from-sorted-list][166] |
-| 86 | [Partition List][171] | Medium | [086_partition-list][172] |
-| 88 | [Merge Sorted Array][175] | Easy | [088_merge-sorted-array][176] |
-| 89 | [Gray Code][177] | Medium | [089_gray-code][178] |
-| 90 | [Subsets II][179] | Medium | [090_subsets-ii][180] |
-| 91 | [Decode Ways][181] | Medium | [091_decode-ways][182] |
-| 92 | [Reverse Linked List II][183] | Medium | [092_reverse-linked-list-ii][184] |
-| 93 | [Restore IP Addresses][185] | Medium | [093_restore-ip-addresses][186] |
-| 94 | [Binary Tree Inorder Traversal][187] | Medium | [094_binary-tree-inorder-traversal][188] |
-| 98 | [Validate Binary Search Tree][195] | Medium | [098_validate-binary-search-tree][196] |
-| 100 | [Same Tree][199] | Easy | [100_same-tree][200] |
-| 101 | [Symmetric Tree][201] | Easy | [101_symmetric-tree][202] |
-| 102 | [Binary Tree Level Order Traversal][203] | Medium | [102_binary-tree-level-order-traversal][204] |
-| 103 | [Binary Tree Zigzag Level Order Traversal][205] | Medium | [103_binary-tree-zigzag-level-order-traversal][206] |
-| 104 | [Maximum Depth of Binary Tree][207] | Easy | [104_maximum-depth-of-binary-tree][208] |
-| 105 | [Construct Binary Tree from Preorder and Inorder Traversal][209] | Medium | [105_construct-binary-tree-from-preorder-and-inorder-traversal][210] |
-| 106 | [Construct Binary Tree from Inorder and Postorder Traversal][211] | Medium | [106_construct-binary-tree-from-inorder-and-postorder-traversal][212] |
-| 107 | [Binary Tree Level Order Traversal II][213] | Easy | [107_binary-tree-level-order-traversal-ii][214] |
-| 110 | [Balanced Binary Tree][219] | Easy | [110_balanced-binary-tree][220] |
-| 111 | [Minimum Depth of Binary Tree][221] | Easy | [111_minimum-depth-of-binary-tree][222] |
-| 112 | [Path Sum][223] | Easy | [112_path-sum][224] |
-| 113 | [Path Sum II][225] | Medium | [113_path-sum-ii][226] |
-| 114 | [Flatten Binary Tree to Linked List][227] | Medium | [114_flatten-binary-tree-to-linked-list][228] |
-| 116 | [Populating Next Right Pointers in Each Node][231] | Medium | [116_populating-next-right-pointers-in-each-node][232] |
-| 118 | [Pascal's Triangle][235] | Easy | [118_pascals-triangle][236] |
-| 119 | [Pascal's Triangle II][237] | Easy | [119_pascals-triangle-ii][238] |
-| 120 | [Triangle][239] | Medium | [120_triangle][240] |
-| 121 | [Best Time to Buy and Sell Stock][241] | Easy | [121_best-time-to-buy-and-sell-stock][242] |
-| 122 | [Best Time to Buy and Sell Stock II][243] | Easy | [122_best-time-to-buy-and-sell-stock-ii][244] |
-| 125 | [Valid Palindrome][249] | Easy | [125_valid-palindrome][250] |
-| 129 | [Sum Root to Leaf Numbers][257] | Medium | [129_sum-root-to-leaf-numbers][258] |
-| 130 | [Surrounded Regions][259] | Medium | [130_surrounded-regions][260] |
-| 131 | [Palindrome Partitioning][261] | Medium | [131_palindrome-partitioning][262] |
-| 134 | [Gas Station][267] | Medium | [134_gas-station][268] |
-| 136 | [Single Number][271] | Easy | [136_single-number][272] |
-| 137 | [Single Number II][273] | Medium | [137_single-number-ii][274] |
-| 139 | [Word Break][277] | Medium | [139_word-break][278] |
-| 141 | [Linked List Cycle][281] | Easy | [141_linked-list-cycle][282] |
-| 142 | [Linked List Cycle II][283] | Medium | [142_linked-list-cycle-ii][284] |
-| 143 | [Reorder List][285] | Medium | [143_reorder-list][286] |
-| 144 | [Binary Tree Preorder Traversal][287] | Medium | [144_binary-tree-preorder-traversal][288] |
-| 145 | [Binary Tree Postorder Traversal][289] | Hard | [145_binary-tree-postorder-traversal][290] |
-| 147 | [Insertion Sort List][293] | Medium | [147_insertion-sort-list][294] |
-| 150 | [Evaluate Reverse Polish Notation][299] | Medium | [150_evaluate-reverse-polish-notation][300] |
-| 151 | [Reverse Words in a String][301] | Medium | [151_reverse-words-in-a-string][302] |
-| 152 | [Maximum Product Subarray][303] | Medium | [152_maximum-product-subarray][304] |
-| 153 | [Find Minimum in Rotated Sorted Array][305] | Medium | [153_find-minimum-in-rotated-sorted-array][306] |
-| 155 | [Min Stack][309] | Easy | [155_min-stack][310] |
-| 160 | [Intersection of Two Linked Lists][319] | Easy | [160_intersection-of-two-linked-lists][320] |
-| 162 | [Find Peak Element][323] | Medium | [162_find-peak-element][324] |
-| 165 | [Compare Version Numbers][329] | Medium | [165_compare-version-numbers][330] |
-| 168 | [Excel Sheet Column Title][335] | Easy | [168_excel-sheet-column-title][336] |
-| 169 | [Majority Element][337] | Easy | [169_majority-element][338] |
-| 171 | [Excel Sheet Column Number][341] | Easy | [171_excel-sheet-column-number][342] |
-| 172 | [Factorial Trailing Zeroes][343] | Easy | [172_factorial-trailing-zeroes][344] |
-| 179 | [Largest Number][357] | Medium | [179_largest-number][358] |
-| 187 | [Repeated DNA Sequences][373] | Medium | [187_repeated-dna-sequences][374] |
-| 189 | [Rotate Array][377] | Easy | [189_rotate-array][378] |
-| 190 | [Reverse Bits][379] | Easy | [190_reverse-bits][380] |
-| 191 | [Number of 1 Bits][381] | Easy | [191_number-of-1-bits][382] |
-| 198 | [House Robber][395] | Easy | [198_house-robber][396] |
-| 199 | [Binary Tree Right Side View][397] | Medium | [199_binary-tree-right-side-view][398] |
-| 200 | [Number of Islands][399] | Medium | [200_number-of-islands][400] |
-| 201 | [Bitwise AND of Numbers Range][401] | Medium | [201_bitwise-and-of-numbers-range][402] |
-| 202 | [Happy Number][403] | Easy | [202_happy-number][404] |
-| 203 | [Remove Linked List Elements][405] | Easy | [203_remove-linked-list-elements][406] |
-| 204 | [Count Primes][407] | Easy | [204_count-primes][408] |
-| 205 | [Isomorphic Strings][409] | Easy | [205_isomorphic-strings][410] |
-| 206 | [Reverse Linked List][411] | Easy | [206_reverse-linked-list][412] |
-| 207 | [Course Schedule][413] | Medium | [207_course-schedule][414] |
-| 209 | [Minimum Size Subarray Sum][417] | Medium | [209_minimum-size-subarray-sum][418] |
-| 215 | [Kth Largest Element in an Array][429] | Medium | [215_kth-largest-element-in-an-array][430] |
-| 216 | [Combination Sum III][431] | Medium | [216_combination-sum-iii][432] |
-| 217 | [Contains Duplicate][433] | Easy | [217_contains-duplicate][434] |
-| 219 | [Contains Duplicate II][437] | Easy | [219_contains-duplicate-ii][438] |
-| 220 | [Contains Duplicate III][439] | Medium | [220_contains-duplicate-iii][440] |
-| 221 | [Maximal Square][441] | Medium | [221_maximal-square][442] |
-| 223 | [Rectangle Area][445] | Medium | [223_rectangle-area][446] |
-| 224 | [Basic Calculator][447] | Hard | [224_basic-calculator][448] |
-| 226 | [Invert Binary Tree][451] | Easy | [226_invert-binary-tree][452] |
-| 227 | [Basic Calculator II][453] | Medium | [227_basic-calculator-ii][454] |
-| 228 | [Summary Ranges][455] | Medium | [228_summary-ranges][456] |
-| 229 | [Majority Element II][457] | Medium | [229_majority-element-ii][458] |
-| 231 | [Power of Two][461] | Easy | [231_power-of-two][462] |
-| 234 | [Palindrome Linked List][467] | Easy | [234_palindrome-linked-list][468] |
-| 235 | [Lowest Common Ancestor of a Binary Search Tree][469] | Easy | [235_lowest-common-ancestor-of-a-binary-search-tree][470] |
-| 237 | [Delete Node in a Linked List][473] | Easy | [237_delete-node-in-a-linked-list][474] |
-| 238 | [Product of Array Except Self][475] | Medium | [238_product-of-array-except-self][476] |
-| 240 | [Search a 2D Matrix II][479] | Medium | [240_search-a-2d-matrix-ii][480] |
-| 242 | [Valid Anagram][483] | Easy | [242_valid-anagram][484] |
-| 257 | [Binary Tree Paths][513] | Easy | [257_binary-tree-paths][514] |
-| 258 | [Add Digits][515] | Easy | [258_add-digits][516] |
-| 263 | [Ugly Number][525] | Easy | [263_ugly-number][526] |
-| 264 | [Ugly Number II][527] | Medium | [264_ugly-number-ii][528] |
-| 268 | [Missing Number][535] | Easy | [268_missing-number][536] |
-| 274 | [H-Index][547] | Medium | [274_h-index][548] |
-| 275 | [H-Index II][549] | Medium | [275_h-index-ii][550] |
-| 278 | [First Bad Version][555] | Easy | [278_first-bad-version][556] |
-| 279 | [Perfect Squares][557] | Medium | [279_perfect-squares][558] |
-| 283 | [Move Zeroes][565] | Easy | [283_move-zeroes][566] |
-| 289 | [Game of Life][577] | Medium | [289_game-of-life][578] |
-| 290 | [Word Pattern][579] | Easy | [290_word-pattern][580] |
-| 292 | [Nim Game][583] | Easy | [292_nim-game][584] |
-| 299 | [Bulls and Cows][597] | Medium | [299_bulls-and-cows][598] |
-| 300 | [Longest Increasing Subsequence][599] | Medium | [300_longest-increasing-subsequence][600] |
-| 303 | [Range Sum Query - Immutable][605] | Easy | [303_range-sum-query-immutable][606] |
-| 304 | [Range Sum Query 2D - Immutable][607] | Medium | [304_range-sum-query-2d-immutable][608] |
-| 306 | [Additive Number][611] | Medium | [306_additive-number][612] |
-| 307 | [Range Sum Query - Mutable][613] | Medium | [307_range-sum-query-mutable][614] |
-| 318 | [Maximum Product of Word Lengths][635] | Medium | [318_maximum-product-of-word-lengths][636] |
-| 322 | [Coin Change][643] | Medium | [322_coin-change][644] |
-| 326 | [Power of Three][651] | Easy | [326_power-of-three][652] |
-| 328 | [Odd Even Linked List][655] | Medium | [328_odd-even-linked-list][656] |
-| 332 | [Reconstruct Itinerary][663] | Medium | [332_reconstruct-itinerary][664] |
-| 334 | [Increasing Triplet Subsequence][667] | Medium | [334_increasing-triplet-subsequence][668] |
-| 338 | [Counting Bits][675] | Medium | [338_counting-bits][676] |
-| 343 | [Integer Break][685] | Medium | [343_integer-break][686] |
-| 344 | [Reverse String][687] | Easy | [344_reverse-string][688] |
-| 345 | [Reverse Vowels of a String][689] | Easy | [345_reverse-vowels-of-a-string][690] |
-| 347 | [Top K Frequent Elements][693] | Medium | [347_top-k-frequent-elements][694] |
-| 349 | [Intersection of Two Arrays][697] | Easy | [349_intersection-of-two-arrays][698] |
-| 350 | [Intersection of Two Arrays II][699] | Easy | [350_intersection-of-two-arrays-ii][700] |
-| 367 | [Valid Perfect Square][733] | Easy | [367_valid-perfect-square][734] |
-| 368 | [Largest Divisible Subset][735] | Medium | [368_largest-divisible-subset][736] |
-| 378 | [Kth Smallest Element in a Sorted Matrix][755] | Medium | [378_kth-smallest-element-in-a-sorted-matrix][756] |
-| 383 | [Ransom Note][765] | Easy | [383_ransom-note][766] |
-| 386 | [Lexicographical Numbers][771] | Medium | [386_lexicographical-numbers][772] |
-| 387 | [First Unique Character in a String][773] | Easy | [387_first-unique-character-in-a-string][774] |
-| 388 | [Longest Absolute File Path][775] | Medium | [388_longest-absolute-file-path][776] |
-| 389 | [Find the Difference][777] | Easy | [389_find-the-difference][778] |
-| 392 | [Is Subsequence][783] | Medium | [392_is-subsequence][784] |
-| 394 | [Decode String][787] | Medium | [394_decode-string][788] |
-| 397 | [Integer Replacement][793] | Medium | [397_integer-replacement][794] |
-| 399 | [Evaluate Division][797] | Medium | [399_evaluate-division][798] |
-| 401 | [Binary Watch][801] | Easy | [401_binary-watch][802] |
-| 404 | [Sum of Left Leaves][807] | Easy | [404_sum-of-left-leaves][808] |
-| 405 | [Convert a Number to Hexadecimal][809] | Easy | [405_convert-a-number-to-hexadecimal][810] |
-| 406 | [Queue Reconstruction by Height][811] | Medium | [406_queue-reconstruction-by-height][812] |
-| 409 | [Longest Palindrome][817] | Easy | [409_longest-palindrome][818] |
-| 412 | [Fizz Buzz][823] | Easy | [412_fizz-buzz][824] |
-| 413 | [Arithmetic Slices][825] | Medium | [413_arithmetic-slices][826] |
-| 415 | [Add Strings][829] | Easy | [415_add-strings][830] |
-| 416 | [Partition Equal Subset Sum][831] | Medium | [416_partition-equal-subset-sum][832] |
-| 417 | [Pacific Atlantic Water Flow][833] | Medium | [417_pacific-atlantic-water-flow][834] |
-| 419 | [Battleships in a Board][837] | Medium | [419_battleships-in-a-board][838] |
-| 423 | [Reconstruct Original Digits from English][845] | Medium | [423_reconstruct-original-digits-from-english][846] |
-| 434 | [Number of Segments in a String][867] | Easy | [434_number-of-segments-in-a-string][868] |
-| 438 | [Find All Anagrams in a String][875] | Easy | [438_find-all-anagrams-in-a-string][876] |
-| 441 | [Arranging Coins][881] | Easy | [441_arranging-coins][882] |
-| 442 | [Find All Duplicates in an Array][883] | Medium | [442_find-all-duplicates-in-an-array][884] |
-| 453 | [Minimum Moves to Equal Array Elements][905] | Easy | [453_minimum-moves-to-equal-array-elements][906] |
-| 485 | [Max Consecutive Ones][969] | Easy | [485_max-consecutive-ones][970] |
-| 492 | [Construct the Rectangle][983] | Easy | [492_construct-the-rectangle][984] |
-| 494 | [Target Sum][987] | Medium | [494_target-sum][988] |
-| 496 | [Next Greater Element I][991] | Easy | [496_next-greater-element-i][992] |
-| 506 | [Relative Ranks][1011] | Easy | [506_relative-ranks][1012] |
-| 508 | [Most Frequent Subtree Sum][1015] | Medium | [508_most-frequent-subtree-sum][1016] |
-| 513 | [Find Bottom Left Tree Value][1025] | Medium | [513_find-bottom-left-tree-value][1026] |
-| 515 | [Find Largest Value in Each Tree Row][1029] | Medium | [515_find-largest-value-in-each-tree-row][1030] |
-| 520 | [Detect Capital][1039] | Easy | [520_detect-capital][1040] |
-| 529 | [Minesweeper][1057] | Medium | [529_minesweeper][1058] |
-| 530 | [Minimum Absolute Difference in BST][1059] | Easy | [530_minimum-absolute-difference-in-bst][1060] |
-| 538 | [Convert BST to Greater Tree][1075] | Easy | [538_convert-bst-to-greater-tree][1076] |
-| 539 | [Minimum Time Difference][1077] | Medium | [539_minimum-time-difference][1078] |
-| 542 | [01 Matrix][1083] | Medium | [542_01-matrix][1084] |
-| 560 | [Subarray Sum Equals K][1119] | Medium | [560_subarray-sum-equals-k][1120] |
-| 561 | [Array Partition I][1121] | Easy | [561_array-partition-i][1122] |
-| 563 | [Binary Tree Tilt][1125] | Easy | [563_binary-tree-tilt][1126] |
-| 566 | [Reshape the Matrix][1131] | Easy | [566_reshape-the-matrix][1132] |
-| 567 | [Permutation in String][1133] | Medium | [567_permutation-in-string][1134] |
-| 581 | [Shortest Unsorted Continuous Subarray][1161] | Easy | [581_shortest-unsorted-continuous-subarray][1162] |
-| 592 | [Fraction Addition and Subtraction][1183] | Medium | [592_fraction-addition-and-subtraction][1184] |
-| 593 | [Valid Square][1185] | Medium | [593_valid-square][1186] |
-| 594 | [Longest Harmonious Subsequence][1187] | Easy | [594_longest-harmonious-subsequence][1188] |
-| 617 | [Merge Two Binary Trees][1233] | Easy | [617_merge-two-binary-trees][1234] |
-| 633 | [Sum of Square Numbers][1265] | Easy | [633_sum-of-square-numbers][1266] |
-| 637 | [Average of Levels in Binary Tree][1273] | Easy | [637_average-of-levels-in-binary-tree][1274] |
-| 640 | [Solve the Equation][1279] | Medium | [640_solve-the-equation][1280] |
-| 646 | [Maximum Length of Pair Chain][1291] | Medium | [646_maximum-length-of-pair-chain][1292] |
-| 647 | [Palindromic Substrings][1293] | Medium | [647_palindromic-substrings][1294] |
-| 648 | [Replace Words][1295] | Medium | [648_replace-words][1296] |
-| 650 | [2 Keys Keyboard][1299] | Medium | [650_2-keys-keyboard][1300] |
-| 653 | [Two Sum IV - Input is a BST][1305] | Easy | [653_two-sum-iv-input-is-a-bst][1306] |
-| 654 | [Maximum Binary Tree][1307] | Medium | [654_maximum-binary-tree][1308] |
-| 655 | [Print Binary Tree][1309] | Medium | [655_print-binary-tree][1310] |
-| 657 | [Judge Route Circle][1313] | Easy | [657_judge-route-circle][1314] |
-| 659 | [Split Array into Consecutive Subsequences][1317] | Medium | [659_split-array-into-consecutive-subsequences][1318] |
-| 661 | [Image Smoother][1321] | Easy | [661_image-smoother][1322] |
-| 662 | [Maximum Width of Binary Tree][1323] | Medium | [662_maximum-width-of-binary-tree][1324] |
-| 665 | [Non-decreasing Array][1329] | Easy | [665_non-decreasing-array][1330] |
-| 669 | [Trim a Binary Search Tree][1337] | Easy | [669_trim-a-binary-search-tree][1338] |
-| 670 | [Maximum Swap][1339] | Medium | [670_maximum-swap][1340] |
-| 671 | [Second Minimum Node In a Binary Tree][1341] | Easy | [671_second-minimum-node-in-a-binary-tree][1342] |
-| 673 | [Number of Longest Increasing Subsequence][1345] | Medium | [673_number-of-longest-increasing-subsequence][1346] |
-| 674 | [Longest Continuous Increasing Subsequence][1347] | Easy | [674_longest-continuous-increasing-subsequence][1348] |
-| 676 | [Implement Magic Dictionary][1351] | Medium | [676_implement-magic-dictionary][1352] |
-| 677 | [Map Sum Pairs][1353] | Medium | [677_map-sum-pairs][1354] |
-| 678 | [Valid Parenthesis String][1355] | Medium | [678_valid-parenthesis-string][1356] |
-| 680 | [Valid Palindrome II][1359] | Easy | [680_valid-palindrome-ii][1360] |
-| 682 | [Baseball Game][1363] | Easy | [682_baseball-game][1364] |
-| 686 | [Repeated String Match][1371] | Easy | [686_repeated-string-match][1372] |
-| 687 | [Longest Univalue Path][1373] | Easy | [687_longest-univalue-path][1374] |
-| 692 | [Top K Frequent Words][1383] | Medium | [692_top-k-frequent-words][1384] |
-| 693 | [Binary Number with Alternating Bits][1385] | Easy | [693_binary-number-with-alternating-bits][1386] |
-| 695 | [Max Area of Island][1389] | Easy | [695_max-area-of-island][1390] |
-| 696 | [Count Binary Substrings][1391] | Easy | [696_count-binary-substrings][1392] |
-| 697 | [Degree of an Array][1393] | Easy | [697_degree-of-an-array][1394] |
-| 698 | [Partition to K Equal Sum Subsets][1395] | Medium | [698_partition-to-k-equal-sum-subsets][1396] |
-| 713 | [Subarray Product Less Than K][1425] | Medium | [713_subarray-product-less-than-k][1426] |
-| 714 | [Best Time to Buy and Sell Stock with Transaction Fee][1427] | Medium | [714_best-time-to-buy-and-sell-stock-with-transaction-fee][1428] |
-| 717 | [1-bit and 2-bit Characters][1433] | Easy | [717_1-bit-and-2-bit-characters][1434] |
-| 720 | [Longest Word in Dictionary][1439] | Easy | [720_longest-word-in-dictionary][1440] |
-| 721 | [Accounts Merge][1441] | Medium | [721_accounts-merge][1442] |
-| 722 | [Remove Comments][1443] | Medium | [722_remove-comments][1444] |
-| 724 | [Find Pivot Index][1447] | Easy | [724_find-pivot-index][1448] |
-| 726 | [Number of Atoms][1451] | Hard | [726_number-of-atoms][1452] |
-| 728 | [Self Dividing Numbers][1455] | Easy | [728_self-dividing-numbers][1456] |
-| 734 | [Sentence Similarity][1467] | Easy | [734_sentence-similarity][1468] |
-| 735 | [Asteroid Collision][1469] | Medium | [735_asteroid-collision][1470] |
-| 742 | [Closest Leaf in a Binary Tree][1483] | Medium | [742_closest-leaf-in-a-binary-tree][1484] |
-| 744 | [Find Smallest Letter Greater Than Target][1487] | Easy | [744_find-smallest-letter-greater-than-target][1488] |
+| 1 | [Two Sum][1] | [001_two-sum][2] |
+| 2 | [Add Two Numbers][3] | [002_add-two-numbers][4] |
+| 3 | [Longest Substring Without Repeating Characters][5] | [003_longest-substring-without-repeating-characters][6] |
+| 5 | [Longest Palindromic Substring][9] | [005_longest-palindromic-substring][10] |
+| 6 | [ZigZag Conversion][11] | [006_zigzag-conversion][12] |
+| 7 | [Reverse Integer][13] | [007_reverse-integer][14] |
+| 8 | [String to Integer (atoi)][15] | [008_string-to-integer-atoi][16] |
+| 9 | [Palindrome Number][17] | [009_palindrome-number][18] |
+| 10 | [Regular Expression Matching][19] | [010_regular-expression-matching][20] |
+| 11 | [Container With Most Water][21] | [011_container-with-most-water][22] |
+| 12 | [Integer to Roman][23] | [012_integer-to-roman][24] |
+| 13 | [Roman to Integer][25] | [013_roman-to-integer][26] |
+| 14 | [Longest Common Prefix][27] | [014_longest-common-prefix][28] |
+| 15 | [3Sum][29] | [015_3sum][30] |
+| 16 | [3Sum Closest][31] | [016_3sum-closest][32] |
+| 17 | [Letter Combinations of a Phone Number][33] | [017_letter-combinations-of-a-phone-number][34] |
+| 18 | [4Sum][35] | [018_4sum][36] |
+| 19 | [Remove Nth Node From End of List][37] | [019_remove-nth-node-from-end-of-list][38] |
+| 20 | [Valid Parentheses][39] | [020_valid-parentheses][40] |
+| 21 | [Merge Two Sorted Lists][41] | [021_merge-two-sorted-lists][42] |
+| 22 | [Generate Parentheses][43] | [022_generate-parentheses][44] |
+| 23 | [Merge k Sorted Lists][45] | [023_merge-k-sorted-lists][46] |
+| 24 | [Swap Nodes in Pairs][47] | [024_swap-nodes-in-pairs][48] |
+| 26 | [Remove Duplicates from Sorted Array][51] | [026_remove-duplicates-from-sorted-array][52] |
+| 27 | [Remove Element][53] | [027_remove-element][54] |
+| 28 | [Implement strStr()][55] | [028_implement-strstr][56] |
+| 29 | [Divide Two Integers][57] | [029_divide-two-integers][58] |
+| 34 | [Search for a Range][67] | [034_search-for-a-range][68] |
+| 35 | [Search Insert Position][69] | [035_search-insert-position][70] |
+| 38 | [Count and Say][75] | [038_count-and-say][76] |
+| 39 | [Combination Sum][77] | [039_combination-sum][78] |
+| 41 | [First Missing Positive][81] | [041_first-missing-positive][82] |
+| 43 | [Multiply Strings][85] | [043_multiply-strings][86] |
+| 46 | [Permutations][91] | [046_permutations][92] |
+| 48 | [Rotate Image][95] | [048_rotate-image][96] |
+| 49 | [Group Anagrams][97] | [049_group-anagrams][98] |
+| 53 | [Maximum Subarray][105] | [053_maximum-subarray][106] |
+| 54 | [Spiral Matrix][107] | [054_spiral-matrix][108] |
+| 55 | [Jump Game][109] | [055_jump-game][110] |
+| 56 | [Merge Intervals][111] | [056_merge-intervals][112] |
+| 58 | [Length of Last Word][115] | [058_length-of-last-word][116] |
+| 59 | [Spiral Matrix II][117] | [059_spiral-matrix-ii][118] |
+| 60 | [Permutation Sequence][119] | [060_permutation-sequence][120] |
+| 61 | [Rotate List][121] | [061_rotate-list][122] |
+| 62 | [Unique Paths][123] | [062_unique-paths][124] |
+| 63 | [Unique Paths II][125] | [063_unique-paths-ii][126] |
+| 64 | [Minimum Path Sum][127] | [064_minimum-path-sum][128] |
+| 66 | [Plus One][131] | [066_plus-one][132] |
+| 67 | [Add Binary][133] | [067_add-binary][134] |
+| 68 | [Text Justification][135] | [068_text-justification][136] |
+| 69 | [Sqrt(x)][137] | [069_sqrtx][138] |
+| 71 | [Simplify Path][141] | [071_simplify-path][142] |
+| 73 | [Set Matrix Zeroes][145] | [073_set-matrix-zeroes][146] |
+| 75 | [Sort Colors][149] | [075_sort-colors][150] |
+| 77 | [Combinations][153] | [077_combinations][154] |
+| 78 | [Subsets][155] | [078_subsets][156] |
+| 79 | [Word Search][157] | [079_word-search][158] |
+| 80 | [Remove Duplicates from Sorted Array II][159] | [080_remove-duplicates-from-sorted-array-ii][160] |
+| 83 | [Remove Duplicates from Sorted List][165] | [083_remove-duplicates-from-sorted-list][166] |
+| 86 | [Partition List][171] | [086_partition-list][172] |
+| 88 | [Merge Sorted Array][175] | [088_merge-sorted-array][176] |
+| 89 | [Gray Code][177] | [089_gray-code][178] |
+| 90 | [Subsets II][179] | [090_subsets-ii][180] |
+| 91 | [Decode Ways][181] | [091_decode-ways][182] |
+| 92 | [Reverse Linked List II][183] | [092_reverse-linked-list-ii][184] |
+| 93 | [Restore IP Addresses][185] | [093_restore-ip-addresses][186] |
+| 94 | [Binary Tree Inorder Traversal][187] | [094_binary-tree-inorder-traversal][188] |
+| 98 | [Validate Binary Search Tree][195] | [098_validate-binary-search-tree][196] |
+| 100 | [Same Tree][199] | [100_same-tree][200] |
+| 101 | [Symmetric Tree][201] | [101_symmetric-tree][202] |
+| 102 | [Binary Tree Level Order Traversal][203] | [102_binary-tree-level-order-traversal][204] |
+| 103 | [Binary Tree Zigzag Level Order Traversal][205] | [103_binary-tree-zigzag-level-order-traversal][206] |
+| 104 | [Maximum Depth of Binary Tree][207] | [104_maximum-depth-of-binary-tree][208] |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal][209] | [105_construct-binary-tree-from-preorder-and-inorder-traversal][210] |
+| 106 | [Construct Binary Tree from Inorder and Postorder Traversal][211] | [106_construct-binary-tree-from-inorder-and-postorder-traversal][212] |
+| 107 | [Binary Tree Level Order Traversal II][213] | [107_binary-tree-level-order-traversal-ii][214] |
+| 110 | [Balanced Binary Tree][219] | [110_balanced-binary-tree][220] |
+| 111 | [Minimum Depth of Binary Tree][221] | [111_minimum-depth-of-binary-tree][222] |
+| 112 | [Path Sum][223] | [112_path-sum][224] |
+| 113 | [Path Sum II][225] | [113_path-sum-ii][226] |
+| 114 | [Flatten Binary Tree to Linked List][227] | [114_flatten-binary-tree-to-linked-list][228] |
+| 116 | [Populating Next Right Pointers in Each Node][231] | [116_populating-next-right-pointers-in-each-node][232] |
+| 118 | [Pascal's Triangle][235] | [118_pascals-triangle][236] |
+| 119 | [Pascal's Triangle II][237] | [119_pascals-triangle-ii][238] |
+| 120 | [Triangle][239] | [120_triangle][240] |
+| 121 | [Best Time to Buy and Sell Stock][241] | [121_best-time-to-buy-and-sell-stock][242] |
+| 122 | [Best Time to Buy and Sell Stock II][243] | [122_best-time-to-buy-and-sell-stock-ii][244] |
+| 125 | [Valid Palindrome][249] | [125_valid-palindrome][250] |
+| 129 | [Sum Root to Leaf Numbers][257] | [129_sum-root-to-leaf-numbers][258] |
+| 130 | [Surrounded Regions][259] | [130_surrounded-regions][260] |
+| 131 | [Palindrome Partitioning][261] | [131_palindrome-partitioning][262] |
+| 134 | [Gas Station][267] | [134_gas-station][268] |
+| 136 | [Single Number][271] | [136_single-number][272] |
+| 137 | [Single Number II][273] | [137_single-number-ii][274] |
+| 139 | [Word Break][277] | [139_word-break][278] |
+| 141 | [Linked List Cycle][281] | [141_linked-list-cycle][282] |
+| 142 | [Linked List Cycle II][283] | [142_linked-list-cycle-ii][284] |
+| 143 | [Reorder List][285] | [143_reorder-list][286] |
+| 144 | [Binary Tree Preorder Traversal][287] | [144_binary-tree-preorder-traversal][288] |
+| 145 | [Binary Tree Postorder Traversal][289] | [145_binary-tree-postorder-traversal][290] |
+| 147 | [Insertion Sort List][293] | [147_insertion-sort-list][294] |
+| 150 | [Evaluate Reverse Polish Notation][299] | [150_evaluate-reverse-polish-notation][300] |
+| 151 | [Reverse Words in a String][301] | [151_reverse-words-in-a-string][302] |
+| 152 | [Maximum Product Subarray][303] | [152_maximum-product-subarray][304] |
+| 153 | [Find Minimum in Rotated Sorted Array][305] | [153_find-minimum-in-rotated-sorted-array][306] |
+| 155 | [Min Stack][309] | [155_min-stack][310] |
+| 160 | [Intersection of Two Linked Lists][319] | [160_intersection-of-two-linked-lists][320] |
+| 162 | [Find Peak Element][323] | [162_find-peak-element][324] |
+| 165 | [Compare Version Numbers][329] | [165_compare-version-numbers][330] |
+| 168 | [Excel Sheet Column Title][335] | [168_excel-sheet-column-title][336] |
+| 169 | [Majority Element][337] | [169_majority-element][338] |
+| 171 | [Excel Sheet Column Number][341] | [171_excel-sheet-column-number][342] |
+| 172 | [Factorial Trailing Zeroes][343] | [172_factorial-trailing-zeroes][344] |
+| 179 | [Largest Number][357] | [179_largest-number][358] |
+| 187 | [Repeated DNA Sequences][373] | [187_repeated-dna-sequences][374] |
+| 189 | [Rotate Array][377] | [189_rotate-array][378] |
+| 190 | [Reverse Bits][379] | [190_reverse-bits][380] |
+| 191 | [Number of 1 Bits][381] | [191_number-of-1-bits][382] |
+| 198 | [House Robber][395] | [198_house-robber][396] |
+| 199 | [Binary Tree Right Side View][397] | [199_binary-tree-right-side-view][398] |
+| 200 | [Number of Islands][399] | [200_number-of-islands][400] |
+| 201 | [Bitwise AND of Numbers Range][401] | [201_bitwise-and-of-numbers-range][402] |
+| 202 | [Happy Number][403] | [202_happy-number][404] |
+| 203 | [Remove Linked List Elements][405] | [203_remove-linked-list-elements][406] |
+| 204 | [Count Primes][407] | [204_count-primes][408] |
+| 205 | [Isomorphic Strings][409] | [205_isomorphic-strings][410] |
+| 206 | [Reverse Linked List][411] | [206_reverse-linked-list][412] |
+| 207 | [Course Schedule][413] | [207_course-schedule][414] |
+| 209 | [Minimum Size Subarray Sum][417] | [209_minimum-size-subarray-sum][418] |
+| 215 | [Kth Largest Element in an Array][429] | [215_kth-largest-element-in-an-array][430] |
+| 216 | [Combination Sum III][431] | [216_combination-sum-iii][432] |
+| 217 | [Contains Duplicate][433] | [217_contains-duplicate][434] |
+| 219 | [Contains Duplicate II][437] | [219_contains-duplicate-ii][438] |
+| 220 | [Contains Duplicate III][439] | [220_contains-duplicate-iii][440] |
+| 221 | [Maximal Square][441] | [221_maximal-square][442] |
+| 223 | [Rectangle Area][445] | [223_rectangle-area][446] |
+| 224 | [Basic Calculator][447] | [224_basic-calculator][448] |
+| 226 | [Invert Binary Tree][451] | [226_invert-binary-tree][452] |
+| 227 | [Basic Calculator II][453] | [227_basic-calculator-ii][454] |
+| 228 | [Summary Ranges][455] | [228_summary-ranges][456] |
+| 229 | [Majority Element II][457] | [229_majority-element-ii][458] |
+| 231 | [Power of Two][461] | [231_power-of-two][462] |
+| 234 | [Palindrome Linked List][467] | [234_palindrome-linked-list][468] |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree][469] | [235_lowest-common-ancestor-of-a-binary-search-tree][470] |
+| 237 | [Delete Node in a Linked List][473] | [237_delete-node-in-a-linked-list][474] |
+| 238 | [Product of Array Except Self][475] | [238_product-of-array-except-self][476] |
+| 240 | [Search a 2D Matrix II][479] | [240_search-a-2d-matrix-ii][480] |
+| 242 | [Valid Anagram][483] | [242_valid-anagram][484] |
+| 257 | [Binary Tree Paths][513] | [257_binary-tree-paths][514] |
+| 258 | [Add Digits][515] | [258_add-digits][516] |
+| 263 | [Ugly Number][525] | [263_ugly-number][526] |
+| 264 | [Ugly Number II][527] | [264_ugly-number-ii][528] |
+| 268 | [Missing Number][535] | [268_missing-number][536] |
+| 274 | [H-Index][547] | [274_h-index][548] |
+| 275 | [H-Index II][549] | [275_h-index-ii][550] |
+| 278 | [First Bad Version][555] | [278_first-bad-version][556] |
+| 279 | [Perfect Squares][557] | [279_perfect-squares][558] |
+| 283 | [Move Zeroes][565] | [283_move-zeroes][566] |
+| 289 | [Game of Life][577] | [289_game-of-life][578] |
+| 290 | [Word Pattern][579] | [290_word-pattern][580] |
+| 292 | [Nim Game][583] | [292_nim-game][584] |
+| 299 | [Bulls and Cows][597] | [299_bulls-and-cows][598] |
+| 300 | [Longest Increasing Subsequence][599] | [300_longest-increasing-subsequence][600] |
+| 303 | [Range Sum Query - Immutable][605] | [303_range-sum-query-immutable][606] |
+| 304 | [Range Sum Query 2D - Immutable][607] | [304_range-sum-query-2d-immutable][608] |
+| 306 | [Additive Number][611] | [306_additive-number][612] |
+| 307 | [Range Sum Query - Mutable][613] | [307_range-sum-query-mutable][614] |
+| 318 | [Maximum Product of Word Lengths][635] | [318_maximum-product-of-word-lengths][636] |
+| 322 | [Coin Change][643] | [322_coin-change][644] |
+| 326 | [Power of Three][651] | [326_power-of-three][652] |
+| 328 | [Odd Even Linked List][655] | [328_odd-even-linked-list][656] |
+| 332 | [Reconstruct Itinerary][663] | [332_reconstruct-itinerary][664] |
+| 334 | [Increasing Triplet Subsequence][667] | [334_increasing-triplet-subsequence][668] |
+| 338 | [Counting Bits][675] | [338_counting-bits][676] |
+| 343 | [Integer Break][685] | [343_integer-break][686] |
+| 344 | [Reverse String][687] | [344_reverse-string][688] |
+| 345 | [Reverse Vowels of a String][689] | [345_reverse-vowels-of-a-string][690] |
+| 347 | [Top K Frequent Elements][693] | [347_top-k-frequent-elements][694] |
+| 349 | [Intersection of Two Arrays][697] | [349_intersection-of-two-arrays][698] |
+| 350 | [Intersection of Two Arrays II][699] | [350_intersection-of-two-arrays-ii][700] |
+| 367 | [Valid Perfect Square][733] | [367_valid-perfect-square][734] |
+| 368 | [Largest Divisible Subset][735] | [368_largest-divisible-subset][736] |
+| 378 | [Kth Smallest Element in a Sorted Matrix][755] | [378_kth-smallest-element-in-a-sorted-matrix][756] |
+| 383 | [Ransom Note][765] | [383_ransom-note][766] |
+| 386 | [Lexicographical Numbers][771] | [386_lexicographical-numbers][772] |
+| 387 | [First Unique Character in a String][773] | [387_first-unique-character-in-a-string][774] |
+| 388 | [Longest Absolute File Path][775] | [388_longest-absolute-file-path][776] |
+| 389 | [Find the Difference][777] | [389_find-the-difference][778] |
+| 392 | [Is Subsequence][783] | [392_is-subsequence][784] |
+| 394 | [Decode String][787] | [394_decode-string][788] |
+| 397 | [Integer Replacement][793] | [397_integer-replacement][794] |
+| 399 | [Evaluate Division][797] | [399_evaluate-division][798] |
+| 401 | [Binary Watch][801] | [401_binary-watch][802] |
+| 404 | [Sum of Left Leaves][807] | [404_sum-of-left-leaves][808] |
+| 405 | [Convert a Number to Hexadecimal][809] | [405_convert-a-number-to-hexadecimal][810] |
+| 406 | [Queue Reconstruction by Height][811] | [406_queue-reconstruction-by-height][812] |
+| 409 | [Longest Palindrome][817] | [409_longest-palindrome][818] |
+| 412 | [Fizz Buzz][823] | [412_fizz-buzz][824] |
+| 413 | [Arithmetic Slices][825] | [413_arithmetic-slices][826] |
+| 415 | [Add Strings][829] | [415_add-strings][830] |
+| 416 | [Partition Equal Subset Sum][831] | [416_partition-equal-subset-sum][832] |
+| 417 | [Pacific Atlantic Water Flow][833] | [417_pacific-atlantic-water-flow][834] |
+| 419 | [Battleships in a Board][837] | [419_battleships-in-a-board][838] |
+| 423 | [Reconstruct Original Digits from English][845] | [423_reconstruct-original-digits-from-english][846] |
+| 434 | [Number of Segments in a String][867] | [434_number-of-segments-in-a-string][868] |
+| 438 | [Find All Anagrams in a String][875] | [438_find-all-anagrams-in-a-string][876] |
+| 441 | [Arranging Coins][881] | [441_arranging-coins][882] |
+| 442 | [Find All Duplicates in an Array][883] | [442_find-all-duplicates-in-an-array][884] |
+| 453 | [Minimum Moves to Equal Array Elements][905] | [453_minimum-moves-to-equal-array-elements][906] |
+| 485 | [Max Consecutive Ones][969] | [485_max-consecutive-ones][970] |
+| 492 | [Construct the Rectangle][983] | [492_construct-the-rectangle][984] |
+| 494 | [Target Sum][987] | [494_target-sum][988] |
+| 496 | [Next Greater Element I][991] | [496_next-greater-element-i][992] |
+| 506 | [Relative Ranks][1011] | [506_relative-ranks][1012] |
+| 508 | [Most Frequent Subtree Sum][1015] | [508_most-frequent-subtree-sum][1016] |
+| 513 | [Find Bottom Left Tree Value][1025] | [513_find-bottom-left-tree-value][1026] |
+| 515 | [Find Largest Value in Each Tree Row][1029] | [515_find-largest-value-in-each-tree-row][1030] |
+| 520 | [Detect Capital][1039] | [520_detect-capital][1040] |
+| 529 | [Minesweeper][1057] | [529_minesweeper][1058] |
+| 530 | [Minimum Absolute Difference in BST][1059] | [530_minimum-absolute-difference-in-bst][1060] |
+| 538 | [Convert BST to Greater Tree][1075] | [538_convert-bst-to-greater-tree][1076] |
+| 539 | [Minimum Time Difference][1077] | [539_minimum-time-difference][1078] |
+| 542 | [01 Matrix][1083] | [542_01-matrix][1084] |
+| 560 | [Subarray Sum Equals K][1119] | [560_subarray-sum-equals-k][1120] |
+| 561 | [Array Partition I][1121] | [561_array-partition-i][1122] |
+| 563 | [Binary Tree Tilt][1125] | [563_binary-tree-tilt][1126] |
+| 566 | [Reshape the Matrix][1131] | [566_reshape-the-matrix][1132] |
+| 567 | [Permutation in String][1133] | [567_permutation-in-string][1134] |
+| 581 | [Shortest Unsorted Continuous Subarray][1161] | [581_shortest-unsorted-continuous-subarray][1162] |
+| 592 | [Fraction Addition and Subtraction][1183] | [592_fraction-addition-and-subtraction][1184] |
+| 593 | [Valid Square][1185] | [593_valid-square][1186] |
+| 594 | [Longest Harmonious Subsequence][1187] | [594_longest-harmonious-subsequence][1188] |
+| 617 | [Merge Two Binary Trees][1233] | [617_merge-two-binary-trees][1234] |
+| 633 | [Sum of Square Numbers][1265] | [633_sum-of-square-numbers][1266] |
+| 637 | [Average of Levels in Binary Tree][1273] | [637_average-of-levels-in-binary-tree][1274] |
+| 640 | [Solve the Equation][1279] | [640_solve-the-equation][1280] |
+| 646 | [Maximum Length of Pair Chain][1291] | [646_maximum-length-of-pair-chain][1292] |
+| 647 | [Palindromic Substrings][1293] | [647_palindromic-substrings][1294] |
+| 648 | [Replace Words][1295] | [648_replace-words][1296] |
+| 650 | [2 Keys Keyboard][1299] | [650_2-keys-keyboard][1300] |
+| 653 | [Two Sum IV - Input is a BST][1305] | [653_two-sum-iv-input-is-a-bst][1306] |
+| 654 | [Maximum Binary Tree][1307] | [654_maximum-binary-tree][1308] |
+| 655 | [Print Binary Tree][1309] | [655_print-binary-tree][1310] |
+| 657 | [Judge Route Circle][1313] | [657_judge-route-circle][1314] |
+| 659 | [Split Array into Consecutive Subsequences][1317] | [659_split-array-into-consecutive-subsequences][1318] |
+| 661 | [Image Smoother][1321] | [661_image-smoother][1322] |
+| 662 | [Maximum Width of Binary Tree][1323] | [662_maximum-width-of-binary-tree][1324] |
+| 665 | [Non-decreasing Array][1329] | [665_non-decreasing-array][1330] |
+| 669 | [Trim a Binary Search Tree][1337] | [669_trim-a-binary-search-tree][1338] |
+| 670 | [Maximum Swap][1339] | [670_maximum-swap][1340] |
+| 671 | [Second Minimum Node In a Binary Tree][1341] | [671_second-minimum-node-in-a-binary-tree][1342] |
+| 673 | [Number of Longest Increasing Subsequence][1345] | [673_number-of-longest-increasing-subsequence][1346] |
+| 674 | [Longest Continuous Increasing Subsequence][1347] | [674_longest-continuous-increasing-subsequence][1348] |
+| 676 | [Implement Magic Dictionary][1351] | [676_implement-magic-dictionary][1352] |
+| 677 | [Map Sum Pairs][1353] | [677_map-sum-pairs][1354] |
+| 678 | [Valid Parenthesis String][1355] | [678_valid-parenthesis-string][1356] |
+| 680 | [Valid Palindrome II][1359] | [680_valid-palindrome-ii][1360] |
+| 682 | [Baseball Game][1363] | [682_baseball-game][1364] |
+| 686 | [Repeated String Match][1371] | [686_repeated-string-match][1372] |
+| 687 | [Longest Univalue Path][1373] | [687_longest-univalue-path][1374] |
+| 692 | [Top K Frequent Words][1383] | [692_top-k-frequent-words][1384] |
+| 693 | [Binary Number with Alternating Bits][1385] | [693_binary-number-with-alternating-bits][1386] |
+| 695 | [Max Area of Island][1389] | [695_max-area-of-island][1390] |
+| 696 | [Count Binary Substrings][1391] | [696_count-binary-substrings][1392] |
+| 697 | [Degree of an Array][1393] | [697_degree-of-an-array][1394] |
+| 698 | [Partition to K Equal Sum Subsets][1395] | [698_partition-to-k-equal-sum-subsets][1396] |
+| 713 | [Subarray Product Less Than K][1425] | [713_subarray-product-less-than-k][1426] |
+| 714 | [Best Time to Buy and Sell Stock with Transaction Fee][1427] | [714_best-time-to-buy-and-sell-stock-with-transaction-fee][1428] |
+| 717 | [1-bit and 2-bit Characters][1433] | [717_1-bit-and-2-bit-characters][1434] |
+| 720 | [Longest Word in Dictionary][1439] | [720_longest-word-in-dictionary][1440] |
+| 721 | [Accounts Merge][1441] | [721_accounts-merge][1442] |
+| 722 | [Remove Comments][1443] | [722_remove-comments][1444] |
+| 724 | [Find Pivot Index][1447] | [724_find-pivot-index][1448] |
+| 726 | [Number of Atoms][1451] | [726_number-of-atoms][1452] |
+| 728 | [Self Dividing Numbers][1455] | [728_self-dividing-numbers][1456] |
+| 735 | [Asteroid Collision][1469] | [735_asteroid-collision][1470] |
+| 744 | [Find Smallest Letter Greater Than Target][1487] | [744_find-smallest-letter-greater-than-target][1488] |
+| 746 | [Min Cost Climbing Stairs][1491] | [746_min-cost-climbing-stairs][1492] |
+| 748 | [Shortest Completing Word][1495] | [748_shortest-completing-word][1496] |
 
 [1]: https://leetcode.com/problems/two-sum
 [2]: https://github.com/MrHuxu/leetcode/blob/master/problems/001_two-sum/index.js
@@ -862,11 +862,11 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1452]: https://github.com/MrHuxu/leetcode/blob/master/problems/726_number-of-atoms/index.js
 [1455]: https://leetcode.com/problems/self-dividing-numbers
 [1456]: https://github.com/MrHuxu/leetcode/blob/master/problems/728_self-dividing-numbers/index.js
-[1467]: https://leetcode.com/problems/sentence-similarity
-[1468]: https://github.com/MrHuxu/leetcode/blob/master/problems/734_sentence-similarity/index.js
 [1469]: https://leetcode.com/problems/asteroid-collision
 [1470]: https://github.com/MrHuxu/leetcode/blob/master/problems/735_asteroid-collision/index.js
-[1483]: https://leetcode.com/problems/closest-leaf-in-a-binary-tree
-[1484]: https://github.com/MrHuxu/leetcode/blob/master/problems/742_closest-leaf-in-a-binary-tree/index.js
 [1487]: https://leetcode.com/problems/find-smallest-letter-greater-than-target
 [1488]: https://github.com/MrHuxu/leetcode/blob/master/problems/744_find-smallest-letter-greater-than-target/index.js
+[1491]: https://leetcode.com/problems/min-cost-climbing-stairs
+[1492]: https://github.com/MrHuxu/leetcode/blob/master/problems/746_min-cost-climbing-stairs/index.js
+[1495]: https://leetcode.com/problems/shortest-completing-word
+[1496]: https://github.com/MrHuxu/leetcode/blob/master/problems/748_shortest-completing-word/index.js
