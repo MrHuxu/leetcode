@@ -43,7 +43,7 @@ const getQuestionsDetails = () => new Promise((resolve, reject) => {
           paidOnly, title, totalAcs, totalSubmitted,
           id         : frontend_question_id,
           difficulty : level,
-          slug       : question__article__slug || question__title_slug 
+          slug       : question__title_slug || question__article__slug 
         };
       }));
     });

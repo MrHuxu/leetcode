@@ -41,7 +41,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 8 | [String to Integer (atoi)][15] | Medium | [008_string-to-integer-atoi][16] |
 | 9 | [Palindrome Number][17] | Easy | [009_palindrome-number][18] |
 | 10 | [Regular Expression Matching][19] | Hard | [010_regular-expression-matching][20] |
-| 11 | [Container With Most Water][21] | Medium | [011_container-most-water][22] |
+| 11 | [Container With Most Water][21] | Medium | [011_container-with-most-water][22] |
 | 12 | [Integer to Roman][23] | Medium | [012_integer-to-roman][24] |
 | 13 | [Roman to Integer][25] | Easy | [013_roman-to-integer][26] |
 | 14 | [Longest Common Prefix][27] | Easy | [014_longest-common-prefix][28] |
@@ -49,13 +49,13 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 16 | [3Sum Closest][31] | Medium | [016_3sum-closest][32] |
 | 17 | [Letter Combinations of a Phone Number][33] | Medium | [017_letter-combinations-of-a-phone-number][34] |
 | 18 | [4Sum][35] | Medium | [018_4sum][36] |
-| 19 | [Remove Nth Node From End of List][37] | Medium | [019_remove-nth-node-end-list][38] |
+| 19 | [Remove Nth Node From End of List][37] | Medium | [019_remove-nth-node-from-end-of-list][38] |
 | 20 | [Valid Parentheses][39] | Easy | [020_valid-parentheses][40] |
-| 21 | [Merge Two Sorted Lists][41] | Easy | [021_merged-two-sorted-lists][42] |
+| 21 | [Merge Two Sorted Lists][41] | Easy | [021_merge-two-sorted-lists][42] |
 | 22 | [Generate Parentheses][43] | Medium | [022_generate-parentheses][44] |
-| 23 | [Merge k Sorted Lists][45] | Hard | [023_merge-k-sorted-list][46] |
+| 23 | [Merge k Sorted Lists][45] | Hard | [023_merge-k-sorted-lists][46] |
 | 24 | [Swap Nodes in Pairs][47] | Medium | [024_swap-nodes-in-pairs][48] |
-| 26 | [Remove Duplicates from Sorted Array][51] | Easy | [026_remove-duplicates-sorted-array][52] |
+| 26 | [Remove Duplicates from Sorted Array][51] | Easy | [026_remove-duplicates-from-sorted-array][52] |
 | 27 | [Remove Element][53] | Easy | [027_remove-element][54] |
 | 28 | [Implement strStr()][55] | Easy | [028_implement-strstr][56] |
 | 29 | [Divide Two Integers][57] | Medium | [029_divide-two-integers][58] |
@@ -90,7 +90,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 78 | [Subsets][155] | Medium | [078_subsets][156] |
 | 79 | [Word Search][157] | Medium | [079_word-search][158] |
 | 80 | [Remove Duplicates from Sorted Array II][159] | Medium | [080_remove-duplicates-from-sorted-array-ii][160] |
-| 83 | [Remove Duplicates from Sorted List][165] | Easy | [083_remove-duplicates-sorted-list][166] |
+| 83 | [Remove Duplicates from Sorted List][165] | Easy | [083_remove-duplicates-from-sorted-list][166] |
 | 86 | [Partition List][171] | Medium | [086_partition-list][172] |
 | 88 | [Merge Sorted Array][175] | Easy | [088_merge-sorted-array][176] |
 | 89 | [Gray Code][177] | Medium | [089_gray-code][178] |
@@ -117,8 +117,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 118 | [Pascal's Triangle][235] | Easy | [118_pascals-triangle][236] |
 | 119 | [Pascal's Triangle II][237] | Easy | [119_pascals-triangle-ii][238] |
 | 120 | [Triangle][239] | Medium | [120_triangle][240] |
-| 121 | [Best Time to Buy and Sell Stock][241] | Easy | [121_best-time-buy-and-sell-stock][242] |
-| 122 | [Best Time to Buy and Sell Stock II][243] | Easy | [122_best-time-buy-and-sell-stock-ii][244] |
+| 121 | [Best Time to Buy and Sell Stock][241] | Easy | [121_best-time-to-buy-and-sell-stock][242] |
+| 122 | [Best Time to Buy and Sell Stock II][243] | Easy | [122_best-time-to-buy-and-sell-stock-ii][244] |
 | 125 | [Valid Palindrome][249] | Easy | [125_valid-palindrome][250] |
 | 129 | [Sum Root to Leaf Numbers][257] | Medium | [129_sum-root-to-leaf-numbers][258] |
 | 130 | [Surrounded Regions][259] | Medium | [130_surrounded-regions][260] |
@@ -139,7 +139,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 153 | [Find Minimum in Rotated Sorted Array][305] | Medium | [153_find-minimum-in-rotated-sorted-array][306] |
 | 155 | [Min Stack][309] | Easy | [155_min-stack][310] |
 | 158 | [Read N Characters Given Read4 II - Call multiple times][315] | Hard | [158_read-n-characters-given-read4-ii-call-multiple-times][316] |
-| 160 | [Intersection of Two Linked Lists][319] | Easy | [160_intersection-two-linked-lists][320] |
+| 160 | [Intersection of Two Linked Lists][319] | Easy | [160_intersection-of-two-linked-lists][320] |
 | 162 | [Find Peak Element][323] | Medium | [162_find-peak-element][324] |
 | 165 | [Compare Version Numbers][329] | Medium | [165_compare-version-numbers][330] |
 | 169 | [Majority Element][337] | Easy | [169_majority-element][338] |
@@ -149,7 +149,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 187 | [Repeated DNA Sequences][373] | Medium | [187_repeated-dna-sequences][374] |
 | 189 | [Rotate Array][377] | Easy | [189_rotate-array][378] |
 | 190 | [Reverse Bits][379] | Easy | [190_reverse-bits][380] |
-| 191 | [Number of 1 Bits][381] | Easy | [191_number-1-bits][382] |
+| 191 | [Number of 1 Bits][381] | Easy | [191_number-of-1-bits][382] |
 | 198 | [House Robber][395] | Easy | [198_house-robber][396] |
 | 199 | [Binary Tree Right Side View][397] | Medium | [199_binary-tree-right-side-view][398] |
 | 200 | [Number of Islands][399] | Medium | [200_number-of-islands][400] |
@@ -176,7 +176,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 231 | [Power of Two][461] | Easy | [231_power-of-two][462] |
 | 234 | [Palindrome Linked List][467] | Easy | [234_palindrome-linked-list][468] |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree][469] | Easy | [235_lowest-common-ancestor-of-a-binary-search-tree][470] |
-| 237 | [Delete Node in a Linked List][473] | Easy | [237_delete-node-linked-list][474] |
+| 237 | [Delete Node in a Linked List][473] | Easy | [237_delete-node-in-a-linked-list][474] |
 | 238 | [Product of Array Except Self][475] | Medium | [238_product-of-array-except-self][476] |
 | 240 | [Search a 2D Matrix II][479] | Medium | [240_search-a-2d-matrix-ii][480] |
 | 242 | [Valid Anagram][483] | Easy | [242_valid-anagram][484] |
@@ -245,7 +245,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 485 | [Max Consecutive Ones][969] | Easy | [485_max-consecutive-ones][970] |
 | 492 | [Construct the Rectangle][983] | Easy | [492_construct-the-rectangle][984] |
 | 494 | [Target Sum][987] | Medium | [494_target-sum][988] |
-| 496 | [Next Greater Element I][991] | Easy | [496_greater-element-i][992] |
+| 496 | [Next Greater Element I][991] | Easy | [496_next-greater-element-i][992] |
 | 506 | [Relative Ranks][1011] | Easy | [506_relative-ranks][1012] |
 | 508 | [Most Frequent Subtree Sum][1015] | Medium | [508_most-frequent-subtree-sum][1016] |
 | 513 | [Find Bottom Left Tree Value][1025] | Medium | [513_find-bottom-left-tree-value][1026] |
@@ -257,23 +257,23 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 539 | [Minimum Time Difference][1077] | Medium | [539_minimum-time-difference][1078] |
 | 542 | [01 Matrix][1083] | Medium | [542_01-matrix][1084] |
 | 560 | [Subarray Sum Equals K][1119] | Medium | [560_subarray-sum-equals-k][1120] |
-| 561 | [Array Partition I][1121] | Easy | [561_array-partitioning-i][1122] |
+| 561 | [Array Partition I][1121] | Easy | [561_array-partition-i][1122] |
 | 563 | [Binary Tree Tilt][1125] | Easy | [563_binary-tree-tilt][1126] |
 | 566 | [Reshape the Matrix][1131] | Easy | [566_reshape-the-matrix][1132] |
-| 567 | [Permutation in String][1133] | Medium | [567_short-permutation-in-a-long-string][1134] |
-| 581 | [Shortest Unsorted Continuous Subarray][1161] | Easy | [581_shortest-unsorted-continous-subarray][1162] |
-| 592 | [Fraction Addition and Subtraction][1183] | Medium | [592_kill-process-3][1184] |
+| 567 | [Permutation in String][1133] | Medium | [567_permutation-in-string][1134] |
+| 581 | [Shortest Unsorted Continuous Subarray][1161] | Easy | [581_shortest-unsorted-continuous-subarray][1162] |
+| 592 | [Fraction Addition and Subtraction][1183] | Medium | [592_fraction-addition-and-subtraction][1184] |
 | 593 | [Valid Square][1185] | Medium | [593_valid-square][1186] |
 | 594 | [Longest Harmonious Subsequence][1187] | Easy | [594_longest-harmonious-subsequence][1188] |
 | 617 | [Merge Two Binary Trees][1233] | Easy | [617_merge-two-binary-trees][1234] |
 | 633 | [Sum of Square Numbers][1265] | Easy | [633_sum-of-square-numbers][1266] |
-| 637 | [Average of Levels in Binary Tree][1273] | Easy | [637_average-of-levels][1274] |
+| 637 | [Average of Levels in Binary Tree][1273] | Easy | [637_average-of-levels-in-binary-tree][1274] |
 | 640 | [Solve the Equation][1279] | Medium | [640_solve-the-equation][1280] |
 | 646 | [Maximum Length of Pair Chain][1291] | Medium | [646_maximum-length-of-pair-chain][1292] |
 | 647 | [Palindromic Substrings][1293] | Medium | [647_palindromic-substrings][1294] |
 | 648 | [Replace Words][1295] | Medium | [648_replace-words][1296] |
 | 650 | [2 Keys Keyboard][1299] | Medium | [650_2-keys-keyboard][1300] |
-| 653 | [Two Sum IV - Input is a BST][1305] | Easy | [653_two-sum-iv][1306] |
+| 653 | [Two Sum IV - Input is a BST][1305] | Easy | [653_two-sum-iv-input-is-a-bst][1306] |
 | 654 | [Maximum Binary Tree][1307] | Medium | [654_maximum-binary-tree][1308] |
 | 655 | [Print Binary Tree][1309] | Medium | [655_print-binary-tree][1310] |
 | 657 | [Judge Route Circle][1313] | Easy | [657_judge-route-circle][1314] |
@@ -312,7 +312,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 728 | [Self Dividing Numbers][1455] | Easy | [728_self-dividing-numbers][1456] |
 | 734 | [Sentence Similarity][1467] | Easy | [734_sentence-similarity][1468] |
 | 735 | [Asteroid Collision][1469] | Medium | [735_asteroid-collision][1470] |
-| 742 | [Closest Leaf in a Binary Tree][1483] | Medium | [742_closest-leaf-in-binary-tree][1484] |
+| 742 | [Closest Leaf in a Binary Tree][1483] | Medium | [742_closest-leaf-in-a-binary-tree][1484] |
 | 744 | [Find Smallest Letter Greater Than Target][1487] | Easy | [744_find-smallest-letter-greater-than-target][1488] |
 | 746 | [Min Cost Climbing Stairs][1491] | Easy | [746_min-cost-climbing-stairs][1492] |
 | 747 | [Largest Number At Least Twice of Others][1493] | Easy | [747_largest-number-at-least-twice-of-others][1494] |
@@ -337,8 +337,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [18]: https://github.com/MrHuxu/leetcode/blob/master/problems/009_palindrome-number/index.js
 [19]: https://leetcode.com/problems/regular-expression-matching/
 [20]: https://github.com/MrHuxu/leetcode/blob/master/problems/010_regular-expression-matching/index.js
-[21]: https://leetcode.com/problems/container-most-water/
-[22]: https://github.com/MrHuxu/leetcode/blob/master/problems/011_container-most-water/index.js
+[21]: https://leetcode.com/problems/container-with-most-water/
+[22]: https://github.com/MrHuxu/leetcode/blob/master/problems/011_container-with-most-water/index.js
 [23]: https://leetcode.com/problems/integer-to-roman/
 [24]: https://github.com/MrHuxu/leetcode/blob/master/problems/012_integer-to-roman/index.js
 [25]: https://leetcode.com/problems/roman-to-integer/
@@ -353,20 +353,20 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [34]: https://github.com/MrHuxu/leetcode/blob/master/problems/017_letter-combinations-of-a-phone-number/index.js
 [35]: https://leetcode.com/problems/4sum/
 [36]: https://github.com/MrHuxu/leetcode/blob/master/problems/018_4sum/index.js
-[37]: https://leetcode.com/problems/remove-nth-node-end-list/
-[38]: https://github.com/MrHuxu/leetcode/blob/master/problems/019_remove-nth-node-end-list/index.js
+[37]: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+[38]: https://github.com/MrHuxu/leetcode/blob/master/problems/019_remove-nth-node-from-end-of-list/index.js
 [39]: https://leetcode.com/problems/valid-parentheses/
 [40]: https://github.com/MrHuxu/leetcode/blob/master/problems/020_valid-parentheses/index.js
-[41]: https://leetcode.com/problems/merged-two-sorted-lists/
-[42]: https://github.com/MrHuxu/leetcode/blob/master/problems/021_merged-two-sorted-lists/index.js
+[41]: https://leetcode.com/problems/merge-two-sorted-lists/
+[42]: https://github.com/MrHuxu/leetcode/blob/master/problems/021_merge-two-sorted-lists/index.js
 [43]: https://leetcode.com/problems/generate-parentheses/
 [44]: https://github.com/MrHuxu/leetcode/blob/master/problems/022_generate-parentheses/index.js
-[45]: https://leetcode.com/problems/merge-k-sorted-list/
-[46]: https://github.com/MrHuxu/leetcode/blob/master/problems/023_merge-k-sorted-list/index.js
+[45]: https://leetcode.com/problems/merge-k-sorted-lists/
+[46]: https://github.com/MrHuxu/leetcode/blob/master/problems/023_merge-k-sorted-lists/index.js
 [47]: https://leetcode.com/problems/swap-nodes-in-pairs/
 [48]: https://github.com/MrHuxu/leetcode/blob/master/problems/024_swap-nodes-in-pairs/index.js
-[51]: https://leetcode.com/problems/remove-duplicates-sorted-array/
-[52]: https://github.com/MrHuxu/leetcode/blob/master/problems/026_remove-duplicates-sorted-array/index.js
+[51]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+[52]: https://github.com/MrHuxu/leetcode/blob/master/problems/026_remove-duplicates-from-sorted-array/index.js
 [53]: https://leetcode.com/problems/remove-element/
 [54]: https://github.com/MrHuxu/leetcode/blob/master/problems/027_remove-element/index.js
 [55]: https://leetcode.com/problems/implement-strstr/
@@ -435,8 +435,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [158]: https://github.com/MrHuxu/leetcode/blob/master/problems/079_word-search/index.js
 [159]: https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
 [160]: https://github.com/MrHuxu/leetcode/blob/master/problems/080_remove-duplicates-from-sorted-array-ii/index.js
-[165]: https://leetcode.com/problems/remove-duplicates-sorted-list/
-[166]: https://github.com/MrHuxu/leetcode/blob/master/problems/083_remove-duplicates-sorted-list/index.js
+[165]: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+[166]: https://github.com/MrHuxu/leetcode/blob/master/problems/083_remove-duplicates-from-sorted-list/index.js
 [171]: https://leetcode.com/problems/partition-list/
 [172]: https://github.com/MrHuxu/leetcode/blob/master/problems/086_partition-list/index.js
 [175]: https://leetcode.com/problems/merge-sorted-array/
@@ -489,10 +489,10 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [238]: https://github.com/MrHuxu/leetcode/blob/master/problems/119_pascals-triangle-ii/index.js
 [239]: https://leetcode.com/problems/triangle/
 [240]: https://github.com/MrHuxu/leetcode/blob/master/problems/120_triangle/index.js
-[241]: https://leetcode.com/problems/best-time-buy-and-sell-stock/
-[242]: https://github.com/MrHuxu/leetcode/blob/master/problems/121_best-time-buy-and-sell-stock/index.js
-[243]: https://leetcode.com/problems/best-time-buy-and-sell-stock-ii/
-[244]: https://github.com/MrHuxu/leetcode/blob/master/problems/122_best-time-buy-and-sell-stock-ii/index.js
+[241]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+[242]: https://github.com/MrHuxu/leetcode/blob/master/problems/121_best-time-to-buy-and-sell-stock/index.js
+[243]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+[244]: https://github.com/MrHuxu/leetcode/blob/master/problems/122_best-time-to-buy-and-sell-stock-ii/index.js
 [249]: https://leetcode.com/problems/valid-palindrome/
 [250]: https://github.com/MrHuxu/leetcode/blob/master/problems/125_valid-palindrome/index.js
 [257]: https://leetcode.com/problems/sum-root-to-leaf-numbers/
@@ -533,8 +533,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [310]: https://github.com/MrHuxu/leetcode/blob/master/problems/155_min-stack/index.js
 [315]: https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/
 [316]: https://github.com/MrHuxu/leetcode/blob/master/problems/158_read-n-characters-given-read4-ii-call-multiple-times/index.js
-[319]: https://leetcode.com/problems/intersection-two-linked-lists/
-[320]: https://github.com/MrHuxu/leetcode/blob/master/problems/160_intersection-two-linked-lists/index.js
+[319]: https://leetcode.com/problems/intersection-of-two-linked-lists/
+[320]: https://github.com/MrHuxu/leetcode/blob/master/problems/160_intersection-of-two-linked-lists/index.js
 [323]: https://leetcode.com/problems/find-peak-element/
 [324]: https://github.com/MrHuxu/leetcode/blob/master/problems/162_find-peak-element/index.js
 [329]: https://leetcode.com/problems/compare-version-numbers/
@@ -553,8 +553,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [378]: https://github.com/MrHuxu/leetcode/blob/master/problems/189_rotate-array/index.js
 [379]: https://leetcode.com/problems/reverse-bits/
 [380]: https://github.com/MrHuxu/leetcode/blob/master/problems/190_reverse-bits/index.js
-[381]: https://leetcode.com/problems/number-1-bits/
-[382]: https://github.com/MrHuxu/leetcode/blob/master/problems/191_number-1-bits/index.js
+[381]: https://leetcode.com/problems/number-of-1-bits/
+[382]: https://github.com/MrHuxu/leetcode/blob/master/problems/191_number-of-1-bits/index.js
 [395]: https://leetcode.com/problems/house-robber/
 [396]: https://github.com/MrHuxu/leetcode/blob/master/problems/198_house-robber/index.js
 [397]: https://leetcode.com/problems/binary-tree-right-side-view/
@@ -607,8 +607,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [468]: https://github.com/MrHuxu/leetcode/blob/master/problems/234_palindrome-linked-list/index.js
 [469]: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 [470]: https://github.com/MrHuxu/leetcode/blob/master/problems/235_lowest-common-ancestor-of-a-binary-search-tree/index.js
-[473]: https://leetcode.com/problems/delete-node-linked-list/
-[474]: https://github.com/MrHuxu/leetcode/blob/master/problems/237_delete-node-linked-list/index.js
+[473]: https://leetcode.com/problems/delete-node-in-a-linked-list/
+[474]: https://github.com/MrHuxu/leetcode/blob/master/problems/237_delete-node-in-a-linked-list/index.js
 [475]: https://leetcode.com/problems/product-of-array-except-self/
 [476]: https://github.com/MrHuxu/leetcode/blob/master/problems/238_product-of-array-except-self/index.js
 [479]: https://leetcode.com/problems/search-a-2d-matrix-ii/
@@ -745,8 +745,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [984]: https://github.com/MrHuxu/leetcode/blob/master/problems/492_construct-the-rectangle/index.js
 [987]: https://leetcode.com/problems/target-sum/
 [988]: https://github.com/MrHuxu/leetcode/blob/master/problems/494_target-sum/index.js
-[991]: https://leetcode.com/problems/greater-element-i/
-[992]: https://github.com/MrHuxu/leetcode/blob/master/problems/496_greater-element-i/index.js
+[991]: https://leetcode.com/problems/next-greater-element-i/
+[992]: https://github.com/MrHuxu/leetcode/blob/master/problems/496_next-greater-element-i/index.js
 [1011]: https://leetcode.com/problems/relative-ranks/
 [1012]: https://github.com/MrHuxu/leetcode/blob/master/problems/506_relative-ranks/index.js
 [1015]: https://leetcode.com/problems/most-frequent-subtree-sum/
@@ -769,18 +769,18 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1084]: https://github.com/MrHuxu/leetcode/blob/master/problems/542_01-matrix/index.js
 [1119]: https://leetcode.com/problems/subarray-sum-equals-k/
 [1120]: https://github.com/MrHuxu/leetcode/blob/master/problems/560_subarray-sum-equals-k/index.js
-[1121]: https://leetcode.com/problems/array-partitioning-i/
-[1122]: https://github.com/MrHuxu/leetcode/blob/master/problems/561_array-partitioning-i/index.js
+[1121]: https://leetcode.com/problems/array-partition-i/
+[1122]: https://github.com/MrHuxu/leetcode/blob/master/problems/561_array-partition-i/index.js
 [1125]: https://leetcode.com/problems/binary-tree-tilt/
 [1126]: https://github.com/MrHuxu/leetcode/blob/master/problems/563_binary-tree-tilt/index.js
 [1131]: https://leetcode.com/problems/reshape-the-matrix/
 [1132]: https://github.com/MrHuxu/leetcode/blob/master/problems/566_reshape-the-matrix/index.js
-[1133]: https://leetcode.com/problems/short-permutation-in-a-long-string/
-[1134]: https://github.com/MrHuxu/leetcode/blob/master/problems/567_short-permutation-in-a-long-string/index.js
-[1161]: https://leetcode.com/problems/shortest-unsorted-continous-subarray/
-[1162]: https://github.com/MrHuxu/leetcode/blob/master/problems/581_shortest-unsorted-continous-subarray/index.js
-[1183]: https://leetcode.com/problems/kill-process-3/
-[1184]: https://github.com/MrHuxu/leetcode/blob/master/problems/592_kill-process-3/index.js
+[1133]: https://leetcode.com/problems/permutation-in-string/
+[1134]: https://github.com/MrHuxu/leetcode/blob/master/problems/567_permutation-in-string/index.js
+[1161]: https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
+[1162]: https://github.com/MrHuxu/leetcode/blob/master/problems/581_shortest-unsorted-continuous-subarray/index.js
+[1183]: https://leetcode.com/problems/fraction-addition-and-subtraction/
+[1184]: https://github.com/MrHuxu/leetcode/blob/master/problems/592_fraction-addition-and-subtraction/index.js
 [1185]: https://leetcode.com/problems/valid-square/
 [1186]: https://github.com/MrHuxu/leetcode/blob/master/problems/593_valid-square/index.js
 [1187]: https://leetcode.com/problems/longest-harmonious-subsequence/
@@ -789,8 +789,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1234]: https://github.com/MrHuxu/leetcode/blob/master/problems/617_merge-two-binary-trees/index.js
 [1265]: https://leetcode.com/problems/sum-of-square-numbers/
 [1266]: https://github.com/MrHuxu/leetcode/blob/master/problems/633_sum-of-square-numbers/index.js
-[1273]: https://leetcode.com/problems/average-of-levels/
-[1274]: https://github.com/MrHuxu/leetcode/blob/master/problems/637_average-of-levels/index.js
+[1273]: https://leetcode.com/problems/average-of-levels-in-binary-tree/
+[1274]: https://github.com/MrHuxu/leetcode/blob/master/problems/637_average-of-levels-in-binary-tree/index.js
 [1279]: https://leetcode.com/problems/solve-the-equation/
 [1280]: https://github.com/MrHuxu/leetcode/blob/master/problems/640_solve-the-equation/index.js
 [1291]: https://leetcode.com/problems/maximum-length-of-pair-chain/
@@ -801,8 +801,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1296]: https://github.com/MrHuxu/leetcode/blob/master/problems/648_replace-words/index.js
 [1299]: https://leetcode.com/problems/2-keys-keyboard/
 [1300]: https://github.com/MrHuxu/leetcode/blob/master/problems/650_2-keys-keyboard/index.js
-[1305]: https://leetcode.com/problems/two-sum-iv/
-[1306]: https://github.com/MrHuxu/leetcode/blob/master/problems/653_two-sum-iv/index.js
+[1305]: https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
+[1306]: https://github.com/MrHuxu/leetcode/blob/master/problems/653_two-sum-iv-input-is-a-bst/index.js
 [1307]: https://leetcode.com/problems/maximum-binary-tree/
 [1308]: https://github.com/MrHuxu/leetcode/blob/master/problems/654_maximum-binary-tree/index.js
 [1309]: https://leetcode.com/problems/print-binary-tree/
@@ -879,8 +879,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1468]: https://github.com/MrHuxu/leetcode/blob/master/problems/734_sentence-similarity/index.js
 [1469]: https://leetcode.com/problems/asteroid-collision/
 [1470]: https://github.com/MrHuxu/leetcode/blob/master/problems/735_asteroid-collision/index.js
-[1483]: https://leetcode.com/problems/closest-leaf-in-binary-tree/
-[1484]: https://github.com/MrHuxu/leetcode/blob/master/problems/742_closest-leaf-in-binary-tree/index.js
+[1483]: https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
+[1484]: https://github.com/MrHuxu/leetcode/blob/master/problems/742_closest-leaf-in-a-binary-tree/index.js
 [1487]: https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 [1488]: https://github.com/MrHuxu/leetcode/blob/master/problems/744_find-smallest-letter-greater-than-target/index.js
 [1491]: https://leetcode.com/problems/min-cost-climbing-stairs/
