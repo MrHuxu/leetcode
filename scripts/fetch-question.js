@@ -1,54 +1,30 @@
-const { writeFileSync, closeSync, openSync } = require('fs');
-const { execSync } = require('child_process');
-const { resolve } = require('path');
+const { writeFileSync, mkdirSync, existsSync } = require('fs');
 const { get } = require('request');
 const { load } = require('cheerio');
 const { prompt } = require('inquirer');
 const { info } = require('better-console');
 
-const { clearConsole, traverseNode, unicodeToChar, createFiles } = require('./file-utils.js');
-
-const ALGORITHM_URL = `https://leetcode.com/api/problems/algorithms/`;
-const QUESTION_URL = slug => `https://leetcode.com/problems/${slug}/`;
-const SUBMISSION_PATH = slug => resolve(__dirname, `../problems/*${slug}/index.js`);
-
-const difficultyMap = { 1: 'Easy', 2: 'Medium', 3: 'Hard' };
+const { ALGORITHM_URL, DIFFICULTY_MAP, clearConsole, formatId, questionUrl, problemPath, getQuestionsDetails } = require('./script-utils.js');
 
 const questionTitle = question => {
-  let { difficulty, paid_only, stat } = question;
-  let { question_id, question__title, total_acs, total_submitted } = stat;
-  let { level } = question.difficulty;
-  return `${question_id}\t${difficultyMap[level]}\t${(total_acs / total_submitted * 100).toString().slice(0, 4)}%\t${question__title}`;
+  const { id, difficulty, totalAcs, totalSubmitted, title } = question;
+  return `${id}\t${DIFFICULTY_MAP[difficulty]}\t${(totalAcs / totalSubmitted * 100).toString().slice(0, 4)}%\t${title}`;
 };
 
 const questionOption = question => {
-  let { paid_only, stat } = question;
-  if (paid_only) return { name: questionTitle(question), disabled: 'Paid only' };
+  let { paidOnly, id, slug } = question;
+  if (paidOnly) return { name: questionTitle(question), disabled: 'Paid only' };
 
-  let { question__article__slug, question__title_slug } = stat;
-  let slug = question__title_slug || question__article__slug;
-  try {
-    execSync(`ls ${SUBMISSION_PATH(slug)}`, { stdio: 'ignore' });
+  if (existsSync(problemPath(id, slug))) {
     return { name: questionTitle(question), disabled: 'Solved' };
-  } catch (e) {
-    return questionTitle(question);
-  };
+  }
+  return questionTitle(question);
 };
 
 const mapTitleToQuestion = questions => questions.reduce((pre, curr) => {
   pre[questionTitle(curr)] = curr;
   return pre;
 }, {});
-
-const getQuestions = url => new Promise((resolve, reject) => {
-  get(url).on('response', res => {
-    res.setEncoding('utf8');
-    let chunk = '';
-    res.on('data', data => chunk += data);
-    res.on('error', err => reject(err));
-    res.on('end', () => resolve(JSON.parse(chunk).stat_status_pairs));
-  });
-});
 
 const showQuestionSelection = questions => {
   titleQuestionMap = mapTitleToQuestion(questions);
@@ -60,13 +36,10 @@ const showQuestionSelection = questions => {
   });
 };
 
-const getInfosFromPagedata = $ => {
-  eval($('script').toArray().find(elem => {
-    return elem.children.length && elem.children[0].data.includes('pageData');
-  }).children[0].data);
+const getInfosFromPagedata = chunk => {
+  const $ = load(chunk);
 
   return {
-    slug        : pageData.questionTitleSlug,
     code        : '',
     /*
      * pageData.codeDefinition.find(definition => 'javascript' === definition.value).defaultCode,
@@ -78,21 +51,57 @@ const getInfosFromPagedata = $ => {
 };
 
 const getQuestionContent = title => new Promise((resolve, reject) => {
-  let question = titleQuestionMap[title];
-  let { question__article__slug, question__title_slug } = question.stat;
-  let selectedQuestionSlug = question__title_slug || question__article__slug;
-  get(QUESTION_URL(selectedQuestionSlug)).on('response', res => {
+  const question = titleQuestionMap[title];
+  const { id, slug } = question;
+  get(questionUrl(slug)).on('response', res => {
     let chunk = '';
     res.on('data', data => chunk += data);
     res.on('error', err => reject(err));
-    res.on('end', () => {
-      resolve(getInfosFromPagedata(load(chunk)));
-    });
+    res.on('end', () => resolve({
+      id, slug,
+      ...getInfosFromPagedata(chunk)
+    }));
   });
 });
 
+const createIndexFile = (submissionName, slug, code) => {
+  // const re = /var\ .*\ =\ function/;
+  // const funcName = re.exec(code)[0].split(' ')[1];
+  const funcName = slug.split('-').map((str, i) => (
+    i ? Array.from(str).map((ch, j) => j ? ch : ch.toUpperCase()).join('') : str
+  )).join('');
+  writeFileSync(
+    `./problems/${submissionName}/index.js`, `/**
+ * Problem: https://leetcode.com/problems/${slug}/description/
+ */
+` + code + `
+const ${funcName} = () => {
+
+};
+
+module.exports = ${funcName};
+`
+  );
+};
+
+const createTestFile = submissionName => {
+  writeFileSync(
+    `./problems/${submissionName}/test-cases.js`,
+    'module.exports = [];'
+  );
+};
+
+const createFiles = (id, slug, code) => {
+  const submissionName = `${formatId(id)}_${slug}`;
+  mkdirSync(`./problems/${submissionName}`);
+  createIndexFile(submissionName, slug, code);
+  createTestFile(submissionName);
+
+  console.log(`problems/${submissionName}/index.js & problems/${submissionName}/test-cases.js are successfully created!`);
+};
+
 const actionToQuestion = question => {
-  let { slug, code, description } = question;
+  const { id, slug, code, description } = question;
   info(`\n${description}`);
   prompt({
     type    : 'list',
@@ -102,11 +111,11 @@ const actionToQuestion = question => {
   }).then(answer => {
     switch (answer.action) {
     case 'Yes':
-      createFiles(slug, code);
+      createFiles(id, slug, code);
       return;
 
     case 'No':
-      SelectAndSolve();
+      selectAndSolve();
       return;
 
     default:
@@ -117,7 +126,7 @@ const actionToQuestion = question => {
 
 const SelectAndSolve = () => {
   clearConsole();
-  getQuestions(ALGORITHM_URL).then(
+  getQuestionsDetails().then(
     questions => showQuestionSelection(questions),
     err => Promise.reject(err)
   ).then(

@@ -3,6 +3,11 @@
     "es6": true,
     "node": true
   },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
   "rules": {
     "yoda": [2, "always", {
       "onlyEquality": true
