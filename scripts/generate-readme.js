@@ -17,8 +17,8 @@ const { links } = require('./solved-problems.json');
 const getInfoFromPageSource = source => {
   const $ = load(source);
   const title = $('meta[property="og:title"]')[0].attribs['content'];
-  const sequence = /questionId\:\ \'\d+/.exec(source)[0].split(": '")[1];
-  const slug = /questionTitleSlug\:\ \'[A-Za-z0-9\-]+/.exec(source)[0].split(": '")[1];
+  const sequence = /questionId\:\ \'\d+/.exec(source)[0].split(': \'')[1];
+  const slug = /questionTitleSlug\:\ \'[A-Za-z0-9\-]+/.exec(source)[0].split(': \'')[1];
 
   let formattedSequence = sequence;
   for (let i = 0, times = 3 - sequence.length; i < times; ++i) {
