@@ -4,7 +4,7 @@ const { load } = require('cheerio');
 const { prompt } = require('inquirer');
 const { info } = require('better-console');
 
-const { ALGORITHM_URL, DIFFICULTY_MAP, clearConsole, formatId, questionUrl, problemPath, getQuestionsDetails } = require('./script-utils.js');
+const { DIFFICULTY_MAP, clearConsole, formatId, questionUrl, problemPath, getQuestionsDetails } = require('./script-utils.js');
 
 const questionTitle = question => {
   const { id, difficulty, totalAcs, totalSubmitted, title } = question;

@@ -2,6 +2,10 @@ const { resolve } = require('path');
 const { get } = require('request');
 
 const ALGORITHM_URL = 'https://leetcode.com/api/problems/algorithms/';
+const PROBLEMS_PATH = resolve(__dirname, '..', 'problems');
+const README_BASE_PATH = resolve(__dirname, 'readme-base.txt');
+const README_PATH = resolve(__dirname, '..', 'README.md');
+
 const questionUrl = slug => `https://leetcode.com/problems/${slug}/`;
 
 const DIFFICULTY_MAP = { 1: 'Easy', 2: 'Medium', 3: 'Hard' };
@@ -48,6 +52,9 @@ const getQuestionsDetails = () => new Promise((resolve, reject) => {
 
 module.exports = {
   ALGORITHM_URL,
+  PROBLEMS_PATH,
+  README_BASE_PATH,
+  README_PATH,
   DIFFICULTY_MAP,
 
   questionUrl,

@@ -1,81 +1,53 @@
-/**
- * first of all, goto the the problem set page of LeetCode and set the pagination to show all rows in one page
- * then run this command at the console
- * https://leetcode.com/problemset/algorithms/
- * to get all the links of the ac questions
-
- * JSON.stringify($.map($('.text-success.fa.fa-check'), span => $(span).parents('tr').children('td')[2].children[0].children[0].href));
-
- * then copy and paste the list to the solved-problems.json
- */
-
-const { readFileSync, writeFileSync } = require('fs');
+const { readdir, readFileSync, writeFileSync } = require('fs');
 const { get } = require('request');
-const { load } = require('cheerio');
-const { links } = require('./solved-problems.json');
+const { info } = require('better-console');
 
-const getInfoFromPageSource = source => {
-  const $ = load(source);
-  const title = $('meta[property="og:title"]')[0].attribs['content'];
-  const sequence = /questionId\:\ \'\d+/.exec(source)[0].split(': \'')[1];
-  const slug = /questionTitleSlug\:\ \'[A-Za-z0-9\-]+/.exec(source)[0].split(': \'')[1];
+const { PROBLEMS_PATH, README_BASE_PATH, README_PATH, DIFFICULTY_MAP, getQuestionsDetails, formatId, questionUrl } = require('./script-utils');
 
-  let formattedSequence = sequence;
-  for (let i = 0, times = 3 - sequence.length; i < times; ++i) {
-    formattedSequence = '0' + formattedSequence;
-  }
-  const dirName = `${formattedSequence}_${slug}`;
-
-  return { title, sequence, dirName };
-};
-
-const generatePromise = url => new Promise((resolve, reject) => {
-  get(url).on('response', response => {
-    response.setEncoding('utf8');
-    let chunk = '';
-    response.on('data', data => chunk += data);
-    response.on('end', () => {
-      try {
-        const infos = getInfoFromPageSource(chunk);
-        resolve({ succeeded: true, url, infos });
-      } catch (e) {
-        resolve({ succeeded: false, url });
-      }
-    });
+const getSolvedQuestionIds = () => new Promise((resolve, reject) => {
+  readdir(PROBLEMS_PATH, {}, (_, problems) => {
+    resolve(problems.map(problem => parseInt(problem.split('_')[0])));
   });
 });
 
-const getProblemsTableContent = results => results.reduce(([items, links], result) => {
-  const { succeeded, url, infos } = result;
-  if (succeeded) {
-    const { title, sequence, dirName } = infos;
-    const problemUrlNum = parseInt(sequence) * 2 - 1;
-    const submissionUrlNum = parseInt(sequence) * 2;
+const getQuestionInfos = ids => new Promise((resolve, reject) => {
+  const idExist = ids.reduce((pre, id) => {
+    pre[id] = true;
+    return pre;
+  }, {});
+  getQuestionsDetails().then(questions => {
+    resolve(questions.filter(question => idExist[question.id]).reverse());
+  });
+});
 
-    return [
-      [...items, `\n| ${sequence} | [${title}][${problemUrlNum}] | [${dirName}][${submissionUrlNum}] |`],
-      [...links, `\n[${problemUrlNum}]: ${url}\n[${submissionUrlNum}]: https://github.com/MrHuxu/leetcode/blob/master/problems/${dirName}/index.js`]
-    ];
-  } else {
-    console.log(`Fetch info failed: ${url}`);
-    return [items, links];
-  }
+const getQuestionsTableContent = questions => questions.reduce(([items, links], question) => {
+  const { id, title, difficulty, slug } = question;
+  const questionUrlNum = id * 2 - 1;
+  const submissionUrlNum = id * 2;
+  const dirName = `${formatId(id)}_${slug}`;
+
+  return [
+    [...items, `\n| ${id} | [${title}][${questionUrlNum}] | ${DIFFICULTY_MAP[difficulty]} | [${dirName}][${submissionUrlNum}] |`],
+    [...links, `\n[${questionUrlNum}]: ${questionUrl(slug)}\n[${submissionUrlNum}]: https://github.com/MrHuxu/leetcode/blob/master/problems/${dirName}/index.js`]
+  ];
 }, [
-  ['| Sequence      | Title         | Submission  |\n| ------------- |:------------- | :---------- |'],
+  ['| Sequence | Title | Difficulty | Submission |\n| - | :- | :-: | :- |'],
   []
 ]);
 
-const processAllRequests = promises => {
-  Promise.all(promises).then(results => {
-    const [tableItems, problemLinks] = getProblemsTableContent(results);
+regenerateReadme = questions => {
+  const [tableItems, questionLinks] = getQuestionsTableContent(questions);
   
-    const basicContent = readFileSync(__dirname + '/readme-basic.txt');
-    const submissionContent = tableItems.join('') + '\n' + problemLinks.join('');
-    writeFileSync(__dirname + '/../README.md', `${basicContent}\n${submissionContent}`);
-    console.log('\nRegenerate README.md done!');
-  });
+  const basicContent = readFileSync(README_BASE_PATH);
+  const submissionContent = tableItems.join('') + '\n' + questionLinks.join('');
+  writeFileSync(README_PATH, `${basicContent}\n${submissionContent}`);
+  info('\nRegenerate README.md done!');
 };
 
-processAllRequests(
-  links.map(link => generatePromise(link))
+getSolvedQuestionIds().then(
+  ids => getQuestionInfos(ids),
+  err => Promise.reject(err)
+).then(
+  questions => regenerateReadme(questions),
+  err => Promise.reject(err)
 );
