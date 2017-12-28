@@ -4,10 +4,9 @@
 
 const openTheLock = (deadends, target) => {
   const visited = deadends.reduce((pre, str) => {
-    pre[parseInt(str)] = true;
+    pre[str] = true;
     return pre;
   }, {});
-
   const moves = {
     '0' : ['9', '1'],
     '1' : ['0', '2'],
