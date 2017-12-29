@@ -19,33 +19,29 @@ const getTestProblemNum = () => {
   }
 };
 
-const testMutateInput = (pending, program, input, output) => {
-  (pending ? xit : it) (
-    `Input: ${JSON.stringify(input).slice(0, 66)}\tshould be modified to\tOutput: ${JSON.stringify(output)}`,
-    () => {
-      program(...input);
-      expect(input).to.deep.equal(output);
-    }
-  );
+const testGenerator = pending => {
+  return (description, func) => {
+    (pending ? xit : it) (description, func);
+  };
 };
 
-const testByFunc = (pending, func, input, output) => {
-  (pending ? xit : it) (
-    `Func: ${func.name}\nInput: ${(JSON.stringify(input) || '').slice(0, 66)}\t Output: ${JSON.stringify(output)}`,
-    () => {
-      expect(func(...input)).to.deep.equal(output);
-    }
-  );
-};
+const testMutateInput = (pending, program, input, output) => testGenerator(pending)(
+  `Input: ${JSON.stringify(input).slice(0, 66)}\tshould be modified to\tOutput: ${JSON.stringify(output)}`,
+  () => {
+    program(...input);
+    expect(input).to.deep.equal(output);
+  }
+);
 
-const testInput = (pending, program, input, output) => {
-  (pending ? xit : it) (
-    `Input: ${JSON.stringify(input).slice(0, 66)}\t Output: ${JSON.stringify(output)}`,
-    () => {
-      expect(program(...input)).to.deep.equal(output);
-    }
-  );
-};
+const testByFunc = (pending, func, input, output) => testGenerator(pending)(
+  `Func: ${func.name}\nInput: ${(JSON.stringify(input) || '').slice(0, 66)}\t Output: ${JSON.stringify(output)}`,
+  () => expect(func(...input)).to.deep.equal(output)
+);
+
+const testInput = (pending, program, input, output) => testGenerator(pending)(
+  `Input: ${JSON.stringify(input).slice(0, 66)}\t Output: ${JSON.stringify(output)}`,
+  () => expect(program(...input)).to.deep.equal(output)
+);
 
 const executeCase = problem => {
   const program = require(resolve(PROBLEMS_DIR, problem, 'index'));
