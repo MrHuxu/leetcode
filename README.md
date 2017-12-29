@@ -15,7 +15,7 @@ First of all, you need to install all dependencis:
 
 By executing the command you can browse all the problems in your terminal, and select any one to solve.
 
-    npm run f:question
+    npm run fetch-question
 
 ![](https://raw.githubusercontent.com/MrHuxu/img-repo/master/leetcode/leetcode%20fetch%20question.gif)
 
@@ -99,6 +99,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 92 | [Reverse Linked List II][183] | Medium | [092_reverse-linked-list-ii][184] |
 | 93 | [Restore IP Addresses][185] | Medium | [093_restore-ip-addresses][186] |
 | 94 | [Binary Tree Inorder Traversal][187] | Medium | [094_binary-tree-inorder-traversal][188] |
+| 96 | [Unique Binary Search Trees][191] | Medium | [096_unique-binary-search-trees][192] |
 | 98 | [Validate Binary Search Tree][195] | Medium | [098_validate-binary-search-tree][196] |
 | 100 | [Same Tree][199] | Easy | [100_same-tree][200] |
 | 101 | [Symmetric Tree][201] | Easy | [101_symmetric-tree][202] |
@@ -453,6 +454,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [186]: https://github.com/MrHuxu/leetcode/blob/master/problems/093_restore-ip-addresses/index.js
 [187]: https://leetcode.com/problems/binary-tree-inorder-traversal/
 [188]: https://github.com/MrHuxu/leetcode/blob/master/problems/094_binary-tree-inorder-traversal/index.js
+[191]: https://leetcode.com/problems/unique-binary-search-trees/
+[192]: https://github.com/MrHuxu/leetcode/blob/master/problems/096_unique-binary-search-trees/index.js
 [195]: https://leetcode.com/problems/validate-binary-search-tree/
 [196]: https://github.com/MrHuxu/leetcode/blob/master/problems/098_validate-binary-search-tree/index.js
 [199]: https://leetcode.com/problems/same-tree/

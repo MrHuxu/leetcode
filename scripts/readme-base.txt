@@ -15,7 +15,7 @@ First of all, you need to install all dependencis:
 
 By executing the command you can browse all the problems in your terminal, and select any one to solve.
 
-    npm run f:question
+    npm run fetch-question
 
 ![](https://raw.githubusercontent.com/MrHuxu/img-repo/master/leetcode/leetcode%20fetch%20question.gif)
 
