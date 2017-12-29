@@ -124,7 +124,7 @@ const actionToQuestion = question => {
   });
 };
 
-const SelectAndSolve = () => {
+const selectAndSolve = () => {
   clearConsole();
   getQuestionsDetails().then(
     questions => showQuestionSelection(questions),
@@ -137,4 +137,4 @@ const SelectAndSolve = () => {
   );
 };
 
-SelectAndSolve();
+selectAndSolve();
