@@ -6,38 +6,24 @@
  * @param {string} s2
  * @return {number}
  */
-var minimumDeleteSum = function(s1, s2) {
+const minimumDeleteSum = function(s1, s2) {
   let min = null;
+  dp = [[0]];
+  for (let i = 1; i <= s1.length; i++) {
+    dp[i] = [dp[i - 1][0] + s1[i - 1].charCodeAt()];
+  }
+  for (let i = 1; i <= s2.length; i++) {
+    dp[0][i] = dp[0][i - 1] + s2[i - 1].charCodeAt();
+  }
 
-  const dfs = (i, j, sum) => {
-    let m, n, minInc = null, inc1 = 0, inc2, found = false;
-    for (; i < s1.length; ++i) {
-      inc2 = 0;
-
-      for (let k = j; k < s2.length; ++k) {
-        if (s1[i] === s2[k]) {
-          if (null === minInc || inc1 + inc2 <= minInc) {
-            minInc = inc1 + inc2;
-            m = i + 1;
-            n = k + 1;
-            found = true;
-          }
-        }
-        inc2 += s2[k].charCodeAt();
-      }
-
-      inc1 += s1[i].charCodeAt();
+  for (let i = 1; i <= s1.length; i++) {
+    for (let j = 1; j <= s2.length; j++) {
+      const ch1 = s1[i - 1], ch2 = s2[j - 1];
+      dp[i][j] = Math.min(dp[i][j - 1] + ch2.charCodeAt(), dp[i - 1][j] + ch1.charCodeAt(), dp[i - 1][j - 1] + (ch1 === ch2 ? 0 : ch1.charCodeAt() + ch2.charCodeAt()));
     }
+  }
 
-    if (found) {
-      return dfs(m, n, minInc + sum);
-    } else {
-      while (j < s2.length) sum += s2[j++].charCodeAt();
-      return sum += inc1;
-    }
-  };
-
-  return dfs(0, 0, 0);
+  return dp[s1.length][s2.length];
 };
 
 module.exports = minimumDeleteSum;
