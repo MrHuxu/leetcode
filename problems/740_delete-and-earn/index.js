@@ -7,26 +7,22 @@ const deleteAndEarn = nums => {
     pre[num] = pre[num] ? (pre[num] + num) : num;
     return pre;
   }, {});
+  const uniqNums = Object.keys(numsObj).map(key => parseInt(key)).sort((a, b) => a > b ? 1 : -1);
 
-  const dfs = (obj, sum) => {
-    if (!Object.keys(obj).length) {
-      return sum;
+  const dp = [0, numsObj[uniqNums[0]]];
+  for (let i = 2; i <= uniqNums.length; i++) {
+    if (uniqNums[i - 1] === uniqNums[i - 2] + 1) {
+      if (uniqNums[i - 3] && uniqNums[i - 2] === uniqNums[i - 3] + 1) {
+        dp[i] = Math.max(dp[i - 2] + numsObj[uniqNums[i - 1]], dp[i - 1]);
+      } else {
+        dp[i] = Math.max(numsObj[uniqNums[i - 1]], numsObj[uniqNums[i - 2]]) + dp[i - 1] - numsObj[uniqNums[i - 2]];
+      }
     } else {
-      const arr = Object.keys(obj).reduce((pre, key) => {
-        const num = parseInt(key);
-        const nextSum = sum + obj[num];
-        const nextObj = Object.assign({}, obj);
-        delete nextObj[num];
-        delete nextObj[num + 1];
-        delete nextObj[num - 1];
-        pre.push(dfs(nextObj, nextSum));
-        return pre;
-      }, []);
-      return Math.max(...arr);
+      dp[i] = dp[i - 1] + numsObj[uniqNums[i - 1]];
     }
-  };
- 
-  return dfs(numsObj, 0);
+  }
+
+  return dp[uniqNums.length];
 };
 
 module.exports = deleteAndEarn;
