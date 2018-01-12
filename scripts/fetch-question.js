@@ -124,9 +124,21 @@ const actionToQuestion = question => {
   });
 };
 
+let CACHE_QUESTION_DETAILS;
+const cacheQuestionDetails = () => new Promise((resolve, reject) => {
+  if (CACHE_QUESTION_DETAILS !== undefined) {
+    resolve(CACHE_QUESTION_DETAILS);
+  } else {
+    getQuestionsDetails().then(questions => {
+      CACHE_QUESTION_DETAILS = questions;
+      resolve(CACHE_QUESTION_DETAILS);
+    });
+  }
+});
+
 const selectAndSolve = () => {
   clearConsole();
-  getQuestionsDetails().then(
+  cacheQuestionDetails().then(
     questions => showQuestionSelection(questions),
     err => Promise.reject(err)
   ).then(
