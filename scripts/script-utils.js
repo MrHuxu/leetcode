@@ -23,6 +23,23 @@ const clearConsole = () => process.stdout.write(
   'win32' === process.platform ? '\x1Bc' : '\x1B[2J\x1B[3J\x1B[H'
 );
 
+const parseQuestionDetails = chunk => JSON.parse(chunk).stat_status_pairs.map(pair => {
+  const { stat, paid_only: paidOnly, difficulty } = pair;
+  const {
+    question__article__slug, question__title_slug, frontend_question_id,
+    question__title: title,
+    total_acs: totalAcs,
+    total_submitted: totalSubmitted
+  } = stat;
+  const { level } = difficulty;
+  return {
+    paidOnly, title, totalAcs, totalSubmitted,
+    id         : frontend_question_id,
+    difficulty : level,
+    slug       : question__title_slug || question__article__slug 
+  };
+});
+
 const getQuestionsDetails = () => new Promise((resolve, reject) => {
   get(ALGORITHM_URL).on('response', res => {
     res.setEncoding('utf8');
@@ -30,22 +47,7 @@ const getQuestionsDetails = () => new Promise((resolve, reject) => {
     res.on('data', data => chunk += data);
     res.on('error', err => reject(err));
     res.on('end', () => {
-      resolve(JSON.parse(chunk).stat_status_pairs.map(pair => {
-        const { stat, paid_only: paidOnly, difficulty } = pair;
-        const {
-          question__article__slug, question__title_slug, frontend_question_id,
-          question__title: title,
-          total_acs: totalAcs,
-          total_submitted: totalSubmitted
-        } = stat;
-        const { level } = difficulty;
-        return {
-          paidOnly, title, totalAcs, totalSubmitted,
-          id         : frontend_question_id,
-          difficulty : level,
-          slug       : question__title_slug || question__article__slug 
-        };
-      }));
+      resolve(parseQuestionDetails(chunk));
     });
   });
 });
