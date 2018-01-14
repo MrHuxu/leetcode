@@ -99,6 +99,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 92 | [Reverse Linked List II][183] | Medium | [092_reverse-linked-list-ii][184] |
 | 93 | [Restore IP Addresses][185] | Medium | [093_restore-ip-addresses][186] |
 | 94 | [Binary Tree Inorder Traversal][187] | Medium | [094_binary-tree-inorder-traversal][188] |
+| 95 | [Unique Binary Search Trees II][189] | Medium | [095_unique-binary-search-trees-ii][190] |
 | 96 | [Unique Binary Search Trees][191] | Medium | [096_unique-binary-search-trees][192] |
 | 98 | [Validate Binary Search Tree][195] | Medium | [098_validate-binary-search-tree][196] |
 | 100 | [Same Tree][199] | Easy | [100_same-tree][200] |
@@ -313,12 +314,17 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 728 | [Self Dividing Numbers][1455] | Easy | [728_self-dividing-numbers][1456] |
 | 734 | [Sentence Similarity][1467] | Easy | [734_sentence-similarity][1468] |
 | 735 | [Asteroid Collision][1469] | Medium | [735_asteroid-collision][1470] |
+| 740 | [Delete and Earn][1479] | Medium | [740_delete-and-earn][1480] |
 | 742 | [Closest Leaf in a Binary Tree][1483] | Medium | [742_closest-leaf-in-a-binary-tree][1484] |
+| 743 | [Network Delay Time][1485] | Medium | [743_network-delay-time][1486] |
 | 744 | [Find Smallest Letter Greater Than Target][1487] | Easy | [744_find-smallest-letter-greater-than-target][1488] |
 | 746 | [Min Cost Climbing Stairs][1491] | Easy | [746_min-cost-climbing-stairs][1492] |
 | 747 | [Largest Number At Least Twice of Others][1493] | Easy | [747_largest-number-at-least-twice-of-others][1494] |
 | 748 | [Shortest Completing Word][1495] | Medium | [748_shortest-completing-word][1496] |
 | 752 | [Open the Lock][1503] | Medium | [752_open-the-lock][1504] |
+| 754 | [Reach a Number][1507] | Medium | [754_reach-a-number][1508] |
+| 756 | [Pyramid Transition Matrix][1511] | Medium | [756_pyramid-transition-matrix][1512] |
+| 760 | [Find Anagram Mappings][1519] | Easy | [760_find-anagram-mappings][1520] |
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/MrHuxu/leetcode/blob/master/problems/001_two-sum/index.js
@@ -454,6 +460,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [186]: https://github.com/MrHuxu/leetcode/blob/master/problems/093_restore-ip-addresses/index.js
 [187]: https://leetcode.com/problems/binary-tree-inorder-traversal/
 [188]: https://github.com/MrHuxu/leetcode/blob/master/problems/094_binary-tree-inorder-traversal/index.js
+[189]: https://leetcode.com/problems/unique-binary-search-trees-ii/
+[190]: https://github.com/MrHuxu/leetcode/blob/master/problems/095_unique-binary-search-trees-ii/index.js
 [191]: https://leetcode.com/problems/unique-binary-search-trees/
 [192]: https://github.com/MrHuxu/leetcode/blob/master/problems/096_unique-binary-search-trees/index.js
 [195]: https://leetcode.com/problems/validate-binary-search-tree/
@@ -882,8 +890,12 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1468]: https://github.com/MrHuxu/leetcode/blob/master/problems/734_sentence-similarity/index.js
 [1469]: https://leetcode.com/problems/asteroid-collision/
 [1470]: https://github.com/MrHuxu/leetcode/blob/master/problems/735_asteroid-collision/index.js
+[1479]: https://leetcode.com/problems/delete-and-earn/
+[1480]: https://github.com/MrHuxu/leetcode/blob/master/problems/740_delete-and-earn/index.js
 [1483]: https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
 [1484]: https://github.com/MrHuxu/leetcode/blob/master/problems/742_closest-leaf-in-a-binary-tree/index.js
+[1485]: https://leetcode.com/problems/network-delay-time/
+[1486]: https://github.com/MrHuxu/leetcode/blob/master/problems/743_network-delay-time/index.js
 [1487]: https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 [1488]: https://github.com/MrHuxu/leetcode/blob/master/problems/744_find-smallest-letter-greater-than-target/index.js
 [1491]: https://leetcode.com/problems/min-cost-climbing-stairs/
@@ -894,3 +906,9 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1496]: https://github.com/MrHuxu/leetcode/blob/master/problems/748_shortest-completing-word/index.js
 [1503]: https://leetcode.com/problems/open-the-lock/
 [1504]: https://github.com/MrHuxu/leetcode/blob/master/problems/752_open-the-lock/index.js
+[1507]: https://leetcode.com/problems/reach-a-number/
+[1508]: https://github.com/MrHuxu/leetcode/blob/master/problems/754_reach-a-number/index.js
+[1511]: https://leetcode.com/problems/pyramid-transition-matrix/
+[1512]: https://github.com/MrHuxu/leetcode/blob/master/problems/756_pyramid-transition-matrix/index.js
+[1519]: https://leetcode.com/problems/find-anagram-mappings/
+[1520]: https://github.com/MrHuxu/leetcode/blob/master/problems/760_find-anagram-mappings/index.js
