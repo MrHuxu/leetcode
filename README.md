@@ -325,6 +325,9 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 754 | [Reach a Number][1507] | Medium | [754_reach-a-number][1508] |
 | 756 | [Pyramid Transition Matrix][1511] | Medium | [756_pyramid-transition-matrix][1512] |
 | 760 | [Find Anagram Mappings][1519] | Easy | [760_find-anagram-mappings][1520] |
+| 762 | [Prime Number of Set Bits in Binary Representation][1523] | Easy | [762_prime-number-of-set-bits-in-binary-representation][1524] |
+| 763 | [Partition Labels][1525] | Medium | [763_partition-labels][1526] |
+| 764 | [Largest Plus Sign][1527] | Medium | [764_largest-plus-sign][1528] |
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/MrHuxu/leetcode/blob/master/problems/001_two-sum/index.js
@@ -912,3 +915,9 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1512]: https://github.com/MrHuxu/leetcode/blob/master/problems/756_pyramid-transition-matrix/index.js
 [1519]: https://leetcode.com/problems/find-anagram-mappings/
 [1520]: https://github.com/MrHuxu/leetcode/blob/master/problems/760_find-anagram-mappings/index.js
+[1523]: https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/
+[1524]: https://github.com/MrHuxu/leetcode/blob/master/problems/762_prime-number-of-set-bits-in-binary-representation/index.js
+[1525]: https://leetcode.com/problems/partition-labels/
+[1526]: https://github.com/MrHuxu/leetcode/blob/master/problems/763_partition-labels/index.js
+[1527]: https://leetcode.com/problems/largest-plus-sign/
+[1528]: https://github.com/MrHuxu/leetcode/blob/master/problems/764_largest-plus-sign/index.js
