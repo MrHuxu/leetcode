@@ -283,6 +283,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 661 | [Image Smoother][1321] | Easy | [661_image-smoother][1322] |
 | 662 | [Maximum Width of Binary Tree][1323] | Medium | [662_maximum-width-of-binary-tree][1324] |
 | 665 | [Non-decreasing Array][1329] | Easy | [665_non-decreasing-array][1330] |
+| 667 | [Beautiful Arrangement II][1333] | Medium | [667_beautiful-arrangement-ii][1334] |
 | 669 | [Trim a Binary Search Tree][1337] | Easy | [669_trim-a-binary-search-tree][1338] |
 | 670 | [Maximum Swap][1339] | Medium | [670_maximum-swap][1340] |
 | 671 | [Second Minimum Node In a Binary Tree][1341] | Easy | [671_second-minimum-node-in-a-binary-tree][1342] |
@@ -293,6 +294,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 678 | [Valid Parenthesis String][1355] | Medium | [678_valid-parenthesis-string][1356] |
 | 680 | [Valid Palindrome II][1359] | Easy | [680_valid-palindrome-ii][1360] |
 | 682 | [Baseball Game][1363] | Easy | [682_baseball-game][1364] |
+| 684 | [Redundant Connection][1367] | Medium | [684_redundant-connection][1368] |
 | 686 | [Repeated String Match][1371] | Easy | [686_repeated-string-match][1372] |
 | 687 | [Longest Univalue Path][1373] | Easy | [687_longest-univalue-path][1374] |
 | 692 | [Top K Frequent Words][1383] | Medium | [692_top-k-frequent-words][1384] |
@@ -314,6 +316,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 728 | [Self Dividing Numbers][1455] | Easy | [728_self-dividing-numbers][1456] |
 | 734 | [Sentence Similarity][1467] | Easy | [734_sentence-similarity][1468] |
 | 735 | [Asteroid Collision][1469] | Medium | [735_asteroid-collision][1470] |
+| 739 | [Daily Temperatures][1477] | Medium | [739_daily-temperatures][1478] |
 | 740 | [Delete and Earn][1479] | Medium | [740_delete-and-earn][1480] |
 | 742 | [Closest Leaf in a Binary Tree][1483] | Medium | [742_closest-leaf-in-a-binary-tree][1484] |
 | 743 | [Network Delay Time][1485] | Medium | [743_network-delay-time][1486] |
@@ -831,6 +834,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1324]: https://github.com/MrHuxu/leetcode/blob/master/problems/662_maximum-width-of-binary-tree/index.js
 [1329]: https://leetcode.com/problems/non-decreasing-array/
 [1330]: https://github.com/MrHuxu/leetcode/blob/master/problems/665_non-decreasing-array/index.js
+[1333]: https://leetcode.com/problems/beautiful-arrangement-ii/
+[1334]: https://github.com/MrHuxu/leetcode/blob/master/problems/667_beautiful-arrangement-ii/index.js
 [1337]: https://leetcode.com/problems/trim-a-binary-search-tree/
 [1338]: https://github.com/MrHuxu/leetcode/blob/master/problems/669_trim-a-binary-search-tree/index.js
 [1339]: https://leetcode.com/problems/maximum-swap/
@@ -851,6 +856,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1360]: https://github.com/MrHuxu/leetcode/blob/master/problems/680_valid-palindrome-ii/index.js
 [1363]: https://leetcode.com/problems/baseball-game/
 [1364]: https://github.com/MrHuxu/leetcode/blob/master/problems/682_baseball-game/index.js
+[1367]: https://leetcode.com/problems/redundant-connection/
+[1368]: https://github.com/MrHuxu/leetcode/blob/master/problems/684_redundant-connection/index.js
 [1371]: https://leetcode.com/problems/repeated-string-match/
 [1372]: https://github.com/MrHuxu/leetcode/blob/master/problems/686_repeated-string-match/index.js
 [1373]: https://leetcode.com/problems/longest-univalue-path/
@@ -893,6 +900,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1468]: https://github.com/MrHuxu/leetcode/blob/master/problems/734_sentence-similarity/index.js
 [1469]: https://leetcode.com/problems/asteroid-collision/
 [1470]: https://github.com/MrHuxu/leetcode/blob/master/problems/735_asteroid-collision/index.js
+[1477]: https://leetcode.com/problems/daily-temperatures/
+[1478]: https://github.com/MrHuxu/leetcode/blob/master/problems/739_daily-temperatures/index.js
 [1479]: https://leetcode.com/problems/delete-and-earn/
 [1480]: https://github.com/MrHuxu/leetcode/blob/master/problems/740_delete-and-earn/index.js
 [1483]: https://leetcode.com/problems/closest-leaf-in-a-binary-tree/
