@@ -12,24 +12,20 @@ const reorganizeString = S => {
   
   if (times[chars[0]] > Math.ceil(S.length / 2)) return '';
 
-  console.log({ chars, times });
-  let even = 0, odd = 1, result = '';
-  while (result.length < S.length) {
-    if (0 == result.length % 2) {
-      const ch = chars[even];
-      result += ch;
+  const result = [];
+  for (let i = 0; i < S.length; i += 2) {
+    result[i] = chars[0];
 
-      times[ch]--;
-      if (!times[ch]) even = Math.max(even + 1, odd + 1);
-    } else {
-      const ch = chars[odd];
-      result += ch;
-
-      times[ch]--;
-      if (!times[ch]) odd = Math.max(even + 1, odd + 1);
-    }
+    times[chars[0]]--;
+    if (!times[chars[0]]) chars.shift();
   }
-  return result;
+  for (let i = 1; i < S.length; i += 2) {
+    result[i] = chars[0];
+
+    times[chars[0]]--;
+    if (!times[chars[0]]) chars.shift();
+  }
+  return result.join('');
 };
 
 module.exports = reorganizeString;
