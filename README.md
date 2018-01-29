@@ -268,6 +268,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 593 | [Valid Square][1185] | Medium | [593_valid-square][1186] |
 | 594 | [Longest Harmonious Subsequence][1187] | Easy | [594_longest-harmonious-subsequence][1188] |
 | 617 | [Merge Two Binary Trees][1233] | Easy | [617_merge-two-binary-trees][1234] |
+| 621 | [Task Scheduler][1241] | Medium | [621_task-scheduler][1242] |
 | 633 | [Sum of Square Numbers][1265] | Easy | [633_sum-of-square-numbers][1266] |
 | 637 | [Average of Levels in Binary Tree][1273] | Easy | [637_average-of-levels-in-binary-tree][1274] |
 | 640 | [Solve the Equation][1279] | Medium | [640_solve-the-equation][1280] |
@@ -331,6 +332,11 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 762 | [Prime Number of Set Bits in Binary Representation][1523] | Easy | [762_prime-number-of-set-bits-in-binary-representation][1524] |
 | 763 | [Partition Labels][1525] | Medium | [763_partition-labels][1526] |
 | 764 | [Largest Plus Sign][1527] | Medium | [764_largest-plus-sign][1528] |
+| 766 | [Toeplitz Matrix][1531] | Easy | [766_toeplitz-matrix][1532] |
+| 767 | [Reorganize String][1533] | Medium | [767_reorganize-string][1534] |
+| 769 | [Max Chunks To Make Sorted][1537] | Medium | [769_max-chunks-to-make-sorted][1538] |
+| 771 | [Jewels and Stones][1541] | Easy | [771_jewels-and-stones][1542] |
+| 775 | [Global and Local Inversions][1549] | Medium | [775_global-and-local-inversions][1550] |
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/MrHuxu/leetcode/blob/master/problems/001_two-sum/index.js
@@ -804,6 +810,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1188]: https://github.com/MrHuxu/leetcode/blob/master/problems/594_longest-harmonious-subsequence/index.js
 [1233]: https://leetcode.com/problems/merge-two-binary-trees/
 [1234]: https://github.com/MrHuxu/leetcode/blob/master/problems/617_merge-two-binary-trees/index.js
+[1241]: https://leetcode.com/problems/task-scheduler/
+[1242]: https://github.com/MrHuxu/leetcode/blob/master/problems/621_task-scheduler/index.js
 [1265]: https://leetcode.com/problems/sum-of-square-numbers/
 [1266]: https://github.com/MrHuxu/leetcode/blob/master/problems/633_sum-of-square-numbers/index.js
 [1273]: https://leetcode.com/problems/average-of-levels-in-binary-tree/
@@ -930,3 +938,13 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1526]: https://github.com/MrHuxu/leetcode/blob/master/problems/763_partition-labels/index.js
 [1527]: https://leetcode.com/problems/largest-plus-sign/
 [1528]: https://github.com/MrHuxu/leetcode/blob/master/problems/764_largest-plus-sign/index.js
+[1531]: https://leetcode.com/problems/toeplitz-matrix/
+[1532]: https://github.com/MrHuxu/leetcode/blob/master/problems/766_toeplitz-matrix/index.js
+[1533]: https://leetcode.com/problems/reorganize-string/
+[1534]: https://github.com/MrHuxu/leetcode/blob/master/problems/767_reorganize-string/index.js
+[1537]: https://leetcode.com/problems/max-chunks-to-make-sorted/
+[1538]: https://github.com/MrHuxu/leetcode/blob/master/problems/769_max-chunks-to-make-sorted/index.js
+[1541]: https://leetcode.com/problems/jewels-and-stones/
+[1542]: https://github.com/MrHuxu/leetcode/blob/master/problems/771_jewels-and-stones/index.js
+[1549]: https://leetcode.com/problems/global-and-local-inversions/
+[1550]: https://github.com/MrHuxu/leetcode/blob/master/problems/775_global-and-local-inversions/index.js
