@@ -9,13 +9,13 @@ This is the repo of my LeetCode solutions, and currently I just use JavaScript t
 
 First of all, you need to install all dependencis:
 
-    npm i
+![npm-i](https://github.com/MrHuxu/img-repo/blob/master/leetcode/npm-i.png?raw=true)
 
 ### Fetch Problems in Terminal
 
 By executing the command you can browse all the problems in your terminal, and select any one to solve.
 
-    npm run fetch-question
+![npm-fetch-question](https://raw.githubusercontent.com/MrHuxu/img-repo/master/leetcode/npm-fetch-question.png)
 
 ![](https://raw.githubusercontent.com/MrHuxu/img-repo/master/leetcode/leetcode%20fetch%20question.gif)
 
@@ -23,13 +23,15 @@ By executing the command you can browse all the problems in your terminal, and s
 
 I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test the programs, the test cases are defined in the `problems/*/test-cases.js`:
 
-    npm test                    # test all test cases
-    npm test [problem number]   # test single problem
+![npm-test](https://raw.githubusercontent.com/MrHuxu/img-repo/master/leetcode/npm-test.png)
 
 ![](https://raw.githubusercontent.com/MrHuxu/img-repo/master/leetcode/leetcode%20test.gif)
 
 ## Submissions
 
+This table lists all the submissions in this repo, and there is a command provided to update this part.
+
+![](https://raw.githubusercontent.com/MrHuxu/img-repo/master/leetcode/npm-generate-readme.png)
 | Sequence | Title | Difficulty | Submission |
 | - | :- | :-: | :- |
 | 1 | [Two Sum][1] | Easy | [001_two-sum][2] |
@@ -280,6 +282,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 654 | [Maximum Binary Tree][1307] | Medium | [654_maximum-binary-tree][1308] |
 | 655 | [Print Binary Tree][1309] | Medium | [655_print-binary-tree][1310] |
 | 657 | [Judge Route Circle][1313] | Easy | [657_judge-route-circle][1314] |
+| 658 | [Find K Closest Elements][1315] | Medium | [658_find-k-closest-elements][1316] |
 | 659 | [Split Array into Consecutive Subsequences][1317] | Medium | [659_split-array-into-consecutive-subsequences][1318] |
 | 661 | [Image Smoother][1321] | Easy | [661_image-smoother][1322] |
 | 662 | [Maximum Width of Binary Tree][1323] | Medium | [662_maximum-width-of-binary-tree][1324] |
@@ -337,6 +340,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 | 769 | [Max Chunks To Make Sorted][1537] | Medium | [769_max-chunks-to-make-sorted][1538] |
 | 771 | [Jewels and Stones][1541] | Easy | [771_jewels-and-stones][1542] |
 | 775 | [Global and Local Inversions][1549] | Medium | [775_global-and-local-inversions][1550] |
+| 779 | [K-th Symbol in Grammar][1557] | Medium | [779_k-th-symbol-in-grammar][1558] |
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/MrHuxu/leetcode/blob/master/problems/001_two-sum/index.js
@@ -834,6 +838,8 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1310]: https://github.com/MrHuxu/leetcode/blob/master/problems/655_print-binary-tree/index.js
 [1313]: https://leetcode.com/problems/judge-route-circle/
 [1314]: https://github.com/MrHuxu/leetcode/blob/master/problems/657_judge-route-circle/index.js
+[1315]: https://leetcode.com/problems/find-k-closest-elements/
+[1316]: https://github.com/MrHuxu/leetcode/blob/master/problems/658_find-k-closest-elements/index.js
 [1317]: https://leetcode.com/problems/split-array-into-consecutive-subsequences/
 [1318]: https://github.com/MrHuxu/leetcode/blob/master/problems/659_split-array-into-consecutive-subsequences/index.js
 [1321]: https://leetcode.com/problems/image-smoother/
@@ -948,3 +954,5 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 [1542]: https://github.com/MrHuxu/leetcode/blob/master/problems/771_jewels-and-stones/index.js
 [1549]: https://leetcode.com/problems/global-and-local-inversions/
 [1550]: https://github.com/MrHuxu/leetcode/blob/master/problems/775_global-and-local-inversions/index.js
+[1557]: https://leetcode.com/problems/k-th-symbol-in-grammar/
+[1558]: https://github.com/MrHuxu/leetcode/blob/master/problems/779_k-th-symbol-in-grammar/index.js
