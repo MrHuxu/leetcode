@@ -32,3 +32,4 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 This table lists all the submissions in this repo, and there is a command provided to update this part.
 
 ![](https://raw.githubusercontent.com/MrHuxu/img-repo/master/leetcode/npm-generate-readme.png)
+
