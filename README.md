@@ -9,13 +9,13 @@ This is the repo of my LeetCode solutions, and currently I just use JavaScript t
 
 First of all, you need to install all dependencis:
 
-![npm-i](https://github.com/MrHuxu/img-repo/blob/master/leetcode/npm-i.png?raw=true)
+    npm i
 
 ### Fetch Problems in Terminal
 
 By executing the command you can browse all the problems in your terminal, and select any one to solve.
 
-![npm-fetch-question](https://raw.githubusercontent.com/MrHuxu/img-repo/master/leetcode/npm-fetch-question.png)
+    npm run fetch-question
 
 ![](https://raw.githubusercontent.com/MrHuxu/img-repo/master/leetcode/leetcode%20fetch%20question.gif)
 
@@ -23,7 +23,8 @@ By executing the command you can browse all the problems in your terminal, and s
 
 I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test the programs, the test cases are defined in the `problems/*/test-cases.js`:
 
-![npm-test](https://raw.githubusercontent.com/MrHuxu/img-repo/master/leetcode/npm-test.png)
+    npm test                    # test all test cases
+    npm test [problem number]   # test single problem
 
 ![](https://raw.githubusercontent.com/MrHuxu/img-repo/master/leetcode/leetcode%20test.gif)
 
@@ -31,7 +32,7 @@ I've used [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/) to test t
 
 This table lists all the submissions in this repo, and there is a command provided to update this part.
 
-![](https://raw.githubusercontent.com/MrHuxu/img-repo/master/leetcode/npm-generate-readme.png)
+    npm run generate-readme
 
 
 | Sequence | Title | Difficulty | Submission |
