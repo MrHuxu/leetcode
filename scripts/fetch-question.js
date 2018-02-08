@@ -4,7 +4,7 @@ const { load } = require('cheerio');
 const { prompt } = require('inquirer');
 const { info } = require('better-console');
 
-const { DIFFICULTY_MAP, clearConsole, formatId, questionUrl, problemPath, getQuestionsDetails } = require('./script-utils.js');
+const { DIFFICULTY_MAP, clearConsole, formatId, questionUrl, problemPath, getQuestionsDetails, unescapeHTML } = require('./script-utils.js');
 
 const questionTitle = question => {
   const { id, difficulty, totalAcs, totalSubmitted, title } = question;
@@ -102,7 +102,7 @@ const createFiles = (id, slug, code) => {
 
 const actionToQuestion = question => {
   const { id, slug, code, description } = question;
-  info(`\n${description}`);
+  info(`\n${unescapeHTML(description)}`);
   prompt({
     type    : 'list',
     name    : 'action',

@@ -5,10 +5,9 @@ const ALGORITHM_URL = 'https://leetcode.com/api/problems/algorithms/';
 const PROBLEMS_PATH = resolve(__dirname, '..', 'problems');
 const README_BASE_PATH = resolve(__dirname, 'readme-base.txt');
 const README_PATH = resolve(__dirname, '..', 'README.md');
+const DIFFICULTY_MAP = { 1: 'Easy', 2: 'Medium', 3: 'Hard' };
 
 const questionUrl = slug => `https://leetcode.com/problems/${slug}/`;
-
-const DIFFICULTY_MAP = { 1: 'Easy', 2: 'Medium', 3: 'Hard' };
 
 const formatId = id => {
   id = id.toString();
@@ -52,6 +51,22 @@ const getQuestionsDetails = () => new Promise((resolve, reject) => {
   });
 });
 
+const HTML_TRANSLATE_RE = /&(nbsp|amp|#39|quot|lt|gt);/g;
+const HTML_TRANSLATES = {
+  'nbsp' : ' ',
+  'amp'  : '&',
+  '#39'  : '\'',
+  'quot' : '"',
+  'lt'   : '<',
+  'gt'   : '>'
+};
+
+const unescapeHTML = text => {
+  return text.replace(HTML_TRANSLATE_RE, (match, type) => {
+    return HTML_TRANSLATES[type];
+  });
+};
+
 module.exports = {
   ALGORITHM_URL,
   PROBLEMS_PATH,
@@ -64,5 +79,6 @@ module.exports = {
   submissionPath,
   formatId,
   clearConsole,
-  getQuestionsDetails
+  getQuestionsDetails,
+  unescapeHTML
 };
