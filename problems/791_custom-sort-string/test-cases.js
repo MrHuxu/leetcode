@@ -3,8 +3,8 @@ module.exports = [{
   output : 'cbad'
 }, {
   input  : ['exv', 'xwvee'],
-  output : 'eewxv'
+  output : 'eexvw'
 }, {
   input  : ['hucw', 'utzoampdgkalexslxoqfkdjoczajxtuhqyxvlfatmptqdsochtdzgypsfkgqwbgqbcamdqnqztaqhqanirikahtmalzqjjxtqfnh'],
-  output : 'hhhhhuucccwaaaaaaaaabbdddddeffffggggiijjjjkkkkllllmmmmnnnoooopppqqqqqqqqqqqrsssttttttttvxxxxxyyzzzzz'
+  output : 'hhhhhuucccwydfdkxglqoafbdgoqzbjktammydvqfntqpzqtsalqtozqgasnxikreixkqalzmtdmaaglszjqpjajoxpanfqtxqtt'
 }];
