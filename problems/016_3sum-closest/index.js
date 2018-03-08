@@ -6,12 +6,12 @@
  * @param {number} target
  * @return {number}
  */
-var threeSumClosest = function (nums, target) {
-  var result, diff, tmp, left, right;
+const threeSumClosest = (nums, target) => {
+  let result, diff, tmp, left, right;
   nums.sort(function (a, b) {
-    return parseInt(a) < parseInt(b) ? -1 : 1;
+    return a < b ? -1 : 1;
   });
-  for (var i = 0, l = nums.length; (i < l - 2 && diff !== 0); ++i) {
+  for (let i = 0, l = nums.length; (i < l - 2 && diff !== 0); ++i) {
     for (left = i + 1, right = l - 1; (left < right && diff !== 0);) {
       tmp = nums[i] + nums[left] + nums[right];
       if (diff) {

@@ -6,8 +6,8 @@
  * @param {string} p
  * @return {boolean}
  */
-var isMatch = function(s, p) {
-  let patterns = [];
+const isMatch = (s, p) => {
+  const patterns = [];
 
   for (let i = 0; i < p.length; ++i) {
     if ('*' === p[i]) {

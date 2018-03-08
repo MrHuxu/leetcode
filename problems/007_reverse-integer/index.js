@@ -5,15 +5,25 @@
  * @param {number} x
  * @return {number}
  */
-var reverse = function(x) {
-  var str = x.toString();
-  var result = parseInt(str[0] !== '-' ? str.split('').reverse().join('') :
-    str[0] + str.slice(1).split('').reverse().join(''));
-  // use constant variable to check if overflow
-  if (x > 2147483647 || result > 2147483647 || x < -2147483648 || result < -2147483648)
-    return 0;
-  else
-    return result;
+const reverse = x => {
+  const sym = x < 0 ? -1 : 1;
+  const stack = [];
+
+  x = Math.abs(x);
+  while(x != 0) {
+    stack.push(x % 10);
+    x = parseInt(x / 10);
+  }
+  while(stack.length && !stack[0]) stack.shift();
+
+  let result = 0;
+  while(stack.length) {
+    let num = stack.shift();
+    result = result * 10 + num;
+  }
+
+  if (x > 2147483647 || result > 2147483647 || x < -2147483648 || result < -2147483648) return 0;
+  return result * sym;
 };
 
 module.exports = reverse;

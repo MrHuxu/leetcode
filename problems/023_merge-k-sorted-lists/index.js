@@ -14,7 +14,7 @@
  */
 const { ListNode } = require('../../scripts/problem-utils');
 
-var mergeKLists = function(lists) {
+const mergeKLists = lists => {
   const merge2Lists = (l1, l2) => {
     if (!l1 && l2) return l2;
     if (l1 && !l2) return l1;
@@ -43,7 +43,7 @@ var mergeKLists = function(lists) {
   };
 
   while (lists.length > 1) {
-    let tmp = [];
+    const tmp = [];
     for (let i = 0; i < lists.length / 2; ++i) {
       tmp.push(merge2Lists(lists[i * 2], lists[i * 2 + 1]));
     }

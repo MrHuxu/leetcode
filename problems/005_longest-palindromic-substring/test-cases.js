@@ -7,4 +7,7 @@ module.exports = [{
 }, {
   input  : ['aaaa'],
   output : 'aaaa'
+}, {
+  input  : ['abcda'],
+  output : 'a'
 }];

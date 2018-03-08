@@ -6,15 +6,15 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function (nums, target) {
-  var tmp = {};
-  for (var i = 0; i < nums.length; i++) {
+const twoSum = (nums, target) => {
+  const tmp = {};
+  for (let i = 0; i < nums.length; i++) {
     if (tmp[nums[i]])
-      tmp[nums[i]].push(i + 1);
+      tmp[nums[i]].push(i);
     else
-      tmp[nums[i]] = [i + 1];
+      tmp[nums[i]] = [i];
   }
-  for (var i = 0; i < nums.length; i++) {
+  for (let i = 0; i < nums.length; i++) {
     if (tmp[target - nums[i]]) {
       if (target - nums[i] === nums[i]) {
         if (tmp[nums[i]].length > 1)
@@ -22,7 +22,7 @@ var twoSum = function (nums, target) {
         else
           continue;
       } else
-        return [i + 1, tmp[target - nums[i]][0]];
+        return [i, tmp[target - nums[i]][0]];
     }
   }
 };

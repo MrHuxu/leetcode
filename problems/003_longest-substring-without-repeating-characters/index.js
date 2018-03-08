@@ -5,15 +5,15 @@
  * @param {string} s
  * @return {number}
  */
-var lengthOfLongestSubstring = function(s) {
-  var maxLen = 0, subArr = [], index;
-  for (var i = 0; i < s.length; i++) {
+let lengthOfLongestSubstring = s => {
+  let maxLen = 0, subArr = [], index;
+  for (let i = 0; i < s.length; i++) {
     index = subArr.indexOf(s[i]);
     if (index !== -1) {
       subArr = subArr.slice(index + 1, subArr.length);
     }
     subArr.push(s[i]);
-    maxLen = subArr.length > maxLen ? subArr.length : maxLen;
+    maxLen = Math.max(maxLen, subArr.length);
   }
   return maxLen;
 };

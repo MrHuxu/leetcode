@@ -15,29 +15,17 @@
  */
 const { ListNode } = require('../../scripts/problem-utils');
 
-var addTwoNumbers = function (l1, l2) {
-  var arr1 = [], arr2 = [];
-  while (l1.next) {
-    arr1.push(l1.val);
-    l1 = l1.next;
-  }
-  while (l2.next) {
-    arr2.push(l2.val);
-    l2 = l2.next;
-  }
-  arr1.push(l1.val);
-  arr2.push(l2.val);
-  var num1 = parseInt(arr1.reverse().join(''));
-  var num2 = parseInt(arr2.reverse().join(''));
-  var sum = num1 + num2;
-  var ln = new ListNode(undefined), current = ln;
-  while (sum >= 10) {
-    current.val = sum % 10;
-    current.next = new ListNode(undefined);
-    current = current.next;
-    sum = parseInt(sum / 10);
-  }
-  current.val = sum;
-  return ln;
+let addTwoNumbers = (l1, l2) => {
+  const traverse = (tail, node1, node2, plus) => {
+    if (!node1 && !node2 && !plus) return;
+
+    const sum = (node1 ? node1.val : 0) + (node2 ? node2.val : 0) + (plus ? 1 : 0);
+    const node = new ListNode(sum % 10);
+    tail.next = node;
+    traverse(tail.next, node1 && node1.next, node2 && node2.next, sum > 9);
+  };
+  const head = tail = new ListNode();
+  traverse(tail, l1, l2, false);
+  return head.next;
 };
 module.exports = addTwoNumbers;
