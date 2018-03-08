@@ -14,6 +14,7 @@
     }],
     "no-return-assign": 0,
     "quotes": [2, "single"],
+    "no-unused-vars": [2],
     "no-var": [2],
     "indent": [2, 2],
     "semi": [2, "always"],

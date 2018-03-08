@@ -13,6 +13,15 @@ const buildList = nodes => {
   return head.next;
 };
 
+const printList = root => {
+  const vals = [];
+  while (root.next) {
+    vals.push(root.val);
+    root = root.next;
+  }
+  console.log(vals);
+};
+
 const TreeNode = function(val) {
   this.val = val;
   this.left = this.right = null;
@@ -35,6 +44,7 @@ const buildTree = nodes => {
 module.exports = {
   ListNode,
   buildList,
+  printList,
   TreeNode,
   buildTree
 };
