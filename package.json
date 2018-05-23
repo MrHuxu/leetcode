@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "## Description This is the repo of my LeetCode solutions, and currently I just use Javascript to solve the questions, maybe in the future, I will use other languages I like to get the ALL PASS grade.",
   "scripts": {
-    "fetch-question": "node ./scripts/fetch-question",
-    "generate-readme": "node ./scripts/generate-readme",
+    "question": "node ./scripts/fetch-question",
+    "readme": "node ./scripts/generate-readme",
     "test": "./node_modules/mocha/bin/mocha ./scripts/run-test-cases.js"
   },
   "repository": {
