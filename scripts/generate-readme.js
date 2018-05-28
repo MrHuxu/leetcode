@@ -1,16 +1,17 @@
 const { readdir, readFileSync, writeFileSync } = require('fs');
-const { get } = require('request');
 const { info } = require('better-console');
 
 const { PROBLEMS_PATH, README_BASE_PATH, README_PATH, DIFFICULTY_MAP, getQuestionsDetails, formatId, questionUrl } = require('./script-utils');
 
-const getSolvedQuestionIds = () => new Promise((resolve, reject) => {
+const getSolvedQuestionIds = () => new Promise(resolve => {
   readdir(PROBLEMS_PATH, {}, (_, problems) => {
     resolve(problems.map(problem => parseInt(problem.split('_')[0])));
   });
 });
 
-const getQuestionInfos = ids => new Promise((resolve, reject) => {
+const getQuestionInfos = ids => new Promise(resolve => {
+  info(`${ids.length} questions resolved\n`);
+  info('Start regenerating...');
   const idExist = ids.reduce((pre, id) => {
     pre[id] = true;
     return pre;
