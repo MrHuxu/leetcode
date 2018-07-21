@@ -1,5 +1,5 @@
 /**
- * Problem: https://leetcode.com/problems/smalle  st-subtree-with-all-the-deepest-nodes/description/
+ * Problem: https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/
  */
 
 const smallestSubtreeWithAllTheDeepestNodes = root => {
