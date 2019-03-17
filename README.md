@@ -60,11 +60,12 @@ This table lists all the submissions in this repo, and there is a command provid
 | 22 | [Generate Parentheses][43] | Medium | [022_generate-parentheses][44] |
 | 23 | [Merge k Sorted Lists][45] | Hard | [023_merge-k-sorted-lists][46] |
 | 24 | [Swap Nodes in Pairs][47] | Medium | [024_swap-nodes-in-pairs][48] |
+| 25 | [Reverse Nodes in k-Group][49] | Hard | [025_reverse-nodes-in-k-group][50] |
 | 26 | [Remove Duplicates from Sorted Array][51] | Easy | [026_remove-duplicates-from-sorted-array][52] |
 | 27 | [Remove Element][53] | Easy | [027_remove-element][54] |
 | 28 | [Implement strStr()][55] | Easy | [028_implement-strstr][56] |
 | 29 | [Divide Two Integers][57] | Medium | [029_divide-two-integers][58] |
-| 34 | [Search for a Range][67] | Medium | [034_search-for-a-range][68] |
+| 34 | [Find First and Last Position of Element in Sorted Array][67] | Medium | [034_find-first-and-last-position-of-element-in-sorted-array][68] |
 | 35 | [Search Insert Position][69] | Easy | [035_search-insert-position][70] |
 | 38 | [Count and Say][75] | Easy | [038_count-and-say][76] |
 | 39 | [Combination Sum][77] | Medium | [039_combination-sum][78] |
@@ -139,6 +140,7 @@ This table lists all the submissions in this repo, and there is a command provid
 | 143 | [Reorder List][285] | Medium | [143_reorder-list][286] |
 | 144 | [Binary Tree Preorder Traversal][287] | Medium | [144_binary-tree-preorder-traversal][288] |
 | 145 | [Binary Tree Postorder Traversal][289] | Hard | [145_binary-tree-postorder-traversal][290] |
+| 146 | [LRU Cache][291] | Hard | [146_lru-cache][292] |
 | 147 | [Insertion Sort List][293] | Medium | [147_insertion-sort-list][294] |
 | 150 | [Evaluate Reverse Polish Notation][299] | Medium | [150_evaluate-reverse-polish-notation][300] |
 | 151 | [Reverse Words in a String][301] | Medium | [151_reverse-words-in-a-string][302] |
@@ -207,6 +209,7 @@ This table lists all the submissions in this repo, and there is a command provid
 | 306 | [Additive Number][611] | Medium | [306_additive-number][612] |
 | 307 | [Range Sum Query - Mutable][613] | Medium | [307_range-sum-query-mutable][614] |
 | 318 | [Maximum Product of Word Lengths][635] | Medium | [318_maximum-product-of-word-lengths][636] |
+| 319 | [Bulb Switcher][637] | Medium | [319_bulb-switcher][638] |
 | 322 | [Coin Change][643] | Medium | [322_coin-change][644] |
 | 326 | [Power of Three][651] | Easy | [326_power-of-three][652] |
 | 328 | [Odd Even Linked List][655] | Medium | [328_odd-even-linked-list][656] |
@@ -284,7 +287,7 @@ This table lists all the submissions in this repo, and there is a command provid
 | 653 | [Two Sum IV - Input is a BST][1305] | Easy | [653_two-sum-iv-input-is-a-bst][1306] |
 | 654 | [Maximum Binary Tree][1307] | Medium | [654_maximum-binary-tree][1308] |
 | 655 | [Print Binary Tree][1309] | Medium | [655_print-binary-tree][1310] |
-| 657 | [Judge Route Circle][1313] | Easy | [657_judge-route-circle][1314] |
+| 657 | [Robot Return to Origin][1313] | Easy | [657_robot-return-to-origin][1314] |
 | 658 | [Find K Closest Elements][1315] | Medium | [658_find-k-closest-elements][1316] |
 | 659 | [Split Array into Consecutive Subsequences][1317] | Medium | [659_split-array-into-consecutive-subsequences][1318] |
 | 661 | [Image Smoother][1321] | Easy | [661_image-smoother][1322] |
@@ -306,7 +309,7 @@ This table lists all the submissions in this repo, and there is a command provid
 | 687 | [Longest Univalue Path][1373] | Easy | [687_longest-univalue-path][1374] |
 | 692 | [Top K Frequent Words][1383] | Medium | [692_top-k-frequent-words][1384] |
 | 693 | [Binary Number with Alternating Bits][1385] | Easy | [693_binary-number-with-alternating-bits][1386] |
-| 695 | [Max Area of Island][1389] | Easy | [695_max-area-of-island][1390] |
+| 695 | [Max Area of Island][1389] | Medium | [695_max-area-of-island][1390] |
 | 696 | [Count Binary Substrings][1391] | Easy | [696_count-binary-substrings][1392] |
 | 697 | [Degree of an Array][1393] | Easy | [697_degree-of-an-array][1394] |
 | 698 | [Partition to K Equal Sum Subsets][1395] | Medium | [698_partition-to-k-equal-sum-subsets][1396] |
@@ -330,9 +333,9 @@ This table lists all the submissions in this repo, and there is a command provid
 | 744 | [Find Smallest Letter Greater Than Target][1487] | Easy | [744_find-smallest-letter-greater-than-target][1488] |
 | 746 | [Min Cost Climbing Stairs][1491] | Easy | [746_min-cost-climbing-stairs][1492] |
 | 747 | [Largest Number At Least Twice of Others][1493] | Easy | [747_largest-number-at-least-twice-of-others][1494] |
-| 748 | [Shortest Completing Word][1495] | Medium | [748_shortest-completing-word][1496] |
+| 748 | [Shortest Completing Word][1495] | Easy | [748_shortest-completing-word][1496] |
 | 752 | [Open the Lock][1503] | Medium | [752_open-the-lock][1504] |
-| 754 | [Reach a Number][1507] | Medium | [754_reach-a-number][1508] |
+| 754 | [Reach a Number][1507] | Easy | [754_reach-a-number][1508] |
 | 756 | [Pyramid Transition Matrix][1511] | Medium | [756_pyramid-transition-matrix][1512] |
 | 760 | [Find Anagram Mappings][1519] | Easy | [760_find-anagram-mappings][1520] |
 | 762 | [Prime Number of Set Bits in Binary Representation][1523] | Easy | [762_prime-number-of-set-bits-in-binary-representation][1524] |
@@ -343,7 +346,39 @@ This table lists all the submissions in this repo, and there is a command provid
 | 769 | [Max Chunks To Make Sorted][1537] | Medium | [769_max-chunks-to-make-sorted][1538] |
 | 771 | [Jewels and Stones][1541] | Easy | [771_jewels-and-stones][1542] |
 | 775 | [Global and Local Inversions][1549] | Medium | [775_global-and-local-inversions][1550] |
+| 777 | [Swap Adjacent in LR String][1553] | Medium | [777_swap-adjacent-in-lr-string][1554] |
 | 779 | [K-th Symbol in Grammar][1557] | Medium | [779_k-th-symbol-in-grammar][1558] |
+| 781 | [Rabbits in Forest][1561] | Medium | [781_rabbits-in-forest][1562] |
+| 783 | [Minimum Distance Between BST Nodes][1565] | Easy | [783_minimum-distance-between-bst-nodes][1566] |
+| 784 | [Letter Case Permutation][1567] | Easy | [784_letter-case-permutation][1568] |
+| 789 | [Escape The Ghosts][1577] | Medium | [789_escape-the-ghosts][1578] |
+| 791 | [Custom Sort String][1581] | Medium | [791_custom-sort-string][1582] |
+| 792 | [Number of Matching Subsequences][1583] | Medium | [792_number-of-matching-subsequences][1584] |
+| 795 | [Number of Subarrays with Bounded Maximum][1589] | Medium | [795_number-of-subarrays-with-bounded-maximum][1590] |
+| 797 | [All Paths From Source to Target][1593] | Medium | [797_all-paths-from-source-to-target][1594] |
+| 802 | [Find Eventual Safe States][1603] | Medium | [802_find-eventual-safe-states][1604] |
+| 809 | [Expressive Words][1617] | Medium | [809_expressive-words][1618] |
+| 811 | [Subdomain Visit Count][1621] | Easy | [811_subdomain-visit-count][1622] |
+| 822 | [Card Flipping Game][1643] | Medium | [822_card-flipping-game][1644] |
+| 833 | [Find And Replace in String][1665] | Medium | [833_find-and-replace-in-string][1666] |
+| 835 | [Image Overlap][1669] | Medium | [835_image-overlap][1670] |
+| 838 | [Push Dominoes][1675] | Medium | [838_push-dominoes][1676] |
+| 841 | [Keys and Rooms][1681] | Medium | [841_keys-and-rooms][1682] |
+| 842 | [Split Array into Fibonacci Sequence][1683] | Medium | [842_split-array-into-fibonacci-sequence][1684] |
+| 859 | [Buddy Strings][1717] | Easy | [859_buddy-strings][1718] |
+| 865 | [Smallest Subtree with all the Deepest Nodes][1729] | Medium | [865_smallest-subtree-with-all-the-deepest-nodes][1730] |
+| 866 | [Prime Palindrome][1731] | Medium | [866_prime-palindrome][1732] |
+| 874 | [Walking Robot Simulation][1747] | Easy | [874_walking-robot-simulation][1748] |
+| 892 | [Surface Area of 3D Shapes][1783] | Easy | [892_surface-area-of-3d-shapes][1784] |
+| 894 | [All Possible Full Binary Trees][1787] | Medium | [894_all-possible-full-binary-trees][1788] |
+| 896 | [Monotonic Array][1791] | Easy | [896_monotonic-array][1792] |
+| 897 | [Increasing Order Search Tree][1793] | Easy | [897_increasing-order-search-tree][1794] |
+| 898 | [Bitwise ORs of Subarrays][1795] | Medium | [898_bitwise-ors-of-subarrays][1796] |
+| 985 | [Sum of Even Numbers After Queries][1969] | Easy | [985_sum-of-even-numbers-after-queries][1970] |
+| 986 | [Interval List Intersections][1971] | Medium | [986_interval-list-intersections][1972] |
+| 988 | [Smallest String Starting From Leaf][1975] | Medium | [988_smallest-string-starting-from-leaf][1976] |
+| 989 | [Add to Array-Form of Integer][1977] | Easy | [989_add-to-array-form-of-integer][1978] |
+| 991 | [Broken Calculator][1981] | Medium | [991_broken-calculator][1982] |
 
 [1]: https://leetcode.com/problems/two-sum/
 [2]: https://github.com/MrHuxu/leetcode/blob/master/problems/001_two-sum/index.js
@@ -391,6 +426,8 @@ This table lists all the submissions in this repo, and there is a command provid
 [46]: https://github.com/MrHuxu/leetcode/blob/master/problems/023_merge-k-sorted-lists/index.js
 [47]: https://leetcode.com/problems/swap-nodes-in-pairs/
 [48]: https://github.com/MrHuxu/leetcode/blob/master/problems/024_swap-nodes-in-pairs/index.js
+[49]: https://leetcode.com/problems/reverse-nodes-in-k-group/
+[50]: https://github.com/MrHuxu/leetcode/blob/master/problems/025_reverse-nodes-in-k-group/index.js
 [51]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 [52]: https://github.com/MrHuxu/leetcode/blob/master/problems/026_remove-duplicates-from-sorted-array/index.js
 [53]: https://leetcode.com/problems/remove-element/
@@ -399,8 +436,8 @@ This table lists all the submissions in this repo, and there is a command provid
 [56]: https://github.com/MrHuxu/leetcode/blob/master/problems/028_implement-strstr/index.js
 [57]: https://leetcode.com/problems/divide-two-integers/
 [58]: https://github.com/MrHuxu/leetcode/blob/master/problems/029_divide-two-integers/index.js
-[67]: https://leetcode.com/problems/search-for-a-range/
-[68]: https://github.com/MrHuxu/leetcode/blob/master/problems/034_search-for-a-range/index.js
+[67]: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+[68]: https://github.com/MrHuxu/leetcode/blob/master/problems/034_find-first-and-last-position-of-element-in-sorted-array/index.js
 [69]: https://leetcode.com/problems/search-insert-position/
 [70]: https://github.com/MrHuxu/leetcode/blob/master/problems/035_search-insert-position/index.js
 [75]: https://leetcode.com/problems/count-and-say/
@@ -549,6 +586,8 @@ This table lists all the submissions in this repo, and there is a command provid
 [288]: https://github.com/MrHuxu/leetcode/blob/master/problems/144_binary-tree-preorder-traversal/index.js
 [289]: https://leetcode.com/problems/binary-tree-postorder-traversal/
 [290]: https://github.com/MrHuxu/leetcode/blob/master/problems/145_binary-tree-postorder-traversal/index.js
+[291]: https://leetcode.com/problems/lru-cache/
+[292]: https://github.com/MrHuxu/leetcode/blob/master/problems/146_lru-cache/index.js
 [293]: https://leetcode.com/problems/insertion-sort-list/
 [294]: https://github.com/MrHuxu/leetcode/blob/master/problems/147_insertion-sort-list/index.js
 [299]: https://leetcode.com/problems/evaluate-reverse-polish-notation/
@@ -685,6 +724,8 @@ This table lists all the submissions in this repo, and there is a command provid
 [614]: https://github.com/MrHuxu/leetcode/blob/master/problems/307_range-sum-query-mutable/index.js
 [635]: https://leetcode.com/problems/maximum-product-of-word-lengths/
 [636]: https://github.com/MrHuxu/leetcode/blob/master/problems/318_maximum-product-of-word-lengths/index.js
+[637]: https://leetcode.com/problems/bulb-switcher/
+[638]: https://github.com/MrHuxu/leetcode/blob/master/problems/319_bulb-switcher/index.js
 [643]: https://leetcode.com/problems/coin-change/
 [644]: https://github.com/MrHuxu/leetcode/blob/master/problems/322_coin-change/index.js
 [651]: https://leetcode.com/problems/power-of-three/
@@ -839,8 +880,8 @@ This table lists all the submissions in this repo, and there is a command provid
 [1308]: https://github.com/MrHuxu/leetcode/blob/master/problems/654_maximum-binary-tree/index.js
 [1309]: https://leetcode.com/problems/print-binary-tree/
 [1310]: https://github.com/MrHuxu/leetcode/blob/master/problems/655_print-binary-tree/index.js
-[1313]: https://leetcode.com/problems/judge-route-circle/
-[1314]: https://github.com/MrHuxu/leetcode/blob/master/problems/657_judge-route-circle/index.js
+[1313]: https://leetcode.com/problems/robot-return-to-origin/
+[1314]: https://github.com/MrHuxu/leetcode/blob/master/problems/657_robot-return-to-origin/index.js
 [1315]: https://leetcode.com/problems/find-k-closest-elements/
 [1316]: https://github.com/MrHuxu/leetcode/blob/master/problems/658_find-k-closest-elements/index.js
 [1317]: https://leetcode.com/problems/split-array-into-consecutive-subsequences/
@@ -957,5 +998,69 @@ This table lists all the submissions in this repo, and there is a command provid
 [1542]: https://github.com/MrHuxu/leetcode/blob/master/problems/771_jewels-and-stones/index.js
 [1549]: https://leetcode.com/problems/global-and-local-inversions/
 [1550]: https://github.com/MrHuxu/leetcode/blob/master/problems/775_global-and-local-inversions/index.js
+[1553]: https://leetcode.com/problems/swap-adjacent-in-lr-string/
+[1554]: https://github.com/MrHuxu/leetcode/blob/master/problems/777_swap-adjacent-in-lr-string/index.js
 [1557]: https://leetcode.com/problems/k-th-symbol-in-grammar/
 [1558]: https://github.com/MrHuxu/leetcode/blob/master/problems/779_k-th-symbol-in-grammar/index.js
+[1561]: https://leetcode.com/problems/rabbits-in-forest/
+[1562]: https://github.com/MrHuxu/leetcode/blob/master/problems/781_rabbits-in-forest/index.js
+[1565]: https://leetcode.com/problems/minimum-distance-between-bst-nodes/
+[1566]: https://github.com/MrHuxu/leetcode/blob/master/problems/783_minimum-distance-between-bst-nodes/index.js
+[1567]: https://leetcode.com/problems/letter-case-permutation/
+[1568]: https://github.com/MrHuxu/leetcode/blob/master/problems/784_letter-case-permutation/index.js
+[1577]: https://leetcode.com/problems/escape-the-ghosts/
+[1578]: https://github.com/MrHuxu/leetcode/blob/master/problems/789_escape-the-ghosts/index.js
+[1581]: https://leetcode.com/problems/custom-sort-string/
+[1582]: https://github.com/MrHuxu/leetcode/blob/master/problems/791_custom-sort-string/index.js
+[1583]: https://leetcode.com/problems/number-of-matching-subsequences/
+[1584]: https://github.com/MrHuxu/leetcode/blob/master/problems/792_number-of-matching-subsequences/index.js
+[1589]: https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/
+[1590]: https://github.com/MrHuxu/leetcode/blob/master/problems/795_number-of-subarrays-with-bounded-maximum/index.js
+[1593]: https://leetcode.com/problems/all-paths-from-source-to-target/
+[1594]: https://github.com/MrHuxu/leetcode/blob/master/problems/797_all-paths-from-source-to-target/index.js
+[1603]: https://leetcode.com/problems/find-eventual-safe-states/
+[1604]: https://github.com/MrHuxu/leetcode/blob/master/problems/802_find-eventual-safe-states/index.js
+[1617]: https://leetcode.com/problems/expressive-words/
+[1618]: https://github.com/MrHuxu/leetcode/blob/master/problems/809_expressive-words/index.js
+[1621]: https://leetcode.com/problems/subdomain-visit-count/
+[1622]: https://github.com/MrHuxu/leetcode/blob/master/problems/811_subdomain-visit-count/index.js
+[1643]: https://leetcode.com/problems/card-flipping-game/
+[1644]: https://github.com/MrHuxu/leetcode/blob/master/problems/822_card-flipping-game/index.js
+[1665]: https://leetcode.com/problems/find-and-replace-in-string/
+[1666]: https://github.com/MrHuxu/leetcode/blob/master/problems/833_find-and-replace-in-string/index.js
+[1669]: https://leetcode.com/problems/image-overlap/
+[1670]: https://github.com/MrHuxu/leetcode/blob/master/problems/835_image-overlap/index.js
+[1675]: https://leetcode.com/problems/push-dominoes/
+[1676]: https://github.com/MrHuxu/leetcode/blob/master/problems/838_push-dominoes/index.js
+[1681]: https://leetcode.com/problems/keys-and-rooms/
+[1682]: https://github.com/MrHuxu/leetcode/blob/master/problems/841_keys-and-rooms/index.js
+[1683]: https://leetcode.com/problems/split-array-into-fibonacci-sequence/
+[1684]: https://github.com/MrHuxu/leetcode/blob/master/problems/842_split-array-into-fibonacci-sequence/index.js
+[1717]: https://leetcode.com/problems/buddy-strings/
+[1718]: https://github.com/MrHuxu/leetcode/blob/master/problems/859_buddy-strings/index.js
+[1729]: https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
+[1730]: https://github.com/MrHuxu/leetcode/blob/master/problems/865_smallest-subtree-with-all-the-deepest-nodes/index.js
+[1731]: https://leetcode.com/problems/prime-palindrome/
+[1732]: https://github.com/MrHuxu/leetcode/blob/master/problems/866_prime-palindrome/index.js
+[1747]: https://leetcode.com/problems/walking-robot-simulation/
+[1748]: https://github.com/MrHuxu/leetcode/blob/master/problems/874_walking-robot-simulation/index.js
+[1783]: https://leetcode.com/problems/surface-area-of-3d-shapes/
+[1784]: https://github.com/MrHuxu/leetcode/blob/master/problems/892_surface-area-of-3d-shapes/index.js
+[1787]: https://leetcode.com/problems/all-possible-full-binary-trees/
+[1788]: https://github.com/MrHuxu/leetcode/blob/master/problems/894_all-possible-full-binary-trees/index.js
+[1791]: https://leetcode.com/problems/monotonic-array/
+[1792]: https://github.com/MrHuxu/leetcode/blob/master/problems/896_monotonic-array/index.js
+[1793]: https://leetcode.com/problems/increasing-order-search-tree/
+[1794]: https://github.com/MrHuxu/leetcode/blob/master/problems/897_increasing-order-search-tree/index.js
+[1795]: https://leetcode.com/problems/bitwise-ors-of-subarrays/
+[1796]: https://github.com/MrHuxu/leetcode/blob/master/problems/898_bitwise-ors-of-subarrays/index.js
+[1969]: https://leetcode.com/problems/sum-of-even-numbers-after-queries/
+[1970]: https://github.com/MrHuxu/leetcode/blob/master/problems/985_sum-of-even-numbers-after-queries/index.js
+[1971]: https://leetcode.com/problems/interval-list-intersections/
+[1972]: https://github.com/MrHuxu/leetcode/blob/master/problems/986_interval-list-intersections/index.js
+[1975]: https://leetcode.com/problems/smallest-string-starting-from-leaf/
+[1976]: https://github.com/MrHuxu/leetcode/blob/master/problems/988_smallest-string-starting-from-leaf/index.js
+[1977]: https://leetcode.com/problems/add-to-array-form-of-integer/
+[1978]: https://github.com/MrHuxu/leetcode/blob/master/problems/989_add-to-array-form-of-integer/index.js
+[1981]: https://leetcode.com/problems/broken-calculator/
+[1982]: https://github.com/MrHuxu/leetcode/blob/master/problems/991_broken-calculator/index.js
