@@ -7,7 +7,6 @@ const { expect } = require('chai');
 let mctFromLeafValues = function(arr) {
   let result = 0;
   const traverse = list => {
-    // console.log({ list });
     if (list.length <= 1) return;
     if (2 === list.length) {
       result += list[0] * list[1];
@@ -29,7 +28,6 @@ let mctFromLeafValues = function(arr) {
       }
     }
 
-    // console.log({ max, secondMax });
     result += max * secondMax;
 
     if (secondMaxIndex === undefined) {
