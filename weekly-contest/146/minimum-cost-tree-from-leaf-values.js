@@ -5,44 +5,38 @@ const { expect } = require('chai');
  * @return {number}
  */
 let mctFromLeafValues = function(arr) {
+  if (arr.length <= 1) return 0;
+  if (2 === arr.length) return arr[0] * arr[1];
+
   let result = 0;
-  const traverse = list => {
-    if (list.length <= 1) return;
-    if (2 === list.length) {
-      result += list[0] * list[1];
-      return;
+  let max = arr[0], maxIndex = 0, secondMax = Number.MIN_SAFE_INTEGER, secondMaxIndex;
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > max) {
+      secondMaxIndex = maxIndex;
+      secondMax = max;
+
+      maxIndex = i;
+      max = arr[i];
+    } else if (arr [i] > secondMax && i !== maxIndex) {
+      secondMax = arr[i];
+      secondMaxIndex = i;
     }
+  }
 
-    let max = list[0], maxIndex = 0, secondMax = Number.MIN_SAFE_INTEGER, secondMaxIndex;
+  result += max * secondMax;
 
-    for (let i = 0; i < list.length; i++) {
-      if (list[i] > max) {
-        secondMaxIndex = maxIndex;
-        secondMax = max;
-
-        maxIndex = i;
-        max = list[i];
-      } else if (list [i] > secondMax && i !== maxIndex) {
-        secondMax = list[i];
-        secondMaxIndex = i;
-      }
-    }
-
-    result += max * secondMax;
-
-    if (secondMaxIndex === undefined) {
-      traverse(list.slice(1));
+  if (secondMaxIndex === undefined) {
+    result += mctFromLeafValues(arr.slice(1));
+  } else {
+    if (secondMaxIndex < maxIndex) {
+      result += mctFromLeafValues(arr.slice(0, maxIndex));
+      result += mctFromLeafValues(arr.slice(maxIndex));
     } else {
-      if (secondMaxIndex < maxIndex) {
-        traverse(list.slice(0, maxIndex));
-        traverse(list.slice(maxIndex));
-      } else {
-        traverse(list.slice(0, maxIndex + 1));
-        traverse(list.slice(maxIndex + 1));
-      }
+      result += mctFromLeafValues(arr.slice(0, maxIndex + 1));
+      result += mctFromLeafValues(arr.slice(maxIndex + 1));
     }
-  };
-  traverse(arr);
+  }
   return result;
 };
 
