@@ -5,7 +5,7 @@
  * @param {string[]} words
  * @return {number[][]}
  */
-var palindromePairs = function(words) {
+let palindromePairs = function(words) {
   const isPalindrome = (str, l, r) => {
     while (l < r) {
       if (str[l++] !== str[r--]) return false;
