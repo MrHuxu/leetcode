@@ -1,25 +1,36 @@
+// +build 186_1
+
 package main
 
 func maxScore(cardPoints []int, k int) int {
-	var sum, kSubSum int
-	for i, point := range cardPoints {
-		sum += point
-		if i < len(cardPoints)-k {
-			kSubSum += point
-		}
+	if k == 0 {
+		return 0
 	}
 
-	minSubSum := kSubSum
-	for i := 1; i <= k; i++ {
-		kSubSum -= cardPoints[i-1] - cardPoints[i+(len(cardPoints)-k)-1]
-		minSubSum = min(minSubSum, kSubSum)
+	var leftSum, rightSum int
+	for i := 0; i < k; i++ {
+		leftSum += cardPoints[i]
 	}
-	return sum - minSubSum
+
+	result := leftSum
+	for i := k - 1; i >= 0; i-- {
+		leftSum -= cardPoints[i]
+		rightSum += cardPoints[len(cardPoints)-(k-i)]
+		result = max(result, leftSum+rightSum)
+	}
+
+	return result
 }
 
-func min(a, b int) int {
-	if a < b {
+func max(a, b int) int {
+	if a > b {
 		return a
 	}
 	return b
+}
+
+func main() {
+	println(maxScore([]int{1, 2, 3, 4, 5, 6, 1}, 3))
+	println(maxScore([]int{1, 2, 3, 4, 5, 6, 1}, 7))
+	println(maxScore([]int{1, 2, 3, 4, 5, 6, 1}, 1))
 }
