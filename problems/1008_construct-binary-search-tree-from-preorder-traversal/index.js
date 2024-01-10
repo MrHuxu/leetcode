@@ -9,7 +9,7 @@
  * @param {number[]} preorder
  * @return {TreeNode}
  */
-const { TreeNode } = require('../../util/javascript/problem-utils');
+const { TreeNode } = require('../util/javascript/problem-utils');
 
 let bstFromPreorder = function (preorder) {
   if (0 === preorder.length) return null;

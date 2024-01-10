@@ -13,7 +13,7 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
-const { ListNode } = require('../../util/javascript/problem-utils');
+const { ListNode } = require('../util/javascript/problem-utils');
 
 let addTwoNumbers = (l1, l2) => {
   const traverse = (tail, node1, node2, plus) => {

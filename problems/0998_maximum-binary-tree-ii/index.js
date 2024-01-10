@@ -10,7 +10,7 @@
  * @param {number} val
  * @return {TreeNode}
  */
-const { TreeNode, buildTree } = require('../../util/javascript/problem-utils');
+const { TreeNode, buildTree } = require('../util/javascript/problem-utils');
 
 let insertIntoMaxTree = function (root, val) {
   const destruct = node => {

@@ -13,7 +13,7 @@
  * @param {TreeNode} t2
  * @return {TreeNode}
  */
-const { TreeNode } = require('../../util/javascript/problem-utils');
+const { TreeNode } = require('../util/javascript/problem-utils');
 
 var mergeTrees = function (t1, t2) {
   const traverse = (src1, src2, dist) => {

@@ -10,7 +10,7 @@
  * @return {number}
  */
 const { expect } = require('chai');
-const { buildTree } = require('../../util/javascript/problem-utils');
+const { buildTree } = require('../util/javascript/problem-utils');
 
 let maxAncestorDiff = function (root) {
   let result = 0;

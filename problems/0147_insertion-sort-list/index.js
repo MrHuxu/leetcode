@@ -12,7 +12,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-const { ListNode } = require('../../util/javascript/problem-utils');
+const { ListNode } = require('../util/javascript/problem-utils');
 
 var insertionSortList = function (head) {
   if (!head || !head.next) return head;

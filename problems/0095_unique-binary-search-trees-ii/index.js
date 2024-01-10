@@ -2,7 +2,7 @@
  * Problem: https://leetcode.com/problems/unique-binary-search-trees-ii/description/
  */
 
-const { TreeNode } = require('../../util/javascript/problem-utils');
+const { TreeNode } = require('../util/javascript/problem-utils');
 
 const uniqueBinarySearchTreesIi = num => {
   const arr = [];

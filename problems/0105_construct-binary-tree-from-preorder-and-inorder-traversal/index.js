@@ -13,7 +13,7 @@
  * @param {number[]} inorder
  * @return {TreeNode}
  */
-const { TreeNode } = require('../../util/javascript/problem-utils');
+const { TreeNode } = require('../util/javascript/problem-utils');
 
 var buildTree = function (preorder, inorder) {
   const build = (pre, ino) => {

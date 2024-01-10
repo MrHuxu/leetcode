@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const { buildTree } = require('../../util/javascript/problem-utils');
+const { buildTree } = require('../util/javascript/problem-utils');
 
 /**
  * Definition for a binary tree node.

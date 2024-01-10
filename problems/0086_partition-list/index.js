@@ -13,7 +13,7 @@
  * @param {number} x
  * @return {ListNode}
  */
-const { ListNode } = require('../../util/javascript/problem-utils');
+const { ListNode } = require('../util/javascript/problem-utils');
 
 var partition = function (head, x) {
   const lessRoot = new ListNode(null), greaterRoot = new ListNode(null);

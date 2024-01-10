@@ -13,7 +13,7 @@
  * @return {TreeNode}
  */
 
-const { TreeNode } = require('../../util/javascript/problem-utils');
+const { TreeNode } = require('../util/javascript/problem-utils');
 
 var constructMaximumBinaryTree = function (nums) {
   const idxs = nums.reduce((pre, num, i) => {

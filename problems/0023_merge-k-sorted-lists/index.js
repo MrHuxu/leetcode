@@ -12,7 +12,7 @@
  * @param {ListNode[]} lists
  * @return {ListNode}
  */
-const { ListNode } = require('../../util/javascript/problem-utils');
+const { ListNode } = require('../util/javascript/problem-utils');
 
 const mergeKLists = lists => {
   const merge2Lists = (l1, l2) => {

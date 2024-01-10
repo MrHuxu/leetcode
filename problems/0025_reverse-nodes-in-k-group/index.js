@@ -2,7 +2,7 @@
  * Problem: https://leetcode.com/problems/reverse-nodes-in-k-group/description/
  */
 
-const { ListNode } = require('../../util/javascript/problem-utils');
+const { ListNode } = require('../util/javascript/problem-utils');
 
 const reverseNodesInKGroup = (list, k) => {
   const reverse = (start, end) => {

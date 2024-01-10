@@ -6,7 +6,7 @@
  * }
  */
 
-const { buildTree } = require('../../util/javascript/problem-utils');
+const { buildTree } = require('../util/javascript/problem-utils');
 
 /**
  * @param {TreeNode} root

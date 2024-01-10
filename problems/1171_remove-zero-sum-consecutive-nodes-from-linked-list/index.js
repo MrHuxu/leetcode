@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const { buildList } = require('../../util/javascript/problem-utils');
+const { buildList } = require('../util/javascript/problem-utils');
 
 /**
  * Definition for singly-linked list.

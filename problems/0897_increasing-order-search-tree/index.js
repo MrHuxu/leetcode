@@ -2,7 +2,7 @@
  * Problem: https://leetcode.com/problems/increasing-order-search-tree/description/
  */
 
-const { TreeNode } = require('../../util/javascript/problem-utils');
+const { TreeNode } = require('../util/javascript/problem-utils');
 
 const increasingOrderSearchTree = root => {
   if (!root) return null;

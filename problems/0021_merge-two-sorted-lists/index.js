@@ -13,7 +13,7 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
-const { ListNode } = require('../../util/javascript/problem-utils');
+const { ListNode } = require('../util/javascript/problem-utils');
 
 var mergeTwoLists = function (l1, l2) {
   var l = new ListNode(null), node;
