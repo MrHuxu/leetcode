@@ -4,11 +4,8 @@ from typing import List, Set
 class Solution:
     def maxLength(self, arr: List[str]) -> int:
         sets: List[Set[str]] = []
-        for s in arr:
-            if len(s) != len(set(s)):
-                continue
-            tmp = set(s)
-            sets += [ss | tmp for ss in sets if not ss & tmp] + [tmp]
+        for s in [set(a) for a in arr if len(set(a)) == len(a)]:
+            sets += [ss | s for ss in sets if not ss & s] + [s]
         return max(len(s) for s in sets) if sets else 0
 
 
