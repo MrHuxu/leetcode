@@ -8,10 +8,7 @@ class Solution:
             if len(s) != len(set(s)):
                 continue
             tmp = set(s)
-            for ss in sets:
-                if not ss & tmp:
-                    sets.append(ss | tmp)
-            sets.append(tmp)
+            sets += [ss | tmp for ss in sets if not ss & tmp] + [tmp]
         return max(len(s) for s in sets) if sets else 0
 
 
