@@ -75,7 +75,7 @@ for id in sorted(solution_records):
         try:
             question = query_question(slug)
         except Exception as e:
-            print(e)
+            pass  # may occurred by rate limit, just ignore
         if question:
             solution_record.title = question.title
             solution_record.difficulty = question.difficulty
