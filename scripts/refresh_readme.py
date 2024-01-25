@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 import os
-from typing import Dict, List
+from typing import Dict, List, Set
 from leetcode_api import query_question
 
 LANG: Dict[str, str] = {
@@ -23,23 +23,22 @@ LANG_FILE: Dict[str, str] = {
 
 class ReadmeRecord:
     def __init__(
-        self, id: int, slug: str, title: str, difficulty: str, solutions: List[str]
+        self, id: int, slug: str, title: str, difficulty: str, solutions: Set[str]
     ):
         self.id: int = id
         self.slug: str = slug
         self.title: str = title
         self.difficulty: str = difficulty
-        self.solutions: List[str] = solutions
+        self.solutions: Set[str] = solutions
 
     def id_str(self) -> str:
-        tmp = str(self.id)
-        print(tmp, self.id)
-        return "0" * (4 - len(tmp)) + tmp
+        s = str(self.id)
+        return "0" * (4 - len(s)) + s
 
     def to_line(self) -> str:
         solution_items = [
             f"[{s}](./problems/{self.id_str()}_{self.slug}/{LANG_FILE[s]})"
-            for s in self.solutions
+            for s in sorted(self.solutions, key=list(LANG_FILE.keys()).index)
         ]
         return f"| [{self.id}](https://leetcode.com/problems/{slug}) | {self.title} | {self.difficulty} | {' '.join(solution_items)} |"
 
@@ -55,21 +54,27 @@ with open("../README.md", "r") as file:
         slug = arr[0].split("/")[-1][:-1]
         title = arr[1]
         difficulty = arr[2]
-        solutions = [a.split("[")[-1] for a in arr[3].split("](") if "[" in a]
+        solutions = set([a.split("[")[-1] for a in arr[3].split("](") if "[" in a])
         readme_records[slug] = ReadmeRecord(id, slug, title, difficulty, solutions)
 
-solution_records: Dict[str, ReadmeRecord] = {}
+solution_records: Dict[int, ReadmeRecord] = {}
 for entry in os.walk("../problems"):
     if entry[1] or "_" not in entry[0]:
         continue
 
     id = int(entry[0].split("/")[-1].split("_")[0])
     slug = entry[0].split("/")[-1].split("_")[1]
-    solutions = [LANG[a.split(".")[-1]] for a in entry[2]]
-    solution_records[slug] = ReadmeRecord(id, slug, "", "", solutions)
+    solutions = set([LANG[a.split(".")[-1]] for a in entry[2]])
+    solution_records[int(id)] = ReadmeRecord(id, slug, "", "", solutions)
 
-for slug, record in solution_records.items():
+for id in sorted(solution_records):
+    solution_record = solution_records[id]
+    slug = solution_record.slug
     if slug not in readme_records:
-        print("need to create record: ", record.id, slug)
-    elif len(record.solutions) > len(readme_records[slug].solutions):
-        print("need to add solution: ", record.id, slug)
+        pass
+        # print("need to create record: ", solution_record.id, slug)
+    elif len(solution_record.solutions) > len(readme_records[slug].solutions):
+        readme_records[slug].solutions = solution_record.solutions
+        print(readme_records[slug].to_line())
+    else:
+        print(readme_records[slug].to_line())
