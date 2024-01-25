@@ -33,12 +33,13 @@ jobs:
           python generate_readme.py >> ../README.md.tmp
           cd ..
           mv README.md.tmp README.md
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -a -m "auto update readme"
       - name: Push changes
-        uses: zakiego/just-git-push@main
+        uses: ad-m/github-push-action@master
         with:
-          USERNAME: "MrHuxu"
-          EMAIL: "hxtheone@gmail.com"
-          COMMIT_MESSAGE: "auto update readme"
-          BRANCH: ${{ github.ref_name }}
-          REPOSITORY: ${{ github.repository }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
