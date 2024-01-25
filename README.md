@@ -778,3 +778,4 @@
 | [3006](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i) | Find Beautiful Indices in the Given Array I | Medium | [Python](./problems/3006_find-beautiful-indices-in-the-given-array-i/__main__.py) |
 | [3014](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i) | Minimum Number of Pushes to Type Word I | Easy | [Python](./problems/3014_minimum-number-of-pushes-to-type-word-i/__main__.py) |
 | [3015](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i) | Count the Number of Houses at a Certain Distance I | Medium | [Python](./problems/3015_count-the-number-of-houses-at-a-certain-distance-i/__main__.py) |
+| [3016](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii) | Minimum Number of Pushes to Type Word II | Medium | [Python](./problems/3016_minimum-number-of-pushes-to-type-word-ii/__main__.py) |
