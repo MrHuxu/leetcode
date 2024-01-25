@@ -80,7 +80,6 @@ for id in sorted(solution_records):
             solution_record.title = question.title
             solution_record.difficulty = question.difficulty
             print(solution_record.to_line())
-            break
     elif len(solution_record.solutions) > len(readme_records[slug].solutions):
         readme_records[slug].solutions = solution_record.solutions
         print(readme_records[slug].to_line())
