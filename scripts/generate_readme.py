@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 import os
-from typing import Dict, List, Set
+from typing import Dict, Set
 from leetcode_api import query_question
 
 LANG: Dict[str, str] = {
@@ -71,8 +71,16 @@ for id in sorted(solution_records):
     solution_record = solution_records[id]
     slug = solution_record.slug
     if slug not in readme_records:
-        pass
-        # print("need to create record: ", solution_record.id, slug)
+        question = None
+        try:
+            question = query_question(slug)
+        except Exception as e:
+            print(e)
+        if question:
+            solution_record.title = question.title
+            solution_record.difficulty = question.difficulty
+            print(solution_record.to_line())
+            break
     elif len(solution_record.solutions) > len(readme_records[slug].solutions):
         readme_records[slug].solutions = solution_record.solutions
         print(readme_records[slug].to_line())

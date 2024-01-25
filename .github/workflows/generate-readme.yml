@@ -1,0 +1,44 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
+name: Python application
+
+on:
+  push:
+    branches: ["auto-refresh-readme"]
+  pull_request:
+    branches: ["master"]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+      - name: Generate README.md
+        run: |
+          head -n README.md > README.md.tmp
+          cd scripts
+          python generate_readme.py >> ../README.md.tmp
+          cd ..
+          mv README.md.tmp README.md
+      - name: Push changes
+        uses: zakiego/just-git-push@main
+        with:
+          USERNAME: "MrHuxu"
+          EMAIL: "hxtheone@gmail.com"
+          COMMIT_MESSAGE: "auto update readme"
+          BRANCH: ${{ github.ref_name }}
+          REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
