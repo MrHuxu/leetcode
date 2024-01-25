@@ -26,6 +26,7 @@ jobs:
           head -n 4 README.md > README.md.tmp
           cd scripts
           python generate_readme.py >> ../README.md.tmp
+          rm -rf __pycache__
           cd ..
           mv README.md.tmp README.md
       - name: Commit files
