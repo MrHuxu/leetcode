@@ -225,3 +225,4 @@
 | [377](https://leetcode.com/problems/combination-sum-iv) | Combination Sum IV | Medium | [Go](./problems/0377_combination-sum-iv/main.go) |
 | [378](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix) | Kth Smallest Element in a Sorted Matrix | Medium | [JavaScript](./problems/0378_kth-smallest-element-in-a-sorted-matrix/index.js) [Go](./problems/0378_kth-smallest-element-in-a-sorted-matrix/main.go) |
 | [380](https://leetcode.com/problems/insert-delete-getrandom-o1) | Insert Delete GetRandom O(1) | Medium | [Python](./problems/0380_insert-delete-getrandom-o1/__main__.py) |
+| [382](https://leetcode.com/problems/linked-list-random-node) | Linked List Random Node | Medium | [TypeScript](./problems/0382_linked-list-random-node/index.ts) |
