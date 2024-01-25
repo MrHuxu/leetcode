@@ -10,7 +10,8 @@ on:
     branches: ["master"]
 
 permissions:
-  contents: read
+  contents: write # 'write' access to repository contents
+  pull-requests: write # 'write' access to pull requests
 
 jobs:
   build:
@@ -41,5 +42,5 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
