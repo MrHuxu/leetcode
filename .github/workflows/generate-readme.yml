@@ -10,7 +10,8 @@ on:
     branches: ["master"]
 
 permissions:
-  contents: read
+  contents: write # 'write' access to repository contents
+  pull-requests: write # 'write' access to pull requests
 
 jobs:
   build:
