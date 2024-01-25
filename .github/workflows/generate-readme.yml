@@ -1,7 +1,7 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
-name: Python application
+name: Auto update README.md
 
 on:
   push:
@@ -28,7 +28,7 @@ jobs:
           pip install requests
       - name: Generate README.md
         run: |
-          head -n README.md > README.md.tmp
+          head -n 4 README.md > README.md.tmp
           cd scripts
           python generate_readme.py >> ../README.md.tmp
           cd ..
