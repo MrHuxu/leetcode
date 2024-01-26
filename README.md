@@ -292,6 +292,7 @@
 | [563](https://leetcode.com/problems/binary-tree-tilt) | Binary Tree Tilt | Easy | [JavaScript](./problems/0563_binary-tree-tilt/index.js) |
 | [566](https://leetcode.com/problems/reshape-the-matrix) | Reshape the Matrix | Easy | [JavaScript](./problems/0566_reshape-the-matrix/index.js) |
 | [567](https://leetcode.com/problems/permutation-in-string) | Permutation in String | Medium | [JavaScript](./problems/0567_permutation-in-string/index.js) |
+| [576](https://leetcode.com/problems/out-of-boundary-paths) | Out of Boundary Paths | Medium | [Python](./problems/0576_out-of-boundary-paths/__main__.py) |
 | [581](https://leetcode.com/problems/shortest-unsorted-continuous-subarray) | Shortest Unsorted Continuous Subarray | Medium | [JavaScript](./problems/0581_shortest-unsorted-continuous-subarray/index.js) |
 | [583](https://leetcode.com/problems/delete-operation-for-two-strings) | Delete Operation for Two Strings | Medium | [Go](./problems/0583_delete-operation-for-two-strings/main.go) |
 | [589](https://leetcode.com/problems/n-ary-tree-preorder-traversal) | N-ary Tree Preorder Traversal | Easy | [Go](./problems/0589_n-ary-tree-preorder-traversal/main.go) |
