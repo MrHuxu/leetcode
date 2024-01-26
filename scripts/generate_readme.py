@@ -1,6 +1,6 @@
-from dataclasses import dataclass
 import os
 from typing import Dict, Set
+
 from leetcode_api import query_question
 
 LANG: Dict[str, str] = {
@@ -31,13 +31,9 @@ class ReadmeRecord:
         self.difficulty: str = difficulty
         self.solutions: Set[str] = solutions
 
-    def id_str(self) -> str:
-        s = str(self.id)
-        return "0" * (4 - len(s)) + s
-
     def to_line(self) -> str:
         solution_items = [
-            f"[{s}](./problems/{self.id_str()}_{self.slug}/{LANG_FILE[s]})"
+            f"[{s}](./problems/{self.id}_{self.slug}/{LANG_FILE[s]})"
             for s in sorted(self.solutions, key=list(LANG_FILE.keys()).index)
         ]
         return f"| [{self.id}](https://leetcode.com/problems/{slug}) | {self.title} | {self.difficulty} | {' '.join(solution_items)} |"
