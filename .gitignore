@@ -4,4 +4,4 @@ temp*
 .venv
 
 __pycache__
-.pyc
+*.pyc
