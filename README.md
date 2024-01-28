@@ -530,7 +530,7 @@
 | [1051](https://leetcode.com/problems/height-checker) | Height Checker | Easy | [JavaScript](./problems/1051_height-checker/index.js) |
 | [1054](https://leetcode.com/problems/distant-barcodes) | Distant Barcodes | Medium | [JavaScript](./problems/1054_distant-barcodes/index.js) |
 | [1071](https://leetcode.com/problems/greatest-common-divisor-of-strings) | Greatest Common Divisor of Strings | Easy | [Go](./problems/1071_greatest-common-divisor-of-strings/main.go) |
-| [1074](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target) | Number of Submatrices That Sum to Target | Hard | [Go](./problems/1074_number-of-submatrices-that-sum-to-target/main.go) |
+| [1074](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target) | Number of Submatrices That Sum to Target | Hard | [Go](./problems/1074_number-of-submatrices-that-sum-to-target/main.go) [Python](./problems/1074_number-of-submatrices-that-sum-to-target/__main__.py) |
 | [1078](https://leetcode.com/problems/occurrences-after-bigram) | Occurrences After Bigram | Easy | [JavaScript](./problems/1078_occurrences-after-bigram/index.js) |
 | [1080](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths) | Insufficient Nodes in Root to Leaf Paths | Medium | [JavaScript](./problems/1080_insufficient-nodes-in-root-to-leaf-paths/index.js) [Go](./problems/1080_insufficient-nodes-in-root-to-leaf-paths/main.go) |
 | [1089](https://leetcode.com/problems/duplicate-zeros) | Duplicate Zeros | Easy | [JavaScript](./problems/1089_duplicate-zeros/index.js) |
