@@ -168,6 +168,7 @@
 | [229](https://leetcode.com/problems/majority-element-ii) | Majority Element II | Medium | [JavaScript](./problems/229_majority-element-ii/index.js) [Python](./problems/229_majority-element-ii/__main__.py) |
 | [230](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | Kth Smallest Element in a BST | Medium | [Rust](./problems/230_kth-smallest-element-in-a-bst/lib.rs) |
 | [231](https://leetcode.com/problems/power-of-two) | Power of Two | Easy | [JavaScript](./problems/231_power-of-two/index.js) |
+| [232](https://leetcode.com/problems/implement-queue-using-stacks) | Implement Queue using Stacks | Easy | [Python](./problems/232_implement-queue-using-stacks/__main__.py) |
 | [234](https://leetcode.com/problems/palindrome-linked-list) | Palindrome Linked List | Easy | [JavaScript](./problems/234_palindrome-linked-list/index.js) [Go](./problems/234_palindrome-linked-list/main.go) |
 | [235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | Lowest Common Ancestor of a Binary Search Tree | Medium | [JavaScript](./problems/235_lowest-common-ancestor-of-a-binary-search-tree/index.js) [Go](./problems/235_lowest-common-ancestor-of-a-binary-search-tree/main.go) |
 | [236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | Lowest Common Ancestor of a Binary Tree | Medium | [Go](./problems/236_lowest-common-ancestor-of-a-binary-tree/main.go) [Java](./problems/236_lowest-common-ancestor-of-a-binary-tree/Solution.java) |
