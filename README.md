@@ -366,7 +366,7 @@
 | [729](https://leetcode.com/problems/my-calendar-i) | My Calendar I | Medium | [Go](./problems/729_my-calendar-i/main.go) |
 | [734](https://leetcode.com/problems/sentence-similarity) | Sentence Similarity | Easy | [JavaScript](./problems/734_sentence-similarity/index.js) |
 | [735](https://leetcode.com/problems/asteroid-collision) | Asteroid Collision | Medium | [JavaScript](./problems/735_asteroid-collision/index.js) [Python](./problems/735_asteroid-collision/__main__.py) |
-| [739](https://leetcode.com/problems/daily-temperatures) | Daily Temperatures | Medium | [JavaScript](./problems/739_daily-temperatures/index.js) |
+| [739](https://leetcode.com/problems/daily-temperatures) | Daily Temperatures | Medium | [JavaScript](./problems/739_daily-temperatures/index.js) [Python](./problems/739_daily-temperatures/__main__.py) |
 | [740](https://leetcode.com/problems/delete-and-earn) | Delete and Earn | Medium | [JavaScript](./problems/740_delete-and-earn/index.js) [Rust](./problems/740_delete-and-earn/lib.rs) |
 | [742](https://leetcode.com/problems/closest-leaf-in-a-binary-tree) | Closest Leaf in a Binary Tree | Medium | [JavaScript](./problems/742_closest-leaf-in-a-binary-tree/index.js) |
 | [743](https://leetcode.com/problems/network-delay-time) | Network Delay Time | Medium | [JavaScript](./problems/743_network-delay-time/index.js) [Java](./problems/743_network-delay-time/Solution.java) |
