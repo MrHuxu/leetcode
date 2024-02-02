@@ -596,7 +596,7 @@
 | [1282](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to) | Group the People Given the Group Size They Belong To | Medium | [Python](./problems/1282_group-the-people-given-the-group-size-they-belong-to/__main__.py) |
 | [1287](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array) | Element Appearing More Than 25% In Sorted Array | Easy | [Python](./problems/1287_element-appearing-more-than-25-in-sorted-array/__main__.py) |
 | [1288](https://leetcode.com/problems/remove-covered-intervals) | Remove Covered Intervals | Medium | [Rust](./problems/1288_remove-covered-intervals/lib.rs) |
-| [1291](https://leetcode.com/problems/sequential-digits) | Sequential Digits | Medium | [Rust](./problems/1291_sequential-digits/lib.rs) |
+| [1291](https://leetcode.com/problems/sequential-digits) | Sequential Digits | Medium | [Python](./problems/1291_sequential-digits/__main__.py) [Rust](./problems/1291_sequential-digits/lib.rs) |
 | [1295](https://leetcode.com/problems/find-numbers-with-even-number-of-digits) | Find Numbers with Even Number of Digits | Easy | [JavaScript](./problems/1295_find-numbers-with-even-number-of-digits/index.js) |
 | [1297](https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring) | Maximum Number of Occurrences of a Substring | Medium | [JavaScript](./problems/1297_maximum-number-of-occurrences-of-a-substring/index.js) |
 | [1302](https://leetcode.com/problems/deepest-leaves-sum) | Deepest Leaves Sum | Medium | [Go](./problems/1302_deepest-leaves-sum/main.go) |
