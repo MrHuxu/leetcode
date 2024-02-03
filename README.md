@@ -525,6 +525,7 @@
 | [1037](https://leetcode.com/problems/valid-boomerang) | Valid Boomerang | Easy | [JavaScript](./problems/1037_valid-boomerang/index.js) |
 | [1038](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree) | Binary Search Tree to Greater Sum Tree | Medium | [JavaScript](./problems/1038_binary-search-tree-to-greater-sum-tree/index.js) |
 | [1041](https://leetcode.com/problems/robot-bounded-in-circle) | Robot Bounded In Circle | Medium | [JavaScript](./problems/1041_robot-bounded-in-circle/index.js) [Rust](./problems/1041_robot-bounded-in-circle/lib.rs) |
+| [1043](https://leetcode.com/problems/partition-array-for-maximum-sum) | Partition Array for Maximum Sum | Medium | [Python](./problems/1043_partition-array-for-maximum-sum/__main__.py) |
 | [1046](https://leetcode.com/problems/last-stone-weight) | Last Stone Weight | Easy | [JavaScript](./problems/1046_last-stone-weight/index.js) [Python](./problems/1046_last-stone-weight/__main__.py) |
 | [1047](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | Remove All Adjacent Duplicates In String | Easy | [JavaScript](./problems/1047_remove-all-adjacent-duplicates-in-string/index.js) |
 | [1048](https://leetcode.com/problems/longest-string-chain) | Longest String Chain | Medium | [JavaScript](./problems/1048_longest-string-chain/index.js) [Go](./problems/1048_longest-string-chain/main.go) |
