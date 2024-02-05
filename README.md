@@ -229,7 +229,7 @@
 | [382](https://leetcode.com/problems/linked-list-random-node) | Linked List Random Node | Medium | [TypeScript](./problems/382_linked-list-random-node/index.ts) |
 | [383](https://leetcode.com/problems/ransom-note) | Ransom Note | Easy | [JavaScript](./problems/383_ransom-note/index.js) |
 | [386](https://leetcode.com/problems/lexicographical-numbers) | Lexicographical Numbers | Medium | [JavaScript](./problems/386_lexicographical-numbers/index.js) |
-| [387](https://leetcode.com/problems/first-unique-character-in-a-string) | First Unique Character in a String | Easy | [JavaScript](./problems/387_first-unique-character-in-a-string/index.js) |
+| [387](https://leetcode.com/problems/first-unique-character-in-a-string) | First Unique Character in a String | Easy | [JavaScript](./problems/387_first-unique-character-in-a-string/index.js) [Python](./problems/387_first-unique-character-in-a-string/__main__.py) |
 | [388](https://leetcode.com/problems/longest-absolute-file-path) | Longest Absolute File Path | Medium | [JavaScript](./problems/388_longest-absolute-file-path/index.js) |
 | [389](https://leetcode.com/problems/find-the-difference) | Find the Difference | Easy | [JavaScript](./problems/389_find-the-difference/index.js) [Python](./problems/389_find-the-difference/__main__.py) |
 | [392](https://leetcode.com/problems/is-subsequence) | Is Subsequence | Easy | [JavaScript](./problems/392_is-subsequence/index.js) [Python](./problems/392_is-subsequence/__main__.py) |
