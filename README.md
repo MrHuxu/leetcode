@@ -131,7 +131,7 @@
 | [160](https://leetcode.com/problems/intersection-of-two-linked-lists) | Intersection of Two Linked Lists | Easy | [JavaScript](./problems/160_intersection-of-two-linked-lists/index.js) |
 | [162](https://leetcode.com/problems/find-peak-element) | Find Peak Element | Medium | [JavaScript](./problems/162_find-peak-element/index.js) [Go](./problems/162_find-peak-element/main.go) |
 | [165](https://leetcode.com/problems/compare-version-numbers) | Compare Version Numbers | Medium | [JavaScript](./problems/165_compare-version-numbers/index.js) |
-| [169](https://leetcode.com/problems/majority-element) | Majority Element | Easy | [JavaScript](./problems/169_majority-element/index.js) |
+| [169](https://leetcode.com/problems/majority-element) | Majority Element | Easy | [JavaScript](./problems/169_majority-element/index.js) [Python](./problems/169_majority-element/__main__.py) |
 | [171](https://leetcode.com/problems/excel-sheet-column-number) | Excel Sheet Column Number | Easy | [JavaScript](./problems/171_excel-sheet-column-number/index.js) |
 | [172](https://leetcode.com/problems/factorial-trailing-zeroes) | Factorial Trailing Zeroes | Medium | [JavaScript](./problems/172_factorial-trailing-zeroes/index.js) |
 | [173](https://leetcode.com/problems/binary-search-tree-iterator) | Binary Search Tree Iterator | Medium | [Rust](./problems/173_binary-search-tree-iterator/lib.rs) |
