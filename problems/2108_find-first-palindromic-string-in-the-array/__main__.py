@@ -1,9 +1,6 @@
 class Solution:
     def firstPalindrome(self, words: List[str]) -> str:
-        for word in words:
-            if self.isPalindrome(word):
-                return word
-        return ''
+        return next((word for word in words if self.isPalindrome(word)), '')
     
     def isPalindrome(self, word: str) -> bool:
         left, right = 0, len(word) - 1
