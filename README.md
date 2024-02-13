@@ -735,6 +735,7 @@
 | [2050](https://leetcode.com/problems/parallel-courses-iii) | Parallel Courses III | Hard | [Python](./problems/2050_parallel-courses-iii/__main__.py) |
 | [2090](https://leetcode.com/problems/k-radius-subarray-averages) | K Radius Subarray Averages | Medium | [Python](./problems/2090_k-radius-subarray-averages/__main__.py) |
 | [2101](https://leetcode.com/problems/detonate-the-maximum-bombs) | Detonate the Maximum Bombs | Medium | [Python](./problems/2101_detonate-the-maximum-bombs/__main__.py) |
+| [2108](https://leetcode.com/problems/find-first-palindromic-string-in-the-array) | Find First Palindromic String in the Array | Easy | [Python](./problems/2108_find-first-palindromic-string-in-the-array/__main__.py) |
 | [2125](https://leetcode.com/problems/number-of-laser-beams-in-a-bank) | Number of Laser Beams in a Bank | Medium | [Python](./problems/2125_number-of-laser-beams-in-a-bank/__main__.py) |
 | [2130](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list) | Maximum Twin Sum of a Linked List | Medium | [Go](./problems/2130_maximum-twin-sum-of-a-linked-list/main.go) [Python](./problems/2130_maximum-twin-sum-of-a-linked-list/__main__.py) |
 | [2140](https://leetcode.com/problems/solving-questions-with-brainpower) | Solving Questions With Brainpower | Medium | [Python](./problems/2140_solving-questions-with-brainpower/__main__.py) |
