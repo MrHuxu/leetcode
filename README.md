@@ -741,6 +741,7 @@
 | [2140](https://leetcode.com/problems/solving-questions-with-brainpower) | Solving Questions With Brainpower | Medium | [Python](./problems/2140_solving-questions-with-brainpower/__main__.py) |
 | [2141](https://leetcode.com/problems/maximum-running-time-of-n-computers) | Maximum Running Time of N Computers | Hard | [Python](./problems/2141_maximum-running-time-of-n-computers/__main__.py) |
 | [2147](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor) | Number of Ways to Divide a Long Corridor | Hard | [Python](./problems/2147_number-of-ways-to-divide-a-long-corridor/__main__.py) |
+| [2149](https://leetcode.com/problems/rearrange-array-elements-by-sign) | Rearrange Array Elements by Sign | Medium | [Python](./problems/2149_rearrange-array-elements-by-sign/__main__.py) |
 | [2187](https://leetcode.com/problems/minimum-time-to-complete-trips) | Minimum Time to Complete Trips | Medium | [Go](./problems/2187_minimum-time-to-complete-trips/main.go) |
 | [2225](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | Find Players With Zero or One Losses | Medium | [Python](./problems/2225_find-players-with-zero-or-one-losses/__main__.py) |
 | [2251](https://leetcode.com/problems/number-of-flowers-in-full-bloom) | Number of Flowers in Full Bloom | Hard | [Python](./problems/2251_number-of-flowers-in-full-bloom/__main__.py) |
