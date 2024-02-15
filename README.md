@@ -781,6 +781,7 @@
 | [2849](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time) | Determine if a Cell Is Reachable at a Given Time | Medium | [Python](./problems/2849_determine-if-a-cell-is-reachable-at-a-given-time/__main__.py) |
 | [2870](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty) | Minimum Number of Operations to Make Array Empty | Medium | [Python](./problems/2870_minimum-number-of-operations-to-make-array-empty/__main__.py) |
 | [2966](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference) | Divide Array Into Arrays With Max Difference | Medium | [Go](./problems/2966_divide-array-into-arrays-with-max-difference/main.go) |
+| [2971](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter) | Find Polygon With the Largest Perimeter | Medium | [Python](./problems/2971_find-polygon-with-the-largest-perimeter/__main__.py) |
 | [3005](https://leetcode.com/problems/count-elements-with-maximum-frequency) | Count Elements With Maximum Frequency | Easy | [Python](./problems/3005_count-elements-with-maximum-frequency/__main__.py) |
 | [3006](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-i) | Find Beautiful Indices in the Given Array I | Medium | [Python](./problems/3006_find-beautiful-indices-in-the-given-array-i/__main__.py) |
 | [3014](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i) | Minimum Number of Pushes to Type Word I | Easy | [Python](./problems/3014_minimum-number-of-pushes-to-type-word-i/__main__.py) |
