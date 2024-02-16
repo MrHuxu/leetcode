@@ -647,6 +647,7 @@
 | [1472](https://leetcode.com/problems/design-browser-history) | Design Browser History | Medium | [TypeScript](./problems/1472_design-browser-history/index.ts) |
 | [1473](https://leetcode.com/problems/paint-house-iii) | Paint House III | Hard | [Rust](./problems/1473_paint-house-iii/lib.rs) |
 | [1480](https://leetcode.com/problems/running-sum-of-1d-array) | Running Sum of 1d Array | Easy | [Go](./problems/1480_running-sum-of-1d-array/main.go) |
+| [1481](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals) | Least Number of Unique Integers after K Removals | Medium | [Python](./problems/1481_least-number-of-unique-integers-after-k-removals/__main__.py) |
 | [1486](https://leetcode.com/problems/xor-operation-in-an-array) | XOR Operation in an Array | Easy | [Go](./problems/1486_xor-operation-in-an-array/main.go) |
 | [1487](https://leetcode.com/problems/making-file-names-unique) | Making File Names Unique | Medium | [Go](./problems/1487_making-file-names-unique/main.go) |
 | [1491](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary) | Average Salary Excluding the Minimum and Maximum Salary | Easy | [TypeScript](./problems/1491_average-salary-excluding-the-minimum-and-maximum-salary/index.ts) [Go](./problems/1491_average-salary-excluding-the-minimum-and-maximum-salary/main.go) [Python](./problems/1491_average-salary-excluding-the-minimum-and-maximum-salary/__main__.py) |
