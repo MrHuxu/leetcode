@@ -682,6 +682,7 @@
 | [1637](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points) | Widest Vertical Area Between Two Points Containing No Points | Easy | [Python](./problems/1637_widest-vertical-area-between-two-points-containing-no-points/__main__.py) |
 | [1640](https://leetcode.com/problems/check-array-formation-through-concatenation) | Check Array Formation Through Concatenation | Easy | [Go](./problems/1640_check-array-formation-through-concatenation/main.go) |
 | [1641](https://leetcode.com/problems/count-sorted-vowel-strings) | Count Sorted Vowel Strings | Medium | [Go](./problems/1641_count-sorted-vowel-strings/main.go) [Java](./problems/1641_count-sorted-vowel-strings/Solution.java) |
+| [1642](https://leetcode.com/problems/furthest-building-you-can-reach) | Furthest Building You Can Reach | Medium | [Python](./problems/1642_furthest-building-you-can-reach/__main__.py) [Java](./problems/1642_furthest-building-you-can-reach/Solution.java) |
 | [1646](https://leetcode.com/problems/get-maximum-in-generated-array) | Get Maximum in Generated Array | Easy | [Go](./problems/1646_get-maximum-in-generated-array/main.go) |
 | [1647](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique) | Minimum Deletions to Make Character Frequencies Unique | Medium | [Go](./problems/1647_minimum-deletions-to-make-character-frequencies-unique/main.go) [Python](./problems/1647_minimum-deletions-to-make-character-frequencies-unique/__main__.py) |
 | [1656](https://leetcode.com/problems/design-an-ordered-stream) | Design an Ordered Stream | Easy | [Go](./problems/1656_design-an-ordered-stream/main.go) |
@@ -787,3 +788,6 @@
 | [3014](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i) | Minimum Number of Pushes to Type Word I | Easy | [Python](./problems/3014_minimum-number-of-pushes-to-type-word-i/__main__.py) |
 | [3015](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i) | Count the Number of Houses at a Certain Distance I | Medium | [Python](./problems/3015_count-the-number-of-houses-at-a-certain-distance-i/__main__.py) |
 | [3016](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii) | Minimum Number of Pushes to Type Word II | Medium | [Python](./problems/3016_minimum-number-of-pushes-to-type-word-ii/__main__.py) |
+| [3042](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i) | Count Prefix and Suffix Pairs I | Easy | [Python](./problems/3042_count-prefix-and-suffix-pairs-i/__main__.py) |
+| [3043](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix) | Find the Length of the Longest Common Prefix | Medium | [Python](./problems/3043_find-the-length-of-the-longest-common-prefix/__main__.py) |
+| [3044](https://leetcode.com/problems/most-frequent-prime) | Most Frequent Prime | Medium | [Python](./problems/3044_most-frequent-prime/__main__.py) |
