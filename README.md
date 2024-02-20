@@ -181,7 +181,7 @@
 | [258](https://leetcode.com/problems/add-digits) | Add Digits | Easy | [JavaScript](./problems/258_add-digits/index.js) [Go](./problems/258_add-digits/main.go) [Python](./problems/258_add-digits/__main__.py) |
 | [263](https://leetcode.com/problems/ugly-number) | Ugly Number | Easy | [JavaScript](./problems/263_ugly-number/index.js) |
 | [264](https://leetcode.com/problems/ugly-number-ii) | Ugly Number II | Medium | [JavaScript](./problems/264_ugly-number-ii/index.js) |
-| [268](https://leetcode.com/problems/missing-number) | Missing Number | Easy | [JavaScript](./problems/268_missing-number/index.js) |
+| [268](https://leetcode.com/problems/missing-number) | Missing Number | Easy | [JavaScript](./problems/268_missing-number/index.js) [Python](./problems/268_missing-number/__main__.py) |
 | [274](https://leetcode.com/problems/h-index) | H-Index | Medium | [JavaScript](./problems/274_h-index/index.js) |
 | [275](https://leetcode.com/problems/h-index-ii) | H-Index II | Medium | [JavaScript](./problems/275_h-index-ii/index.js) |
 | [278](https://leetcode.com/problems/first-bad-version) | First Bad Version | Easy | [JavaScript](./problems/278_first-bad-version/index.js) |
