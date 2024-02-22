@@ -494,7 +494,7 @@
 | [990](https://leetcode.com/problems/satisfiability-of-equality-equations) | Satisfiability of Equality Equations | Medium | [Rust](./problems/990_satisfiability-of-equality-equations/lib.rs) |
 | [991](https://leetcode.com/problems/broken-calculator) | Broken Calculator | Medium | [JavaScript](./problems/991_broken-calculator/index.js) |
 | [993](https://leetcode.com/problems/cousins-in-binary-tree) | Cousins in Binary Tree | Easy | [JavaScript](./problems/993_cousins-in-binary-tree/index.js) |
-| [997](https://leetcode.com/problems/find-the-town-judge) | Find the Town Judge | Easy | [JavaScript](./problems/997_find-the-town-judge/index.js) |
+| [997](https://leetcode.com/problems/find-the-town-judge) | Find the Town Judge | Easy | [JavaScript](./problems/997_find-the-town-judge/index.js) [Python](./problems/997_find-the-town-judge/__main__.py) |
 | [998](https://leetcode.com/problems/maximum-binary-tree-ii) | Maximum Binary Tree II | Medium | [JavaScript](./problems/998_maximum-binary-tree-ii/index.js) |
 | [1002](https://leetcode.com/problems/find-common-characters) | Find Common Characters | Easy | [JavaScript](./problems/1002_find-common-characters/index.js) |
 | [1003](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions) | Check If Word Is Valid After Substitutions | Medium | [JavaScript](./problems/1003_check-if-word-is-valid-after-substitutions/index.js) |
