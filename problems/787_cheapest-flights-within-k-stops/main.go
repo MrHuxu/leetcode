@@ -1,48 +1,32 @@
 package main
 
-func findCheapestPrice(n int, flights [][]int, src int, dst int, K int) int {
-	edges := make(map[int]map[int]int)
+func findCheapestPrice(n int, flights [][]int, src int, dst int, k int) int {
+	adj := make([]map[int]int, n)
 	for _, flight := range flights {
-		if _, ok := edges[flight[0]]; !ok {
-			edges[flight[0]] = make(map[int]int)
+		if adj[flight[0]] == nil {
+			adj[flight[0]] = make(map[int]int)
 		}
-
-		edges[flight[0]][flight[1]] = flight[2]
+		adj[flight[0]][flight[1]] = flight[2]
 	}
 
-	result := -1
-	var dfs func(current, depth, cost int, used map[int]bool)
-	dfs = func(current, depth, cost int, used map[int]bool) {
-		if result != -1 && cost > result {
-			return
-		}
-
-		if depth <= K {
-			for next, val := range edges[current] {
-				if next != dst {
-					used[next] = true
-					dfs(next, depth+1, cost+val, used)
-					used[next] = false
-				} else {
-					if result == -1 {
-						result = cost + val
-					} else {
-						result = min(result, cost+val)
-					}
+	ret, visited, queue := -1, map[int]int{src: 0}, [][]int{{src, 0, 0}}
+	for len(queue) > 0 {
+		cur, dis, stop := queue[0][0], queue[0][1], queue[0][2]
+		queue = queue[1:]
+		if cur == dst {
+			if ret == -1 || ret > dis {
+				ret = dis
+			}
+		} else if stop <= k {
+			for next, price := range adj[cur] {
+				if visited[next] == 0 || visited[next] > dis+price {
+					visited[next] = dis + price
+					queue = append(queue, []int{next, dis + price, stop + 1})
 				}
 			}
 		}
 	}
-	dfs(src, 0, 0, map[int]bool{src: true})
-
-	return result
-}
-
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
+	return ret
 }
 
 func main() {
