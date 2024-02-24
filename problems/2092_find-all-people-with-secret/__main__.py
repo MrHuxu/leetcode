@@ -15,12 +15,13 @@ class Solution:
             adj[time].setdefault(p1, set()).add(p2)
             adj[time].setdefault(p2, set()).add(p1)
         # print(adj)
+        visited: Set[int] = set()
         for time in sorted(metting_times):
-            visited: Set[int] = set()
             for p in adj[time]:
                 if p in visited or p not in ret:
                     continue
                 self.dfs(p, adj[time], visited, ret)
+            visited.clear()
         return list(ret)
 
     def dfs(
