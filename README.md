@@ -735,6 +735,7 @@
 | [2024](https://leetcode.com/problems/maximize-the-confusion-of-an-exam) | Maximize the Confusion of an Exam | Medium | [Python](./problems/2024_maximize-the-confusion-of-an-exam/__main__.py) |
 | [2050](https://leetcode.com/problems/parallel-courses-iii) | Parallel Courses III | Hard | [Python](./problems/2050_parallel-courses-iii/__main__.py) |
 | [2090](https://leetcode.com/problems/k-radius-subarray-averages) | K Radius Subarray Averages | Medium | [Python](./problems/2090_k-radius-subarray-averages/__main__.py) |
+| [2092](https://leetcode.com/problems/find-all-people-with-secret) | Find All People With Secret | Hard | [Python](./problems/2092_find-all-people-with-secret/__main__.py) |
 | [2101](https://leetcode.com/problems/detonate-the-maximum-bombs) | Detonate the Maximum Bombs | Medium | [Python](./problems/2101_detonate-the-maximum-bombs/__main__.py) |
 | [2108](https://leetcode.com/problems/find-first-palindromic-string-in-the-array) | Find First Palindromic String in the Array | Easy | [Python](./problems/2108_find-first-palindromic-string-in-the-array/__main__.py) |
 | [2125](https://leetcode.com/problems/number-of-laser-beams-in-a-bank) | Number of Laser Beams in a Bank | Medium | [Python](./problems/2125_number-of-laser-beams-in-a-bank/__main__.py) |
