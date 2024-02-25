@@ -779,6 +779,7 @@
 | [2642](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Design Graph With Shortest Path Calculator | Hard | [Python](./problems/2642_design-graph-with-shortest-path-calculator/__main__.py) |
 | [2706](https://leetcode.com/problems/buy-two-chocolates) | Buy Two Chocolates | Easy | [Python](./problems/2706_buy-two-chocolates/__main__.py) |
 | [2707](https://leetcode.com/problems/extra-characters-in-a-string) | Extra Characters in a String | Medium | [Python](./problems/2707_extra-characters-in-a-string/__main__.py) |
+| [2709](https://leetcode.com/problems/greatest-common-divisor-traversal) | Greatest Common Divisor Traversal | Hard | [Python](./problems/2709_greatest-common-divisor-traversal/__main__.py) |
 | [2785](https://leetcode.com/problems/sort-vowels-in-a-string) | Sort Vowels in a String | Medium | [Python](./problems/2785_sort-vowels-in-a-string/__main__.py) |
 | [2849](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time) | Determine if a Cell Is Reachable at a Given Time | Medium | [Python](./problems/2849_determine-if-a-cell-is-reachable-at-a-given-time/__main__.py) |
 | [2870](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty) | Minimum Number of Operations to Make Array Empty | Medium | [Python](./problems/2870_minimum-number-of-operations-to-make-array-empty/__main__.py) |
