@@ -792,3 +792,5 @@
 | [3042](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i) | Count Prefix and Suffix Pairs I | Easy | [Python](./problems/3042_count-prefix-and-suffix-pairs-i/__main__.py) |
 | [3043](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix) | Find the Length of the Longest Common Prefix | Medium | [Python](./problems/3043_find-the-length-of-the-longest-common-prefix/__main__.py) |
 | [3044](https://leetcode.com/problems/most-frequent-prime) | Most Frequent Prime | Medium | [Python](./problems/3044_most-frequent-prime/__main__.py) |
+| [3046](https://leetcode.com/problems/split-the-array) | Split the Array | Easy | [Python](./problems/3046_split-the-array/__main__.py) |
+| [3047](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles) | Find the Largest Area of Square Inside Two Rectangles | Medium | [Python](./problems/3047_find-the-largest-area-of-square-inside-two-rectangles/__main__.py) |
