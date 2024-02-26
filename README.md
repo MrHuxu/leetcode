@@ -130,7 +130,10 @@
 | [158](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times) | Read N Characters Given read4 II - Call Multiple Times | Hard | [JavaScript](./problems/158_read-n-characters-given-read4-ii-call-multiple-times/index.js) |
 | [160](https://leetcode.com/problems/intersection-of-two-linked-lists) | Intersection of Two Linked Lists | Easy | [JavaScript](./problems/160_intersection-of-two-linked-lists/index.js) |
 | [162](https://leetcode.com/problems/find-peak-element) | Find Peak Element | Medium | [JavaScript](./problems/162_find-peak-element/index.js) [Go](./problems/162_find-peak-element/main.go) |
+| [164](https://leetcode.com/problems/maximum-gap) | Maximum Gap | Medium | [Python](./problems/164_maximum-gap/__main__.py) |
 | [165](https://leetcode.com/problems/compare-version-numbers) | Compare Version Numbers | Medium | [JavaScript](./problems/165_compare-version-numbers/index.js) |
+| [166](https://leetcode.com/problems/fraction-to-recurring-decimal) | Fraction to Recurring Decimal | Medium | [Python](./problems/166_fraction-to-recurring-decimal/__main__.py) |
+| [167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | Two Sum II - Input Array Is Sorted | Medium | [Python](./problems/167_two-sum-ii-input-array-is-sorted/__main__.py) |
 | [169](https://leetcode.com/problems/majority-element) | Majority Element | Easy | [JavaScript](./problems/169_majority-element/index.js) [Python](./problems/169_majority-element/__main__.py) |
 | [171](https://leetcode.com/problems/excel-sheet-column-number) | Excel Sheet Column Number | Easy | [JavaScript](./problems/171_excel-sheet-column-number/index.js) |
 | [172](https://leetcode.com/problems/factorial-trailing-zeroes) | Factorial Trailing Zeroes | Medium | [JavaScript](./problems/172_factorial-trailing-zeroes/index.js) |
