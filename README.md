@@ -290,6 +290,7 @@
 | [539](https://leetcode.com/problems/minimum-time-difference) | Minimum Time Difference | Medium | [JavaScript](./problems/539_minimum-time-difference/index.js) |
 | [540](https://leetcode.com/problems/single-element-in-a-sorted-array) | Single Element in a Sorted Array | Medium | [TypeScript](./problems/540_single-element-in-a-sorted-array/index.ts) [Go](./problems/540_single-element-in-a-sorted-array/main.go) |
 | [542](https://leetcode.com/problems/01-matrix) | 01 Matrix | Medium | [JavaScript](./problems/542_01-matrix/index.js) [Python](./problems/542_01-matrix/__main__.py) |
+| [543](https://leetcode.com/problems/diameter-of-binary-tree) | Diameter of Binary Tree | Easy | [Python](./problems/543_diameter-of-binary-tree/__main__.py) |
 | [547](https://leetcode.com/problems/number-of-provinces) | Number of Provinces | Medium | [Python](./problems/547_number-of-provinces/__main__.py) |
 | [554](https://leetcode.com/problems/brick-wall) | Brick Wall | Medium | [Go](./problems/554_brick-wall/main.go) |
 | [560](https://leetcode.com/problems/subarray-sum-equals-k) | Subarray Sum Equals K | Medium | [JavaScript](./problems/560_subarray-sum-equals-k/index.js) |
