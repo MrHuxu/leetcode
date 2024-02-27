@@ -182,6 +182,7 @@
 | [238](https://leetcode.com/problems/product-of-array-except-self) | Product of Array Except Self | Medium | [JavaScript](./problems/238_product-of-array-except-self/index.js) |
 | [239](https://leetcode.com/problems/sliding-window-maximum) | Sliding Window Maximum | Hard | [Python](./problems/239_sliding-window-maximum/__main__.py) |
 | [240](https://leetcode.com/problems/search-a-2d-matrix-ii) | Search a 2D Matrix II | Medium | [JavaScript](./problems/240_search-a-2d-matrix-ii/index.js) |
+| [241](https://leetcode.com/problems/different-ways-to-add-parentheses) | Different Ways to Add Parentheses | Medium | [Python](./problems/241_different-ways-to-add-parentheses/__main__.py) |
 | [242](https://leetcode.com/problems/valid-anagram) | Valid Anagram | Easy | [JavaScript](./problems/242_valid-anagram/index.js) [Python](./problems/242_valid-anagram/__main__.py) |
 | [257](https://leetcode.com/problems/binary-tree-paths) | Binary Tree Paths | Easy | [JavaScript](./problems/257_binary-tree-paths/index.js) |
 | [258](https://leetcode.com/problems/add-digits) | Add Digits | Easy | [JavaScript](./problems/258_add-digits/index.js) [Go](./problems/258_add-digits/main.go) [Python](./problems/258_add-digits/__main__.py) |
