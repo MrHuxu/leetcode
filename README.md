@@ -280,7 +280,7 @@
 | [506](https://leetcode.com/problems/relative-ranks) | Relative Ranks | Easy | [JavaScript](./problems/506_relative-ranks/index.js) |
 | [508](https://leetcode.com/problems/most-frequent-subtree-sum) | Most Frequent Subtree Sum | Medium | [JavaScript](./problems/508_most-frequent-subtree-sum/index.js) |
 | [509](https://leetcode.com/problems/fibonacci-number) | Fibonacci Number | Easy | [Go](./problems/509_fibonacci-number/main.go) |
-| [513](https://leetcode.com/problems/find-bottom-left-tree-value) | Find Bottom Left Tree Value | Medium | [JavaScript](./problems/513_find-bottom-left-tree-value/index.js) |
+| [513](https://leetcode.com/problems/find-bottom-left-tree-value) | Find Bottom Left Tree Value | Medium | [JavaScript](./problems/513_find-bottom-left-tree-value/index.js) [Python](./problems/513_find-bottom-left-tree-value/__main__.py) |
 | [515](https://leetcode.com/problems/find-largest-value-in-each-tree-row) | Find Largest Value in Each Tree Row | Medium | [JavaScript](./problems/515_find-largest-value-in-each-tree-row/index.js) [Python](./problems/515_find-largest-value-in-each-tree-row/__main__.py) |
 | [516](https://leetcode.com/problems/longest-palindromic-subsequence) | Longest Palindromic Subsequence | Medium | [Go](./problems/516_longest-palindromic-subsequence/main.go) |
 | [520](https://leetcode.com/problems/detect-capital) | Detect Capital | Easy | [JavaScript](./problems/520_detect-capital/index.js) |
