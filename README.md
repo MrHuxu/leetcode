@@ -215,6 +215,7 @@
 | [332](https://leetcode.com/problems/reconstruct-itinerary) | Reconstruct Itinerary | Hard | [JavaScript](./problems/332_reconstruct-itinerary/index.js) [Python](./problems/332_reconstruct-itinerary/__main__.py) |
 | [334](https://leetcode.com/problems/increasing-triplet-subsequence) | Increasing Triplet Subsequence | Medium | [JavaScript](./problems/334_increasing-triplet-subsequence/index.js) |
 | [336](https://leetcode.com/problems/palindrome-pairs) | Palindrome Pairs | Hard | [JavaScript](./problems/336_palindrome-pairs/index.js) [Go](./problems/336_palindrome-pairs/main.go) |
+| [337](https://leetcode.com/problems/house-robber-iii) | House Robber III | Medium | [Python](./problems/337_house-robber-iii/__main__.py) |
 | [338](https://leetcode.com/problems/counting-bits) | Counting Bits | Easy | [JavaScript](./problems/338_counting-bits/index.js) [Python](./problems/338_counting-bits/__main__.py) |
 | [341](https://leetcode.com/problems/flatten-nested-list-iterator) | Flatten Nested List Iterator | Medium | [Go](./problems/341_flatten-nested-list-iterator/main.go) |
 | [342](https://leetcode.com/problems/power-of-four) | Power of Four | Easy | [Python](./problems/342_power-of-four/__main__.py) |
@@ -236,6 +237,7 @@
 | [380](https://leetcode.com/problems/insert-delete-getrandom-o1) | Insert Delete GetRandom O(1) | Medium | [Python](./problems/380_insert-delete-getrandom-o1/__main__.py) |
 | [382](https://leetcode.com/problems/linked-list-random-node) | Linked List Random Node | Medium | [TypeScript](./problems/382_linked-list-random-node/index.ts) |
 | [383](https://leetcode.com/problems/ransom-note) | Ransom Note | Easy | [JavaScript](./problems/383_ransom-note/index.js) |
+| [385](https://leetcode.com/problems/mini-parser) | Mini Parser | Medium | [Python](./problems/385_mini-parser/__main__.py) |
 | [386](https://leetcode.com/problems/lexicographical-numbers) | Lexicographical Numbers | Medium | [JavaScript](./problems/386_lexicographical-numbers/index.js) |
 | [387](https://leetcode.com/problems/first-unique-character-in-a-string) | First Unique Character in a String | Easy | [JavaScript](./problems/387_first-unique-character-in-a-string/index.js) [Python](./problems/387_first-unique-character-in-a-string/__main__.py) |
 | [388](https://leetcode.com/problems/longest-absolute-file-path) | Longest Absolute File Path | Medium | [JavaScript](./problems/388_longest-absolute-file-path/index.js) |
