@@ -794,6 +794,7 @@
 | [2709](https://leetcode.com/problems/greatest-common-divisor-traversal) | Greatest Common Divisor Traversal | Hard | [Python](./problems/2709_greatest-common-divisor-traversal/__main__.py) |
 | [2785](https://leetcode.com/problems/sort-vowels-in-a-string) | Sort Vowels in a String | Medium | [Python](./problems/2785_sort-vowels-in-a-string/__main__.py) |
 | [2849](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time) | Determine if a Cell Is Reachable at a Given Time | Medium | [Python](./problems/2849_determine-if-a-cell-is-reachable-at-a-given-time/__main__.py) |
+| [2864](https://leetcode.com/problems/maximum-odd-binary-number) | Maximum Odd Binary Number | Easy | [Python](./problems/2864_maximum-odd-binary-number/__main__.py) |
 | [2870](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty) | Minimum Number of Operations to Make Array Empty | Medium | [Python](./problems/2870_minimum-number-of-operations-to-make-array-empty/__main__.py) |
 | [2966](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference) | Divide Array Into Arrays With Max Difference | Medium | [Go](./problems/2966_divide-array-into-arrays-with-max-difference/main.go) |
 | [2971](https://leetcode.com/problems/find-polygon-with-the-largest-perimeter) | Find Polygon With the Largest Perimeter | Medium | [Go](./problems/2971_find-polygon-with-the-largest-perimeter/main.go) [Python](./problems/2971_find-polygon-with-the-largest-perimeter/__main__.py) |
