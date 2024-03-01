@@ -248,7 +248,9 @@
 | [395](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters) | Longest Substring with At Least K Repeating Characters | Medium | [Python](./problems/395_longest-substring-with-at-least-k-repeating-characters/__main__.py) |
 | [396](https://leetcode.com/problems/rotate-function) | Rotate Function | Medium | [Python](./problems/396_rotate-function/__main__.py) |
 | [397](https://leetcode.com/problems/integer-replacement) | Integer Replacement | Medium | [JavaScript](./problems/397_integer-replacement/index.js) |
+| [398](https://leetcode.com/problems/random-pick-index) | Random Pick Index | Medium | [Python](./problems/398_random-pick-index/__main__.py) |
 | [399](https://leetcode.com/problems/evaluate-division) | Evaluate Division | Medium | [JavaScript](./problems/399_evaluate-division/index.js) [Python](./problems/399_evaluate-division/__main__.py) |
+| [400](https://leetcode.com/problems/nth-digit) | Nth Digit | Medium | [Python](./problems/400_nth-digit/__main__.py) |
 | [401](https://leetcode.com/problems/binary-watch) | Binary Watch | Easy | [JavaScript](./problems/401_binary-watch/index.js) |
 | [404](https://leetcode.com/problems/sum-of-left-leaves) | Sum of Left Leaves | Easy | [JavaScript](./problems/404_sum-of-left-leaves/index.js) |
 | [405](https://leetcode.com/problems/convert-a-number-to-hexadecimal) | Convert a Number to Hexadecimal | Easy | [JavaScript](./problems/405_convert-a-number-to-hexadecimal/index.js) |
