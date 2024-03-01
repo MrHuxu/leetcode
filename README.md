@@ -243,7 +243,10 @@
 | [388](https://leetcode.com/problems/longest-absolute-file-path) | Longest Absolute File Path | Medium | [JavaScript](./problems/388_longest-absolute-file-path/index.js) |
 | [389](https://leetcode.com/problems/find-the-difference) | Find the Difference | Easy | [JavaScript](./problems/389_find-the-difference/index.js) [Python](./problems/389_find-the-difference/__main__.py) |
 | [392](https://leetcode.com/problems/is-subsequence) | Is Subsequence | Easy | [JavaScript](./problems/392_is-subsequence/index.js) [Python](./problems/392_is-subsequence/__main__.py) |
+| [393](https://leetcode.com/problems/utf-8-validation) | UTF-8 Validation | Medium | [Python](./problems/393_utf-8-validation/__main__.py) |
 | [394](https://leetcode.com/problems/decode-string) | Decode String | Medium | [JavaScript](./problems/394_decode-string/index.js) |
+| [395](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters) | Longest Substring with At Least K Repeating Characters | Medium | [Python](./problems/395_longest-substring-with-at-least-k-repeating-characters/__main__.py) |
+| [396](https://leetcode.com/problems/rotate-function) | Rotate Function | Medium | [Python](./problems/396_rotate-function/__main__.py) |
 | [397](https://leetcode.com/problems/integer-replacement) | Integer Replacement | Medium | [JavaScript](./problems/397_integer-replacement/index.js) |
 | [399](https://leetcode.com/problems/evaluate-division) | Evaluate Division | Medium | [JavaScript](./problems/399_evaluate-division/index.js) [Python](./problems/399_evaluate-division/__main__.py) |
 | [401](https://leetcode.com/problems/binary-watch) | Binary Watch | Easy | [JavaScript](./problems/401_binary-watch/index.js) |
