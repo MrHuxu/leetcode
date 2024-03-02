@@ -258,12 +258,15 @@
 | [409](https://leetcode.com/problems/longest-palindrome) | Longest Palindrome | Easy | [JavaScript](./problems/409_longest-palindrome/index.js) |
 | [412](https://leetcode.com/problems/fizz-buzz) | Fizz Buzz | Easy | [JavaScript](./problems/412_fizz-buzz/index.js) |
 | [413](https://leetcode.com/problems/arithmetic-slices) | Arithmetic Slices | Medium | [JavaScript](./problems/413_arithmetic-slices/index.js) |
+| [414](https://leetcode.com/problems/third-maximum-number) | Third Maximum Number | Easy | [Python](./problems/414_third-maximum-number/__main__.py) |
 | [415](https://leetcode.com/problems/add-strings) | Add Strings | Easy | [JavaScript](./problems/415_add-strings/index.js) |
 | [416](https://leetcode.com/problems/partition-equal-subset-sum) | Partition Equal Subset Sum | Medium | [JavaScript](./problems/416_partition-equal-subset-sum/index.js) |
 | [417](https://leetcode.com/problems/pacific-atlantic-water-flow) | Pacific Atlantic Water Flow | Medium | [JavaScript](./problems/417_pacific-atlantic-water-flow/index.js) [Go](./problems/417_pacific-atlantic-water-flow/main.go) |
 | [419](https://leetcode.com/problems/battleships-in-a-board) | Battleships in a Board | Medium | [JavaScript](./problems/419_battleships-in-a-board/index.js) |
 | [423](https://leetcode.com/problems/reconstruct-original-digits-from-english) | Reconstruct Original Digits from English | Medium | [JavaScript](./problems/423_reconstruct-original-digits-from-english/index.js) [Go](./problems/423_reconstruct-original-digits-from-english/main.go) |
+| [424](https://leetcode.com/problems/longest-repeating-character-replacement) | Longest Repeating Character Replacement | Medium | [Python](./problems/424_longest-repeating-character-replacement/__main__.py) |
 | [427](https://leetcode.com/problems/construct-quad-tree) | Construct Quad Tree | Medium | [Go](./problems/427_construct-quad-tree/main.go) |
+| [429](https://leetcode.com/problems/n-ary-tree-level-order-traversal) | N-ary Tree Level Order Traversal | Medium | [Python](./problems/429_n-ary-tree-level-order-traversal/__main__.py) |
 | [434](https://leetcode.com/problems/number-of-segments-in-a-string) | Number of Segments in a String | Easy | [JavaScript](./problems/434_number-of-segments-in-a-string/index.js) |
 | [435](https://leetcode.com/problems/non-overlapping-intervals) | Non-overlapping Intervals | Medium | [Python](./problems/435_non-overlapping-intervals/__main__.py) |
 | [438](https://leetcode.com/problems/find-all-anagrams-in-a-string) | Find All Anagrams in a String | Medium | [JavaScript](./problems/438_find-all-anagrams-in-a-string/index.js) |
