@@ -9,15 +9,11 @@ class Solution:
             adj[a].append(b)
             adj[b].append(a)
         # print(in_degree, adj)
-        while nodes:
-            # print(nodes)
-            if len(nodes) == 1 or len(nodes) == 2:
-                return list(nodes)
-            else:
-                need_to_remove = set([n for n in nodes if in_degree[n] == 1])
-                nodes -= need_to_remove
-                for n in need_to_remove:
-                    for neighbor in adj[n]:
-                        in_degree[neighbor] -= 1
-
-            
+        while len(nodes) > 2:
+            need_to_remove = set([n for n in nodes if in_degree[n] == 1])
+            nodes -= need_to_remove
+            for n in need_to_remove:
+                for neighbor in adj[n]:
+                    in_degree[neighbor] -= 1
+        return list(nodes)
+        

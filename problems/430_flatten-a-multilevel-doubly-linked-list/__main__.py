@@ -22,14 +22,11 @@ class Solution:
         if not head:
             return None
         while head:
-            tail.next = head
-            head.prev = tail
-            tail = tail.next
-            head = head.next
+            tail.next, head.prev = head, tail
+            tail, head = tail.next, head.next
 
             if tail.child:
-                tmp = tail.child
-                tail.child = None
+                tmp, tail.child = tail.child, None
                 tail = self.dfs(tail, tmp)
         return tail
 
