@@ -822,3 +822,6 @@
 | [3044](https://leetcode.com/problems/most-frequent-prime) | Most Frequent Prime | Medium | [Python](./problems/3044_most-frequent-prime/__main__.py) |
 | [3046](https://leetcode.com/problems/split-the-array) | Split the Array | Easy | [Python](./problems/3046_split-the-array/__main__.py) |
 | [3047](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles) | Find the Largest Area of Square Inside Two Rectangles | Medium | [Python](./problems/3047_find-the-largest-area-of-square-inside-two-rectangles/__main__.py) |
+| [3069](https://leetcode.com/problems/distribute-elements-into-two-arrays-i) | Distribute Elements Into Two Arrays I | Easy | [Python](./problems/3069_distribute-elements-into-two-arrays-i/__main__.py) |
+| [3070](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k) | Count Submatrices with Top-Left Element and Sum Less Than k | Medium | [Python](./problems/3070_count-submatrices-with-top-left-element-and-sum-less-than-k/__main__.py) |
+| [3071](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid) | Minimum Operations to Write the Letter Y on a Grid | Medium | [Python](./problems/3071_minimum-operations-to-write-the-letter-y-on-a-grid/__main__.py) |
