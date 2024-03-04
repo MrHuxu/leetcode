@@ -285,8 +285,11 @@
 | [453](https://leetcode.com/problems/minimum-moves-to-equal-array-elements) | Minimum Moves to Equal Array Elements | Medium | [JavaScript](./problems/453_minimum-moves-to-equal-array-elements/index.js) |
 | [455](https://leetcode.com/problems/assign-cookies) | Assign Cookies | Easy | [Python](./problems/455_assign-cookies/__main__.py) |
 | [456](https://leetcode.com/problems/132-pattern) | 132 Pattern | Medium | [Java](./problems/456_132-pattern/Solution.java) |
+| [457](https://leetcode.com/problems/circular-array-loop) | Circular Array Loop | Medium | [Python](./problems/457_circular-array-loop/__main__.py) |
 | [460](https://leetcode.com/problems/lfu-cache) | LFU Cache | Hard | [Go](./problems/460_lfu-cache/main.go) |
 | [462](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii) | Minimum Moves to Equal Array Elements II | Medium | [Go](./problems/462_minimum-moves-to-equal-array-elements-ii/main.go) |
+| [463](https://leetcode.com/problems/island-perimeter) | Island Perimeter | Easy | [Python](./problems/463_island-perimeter/__main__.py) |
+| [467](https://leetcode.com/problems/unique-substrings-in-wraparound-string) | Unique Substrings in Wraparound String | Medium | [Python](./problems/467_unique-substrings-in-wraparound-string/__main__.py) |
 | [472](https://leetcode.com/problems/concatenated-words) | Concatenated Words | Hard | [Go](./problems/472_concatenated-words/main.go) |
 | [473](https://leetcode.com/problems/matchsticks-to-square) | Matchsticks to Square | Medium | [Go](./problems/473_matchsticks-to-square/main.go) |
 | [474](https://leetcode.com/problems/ones-and-zeroes) | Ones and Zeroes | Medium | [Go](./problems/474_ones-and-zeroes/main.go) |
