@@ -500,6 +500,7 @@
 | [944](https://leetcode.com/problems/delete-columns-to-make-sorted) | Delete Columns to Make Sorted | Easy | [JavaScript](./problems/944_delete-columns-to-make-sorted/index.js) |
 | [945](https://leetcode.com/problems/minimum-increment-to-make-array-unique) | Minimum Increment to Make Array Unique | Medium | [JavaScript](./problems/945_minimum-increment-to-make-array-unique/index.js) |
 | [946](https://leetcode.com/problems/validate-stack-sequences) | Validate Stack Sequences | Medium | [JavaScript](./problems/946_validate-stack-sequences/index.js) [TypeScript](./problems/946_validate-stack-sequences/index.ts) |
+| [948](https://leetcode.com/problems/bag-of-tokens) | Bag of Tokens | Medium | [Python](./problems/948_bag-of-tokens/__main__.py) |
 | [953](https://leetcode.com/problems/verifying-an-alien-dictionary) | Verifying an Alien Dictionary | Easy | [Go](./problems/953_verifying-an-alien-dictionary/main.go) |
 | [958](https://leetcode.com/problems/check-completeness-of-a-binary-tree) | Check Completeness of a Binary Tree | Medium | [Go](./problems/958_check-completeness-of-a-binary-tree/main.go) |
 | [967](https://leetcode.com/problems/numbers-with-same-consecutive-differences) | Numbers With Same Consecutive Differences | Medium | [JavaScript](./problems/967_numbers-with-same-consecutive-differences/index.js) |
