@@ -6,7 +6,7 @@ headers = {"Content-Type": "application/json"}
 question_query_template = """
 {{
     question(titleSlug: "{}") {{
-        questionId
+        questionFrontendId
         title
         difficulty
     }}
@@ -16,7 +16,7 @@ question_query_template = """
 
 @dataclass
 class Question:
-    questionId: str
+    questionFrontendId: str
     title: str
     difficulty: str
 

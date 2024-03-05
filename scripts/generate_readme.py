@@ -1,4 +1,5 @@
 import os
+import shutil
 from typing import Dict, Set
 
 from leetcode_api import query_question
@@ -53,6 +54,13 @@ with open("../README.md", "r") as file:
         solutions = set([a.split("[")[-1] for a in arr[3].split("](") if "[" in a])
         readme_records[slug] = ReadmeRecord(id, slug, title, difficulty, solutions)
 
+for f in [f for f in os.listdir("../") if f.endswith(".py")]:
+    slug = f.split(".")[0]
+    question = query_question(slug)
+    question_dir = f"../problems/{question.questionFrontendId}_{slug}"
+    os.makedirs(question_dir, exist_ok=True)
+    shutil.move(f"../{f}", f"{question_dir}/__main__.py")
+
 solution_records: Dict[int, ReadmeRecord] = {}
 for entry in os.walk("../problems"):
     if entry[1] or "_" not in entry[0]:
@@ -76,8 +84,6 @@ for id in sorted(solution_records):
             solution_record.title = question.title
             solution_record.difficulty = question.difficulty
             print(solution_record.to_line())
-    elif len(solution_record.solutions) > len(readme_records[slug].solutions):
-        readme_records[slug].solutions = solution_record.solutions
-        print(readme_records[slug].to_line())
     else:
+        readme_records[slug].solutions = solution_record.solutions
         print(readme_records[slug].to_line())
