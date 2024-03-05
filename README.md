@@ -298,6 +298,9 @@
 | [474](https://leetcode.com/problems/ones-and-zeroes) | Ones and Zeroes | Medium | [Go](./problems/474_ones-and-zeroes/main.go) |
 | [475](https://leetcode.com/problems/heaters) | Heaters | Medium | [Python](./problems/475_heaters/__main__.py) |
 | [476](https://leetcode.com/problems/number-complement) | Number Complement | Easy | [Python](./problems/476_number-complement/__main__.py) |
+| [477](https://leetcode.com/problems/total-hamming-distance) | Total Hamming Distance | Medium | [Python](./problems/477_total-hamming-distance/__main__.py) |
+| [481](https://leetcode.com/problems/magical-string) | Magical String | Medium | [Python](./problems/481_magical-string/__main__.py) |
+| [482](https://leetcode.com/problems/license-key-formatting) | License Key Formatting | Easy | [Python](./problems/482_license-key-formatting/__main__.py) |
 | [485](https://leetcode.com/problems/max-consecutive-ones) | Max Consecutive Ones | Easy | [JavaScript](./problems/485_max-consecutive-ones/index.js) |
 | [492](https://leetcode.com/problems/construct-the-rectangle) | Construct the Rectangle | Easy | [JavaScript](./problems/492_construct-the-rectangle/index.js) |
 | [494](https://leetcode.com/problems/target-sum) | Target Sum | Medium | [JavaScript](./problems/494_target-sum/index.js) |
