@@ -296,6 +296,8 @@
 | [472](https://leetcode.com/problems/concatenated-words) | Concatenated Words | Hard | [Go](./problems/472_concatenated-words/main.go) |
 | [473](https://leetcode.com/problems/matchsticks-to-square) | Matchsticks to Square | Medium | [Python](./problems/473_matchsticks-to-square/__main__.py) |
 | [474](https://leetcode.com/problems/ones-and-zeroes) | Ones and Zeroes | Medium | [Go](./problems/474_ones-and-zeroes/main.go) |
+| [475](https://leetcode.com/problems/heaters) | Heaters | Medium | [Python](./problems/475_heaters/__main__.py) |
+| [476](https://leetcode.com/problems/number-complement) | Number Complement | Easy | [Python](./problems/476_number-complement/__main__.py) |
 | [485](https://leetcode.com/problems/max-consecutive-ones) | Max Consecutive Ones | Easy | [JavaScript](./problems/485_max-consecutive-ones/index.js) |
 | [492](https://leetcode.com/problems/construct-the-rectangle) | Construct the Rectangle | Easy | [JavaScript](./problems/492_construct-the-rectangle/index.js) |
 | [494](https://leetcode.com/problems/target-sum) | Target Sum | Medium | [JavaScript](./problems/494_target-sum/index.js) |
