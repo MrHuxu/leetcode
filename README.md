@@ -287,11 +287,14 @@
 | [456](https://leetcode.com/problems/132-pattern) | 132 Pattern | Medium | [Java](./problems/456_132-pattern/Solution.java) |
 | [457](https://leetcode.com/problems/circular-array-loop) | Circular Array Loop | Medium | [Python](./problems/457_circular-array-loop/__main__.py) |
 | [460](https://leetcode.com/problems/lfu-cache) | LFU Cache | Hard | [Go](./problems/460_lfu-cache/main.go) |
+| [461](https://leetcode.com/problems/hamming-distance) | Hamming Distance | Easy | [Python](./problems/461_hamming-distance/__main__.py) |
 | [462](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii) | Minimum Moves to Equal Array Elements II | Medium | [Go](./problems/462_minimum-moves-to-equal-array-elements-ii/main.go) |
 | [463](https://leetcode.com/problems/island-perimeter) | Island Perimeter | Easy | [Python](./problems/463_island-perimeter/__main__.py) |
 | [467](https://leetcode.com/problems/unique-substrings-in-wraparound-string) | Unique Substrings in Wraparound String | Medium | [Python](./problems/467_unique-substrings-in-wraparound-string/__main__.py) |
+| [468](https://leetcode.com/problems/validate-ip-address) | Validate IP Address | Medium | [Python](./problems/468_validate-ip-address/__main__.py) |
+| [470](https://leetcode.com/problems/implement-rand10-using-rand7) | Implement Rand10() Using Rand7() | Medium | [Python](./problems/470_implement-rand10-using-rand7/__main__.py) |
 | [472](https://leetcode.com/problems/concatenated-words) | Concatenated Words | Hard | [Go](./problems/472_concatenated-words/main.go) |
-| [473](https://leetcode.com/problems/matchsticks-to-square) | Matchsticks to Square | Medium | [Go](./problems/473_matchsticks-to-square/main.go) |
+| [473](https://leetcode.com/problems/matchsticks-to-square) | Matchsticks to Square | Medium | [Python](./problems/473_matchsticks-to-square/__main__.py) |
 | [474](https://leetcode.com/problems/ones-and-zeroes) | Ones and Zeroes | Medium | [Go](./problems/474_ones-and-zeroes/main.go) |
 | [485](https://leetcode.com/problems/max-consecutive-ones) | Max Consecutive Ones | Easy | [JavaScript](./problems/485_max-consecutive-ones/index.js) |
 | [492](https://leetcode.com/problems/construct-the-rectangle) | Construct the Rectangle | Easy | [JavaScript](./problems/492_construct-the-rectangle/index.js) |
