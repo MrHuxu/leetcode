@@ -306,7 +306,11 @@
 | [491](https://leetcode.com/problems/non-decreasing-subsequences) | Non-decreasing Subsequences | Medium | [Python](./problems/491_non-decreasing-subsequences/__main__.py) |
 | [492](https://leetcode.com/problems/construct-the-rectangle) | Construct the Rectangle | Easy | [JavaScript](./problems/492_construct-the-rectangle/index.js) |
 | [494](https://leetcode.com/problems/target-sum) | Target Sum | Medium | [JavaScript](./problems/494_target-sum/index.js) |
+| [495](https://leetcode.com/problems/teemo-attacking) | Teemo Attacking | Easy | [Python](./problems/495_teemo-attacking/__main__.py) |
 | [496](https://leetcode.com/problems/next-greater-element-i) | Next Greater Element I | Easy | [JavaScript](./problems/496_next-greater-element-i/index.js) |
+| [497](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles) | Random Point in Non-overlapping Rectangles | Medium | [Python](./problems/497_random-point-in-non-overlapping-rectangles/__main__.py) |
+| [498](https://leetcode.com/problems/diagonal-traverse) | Diagonal Traverse | Medium | [Python](./problems/498_diagonal-traverse/__main__.py) |
+| [500](https://leetcode.com/problems/keyboard-row) | Keyboard Row | Easy | [Python](./problems/500_keyboard-row/__main__.py) |
 | [501](https://leetcode.com/problems/find-mode-in-binary-search-tree) | Find Mode in Binary Search Tree | Easy | [Python](./problems/501_find-mode-in-binary-search-tree/__main__.py) |
 | [502](https://leetcode.com/problems/ipo) | IPO | Hard | [Go](./problems/502_ipo/main.go) |
 | [506](https://leetcode.com/problems/relative-ranks) | Relative Ranks | Easy | [JavaScript](./problems/506_relative-ranks/index.js) |
