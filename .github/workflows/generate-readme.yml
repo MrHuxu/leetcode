@@ -34,7 +34,10 @@ jobs:
           git config --local user.name "github-actions[bot]"
           if ! git diff-index --quiet HEAD --; then
               git add .
-              git commit -m "auto update readme"
+
+              last_commit_message=$(git log -1 --pretty=format:%s)
+              new_commit_message="auto update readme for [$last_commit_message]"
+              git commit -m "$new_commit_message"
           fi
       - name: Push changes
         uses: ad-m/github-push-action@master
