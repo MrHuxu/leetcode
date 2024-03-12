@@ -224,7 +224,7 @@
 | [344](https://leetcode.com/problems/reverse-string) | Reverse String | Easy | [JavaScript](./problems/344_reverse-string/index.js) [Rust](./problems/344_reverse-string/lib.rs) |
 | [345](https://leetcode.com/problems/reverse-vowels-of-a-string) | Reverse Vowels of a String | Easy | [JavaScript](./problems/345_reverse-vowels-of-a-string/index.js) |
 | [347](https://leetcode.com/problems/top-k-frequent-elements) | Top K Frequent Elements | Medium | [JavaScript](./problems/347_top-k-frequent-elements/index.js) [Python](./problems/347_top-k-frequent-elements/__main__.py) |
-| [349](https://leetcode.com/problems/intersection-of-two-arrays) | Intersection of Two Arrays | Easy | [JavaScript](./problems/349_intersection-of-two-arrays/index.js) |
+| [349](https://leetcode.com/problems/intersection-of-two-arrays) | Intersection of Two Arrays | Easy | [JavaScript](./problems/349_intersection-of-two-arrays/index.js) [Python](./problems/349_intersection-of-two-arrays/__main__.py) |
 | [350](https://leetcode.com/problems/intersection-of-two-arrays-ii) | Intersection of Two Arrays II | Easy | [JavaScript](./problems/350_intersection-of-two-arrays-ii/index.js) |
 | [352](https://leetcode.com/problems/data-stream-as-disjoint-intervals) | Data Stream as Disjoint Intervals | Hard | [Go](./problems/352_data-stream-as-disjoint-intervals/main.go) |
 | [354](https://leetcode.com/problems/russian-doll-envelopes) | Russian Doll Envelopes | Hard | [Go](./problems/354_russian-doll-envelopes/main.go) |
@@ -313,15 +313,21 @@
 | [500](https://leetcode.com/problems/keyboard-row) | Keyboard Row | Easy | [Python](./problems/500_keyboard-row/__main__.py) |
 | [501](https://leetcode.com/problems/find-mode-in-binary-search-tree) | Find Mode in Binary Search Tree | Easy | [Python](./problems/501_find-mode-in-binary-search-tree/__main__.py) |
 | [502](https://leetcode.com/problems/ipo) | IPO | Hard | [Go](./problems/502_ipo/main.go) |
+| [503](https://leetcode.com/problems/next-greater-element-ii) | Next Greater Element II | Medium | [Python](./problems/503_next-greater-element-ii/__main__.py) |
+| [504](https://leetcode.com/problems/base-7) | Base 7 | Easy | [Python](./problems/504_base-7/__main__.py) |
 | [506](https://leetcode.com/problems/relative-ranks) | Relative Ranks | Easy | [JavaScript](./problems/506_relative-ranks/index.js) |
+| [507](https://leetcode.com/problems/perfect-number) | Perfect Number | Easy | [Python](./problems/507_perfect-number/__main__.py) |
 | [508](https://leetcode.com/problems/most-frequent-subtree-sum) | Most Frequent Subtree Sum | Medium | [JavaScript](./problems/508_most-frequent-subtree-sum/index.js) |
 | [509](https://leetcode.com/problems/fibonacci-number) | Fibonacci Number | Easy | [Go](./problems/509_fibonacci-number/main.go) |
 | [513](https://leetcode.com/problems/find-bottom-left-tree-value) | Find Bottom Left Tree Value | Medium | [JavaScript](./problems/513_find-bottom-left-tree-value/index.js) [Python](./problems/513_find-bottom-left-tree-value/__main__.py) |
 | [515](https://leetcode.com/problems/find-largest-value-in-each-tree-row) | Find Largest Value in Each Tree Row | Medium | [JavaScript](./problems/515_find-largest-value-in-each-tree-row/index.js) [Python](./problems/515_find-largest-value-in-each-tree-row/__main__.py) |
 | [516](https://leetcode.com/problems/longest-palindromic-subsequence) | Longest Palindromic Subsequence | Medium | [Go](./problems/516_longest-palindromic-subsequence/main.go) |
+| [519](https://leetcode.com/problems/random-flip-matrix) | Random Flip Matrix | Medium | [Python](./problems/519_random-flip-matrix/__main__.py) |
 | [520](https://leetcode.com/problems/detect-capital) | Detect Capital | Easy | [JavaScript](./problems/520_detect-capital/index.js) |
+| [521](https://leetcode.com/problems/longest-uncommon-subsequence-i) | Longest Uncommon Subsequence I | Easy | [Python](./problems/521_longest-uncommon-subsequence-i/__main__.py) |
 | [522](https://leetcode.com/problems/longest-uncommon-subsequence-ii) | Longest Uncommon Subsequence II | Medium | [Go](./problems/522_longest-uncommon-subsequence-ii/main.go) |
 | [523](https://leetcode.com/problems/continuous-subarray-sum) | Continuous Subarray Sum | Medium | [Go](./problems/523_continuous-subarray-sum/main.go) |
+| [524](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting) | Longest Word in Dictionary through Deleting | Medium | [Python](./problems/524_longest-word-in-dictionary-through-deleting/__main__.py) |
 | [529](https://leetcode.com/problems/minesweeper) | Minesweeper | Medium | [JavaScript](./problems/529_minesweeper/index.js) |
 | [530](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | Minimum Absolute Difference in BST | Easy | [JavaScript](./problems/530_minimum-absolute-difference-in-bst/index.js) [Python](./problems/530_minimum-absolute-difference-in-bst/__main__.py) |
 | [535](https://leetcode.com/problems/encode-and-decode-tinyurl) | Encode and Decode TinyURL | Medium | [Rust](./problems/535_encode-and-decode-tinyurl/lib.rs) |
@@ -475,6 +481,7 @@
 | [872](https://leetcode.com/problems/leaf-similar-trees) | Leaf-Similar Trees | Easy | [Python](./problems/872_leaf-similar-trees/__main__.py) |
 | [874](https://leetcode.com/problems/walking-robot-simulation) | Walking Robot Simulation | Medium | [JavaScript](./problems/874_walking-robot-simulation/index.js) |
 | [875](https://leetcode.com/problems/koko-eating-bananas) | Koko Eating Bananas | Medium | [TypeScript](./problems/875_koko-eating-bananas/index.ts) |
+| [876](https://leetcode.com/problems/middle-of-the-linked-list) | Middle of the Linked List | Easy | [Python](./problems/876_middle-of-the-linked-list/__main__.py) |
 | [877](https://leetcode.com/problems/stone-game) | Stone Game | Medium | [Go](./problems/877_stone-game/main.go) |
 | [879](https://leetcode.com/problems/profitable-schemes) | Profitable Schemes | Hard | [Go](./problems/879_profitable-schemes/main.go) |
 | [880](https://leetcode.com/problems/decoded-string-at-index) | Decoded String at Index | Medium | [Python](./problems/880_decoded-string-at-index/__main__.py) |
@@ -609,7 +616,7 @@
 | [1163](https://leetcode.com/problems/last-substring-in-lexicographical-order) | Last Substring in Lexicographical Order | Hard | [JavaScript](./problems/1163_last-substring-in-lexicographical-order/index.js) |
 | [1169](https://leetcode.com/problems/invalid-transactions) | Invalid Transactions | Medium | [JavaScript](./problems/1169_invalid-transactions/index.js) |
 | [1170](https://leetcode.com/problems/compare-strings-by-frequency-of-the-smallest-character) | Compare Strings by Frequency of the Smallest Character | Medium | [JavaScript](./problems/1170_compare-strings-by-frequency-of-the-smallest-character/index.js) |
-| [1171](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list) | Remove Zero Sum Consecutive Nodes from Linked List | Medium | [JavaScript](./problems/1171_remove-zero-sum-consecutive-nodes-from-linked-list/index.js) |
+| [1171](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list) | Remove Zero Sum Consecutive Nodes from Linked List | Medium | [JavaScript](./problems/1171_remove-zero-sum-consecutive-nodes-from-linked-list/index.js) [Python](./problems/1171_remove-zero-sum-consecutive-nodes-from-linked-list/__main__.py) |
 | [1175](https://leetcode.com/problems/prime-arrangements) | Prime Arrangements | Easy | [Go](./problems/1175_prime-arrangements/main.go) |
 | [1176](https://leetcode.com/problems/diet-plan-performance) | Diet Plan Performance | Easy | [JavaScript](./problems/1176_diet-plan-performance/index.js) |
 | [1177](https://leetcode.com/problems/can-make-palindrome-from-substring) | Can Make Palindrome from Substring | Medium | [JavaScript](./problems/1177_can-make-palindrome-from-substring/index.js) |
@@ -778,6 +785,7 @@
 | [1930](https://leetcode.com/problems/unique-length-3-palindromic-subsequences) | Unique Length-3 Palindromic Subsequences | Medium | [Python](./problems/1930_unique-length-3-palindromic-subsequences/__main__.py) |
 | [1970](https://leetcode.com/problems/last-day-where-you-can-still-cross) | Last Day Where You Can Still Cross | Hard | [Python](./problems/1970_last-day-where-you-can-still-cross/__main__.py) |
 | [1980](https://leetcode.com/problems/find-unique-binary-string) | Find Unique Binary String | Medium | [Python](./problems/1980_find-unique-binary-string/__main__.py) |
+| [1985](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) | Find the Kth Largest Integer in the Array | Medium | [Python](./problems/1985_find-the-kth-largest-integer-in-the-array/__main__.py) |
 | [2009](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous) | Minimum Number of Operations to Make Array Continuous | Hard | [Python](./problems/2009_minimum-number-of-operations-to-make-array-continuous/__main__.py) |
 | [2024](https://leetcode.com/problems/maximize-the-confusion-of-an-exam) | Maximize the Confusion of an Exam | Medium | [Python](./problems/2024_maximize-the-confusion-of-an-exam/__main__.py) |
 | [2050](https://leetcode.com/problems/parallel-courses-iii) | Parallel Courses III | Hard | [Python](./problems/2050_parallel-courses-iii/__main__.py) |
@@ -820,6 +828,7 @@
 | [2482](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column) | Difference Between Ones and Zeros in Row and Column | Medium | [Python](./problems/2482_difference-between-ones-and-zeros-in-row-and-column/__main__.py) |
 | [2483](https://leetcode.com/problems/minimum-penalty-for-a-shop) | Minimum Penalty for a Shop | Medium | [Python](./problems/2483_minimum-penalty-for-a-shop/__main__.py) |
 | [2492](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities) | Minimum Score of a Path Between Two Cities | Medium | [TypeScript](./problems/2492_minimum-score-of-a-path-between-two-cities/index.ts) [Go](./problems/2492_minimum-score-of-a-path-between-two-cities/main.go) |
+| [2540](https://leetcode.com/problems/minimum-common-value) | Minimum Common Value | Easy | [Python](./problems/2540_minimum-common-value/__main__.py) |
 | [2542](https://leetcode.com/problems/maximum-subsequence-score) | Maximum Subsequence Score | Medium | [Python](./problems/2542_maximum-subsequence-score/__main__.py) |
 | [2610](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions) | Convert an Array Into a 2D Array With Conditions | Medium | [Python](./problems/2610_convert-an-array-into-a-2d-array-with-conditions/__main__.py) |
 | [2616](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs) | Minimize the Maximum Difference of Pairs | Medium | [Python](./problems/2616_minimize-the-maximum-difference-of-pairs/__main__.py) |
@@ -846,3 +855,6 @@
 | [3069](https://leetcode.com/problems/distribute-elements-into-two-arrays-i) | Distribute Elements Into Two Arrays I | Easy | [Python](./problems/3069_distribute-elements-into-two-arrays-i/__main__.py) |
 | [3070](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k) | Count Submatrices with Top-Left Element and Sum Less Than k | Medium | [Python](./problems/3070_count-submatrices-with-top-left-element-and-sum-less-than-k/__main__.py) |
 | [3071](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid) | Minimum Operations to Write the Letter Y on a Grid | Medium | [Python](./problems/3071_minimum-operations-to-write-the-letter-y-on-a-grid/__main__.py) |
+| [3074](https://leetcode.com/problems/apple-redistribution-into-boxes) | Apple Redistribution into Boxes | Easy | [Python](./problems/3074_apple-redistribution-into-boxes/__main__.py) |
+| [3075](https://leetcode.com/problems/maximize-happiness-of-selected-children) | Maximize Happiness of Selected Children | Medium | [Python](./problems/3075_maximize-happiness-of-selected-children/__main__.py) |
+| [3076](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array) | Shortest Uncommon Substring in an Array | Medium | [Python](./problems/3076_shortest-uncommon-substring-in-an-array/__main__.py) |
