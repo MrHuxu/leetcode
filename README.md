@@ -328,6 +328,8 @@
 | [522](https://leetcode.com/problems/longest-uncommon-subsequence-ii) | Longest Uncommon Subsequence II | Medium | [Go](./problems/522_longest-uncommon-subsequence-ii/main.go) |
 | [523](https://leetcode.com/problems/continuous-subarray-sum) | Continuous Subarray Sum | Medium | [Go](./problems/523_continuous-subarray-sum/main.go) |
 | [524](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting) | Longest Word in Dictionary through Deleting | Medium | [Python](./problems/524_longest-word-in-dictionary-through-deleting/__main__.py) |
+| [526](https://leetcode.com/problems/beautiful-arrangement) | Beautiful Arrangement | Medium | [Python](./problems/526_beautiful-arrangement/__main__.py) |
+| [528](https://leetcode.com/problems/random-pick-with-weight) | Random Pick with Weight | Medium | [Python](./problems/528_random-pick-with-weight/__main__.py) |
 | [529](https://leetcode.com/problems/minesweeper) | Minesweeper | Medium | [JavaScript](./problems/529_minesweeper/index.js) |
 | [530](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | Minimum Absolute Difference in BST | Easy | [JavaScript](./problems/530_minimum-absolute-difference-in-bst/index.js) [Python](./problems/530_minimum-absolute-difference-in-bst/__main__.py) |
 | [535](https://leetcode.com/problems/encode-and-decode-tinyurl) | Encode and Decode TinyURL | Medium | [Rust](./problems/535_encode-and-decode-tinyurl/lib.rs) |
@@ -335,6 +337,7 @@
 | [538](https://leetcode.com/problems/convert-bst-to-greater-tree) | Convert BST to Greater Tree | Medium | [JavaScript](./problems/538_convert-bst-to-greater-tree/index.js) [Rust](./problems/538_convert-bst-to-greater-tree/lib.rs) |
 | [539](https://leetcode.com/problems/minimum-time-difference) | Minimum Time Difference | Medium | [JavaScript](./problems/539_minimum-time-difference/index.js) |
 | [540](https://leetcode.com/problems/single-element-in-a-sorted-array) | Single Element in a Sorted Array | Medium | [TypeScript](./problems/540_single-element-in-a-sorted-array/index.ts) [Go](./problems/540_single-element-in-a-sorted-array/main.go) |
+| [541](https://leetcode.com/problems/reverse-string-ii) | Reverse String II | Easy | [Python](./problems/541_reverse-string-ii/__main__.py) |
 | [542](https://leetcode.com/problems/01-matrix) | 01 Matrix | Medium | [JavaScript](./problems/542_01-matrix/index.js) [Python](./problems/542_01-matrix/__main__.py) |
 | [543](https://leetcode.com/problems/diameter-of-binary-tree) | Diameter of Binary Tree | Easy | [Python](./problems/543_diameter-of-binary-tree/__main__.py) |
 | [547](https://leetcode.com/problems/number-of-provinces) | Number of Provinces | Medium | [Python](./problems/547_number-of-provinces/__main__.py) |
