@@ -341,7 +341,11 @@
 | [542](https://leetcode.com/problems/01-matrix) | 01 Matrix | Medium | [JavaScript](./problems/542_01-matrix/index.js) [Python](./problems/542_01-matrix/__main__.py) |
 | [543](https://leetcode.com/problems/diameter-of-binary-tree) | Diameter of Binary Tree | Easy | [Python](./problems/543_diameter-of-binary-tree/__main__.py) |
 | [547](https://leetcode.com/problems/number-of-provinces) | Number of Provinces | Medium | [Python](./problems/547_number-of-provinces/__main__.py) |
+| [551](https://leetcode.com/problems/student-attendance-record-i) | Student Attendance Record I | Easy | [Python](./problems/551_student-attendance-record-i/__main__.py) |
+| [553](https://leetcode.com/problems/optimal-division) | Optimal Division | Medium | [Python](./problems/553_optimal-division/__main__.py) |
 | [554](https://leetcode.com/problems/brick-wall) | Brick Wall | Medium | [Go](./problems/554_brick-wall/main.go) |
+| [556](https://leetcode.com/problems/next-greater-element-iii) | Next Greater Element III | Medium | [Python](./problems/556_next-greater-element-iii/__main__.py) |
+| [557](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Reverse Words in a String III | Easy | [Python](./problems/557_reverse-words-in-a-string-iii/__main__.py) |
 | [560](https://leetcode.com/problems/subarray-sum-equals-k) | Subarray Sum Equals K | Medium | [JavaScript](./problems/560_subarray-sum-equals-k/index.js) |
 | [561](https://leetcode.com/problems/array-partition) | Array Partition | Easy | [JavaScript](./problems/561_array-partition/index.js) |
 | [563](https://leetcode.com/problems/binary-tree-tilt) | Binary Tree Tilt | Easy | [JavaScript](./problems/563_binary-tree-tilt/index.js) |
