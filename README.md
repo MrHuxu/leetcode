@@ -830,6 +830,7 @@
 | [2477](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital) | Minimum Fuel Cost to Report to the Capital | Medium | [Go](./problems/2477_minimum-fuel-cost-to-report-to-the-capital/main.go) |
 | [2482](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column) | Difference Between Ones and Zeros in Row and Column | Medium | [Python](./problems/2482_difference-between-ones-and-zeros-in-row-and-column/__main__.py) |
 | [2483](https://leetcode.com/problems/minimum-penalty-for-a-shop) | Minimum Penalty for a Shop | Medium | [Python](./problems/2483_minimum-penalty-for-a-shop/__main__.py) |
+| [2485](https://leetcode.com/problems/find-the-pivot-integer) | Find the Pivot Integer | Easy | [Python](./problems/2485_find-the-pivot-integer/__main__.py) |
 | [2492](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities) | Minimum Score of a Path Between Two Cities | Medium | [TypeScript](./problems/2492_minimum-score-of-a-path-between-two-cities/index.ts) [Go](./problems/2492_minimum-score-of-a-path-between-two-cities/main.go) |
 | [2540](https://leetcode.com/problems/minimum-common-value) | Minimum Common Value | Easy | [Python](./problems/2540_minimum-common-value/__main__.py) |
 | [2542](https://leetcode.com/problems/maximum-subsequence-score) | Maximum Subsequence Score | Medium | [Python](./problems/2542_maximum-subsequence-score/__main__.py) |
