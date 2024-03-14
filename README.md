@@ -360,9 +360,12 @@
 | [581](https://leetcode.com/problems/shortest-unsorted-continuous-subarray) | Shortest Unsorted Continuous Subarray | Medium | [JavaScript](./problems/581_shortest-unsorted-continuous-subarray/index.js) |
 | [583](https://leetcode.com/problems/delete-operation-for-two-strings) | Delete Operation for Two Strings | Medium | [Go](./problems/583_delete-operation-for-two-strings/main.go) |
 | [589](https://leetcode.com/problems/n-ary-tree-preorder-traversal) | N-ary Tree Preorder Traversal | Easy | [Go](./problems/589_n-ary-tree-preorder-traversal/main.go) |
+| [590](https://leetcode.com/problems/n-ary-tree-postorder-traversal) | N-ary Tree Postorder Traversal | Easy | [Python](./problems/590_n-ary-tree-postorder-traversal/__main__.py) |
 | [592](https://leetcode.com/problems/fraction-addition-and-subtraction) | Fraction Addition and Subtraction | Medium | [JavaScript](./problems/592_fraction-addition-and-subtraction/index.js) |
 | [593](https://leetcode.com/problems/valid-square) | Valid Square | Medium | [JavaScript](./problems/593_valid-square/index.js) |
 | [594](https://leetcode.com/problems/longest-harmonious-subsequence) | Longest Harmonious Subsequence | Easy | [JavaScript](./problems/594_longest-harmonious-subsequence/index.js) |
+| [598](https://leetcode.com/problems/range-addition-ii) | Range Addition II | Easy | [Python](./problems/598_range-addition-ii/__main__.py) |
+| [599](https://leetcode.com/problems/minimum-index-sum-of-two-lists) | Minimum Index Sum of Two Lists | Easy | [Python](./problems/599_minimum-index-sum-of-two-lists/__main__.py) |
 | [605](https://leetcode.com/problems/can-place-flowers) | Can Place Flowers | Easy | [TypeScript](./problems/605_can-place-flowers/index.ts) |
 | [606](https://leetcode.com/problems/construct-string-from-binary-tree) | Construct String from Binary Tree | Medium | [Python](./problems/606_construct-string-from-binary-tree/__main__.py) |
 | [609](https://leetcode.com/problems/find-duplicate-file-in-system) | Find Duplicate File in System | Medium | [Go](./problems/609_find-duplicate-file-in-system/main.go) |
