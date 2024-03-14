@@ -346,11 +346,16 @@
 | [554](https://leetcode.com/problems/brick-wall) | Brick Wall | Medium | [Go](./problems/554_brick-wall/main.go) |
 | [556](https://leetcode.com/problems/next-greater-element-iii) | Next Greater Element III | Medium | [Python](./problems/556_next-greater-element-iii/__main__.py) |
 | [557](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Reverse Words in a String III | Easy | [Python](./problems/557_reverse-words-in-a-string-iii/__main__.py) |
+| [558](https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees) | Logical OR of Two Binary Grids Represented as Quad-Trees | Medium | [Python](./problems/558_logical-or-of-two-binary-grids-represented-as-quad-trees/__main__.py) |
+| [559](https://leetcode.com/problems/maximum-depth-of-n-ary-tree) | Maximum Depth of N-ary Tree | Easy | [Python](./problems/559_maximum-depth-of-n-ary-tree/__main__.py) |
 | [560](https://leetcode.com/problems/subarray-sum-equals-k) | Subarray Sum Equals K | Medium | [JavaScript](./problems/560_subarray-sum-equals-k/index.js) |
 | [561](https://leetcode.com/problems/array-partition) | Array Partition | Easy | [JavaScript](./problems/561_array-partition/index.js) |
 | [563](https://leetcode.com/problems/binary-tree-tilt) | Binary Tree Tilt | Easy | [JavaScript](./problems/563_binary-tree-tilt/index.js) |
+| [565](https://leetcode.com/problems/array-nesting) | Array Nesting | Medium | [Python](./problems/565_array-nesting/__main__.py) |
 | [566](https://leetcode.com/problems/reshape-the-matrix) | Reshape the Matrix | Easy | [JavaScript](./problems/566_reshape-the-matrix/index.js) |
 | [567](https://leetcode.com/problems/permutation-in-string) | Permutation in String | Medium | [JavaScript](./problems/567_permutation-in-string/index.js) |
+| [572](https://leetcode.com/problems/subtree-of-another-tree) | Subtree of Another Tree | Easy | [Python](./problems/572_subtree-of-another-tree/__main__.py) |
+| [575](https://leetcode.com/problems/distribute-candies) | Distribute Candies | Easy | [Python](./problems/575_distribute-candies/__main__.py) |
 | [576](https://leetcode.com/problems/out-of-boundary-paths) | Out of Boundary Paths | Medium | [Python](./problems/576_out-of-boundary-paths/__main__.py) |
 | [581](https://leetcode.com/problems/shortest-unsorted-continuous-subarray) | Shortest Unsorted Continuous Subarray | Medium | [JavaScript](./problems/581_shortest-unsorted-continuous-subarray/index.js) |
 | [583](https://leetcode.com/problems/delete-operation-for-two-strings) | Delete Operation for Two Strings | Medium | [Go](./problems/583_delete-operation-for-two-strings/main.go) |
