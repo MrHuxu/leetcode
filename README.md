@@ -519,7 +519,7 @@
 | [925](https://leetcode.com/problems/long-pressed-name) | Long Pressed Name | Easy | [JavaScript](./problems/925_long-pressed-name/index.js) |
 | [926](https://leetcode.com/problems/flip-string-to-monotone-increasing) | Flip String to Monotone Increasing | Medium | [JavaScript](./problems/926_flip-string-to-monotone-increasing/index.js) |
 | [929](https://leetcode.com/problems/unique-email-addresses) | Unique Email Addresses | Easy | [JavaScript](./problems/929_unique-email-addresses/index.js) |
-| [930](https://leetcode.com/problems/binary-subarrays-with-sum) | Binary Subarrays With Sum | Medium | [JavaScript](./problems/930_binary-subarrays-with-sum/index.js) |
+| [930](https://leetcode.com/problems/binary-subarrays-with-sum) | Binary Subarrays With Sum | Medium | [JavaScript](./problems/930_binary-subarrays-with-sum/index.js) [Python](./problems/930_binary-subarrays-with-sum/__main__.py) |
 | [931](https://leetcode.com/problems/minimum-falling-path-sum) | Minimum Falling Path Sum | Medium | [Python](./problems/931_minimum-falling-path-sum/__main__.py) |
 | [933](https://leetcode.com/problems/number-of-recent-calls) | Number of Recent Calls | Easy | [JavaScript](./problems/933_number-of-recent-calls/index.js) |
 | [934](https://leetcode.com/problems/shortest-bridge) | Shortest Bridge | Medium | [Go](./problems/934_shortest-bridge/main.go) |
