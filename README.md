@@ -379,6 +379,7 @@
 | [633](https://leetcode.com/problems/sum-of-square-numbers) | Sum of Square Numbers | Medium | [JavaScript](./problems/633_sum-of-square-numbers/index.js) |
 | [636](https://leetcode.com/problems/exclusive-time-of-functions) | Exclusive Time of Functions | Medium | [Python](./problems/636_exclusive-time-of-functions/__main__.py) |
 | [637](https://leetcode.com/problems/average-of-levels-in-binary-tree) | Average of Levels in Binary Tree | Easy | [JavaScript](./problems/637_average-of-levels-in-binary-tree/index.js) |
+| [638](https://leetcode.com/problems/shopping-offers) | Shopping Offers | Medium | [Python](./problems/638_shopping-offers/__main__.py) |
 | [640](https://leetcode.com/problems/solve-the-equation) | Solve the Equation | Medium | [JavaScript](./problems/640_solve-the-equation/index.js) |
 | [645](https://leetcode.com/problems/set-mismatch) | Set Mismatch | Easy | [Python](./problems/645_set-mismatch/__main__.py) |
 | [646](https://leetcode.com/problems/maximum-length-of-pair-chain) | Maximum Length of Pair Chain | Medium | [JavaScript](./problems/646_maximum-length-of-pair-chain/index.js) |
