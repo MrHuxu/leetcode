@@ -328,6 +328,7 @@
 | [522](https://leetcode.com/problems/longest-uncommon-subsequence-ii) | Longest Uncommon Subsequence II | Medium | [Go](./problems/522_longest-uncommon-subsequence-ii/main.go) |
 | [523](https://leetcode.com/problems/continuous-subarray-sum) | Continuous Subarray Sum | Medium | [Go](./problems/523_continuous-subarray-sum/main.go) |
 | [524](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting) | Longest Word in Dictionary through Deleting | Medium | [Python](./problems/524_longest-word-in-dictionary-through-deleting/__main__.py) |
+| [525](https://leetcode.com/problems/contiguous-array) | Contiguous Array | Medium | [Python](./problems/525_contiguous-array/__main__.py) [Rust](./problems/525_contiguous-array/lib.rs) |
 | [526](https://leetcode.com/problems/beautiful-arrangement) | Beautiful Arrangement | Medium | [Python](./problems/526_beautiful-arrangement/__main__.py) |
 | [528](https://leetcode.com/problems/random-pick-with-weight) | Random Pick with Weight | Medium | [Python](./problems/528_random-pick-with-weight/__main__.py) |
 | [529](https://leetcode.com/problems/minesweeper) | Minesweeper | Medium | [JavaScript](./problems/529_minesweeper/index.js) |
