@@ -381,10 +381,13 @@
 | [637](https://leetcode.com/problems/average-of-levels-in-binary-tree) | Average of Levels in Binary Tree | Easy | [JavaScript](./problems/637_average-of-levels-in-binary-tree/index.js) |
 | [638](https://leetcode.com/problems/shopping-offers) | Shopping Offers | Medium | [Python](./problems/638_shopping-offers/__main__.py) |
 | [640](https://leetcode.com/problems/solve-the-equation) | Solve the Equation | Medium | [JavaScript](./problems/640_solve-the-equation/index.js) |
+| [641](https://leetcode.com/problems/design-circular-deque) | Design Circular Deque | Medium | [Python](./problems/641_design-circular-deque/__main__.py) |
+| [643](https://leetcode.com/problems/maximum-average-subarray-i) | Maximum Average Subarray I | Easy | [Python](./problems/643_maximum-average-subarray-i/__main__.py) |
 | [645](https://leetcode.com/problems/set-mismatch) | Set Mismatch | Easy | [Python](./problems/645_set-mismatch/__main__.py) |
 | [646](https://leetcode.com/problems/maximum-length-of-pair-chain) | Maximum Length of Pair Chain | Medium | [JavaScript](./problems/646_maximum-length-of-pair-chain/index.js) |
 | [647](https://leetcode.com/problems/palindromic-substrings) | Palindromic Substrings | Medium | [JavaScript](./problems/647_palindromic-substrings/index.js) [Go](./problems/647_palindromic-substrings/main.go) |
 | [648](https://leetcode.com/problems/replace-words) | Replace Words | Medium | [JavaScript](./problems/648_replace-words/index.js) |
+| [649](https://leetcode.com/problems/dota2-senate) | Dota2 Senate | Medium | [Python](./problems/649_dota2-senate/__main__.py) |
 | [650](https://leetcode.com/problems/2-keys-keyboard) | 2 Keys Keyboard | Medium | [JavaScript](./problems/650_2-keys-keyboard/index.js) |
 | [652](https://leetcode.com/problems/find-duplicate-subtrees) | Find Duplicate Subtrees | Medium | [Go](./problems/652_find-duplicate-subtrees/main.go) |
 | [653](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | Two Sum IV - Input is a BST | Easy | [JavaScript](./problems/653_two-sum-iv-input-is-a-bst/index.js) [Rust](./problems/653_two-sum-iv-input-is-a-bst/lib.rs) |
