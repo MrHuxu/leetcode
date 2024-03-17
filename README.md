@@ -879,3 +879,6 @@
 | [3074](https://leetcode.com/problems/apple-redistribution-into-boxes) | Apple Redistribution into Boxes | Easy | [Python](./problems/3074_apple-redistribution-into-boxes/__main__.py) |
 | [3075](https://leetcode.com/problems/maximize-happiness-of-selected-children) | Maximize Happiness of Selected Children | Medium | [Python](./problems/3075_maximize-happiness-of-selected-children/__main__.py) |
 | [3076](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array) | Shortest Uncommon Substring in an Array | Medium | [Python](./problems/3076_shortest-uncommon-substring-in-an-array/__main__.py) |
+| [3083](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse) | Existence of a Substring in a String and Its Reverse | Easy | [Python](./problems/3083_existence-of-a-substring-in-a-string-and-its-reverse/__main__.py) |
+| [3084](https://leetcode.com/problems/count-substrings-starting-and-ending-with-given-character) | Count Substrings Starting and Ending with Given Character | Medium | [Python](./problems/3084_count-substrings-starting-and-ending-with-given-character/__main__.py) |
+| [3085](https://leetcode.com/problems/minimum-deletions-to-make-string-k-special) | Minimum Deletions to Make String K-Special | Medium | [Python](./problems/3085_minimum-deletions-to-make-string-k-special/__main__.py) |
