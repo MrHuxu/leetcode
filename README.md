@@ -282,6 +282,7 @@
 | [449](https://leetcode.com/problems/serialize-and-deserialize-bst) | Serialize and Deserialize BST | Medium | [Python](./problems/449_serialize-and-deserialize-bst/__main__.py) |
 | [450](https://leetcode.com/problems/delete-node-in-a-bst) | Delete Node in a BST | Medium | [Python](./problems/450_delete-node-in-a-bst/__main__.py) |
 | [451](https://leetcode.com/problems/sort-characters-by-frequency) | Sort Characters By Frequency | Medium | [Python](./problems/451_sort-characters-by-frequency/__main__.py) |
+| [452](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons) | Minimum Number of Arrows to Burst Balloons | Medium | [Python](./problems/452_minimum-number-of-arrows-to-burst-balloons/__main__.py) |
 | [453](https://leetcode.com/problems/minimum-moves-to-equal-array-elements) | Minimum Moves to Equal Array Elements | Medium | [JavaScript](./problems/453_minimum-moves-to-equal-array-elements/index.js) |
 | [455](https://leetcode.com/problems/assign-cookies) | Assign Cookies | Easy | [Python](./problems/455_assign-cookies/__main__.py) |
 | [456](https://leetcode.com/problems/132-pattern) | 132 Pattern | Medium | [Java](./problems/456_132-pattern/Solution.java) |
