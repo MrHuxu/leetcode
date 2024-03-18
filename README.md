@@ -404,6 +404,7 @@
 | [669](https://leetcode.com/problems/trim-a-binary-search-tree) | Trim a Binary Search Tree | Medium | [JavaScript](./problems/669_trim-a-binary-search-tree/index.js) [Rust](./problems/669_trim-a-binary-search-tree/lib.rs) |
 | [670](https://leetcode.com/problems/maximum-swap) | Maximum Swap | Medium | [JavaScript](./problems/670_maximum-swap/index.js) |
 | [671](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree) | Second Minimum Node In a Binary Tree | Easy | [JavaScript](./problems/671_second-minimum-node-in-a-binary-tree/index.js) |
+| [672](https://leetcode.com/problems/bulb-switcher-ii) | Bulb Switcher II | Medium | [Python](./problems/672_bulb-switcher-ii/__main__.py) |
 | [673](https://leetcode.com/problems/number-of-longest-increasing-subsequence) | Number of Longest Increasing Subsequence | Medium | [JavaScript](./problems/673_number-of-longest-increasing-subsequence/index.js) [Python](./problems/673_number-of-longest-increasing-subsequence/__main__.py) |
 | [674](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | Longest Continuous Increasing Subsequence | Easy | [JavaScript](./problems/674_longest-continuous-increasing-subsequence/index.js) |
 | [676](https://leetcode.com/problems/implement-magic-dictionary) | Implement Magic Dictionary | Medium | [JavaScript](./problems/676_implement-magic-dictionary/index.js) |
@@ -415,6 +416,7 @@
 | [686](https://leetcode.com/problems/repeated-string-match) | Repeated String Match | Medium | [JavaScript](./problems/686_repeated-string-match/index.js) |
 | [687](https://leetcode.com/problems/longest-univalue-path) | Longest Univalue Path | Medium | [JavaScript](./problems/687_longest-univalue-path/index.js) |
 | [688](https://leetcode.com/problems/knight-probability-in-chessboard) | Knight Probability in Chessboard | Medium | [Python](./problems/688_knight-probability-in-chessboard/__main__.py) |
+| [690](https://leetcode.com/problems/employee-importance) | Employee Importance | Medium | [Python](./problems/690_employee-importance/__main__.py) |
 | [692](https://leetcode.com/problems/top-k-frequent-words) | Top K Frequent Words | Medium | [JavaScript](./problems/692_top-k-frequent-words/index.js) |
 | [693](https://leetcode.com/problems/binary-number-with-alternating-bits) | Binary Number with Alternating Bits | Easy | [JavaScript](./problems/693_binary-number-with-alternating-bits/index.js) |
 | [695](https://leetcode.com/problems/max-area-of-island) | Max Area of Island | Medium | [JavaScript](./problems/695_max-area-of-island/index.js) [Go](./problems/695_max-area-of-island/main.go) |
