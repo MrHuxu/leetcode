@@ -373,7 +373,7 @@
 | [609](https://leetcode.com/problems/find-duplicate-file-in-system) | Find Duplicate File in System | Medium | [Go](./problems/609_find-duplicate-file-in-system/main.go) |
 | [611](https://leetcode.com/problems/valid-triangle-number) | Valid Triangle Number | Medium | [Go](./problems/611_valid-triangle-number/main.go) |
 | [617](https://leetcode.com/problems/merge-two-binary-trees) | Merge Two Binary Trees | Easy | [JavaScript](./problems/617_merge-two-binary-trees/index.js) |
-| [621](https://leetcode.com/problems/task-scheduler) | Task Scheduler | Medium | [JavaScript](./problems/621_task-scheduler/index.js) |
+| [621](https://leetcode.com/problems/task-scheduler) | Task Scheduler | Medium | [JavaScript](./problems/621_task-scheduler/index.js) [Python](./problems/621_task-scheduler/__main__.py) |
 | [622](https://leetcode.com/problems/design-circular-queue) | Design Circular Queue | Medium | [Go](./problems/622_design-circular-queue/main.go) |
 | [623](https://leetcode.com/problems/add-one-row-to-tree) | Add One Row to Tree | Medium | [Python](./problems/623_add-one-row-to-tree/__main__.py) |
 | [628](https://leetcode.com/problems/maximum-product-of-three-numbers) | Maximum Product of Three Numbers | Easy | [Python](./problems/628_maximum-product-of-three-numbers/__main__.py) |
