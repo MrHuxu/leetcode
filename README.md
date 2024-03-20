@@ -768,6 +768,7 @@
 | [1657](https://leetcode.com/problems/determine-if-two-strings-are-close) | Determine if Two Strings Are Close | Medium | [Go](./problems/1657_determine-if-two-strings-are-close/main.go) [Python](./problems/1657_determine-if-two-strings-are-close/__main__.py) |
 | [1658](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) | Minimum Operations to Reduce X to Zero | Medium | [Go](./problems/1658_minimum-operations-to-reduce-x-to-zero/main.go) [Python](./problems/1658_minimum-operations-to-reduce-x-to-zero/__main__.py) |
 | [1662](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent) | Check If Two String Arrays are Equivalent | Easy | [Python](./problems/1662_check-if-two-string-arrays-are-equivalent/__main__.py) |
+| [1669](https://leetcode.com/problems/merge-in-between-linked-lists) | Merge In Between Linked Lists | Medium | [Python](./problems/1669_merge-in-between-linked-lists/__main__.py) |
 | [1675](https://leetcode.com/problems/minimize-deviation-in-array) | Minimize Deviation in Array | Hard | [Go](./problems/1675_minimize-deviation-in-array/main.go) |
 | [1679](https://leetcode.com/problems/max-number-of-k-sum-pairs) | Max Number of K-Sum Pairs | Medium | [Java](./problems/1679_max-number-of-k-sum-pairs/Solution.java) |
 | [1680](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers) | Concatenation of Consecutive Binary Numbers | Medium | [Rust](./problems/1680_concatenation-of-consecutive-binary-numbers/lib.rs) |
