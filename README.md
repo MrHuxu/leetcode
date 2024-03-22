@@ -571,6 +571,7 @@
 | [984](https://leetcode.com/problems/string-without-aaa-or-bbb) | String Without AAA or BBB | Medium | [JavaScript](./problems/984_string-without-aaa-or-bbb/index.js) |
 | [985](https://leetcode.com/problems/sum-of-even-numbers-after-queries) | Sum of Even Numbers After Queries | Medium | [JavaScript](./problems/985_sum-of-even-numbers-after-queries/index.js) |
 | [986](https://leetcode.com/problems/interval-list-intersections) | Interval List Intersections | Medium | [JavaScript](./problems/986_interval-list-intersections/index.js) |
+| [987](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree) | Vertical Order Traversal of a Binary Tree | Hard | [Python](./problems/987_vertical-order-traversal-of-a-binary-tree/__main__.py) |
 | [988](https://leetcode.com/problems/smallest-string-starting-from-leaf) | Smallest String Starting From Leaf | Medium | [JavaScript](./problems/988_smallest-string-starting-from-leaf/index.js) |
 | [989](https://leetcode.com/problems/add-to-array-form-of-integer) | Add to Array-Form of Integer | Easy | [JavaScript](./problems/989_add-to-array-form-of-integer/index.js) [TypeScript](./problems/989_add-to-array-form-of-integer/index.ts) [Go](./problems/989_add-to-array-form-of-integer/main.go) |
 | [990](https://leetcode.com/problems/satisfiability-of-equality-equations) | Satisfiability of Equality Equations | Medium | [Rust](./problems/990_satisfiability-of-equality-equations/lib.rs) |
