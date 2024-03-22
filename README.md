@@ -478,6 +478,7 @@
 | [791](https://leetcode.com/problems/custom-sort-string) | Custom Sort String | Medium | [JavaScript](./problems/791_custom-sort-string/index.js) [Go](./problems/791_custom-sort-string/main.go) |
 | [792](https://leetcode.com/problems/number-of-matching-subsequences) | Number of Matching Subsequences | Medium | [JavaScript](./problems/792_number-of-matching-subsequences/index.js) [Rust](./problems/792_number-of-matching-subsequences/lib.rs) |
 | [795](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum) | Number of Subarrays with Bounded Maximum | Medium | [JavaScript](./problems/795_number-of-subarrays-with-bounded-maximum/index.js) |
+| [796](https://leetcode.com/problems/rotate-string) | Rotate String | Easy | [Python](./problems/796_rotate-string/__main__.py) |
 | [797](https://leetcode.com/problems/all-paths-from-source-to-target) | All Paths From Source to Target | Medium | [JavaScript](./problems/797_all-paths-from-source-to-target/index.js) |
 | [799](https://leetcode.com/problems/champagne-tower) | Champagne Tower | Medium | [Python](./problems/799_champagne-tower/__main__.py) |
 | [802](https://leetcode.com/problems/find-eventual-safe-states) | Find Eventual Safe States | Medium | [JavaScript](./problems/802_find-eventual-safe-states/index.js) [Python](./problems/802_find-eventual-safe-states/__main__.py) |
