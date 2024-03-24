@@ -194,7 +194,7 @@
 | [278](https://leetcode.com/problems/first-bad-version) | First Bad Version | Easy | [JavaScript](./problems/278_first-bad-version/index.js) |
 | [279](https://leetcode.com/problems/perfect-squares) | Perfect Squares | Medium | [JavaScript](./problems/279_perfect-squares/index.js) |
 | [283](https://leetcode.com/problems/move-zeroes) | Move Zeroes | Easy | [JavaScript](./problems/283_move-zeroes/index.js) |
-| [287](https://leetcode.com/problems/find-the-duplicate-number) | Find the Duplicate Number | Medium | [Python](./problems/287_find-the-duplicate-number/__main__.py) |
+| [287](https://leetcode.com/problems/find-the-duplicate-number) | Find the Duplicate Number | Medium | [Go](./problems/287_find-the-duplicate-number/main.go) [Python](./problems/287_find-the-duplicate-number/__main__.py) |
 | [289](https://leetcode.com/problems/game-of-life) | Game of Life | Medium | [JavaScript](./problems/289_game-of-life/index.js) [Rust](./problems/289_game-of-life/lib.rs) |
 | [290](https://leetcode.com/problems/word-pattern) | Word Pattern | Easy | [JavaScript](./problems/290_word-pattern/index.js) |
 | [292](https://leetcode.com/problems/nim-game) | Nim Game | Easy | [JavaScript](./problems/292_nim-game/index.js) |
