@@ -474,9 +474,11 @@
 | [784](https://leetcode.com/problems/letter-case-permutation) | Letter Case Permutation | Medium | [JavaScript](./problems/784_letter-case-permutation/index.js) |
 | [785](https://leetcode.com/problems/is-graph-bipartite) | Is Graph Bipartite? | Medium | [Python](./problems/785_is-graph-bipartite/__main__.py) |
 | [787](https://leetcode.com/problems/cheapest-flights-within-k-stops) | Cheapest Flights Within K Stops | Medium | [Go](./problems/787_cheapest-flights-within-k-stops/main.go) [Python](./problems/787_cheapest-flights-within-k-stops/__main__.py) [Rust](./problems/787_cheapest-flights-within-k-stops/lib.rs) |
+| [788](https://leetcode.com/problems/rotated-digits) | Rotated Digits | Medium | [Python](./problems/788_rotated-digits/__main__.py) |
 | [789](https://leetcode.com/problems/escape-the-ghosts) | Escape The Ghosts | Medium | [JavaScript](./problems/789_escape-the-ghosts/index.js) |
 | [791](https://leetcode.com/problems/custom-sort-string) | Custom Sort String | Medium | [JavaScript](./problems/791_custom-sort-string/index.js) [Go](./problems/791_custom-sort-string/main.go) |
 | [792](https://leetcode.com/problems/number-of-matching-subsequences) | Number of Matching Subsequences | Medium | [JavaScript](./problems/792_number-of-matching-subsequences/index.js) [Rust](./problems/792_number-of-matching-subsequences/lib.rs) |
+| [794](https://leetcode.com/problems/valid-tic-tac-toe-state) | Valid Tic-Tac-Toe State | Medium | [Python](./problems/794_valid-tic-tac-toe-state/__main__.py) |
 | [795](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum) | Number of Subarrays with Bounded Maximum | Medium | [JavaScript](./problems/795_number-of-subarrays-with-bounded-maximum/index.js) |
 | [796](https://leetcode.com/problems/rotate-string) | Rotate String | Easy | [Python](./problems/796_rotate-string/__main__.py) |
 | [797](https://leetcode.com/problems/all-paths-from-source-to-target) | All Paths From Source to Target | Medium | [JavaScript](./problems/797_all-paths-from-source-to-target/index.js) |
