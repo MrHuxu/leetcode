@@ -274,7 +274,7 @@
 | [436](https://leetcode.com/problems/find-right-interval) | Find Right Interval | Medium | [Python](./problems/436_find-right-interval/__main__.py) |
 | [438](https://leetcode.com/problems/find-all-anagrams-in-a-string) | Find All Anagrams in a String | Medium | [JavaScript](./problems/438_find-all-anagrams-in-a-string/index.js) |
 | [441](https://leetcode.com/problems/arranging-coins) | Arranging Coins | Easy | [JavaScript](./problems/441_arranging-coins/index.js) |
-| [442](https://leetcode.com/problems/find-all-duplicates-in-an-array) | Find All Duplicates in an Array | Medium | [JavaScript](./problems/442_find-all-duplicates-in-an-array/index.js) |
+| [442](https://leetcode.com/problems/find-all-duplicates-in-an-array) | Find All Duplicates in an Array | Medium | [JavaScript](./problems/442_find-all-duplicates-in-an-array/index.js) [Python](./problems/442_find-all-duplicates-in-an-array/__main__.py) |
 | [443](https://leetcode.com/problems/string-compression) | String Compression | Medium | [Go](./problems/443_string-compression/main.go) |
 | [445](https://leetcode.com/problems/add-two-numbers-ii) | Add Two Numbers II | Medium | [Python](./problems/445_add-two-numbers-ii/__main__.py) |
 | [447](https://leetcode.com/problems/number-of-boomerangs) | Number of Boomerangs | Medium | [Python](./problems/447_number-of-boomerangs/__main__.py) |
