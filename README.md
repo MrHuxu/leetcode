@@ -484,9 +484,13 @@
 | [797](https://leetcode.com/problems/all-paths-from-source-to-target) | All Paths From Source to Target | Medium | [JavaScript](./problems/797_all-paths-from-source-to-target/index.js) |
 | [799](https://leetcode.com/problems/champagne-tower) | Champagne Tower | Medium | [Python](./problems/799_champagne-tower/__main__.py) |
 | [802](https://leetcode.com/problems/find-eventual-safe-states) | Find Eventual Safe States | Medium | [JavaScript](./problems/802_find-eventual-safe-states/index.js) [Python](./problems/802_find-eventual-safe-states/__main__.py) |
+| [804](https://leetcode.com/problems/unique-morse-code-words) | Unique Morse Code Words | Easy | [Python](./problems/804_unique-morse-code-words/__main__.py) |
+| [806](https://leetcode.com/problems/number-of-lines-to-write-string) | Number of Lines To Write String | Easy | [Python](./problems/806_number-of-lines-to-write-string/__main__.py) |
+| [807](https://leetcode.com/problems/max-increase-to-keep-city-skyline) | Max Increase to Keep City Skyline | Medium | [Python](./problems/807_max-increase-to-keep-city-skyline/__main__.py) |
 | [808](https://leetcode.com/problems/soup-servings) | Soup Servings | Medium | [Python](./problems/808_soup-servings/__main__.py) |
 | [809](https://leetcode.com/problems/expressive-words) | Expressive Words | Medium | [JavaScript](./problems/809_expressive-words/index.js) |
 | [811](https://leetcode.com/problems/subdomain-visit-count) | Subdomain Visit Count | Medium | [JavaScript](./problems/811_subdomain-visit-count/index.js) |
+| [812](https://leetcode.com/problems/largest-triangle-area) | Largest Triangle Area | Easy | [Python](./problems/812_largest-triangle-area/__main__.py) |
 | [815](https://leetcode.com/problems/bus-routes) | Bus Routes | Hard | [Python](./problems/815_bus-routes/__main__.py) |
 | [816](https://leetcode.com/problems/ambiguous-coordinates) | Ambiguous Coordinates | Medium | [Go](./problems/816_ambiguous-coordinates/main.go) |
 | [820](https://leetcode.com/problems/short-encoding-of-words) | Short Encoding of Words | Medium | [Go](./problems/820_short-encoding-of-words/main.go) [Java](./problems/820_short-encoding-of-words/Solution.java) |
