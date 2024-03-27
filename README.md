@@ -491,8 +491,11 @@
 | [809](https://leetcode.com/problems/expressive-words) | Expressive Words | Medium | [JavaScript](./problems/809_expressive-words/index.js) |
 | [811](https://leetcode.com/problems/subdomain-visit-count) | Subdomain Visit Count | Medium | [JavaScript](./problems/811_subdomain-visit-count/index.js) |
 | [812](https://leetcode.com/problems/largest-triangle-area) | Largest Triangle Area | Easy | [Python](./problems/812_largest-triangle-area/__main__.py) |
+| [813](https://leetcode.com/problems/largest-sum-of-averages) | Largest Sum of Averages | Medium | [Python](./problems/813_largest-sum-of-averages/__main__.py) |
+| [814](https://leetcode.com/problems/binary-tree-pruning) | Binary Tree Pruning | Medium | [Python](./problems/814_binary-tree-pruning/__main__.py) |
 | [815](https://leetcode.com/problems/bus-routes) | Bus Routes | Hard | [Python](./problems/815_bus-routes/__main__.py) |
 | [816](https://leetcode.com/problems/ambiguous-coordinates) | Ambiguous Coordinates | Medium | [Go](./problems/816_ambiguous-coordinates/main.go) |
+| [817](https://leetcode.com/problems/linked-list-components) | Linked List Components | Medium | [Python](./problems/817_linked-list-components/__main__.py) |
 | [820](https://leetcode.com/problems/short-encoding-of-words) | Short Encoding of Words | Medium | [Go](./problems/820_short-encoding-of-words/main.go) [Java](./problems/820_short-encoding-of-words/Solution.java) |
 | [822](https://leetcode.com/problems/card-flipping-game) | Card Flipping Game | Medium | [JavaScript](./problems/822_card-flipping-game/index.js) |
 | [823](https://leetcode.com/problems/binary-trees-with-factors) | Binary Trees With Factors | Medium | [Python](./problems/823_binary-trees-with-factors/__main__.py) |
