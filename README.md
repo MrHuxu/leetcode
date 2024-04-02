@@ -150,7 +150,7 @@
 | [202](https://leetcode.com/problems/happy-number) | Happy Number | Easy | [JavaScript](./problems/202_happy-number/index.js) |
 | [203](https://leetcode.com/problems/remove-linked-list-elements) | Remove Linked List Elements | Easy | [JavaScript](./problems/203_remove-linked-list-elements/index.js) |
 | [204](https://leetcode.com/problems/count-primes) | Count Primes | Medium | [JavaScript](./problems/204_count-primes/index.js) [Go](./problems/204_count-primes/main.go) |
-| [205](https://leetcode.com/problems/isomorphic-strings) | Isomorphic Strings | Easy | [JavaScript](./problems/205_isomorphic-strings/index.js) [Go](./problems/205_isomorphic-strings/main.go) |
+| [205](https://leetcode.com/problems/isomorphic-strings) | Isomorphic Strings | Easy | [JavaScript](./problems/205_isomorphic-strings/index.js) [Go](./problems/205_isomorphic-strings/main.go) [Python](./problems/205_isomorphic-strings/__main__.py) |
 | [206](https://leetcode.com/problems/reverse-linked-list) | Reverse Linked List | Easy | [JavaScript](./problems/206_reverse-linked-list/index.js) [Python](./problems/206_reverse-linked-list/__main__.py) |
 | [207](https://leetcode.com/problems/course-schedule) | Course Schedule | Medium | [JavaScript](./problems/207_course-schedule/index.js) [Python](./problems/207_course-schedule/__main__.py) |
 | [208](https://leetcode.com/problems/implement-trie-prefix-tree) | Implement Trie (Prefix Tree) | Medium | [TypeScript](./problems/208_implement-trie-prefix-tree/index.ts) [Go](./problems/208_implement-trie-prefix-tree/main.go) |
