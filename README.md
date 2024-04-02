@@ -908,3 +908,6 @@
 | [3090](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences) | Maximum Length Substring With Two Occurrences | Easy | [Python](./problems/3090_maximum-length-substring-with-two-occurrences/__main__.py) |
 | [3091](https://leetcode.com/problems/apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) | Apply Operations to Make Sum of Array Greater Than or Equal to k | Medium | [Python](./problems/3091_apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k/__main__.py) |
 | [3092](https://leetcode.com/problems/most-frequent-ids) | Most Frequent IDs | Medium | [Python](./problems/3092_most-frequent-ids/__main__.py) |
+| [3099](https://leetcode.com/problems/harshad-number) | Harshad Number | Easy | [Python](./problems/3099_harshad-number/__main__.py) |
+| [3100](https://leetcode.com/problems/water-bottles-ii) | Water Bottles II | Medium | [Python](./problems/3100_water-bottles-ii/__main__.py) |
+| [3101](https://leetcode.com/problems/count-alternating-subarrays) | Count Alternating Subarrays | Medium | [Python](./problems/3101_count-alternating-subarrays/__main__.py) |
