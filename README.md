@@ -66,7 +66,7 @@
 | [75](https://leetcode.com/problems/sort-colors) | Sort Colors | Medium | [JavaScript](./problems/75_sort-colors/index.js) |
 | [77](https://leetcode.com/problems/combinations) | Combinations | Medium | [JavaScript](./problems/77_combinations/index.js) |
 | [78](https://leetcode.com/problems/subsets) | Subsets | Medium | [JavaScript](./problems/78_subsets/index.js) [Rust](./problems/78_subsets/lib.rs) |
-| [79](https://leetcode.com/problems/word-search) | Word Search | Medium | [JavaScript](./problems/79_word-search/index.js) |
+| [79](https://leetcode.com/problems/word-search) | Word Search | Medium | [JavaScript](./problems/79_word-search/index.js) [Python](./problems/79_word-search/__main__.py) |
 | [80](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | Remove Duplicates from Sorted Array II | Medium | [JavaScript](./problems/80_remove-duplicates-from-sorted-array-ii/index.js) [Rust](./problems/80_remove-duplicates-from-sorted-array-ii/lib.rs) |
 | [83](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | Remove Duplicates from Sorted List | Easy | [JavaScript](./problems/83_remove-duplicates-from-sorted-list/index.js) |
 | [86](https://leetcode.com/problems/partition-list) | Partition List | Medium | [JavaScript](./problems/86_partition-list/index.js) [Go](./problems/86_partition-list/main.go) |
