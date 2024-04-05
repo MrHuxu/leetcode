@@ -756,7 +756,7 @@
 | [1531](https://leetcode.com/problems/string-compression-ii) | String Compression II | Hard | [Python](./problems/1531_string-compression-ii/__main__.py) |
 | [1535](https://leetcode.com/problems/find-the-winner-of-an-array-game) | Find the Winner of an Array Game | Medium | [Python](./problems/1535_find-the-winner-of-an-array-game/__main__.py) |
 | [1539](https://leetcode.com/problems/kth-missing-positive-number) | Kth Missing Positive Number | Easy | [Go](./problems/1539_kth-missing-positive-number/main.go) |
-| [1544](https://leetcode.com/problems/make-the-string-great) | Make The String Great | Easy | [Rust](./problems/1544_make-the-string-great/lib.rs) |
+| [1544](https://leetcode.com/problems/make-the-string-great) | Make The String Great | Easy | [Python](./problems/1544_make-the-string-great/__main__.py) [Rust](./problems/1544_make-the-string-great/lib.rs) |
 | [1551](https://leetcode.com/problems/minimum-operations-to-make-array-equal) | Minimum Operations to Make Array Equal | Medium | [Go](./problems/1551_minimum-operations-to-make-array-equal/main.go) |
 | [1557](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes) | Minimum Number of Vertices to Reach All Nodes | Medium | [Python](./problems/1557_minimum-number-of-vertices-to-reach-all-nodes/__main__.py) |
 | [1561](https://leetcode.com/problems/maximum-number-of-coins-you-can-get) | Maximum Number of Coins You Can Get | Medium | [Python](./problems/1561_maximum-number-of-coins-you-can-get/__main__.py) |
