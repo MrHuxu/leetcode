@@ -409,7 +409,7 @@
 | [674](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | Longest Continuous Increasing Subsequence | Easy | [JavaScript](./problems/674_longest-continuous-increasing-subsequence/index.js) |
 | [676](https://leetcode.com/problems/implement-magic-dictionary) | Implement Magic Dictionary | Medium | [JavaScript](./problems/676_implement-magic-dictionary/index.js) |
 | [677](https://leetcode.com/problems/map-sum-pairs) | Map Sum Pairs | Medium | [JavaScript](./problems/677_map-sum-pairs/index.js) |
-| [678](https://leetcode.com/problems/valid-parenthesis-string) | Valid Parenthesis String | Medium | [JavaScript](./problems/678_valid-parenthesis-string/index.js) |
+| [678](https://leetcode.com/problems/valid-parenthesis-string) | Valid Parenthesis String | Medium | [JavaScript](./problems/678_valid-parenthesis-string/index.js) [Python](./problems/678_valid-parenthesis-string/__main__.py) |
 | [680](https://leetcode.com/problems/valid-palindrome-ii) | Valid Palindrome II | Easy | [JavaScript](./problems/680_valid-palindrome-ii/index.js) [Rust](./problems/680_valid-palindrome-ii/lib.rs) |
 | [682](https://leetcode.com/problems/baseball-game) | Baseball Game | Easy | [JavaScript](./problems/682_baseball-game/index.js) [Rust](./problems/682_baseball-game/lib.rs) |
 | [684](https://leetcode.com/problems/redundant-connection) | Redundant Connection | Medium | [JavaScript](./problems/684_redundant-connection/index.js) [Go](./problems/684_redundant-connection/main.go) |
