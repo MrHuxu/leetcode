@@ -792,6 +792,7 @@
 | [1689](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers) | Partitioning Into Minimum Number Of Deci-Binary Numbers | Medium | [Go](./problems/1689_partitioning-into-minimum-number-of-deci-binary-numbers/main.go) |
 | [1695](https://leetcode.com/problems/maximum-erasure-value) | Maximum Erasure Value | Medium | [Go](./problems/1695_maximum-erasure-value/main.go) |
 | [1696](https://leetcode.com/problems/jump-game-vi) | Jump Game VI | Medium | [Go](./problems/1696_jump-game-vi/main.go) |
+| [1700](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch) | Number of Students Unable to Eat Lunch | Easy | [Python](./problems/1700_number-of-students-unable-to-eat-lunch/__main__.py) |
 | [1704](https://leetcode.com/problems/determine-if-string-halves-are-alike) | Determine if String Halves Are Alike | Easy | [Go](./problems/1704_determine-if-string-halves-are-alike/main.go) [Python](./problems/1704_determine-if-string-halves-are-alike/__main__.py) |
 | [1706](https://leetcode.com/problems/where-will-the-ball-fall) | Where Will the Ball Fall | Medium | [Rust](./problems/1706_where-will-the-ball-fall/lib.rs) |
 | [1710](https://leetcode.com/problems/maximum-units-on-a-truck) | Maximum Units on a Truck | Easy | [Go](./problems/1710_maximum-units-on-a-truck/main.go) [Java](./problems/1710_maximum-units-on-a-truck/Solution.java) |
