@@ -832,6 +832,7 @@
 | [2009](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous) | Minimum Number of Operations to Make Array Continuous | Hard | [Python](./problems/2009_minimum-number-of-operations-to-make-array-continuous/__main__.py) |
 | [2024](https://leetcode.com/problems/maximize-the-confusion-of-an-exam) | Maximize the Confusion of an Exam | Medium | [Python](./problems/2024_maximize-the-confusion-of-an-exam/__main__.py) |
 | [2050](https://leetcode.com/problems/parallel-courses-iii) | Parallel Courses III | Hard | [Python](./problems/2050_parallel-courses-iii/__main__.py) |
+| [2073](https://leetcode.com/problems/time-needed-to-buy-tickets) | Time Needed to Buy Tickets | Easy | [Python](./problems/2073_time-needed-to-buy-tickets/__main__.py) |
 | [2090](https://leetcode.com/problems/k-radius-subarray-averages) | K Radius Subarray Averages | Medium | [Python](./problems/2090_k-radius-subarray-averages/__main__.py) |
 | [2092](https://leetcode.com/problems/find-all-people-with-secret) | Find All People With Secret | Hard | [Python](./problems/2092_find-all-people-with-secret/__main__.py) |
 | [2101](https://leetcode.com/problems/detonate-the-maximum-bombs) | Detonate the Maximum Bombs | Medium | [Python](./problems/2101_detonate-the-maximum-bombs/__main__.py) |
