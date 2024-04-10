@@ -3,10 +3,7 @@ class Solution:
         n = len(deck)
         deck.sort()
         deck_idx = 0
-        ret = [0] * n
-        dq = deque()
-        for i in range(n):
-            dq.append(i)
+        ret, dq = [0] * n, deque(range(n))
         while dq:
             idx = dq.popleft()
             ret[idx] = deck[deck_idx]
