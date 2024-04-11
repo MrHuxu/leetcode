@@ -253,6 +253,7 @@
 | [399](https://leetcode.com/problems/evaluate-division) | Evaluate Division | Medium | [JavaScript](./problems/399_evaluate-division/index.js) [Python](./problems/399_evaluate-division/__main__.py) |
 | [400](https://leetcode.com/problems/nth-digit) | Nth Digit | Medium | [Python](./problems/400_nth-digit/__main__.py) |
 | [401](https://leetcode.com/problems/binary-watch) | Binary Watch | Easy | [JavaScript](./problems/401_binary-watch/index.js) |
+| [402](https://leetcode.com/problems/remove-k-digits) | Remove K Digits | Medium | [Python](./problems/402_remove-k-digits/__main__.py) |
 | [404](https://leetcode.com/problems/sum-of-left-leaves) | Sum of Left Leaves | Easy | [JavaScript](./problems/404_sum-of-left-leaves/index.js) |
 | [405](https://leetcode.com/problems/convert-a-number-to-hexadecimal) | Convert a Number to Hexadecimal | Easy | [JavaScript](./problems/405_convert-a-number-to-hexadecimal/index.js) |
 | [406](https://leetcode.com/problems/queue-reconstruction-by-height) | Queue Reconstruction by Height | Medium | [JavaScript](./problems/406_queue-reconstruction-by-height/index.js) [Go](./problems/406_queue-reconstruction-by-height/main.go) |
