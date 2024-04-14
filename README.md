@@ -916,3 +916,5 @@
 | [3099](https://leetcode.com/problems/harshad-number) | Harshad Number | Easy | [Python](./problems/3099_harshad-number/__main__.py) |
 | [3100](https://leetcode.com/problems/water-bottles-ii) | Water Bottles II | Medium | [Python](./problems/3100_water-bottles-ii/__main__.py) |
 | [3101](https://leetcode.com/problems/count-alternating-subarrays) | Count Alternating Subarrays | Medium | [Python](./problems/3101_count-alternating-subarrays/__main__.py) |
+| [3114](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters) | Latest Time You Can Obtain After Replacing Characters | Easy | [Python](./problems/3114_latest-time-you-can-obtain-after-replacing-characters/__main__.py) |
+| [3115](https://leetcode.com/problems/maximum-prime-difference) | Maximum Prime Difference | Medium | [Python](./problems/3115_maximum-prime-difference/__main__.py) |
