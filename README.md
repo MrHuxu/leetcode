@@ -145,7 +145,7 @@
 | [191](https://leetcode.com/problems/number-of-1-bits) | Number of 1 Bits | Easy | [JavaScript](./problems/191_number-of-1-bits/index.js) |
 | [198](https://leetcode.com/problems/house-robber) | House Robber | Medium | [JavaScript](./problems/198_house-robber/index.js) [Python](./problems/198_house-robber/__main__.py) |
 | [199](https://leetcode.com/problems/binary-tree-right-side-view) | Binary Tree Right Side View | Medium | [JavaScript](./problems/199_binary-tree-right-side-view/index.js) [Rust](./problems/199_binary-tree-right-side-view/lib.rs) |
-| [200](https://leetcode.com/problems/number-of-islands) | Number of Islands | Medium | [JavaScript](./problems/200_number-of-islands/index.js) |
+| [200](https://leetcode.com/problems/number-of-islands) | Number of Islands | Medium | [JavaScript](./problems/200_number-of-islands/index.js) [Python](./problems/200_number-of-islands/__main__.py) |
 | [201](https://leetcode.com/problems/bitwise-and-of-numbers-range) | Bitwise AND of Numbers Range | Medium | [JavaScript](./problems/201_bitwise-and-of-numbers-range/index.js) [Python](./problems/201_bitwise-and-of-numbers-range/__main__.py) |
 | [202](https://leetcode.com/problems/happy-number) | Happy Number | Easy | [JavaScript](./problems/202_happy-number/index.js) |
 | [203](https://leetcode.com/problems/remove-linked-list-elements) | Remove Linked List Elements | Easy | [JavaScript](./problems/203_remove-linked-list-elements/index.js) |
