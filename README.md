@@ -831,6 +831,7 @@
 | [1970](https://leetcode.com/problems/last-day-where-you-can-still-cross) | Last Day Where You Can Still Cross | Hard | [Python](./problems/1970_last-day-where-you-can-still-cross/__main__.py) |
 | [1980](https://leetcode.com/problems/find-unique-binary-string) | Find Unique Binary String | Medium | [Python](./problems/1980_find-unique-binary-string/__main__.py) |
 | [1985](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) | Find the Kth Largest Integer in the Array | Medium | [Python](./problems/1985_find-the-kth-largest-integer-in-the-array/__main__.py) |
+| [1992](https://leetcode.com/problems/find-all-groups-of-farmland) | Find All Groups of Farmland | Medium | [Python](./problems/1992_find-all-groups-of-farmland/__main__.py) |
 | [2009](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous) | Minimum Number of Operations to Make Array Continuous | Hard | [Python](./problems/2009_minimum-number-of-operations-to-make-array-continuous/__main__.py) |
 | [2024](https://leetcode.com/problems/maximize-the-confusion-of-an-exam) | Maximize the Confusion of an Exam | Medium | [Python](./problems/2024_maximize-the-confusion-of-an-exam/__main__.py) |
 | [2050](https://leetcode.com/problems/parallel-courses-iii) | Parallel Courses III | Hard | [Python](./problems/2050_parallel-courses-iii/__main__.py) |
