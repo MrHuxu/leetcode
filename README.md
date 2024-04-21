@@ -829,6 +829,7 @@
 | [1921](https://leetcode.com/problems/eliminate-maximum-number-of-monsters) | Eliminate Maximum Number of Monsters | Medium | [Python](./problems/1921_eliminate-maximum-number-of-monsters/__main__.py) |
 | [1930](https://leetcode.com/problems/unique-length-3-palindromic-subsequences) | Unique Length-3 Palindromic Subsequences | Medium | [Python](./problems/1930_unique-length-3-palindromic-subsequences/__main__.py) |
 | [1970](https://leetcode.com/problems/last-day-where-you-can-still-cross) | Last Day Where You Can Still Cross | Hard | [Python](./problems/1970_last-day-where-you-can-still-cross/__main__.py) |
+| [1971](https://leetcode.com/problems/find-if-path-exists-in-graph) | Find if Path Exists in Graph | Easy | [Python](./problems/1971_find-if-path-exists-in-graph/__main__.py) |
 | [1980](https://leetcode.com/problems/find-unique-binary-string) | Find Unique Binary String | Medium | [Python](./problems/1980_find-unique-binary-string/__main__.py) |
 | [1985](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) | Find the Kth Largest Integer in the Array | Medium | [Python](./problems/1985_find-the-kth-largest-integer-in-the-array/__main__.py) |
 | [1992](https://leetcode.com/problems/find-all-groups-of-farmland) | Find All Groups of Farmland | Medium | [Python](./problems/1992_find-all-groups-of-farmland/__main__.py) |
