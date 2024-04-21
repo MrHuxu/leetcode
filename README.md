@@ -921,3 +921,6 @@
 | [3101](https://leetcode.com/problems/count-alternating-subarrays) | Count Alternating Subarrays | Medium | [Python](./problems/3101_count-alternating-subarrays/__main__.py) |
 | [3114](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters) | Latest Time You Can Obtain After Replacing Characters | Easy | [Python](./problems/3114_latest-time-you-can-obtain-after-replacing-characters/__main__.py) |
 | [3115](https://leetcode.com/problems/maximum-prime-difference) | Maximum Prime Difference | Medium | [Python](./problems/3115_maximum-prime-difference/__main__.py) |
+| [3120](https://leetcode.com/problems/count-the-number-of-special-characters-i) | Count the Number of Special Characters I | Easy | [Python](./problems/3120_count-the-number-of-special-characters-i/__main__.py) |
+| [3121](https://leetcode.com/problems/count-the-number-of-special-characters-ii) | Count the Number of Special Characters II | Medium | [Python](./problems/3121_count-the-number-of-special-characters-ii/__main__.py) |
+| [3122](https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions) | Minimum Number of Operations to Satisfy Conditions | Medium | [Python](./problems/3122_minimum-number-of-operations-to-satisfy-conditions/__main__.py) |
