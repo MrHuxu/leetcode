@@ -456,7 +456,7 @@
 | [746](https://leetcode.com/problems/min-cost-climbing-stairs) | Min Cost Climbing Stairs | Easy | [JavaScript](./problems/746_min-cost-climbing-stairs/index.js) [Go](./problems/746_min-cost-climbing-stairs/main.go) |
 | [747](https://leetcode.com/problems/largest-number-at-least-twice-of-others) | Largest Number At Least Twice of Others | Easy | [JavaScript](./problems/747_largest-number-at-least-twice-of-others/index.js) |
 | [748](https://leetcode.com/problems/shortest-completing-word) | Shortest Completing Word | Easy | [JavaScript](./problems/748_shortest-completing-word/index.js) |
-| [752](https://leetcode.com/problems/open-the-lock) | Open the Lock | Medium | [JavaScript](./problems/752_open-the-lock/index.js) [Go](./problems/752_open-the-lock/main.go) |
+| [752](https://leetcode.com/problems/open-the-lock) | Open the Lock | Medium | [JavaScript](./problems/752_open-the-lock/index.js) [Go](./problems/752_open-the-lock/main.go) [Python](./problems/752_open-the-lock/__main__.py) |
 | [754](https://leetcode.com/problems/reach-a-number) | Reach a Number | Medium | [JavaScript](./problems/754_reach-a-number/index.js) |
 | [756](https://leetcode.com/problems/pyramid-transition-matrix) | Pyramid Transition Matrix | Medium | [JavaScript](./problems/756_pyramid-transition-matrix/index.js) |
 | [760](https://leetcode.com/problems/find-anagram-mappings) | Find Anagram Mappings | Easy | [JavaScript](./problems/760_find-anagram-mappings/index.js) |
