@@ -642,7 +642,7 @@
 | [1128](https://leetcode.com/problems/number-of-equivalent-domino-pairs) | Number of Equivalent Domino Pairs | Easy | [JavaScript](./problems/1128_number-of-equivalent-domino-pairs/index.js) |
 | [1129](https://leetcode.com/problems/shortest-path-with-alternating-colors) | Shortest Path with Alternating Colors | Medium | [Go](./problems/1129_shortest-path-with-alternating-colors/main.go) |
 | [1130](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values) | Minimum Cost Tree From Leaf Values | Medium | [JavaScript](./problems/1130_minimum-cost-tree-from-leaf-values/index.js) |
-| [1137](https://leetcode.com/problems/n-th-tribonacci-number) | N-th Tribonacci Number | Easy | [JavaScript](./problems/1137_n-th-tribonacci-number/index.js) |
+| [1137](https://leetcode.com/problems/n-th-tribonacci-number) | N-th Tribonacci Number | Easy | [JavaScript](./problems/1137_n-th-tribonacci-number/index.js) [Python](./problems/1137_n-th-tribonacci-number/__main__.py) |
 | [1138](https://leetcode.com/problems/alphabet-board-path) | Alphabet Board Path | Medium | [JavaScript](./problems/1138_alphabet-board-path/index.js) |
 | [1139](https://leetcode.com/problems/largest-1-bordered-square) | Largest 1-Bordered Square | Medium | [JavaScript](./problems/1139_largest-1-bordered-square/index.js) |
 | [1143](https://leetcode.com/problems/longest-common-subsequence) | Longest Common Subsequence | Medium | [Python](./problems/1143_longest-common-subsequence/__main__.py) |
