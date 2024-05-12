@@ -864,6 +864,7 @@
 | [2360](https://leetcode.com/problems/longest-cycle-in-a-graph) | Longest Cycle in a Graph | Hard | [Go](./problems/2360_longest-cycle-in-a-graph/main.go) |
 | [2369](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array) | Check if There is a Valid Partition For The Array | Medium | [Python](./problems/2369_check-if-there-is-a-valid-partition-for-the-array/__main__.py) |
 | [2370](https://leetcode.com/problems/longest-ideal-subsequence) | Longest Ideal Subsequence | Medium | [Python](./problems/2370_longest-ideal-subsequence/__main__.py) |
+| [2373](https://leetcode.com/problems/largest-local-values-in-a-matrix) | Largest Local Values in a Matrix | Easy | [Python](./problems/2373_largest-local-values-in-a-matrix/__main__.py) |
 | [2385](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected) | Amount of Time for Binary Tree to Be Infected | Medium | [Python](./problems/2385_amount-of-time-for-binary-tree-to-be-infected/__main__.py) |
 | [2390](https://leetcode.com/problems/removing-stars-from-a-string) | Removing Stars From a String | Medium | [TypeScript](./problems/2390_removing-stars-from-a-string/index.ts) [Go](./problems/2390_removing-stars-from-a-string/main.go) |
 | [2391](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage) | Minimum Amount of Time to Collect Garbage | Medium | [Python](./problems/2391_minimum-amount-of-time-to-collect-garbage/__main__.py) |
