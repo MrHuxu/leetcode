@@ -927,3 +927,5 @@
 | [3120](https://leetcode.com/problems/count-the-number-of-special-characters-i) | Count the Number of Special Characters I | Easy | [Python](./problems/3120_count-the-number-of-special-characters-i/__main__.py) |
 | [3121](https://leetcode.com/problems/count-the-number-of-special-characters-ii) | Count the Number of Special Characters II | Medium | [Python](./problems/3121_count-the-number-of-special-characters-ii/__main__.py) |
 | [3122](https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions) | Minimum Number of Operations to Satisfy Conditions | Medium | [Python](./problems/3122_minimum-number-of-operations-to-satisfy-conditions/__main__.py) |
+| [3146](https://leetcode.com/problems/permutation-difference-between-two-strings) | Permutation Difference between Two Strings | Easy | [Python](./problems/3146_permutation-difference-between-two-strings/__main__.py) |
+| [3147](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon) | Taking Maximum Energy From the Mystic Dungeon | Medium | [Python](./problems/3147_taking-maximum-energy-from-the-mystic-dungeon/__main__.py) |
