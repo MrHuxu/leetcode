@@ -1,22 +1,14 @@
-from heapq import heapify, heappop
 from typing import List
 
 
 class Solution:
     def maximumHappinessSum(self, happiness: List[int], k: int) -> int:
-        ret, decr = 0, 0
-        happiness = [-h for h in happiness]
-        heapify(happiness)
-        while k > 0:
-            m = -heappop(happiness)
-            if m <= decr:
-                break
-            ret += m - decr
-            k -= 1
-            decr += 1
-        return ret
+        return sum(
+            max(h - i, 0) for i, h in enumerate(sorted(happiness, reverse=True)[:k])
+        )
 
 
-print(Solution().maximumHappinessSum(happiness=[1, 2, 3], k=2))
-print(Solution().maximumHappinessSum(happiness=[1, 1, 1, 1], k=2))
-print(Solution().maximumHappinessSum(happiness=[2, 3, 4, 5], k=1))
+print(Solution().maximumHappinessSum([1, 2, 3], 2))
+print(Solution().maximumHappinessSum([1, 1, 1, 1], 2))
+print(Solution().maximumHappinessSum([2, 3, 4, 5], 1))
+print(Solution().maximumHappinessSum([12, 1, 42], 3))

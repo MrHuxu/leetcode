@@ -317,7 +317,7 @@
 | [502](https://leetcode.com/problems/ipo) | IPO | Hard | [Go](./problems/502_ipo/main.go) |
 | [503](https://leetcode.com/problems/next-greater-element-ii) | Next Greater Element II | Medium | [Python](./problems/503_next-greater-element-ii/__main__.py) |
 | [504](https://leetcode.com/problems/base-7) | Base 7 | Easy | [Python](./problems/504_base-7/__main__.py) |
-| [506](https://leetcode.com/problems/relative-ranks) | Relative Ranks | Easy | [JavaScript](./problems/506_relative-ranks/index.js) |
+| [506](https://leetcode.com/problems/relative-ranks) | Relative Ranks | Easy | [JavaScript](./problems/506_relative-ranks/index.js) [Python](./problems/506_relative-ranks/__main__.py) |
 | [507](https://leetcode.com/problems/perfect-number) | Perfect Number | Easy | [Python](./problems/507_perfect-number/__main__.py) |
 | [508](https://leetcode.com/problems/most-frequent-subtree-sum) | Most Frequent Subtree Sum | Medium | [JavaScript](./problems/508_most-frequent-subtree-sum/index.js) |
 | [509](https://leetcode.com/problems/fibonacci-number) | Fibonacci Number | Easy | [Go](./problems/509_fibonacci-number/main.go) |
@@ -474,6 +474,7 @@
 | [783](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | Minimum Distance Between BST Nodes | Easy | [JavaScript](./problems/783_minimum-distance-between-bst-nodes/index.js) [Go](./problems/783_minimum-distance-between-bst-nodes/main.go) |
 | [784](https://leetcode.com/problems/letter-case-permutation) | Letter Case Permutation | Medium | [JavaScript](./problems/784_letter-case-permutation/index.js) |
 | [785](https://leetcode.com/problems/is-graph-bipartite) | Is Graph Bipartite? | Medium | [Python](./problems/785_is-graph-bipartite/__main__.py) |
+| [786](https://leetcode.com/problems/k-th-smallest-prime-fraction) | K-th Smallest Prime Fraction | Medium | [Python](./problems/786_k-th-smallest-prime-fraction/__main__.py) |
 | [787](https://leetcode.com/problems/cheapest-flights-within-k-stops) | Cheapest Flights Within K Stops | Medium | [Go](./problems/787_cheapest-flights-within-k-stops/main.go) [Python](./problems/787_cheapest-flights-within-k-stops/__main__.py) [Rust](./problems/787_cheapest-flights-within-k-stops/lib.rs) |
 | [788](https://leetcode.com/problems/rotated-digits) | Rotated Digits | Medium | [Python](./problems/788_rotated-digits/__main__.py) |
 | [789](https://leetcode.com/problems/escape-the-ghosts) | Escape The Ghosts | Medium | [JavaScript](./problems/789_escape-the-ghosts/index.js) |
@@ -511,8 +512,10 @@
 | [849](https://leetcode.com/problems/maximize-distance-to-closest-person) | Maximize Distance to Closest Person | Medium | [Rust](./problems/849_maximize-distance-to-closest-person/lib.rs) |
 | [852](https://leetcode.com/problems/peak-index-in-a-mountain-array) | Peak Index in a Mountain Array | Medium | [Python](./problems/852_peak-index-in-a-mountain-array/__main__.py) |
 | [856](https://leetcode.com/problems/score-of-parentheses) | Score of Parentheses | Medium | [JavaScript](./problems/856_score-of-parentheses/index.js) |
+| [857](https://leetcode.com/problems/minimum-cost-to-hire-k-workers) | Minimum Cost to Hire K Workers | Hard | [Python](./problems/857_minimum-cost-to-hire-k-workers/__main__.py) |
 | [859](https://leetcode.com/problems/buddy-strings) | Buddy Strings | Easy | [JavaScript](./problems/859_buddy-strings/index.js) [Python](./problems/859_buddy-strings/__main__.py) |
 | [860](https://leetcode.com/problems/lemonade-change) | Lemonade Change | Easy | [JavaScript](./problems/860_lemonade-change/index.js) |
+| [861](https://leetcode.com/problems/score-after-flipping-matrix) | Score After Flipping Matrix | Medium | [Python](./problems/861_score-after-flipping-matrix/__main__.py) |
 | [863](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree) | All Nodes Distance K in Binary Tree | Medium | [Python](./problems/863_all-nodes-distance-k-in-binary-tree/__main__.py) |
 | [864](https://leetcode.com/problems/shortest-path-to-get-all-keys) | Shortest Path to Get All Keys | Hard | [Python](./problems/864_shortest-path-to-get-all-keys/__main__.py) |
 | [865](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes) | Smallest Subtree with all the Deepest Nodes | Medium | [JavaScript](./problems/865_smallest-subtree-with-all-the-deepest-nodes/index.js) |
@@ -674,6 +677,7 @@
 | [1209](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii) | Remove All Adjacent Duplicates in String II | Medium | [JavaScript](./problems/1209_remove-all-adjacent-duplicates-in-string-ii/index.js) [Go](./problems/1209_remove-all-adjacent-duplicates-in-string-ii/main.go) |
 | [1217](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position) | Minimum Cost to Move Chips to The Same Position | Easy | [JavaScript](./problems/1217_minimum-cost-to-move-chips-to-the-same-position/index.js) |
 | [1218](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference) | Longest Arithmetic Subsequence of Given Difference | Medium | [JavaScript](./problems/1218_longest-arithmetic-subsequence-of-given-difference/index.js) [Python](./problems/1218_longest-arithmetic-subsequence-of-given-difference/__main__.py) |
+| [1219](https://leetcode.com/problems/path-with-maximum-gold) | Path with Maximum Gold | Medium | [Python](./problems/1219_path-with-maximum-gold/__main__.py) |
 | [1220](https://leetcode.com/problems/count-vowels-permutation) | Count Vowels Permutation | Hard | [Python](./problems/1220_count-vowels-permutation/__main__.py) |
 | [1232](https://leetcode.com/problems/check-if-it-is-a-straight-line) | Check If It Is a Straight Line | Easy | [JavaScript](./problems/1232_check-if-it-is-a-straight-line/index.js) [Python](./problems/1232_check-if-it-is-a-straight-line/__main__.py) |
 | [1233](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem) | Remove Sub-Folders from the Filesystem | Medium | [JavaScript](./problems/1233_remove-sub-folders-from-the-filesystem/index.js) |
@@ -709,6 +713,7 @@
 | [1319](https://leetcode.com/problems/number-of-operations-to-make-network-connected) | Number of Operations to Make Network Connected | Medium | [TypeScript](./problems/1319_number-of-operations-to-make-network-connected/index.ts) [Go](./problems/1319_number-of-operations-to-make-network-connected/main.go) |
 | [1320](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers) | Minimum Distance to Type a Word Using Two Fingers | Hard | [Go](./problems/1320_minimum-distance-to-type-a-word-using-two-fingers/main.go) |
 | [1323](https://leetcode.com/problems/maximum-69-number) | Maximum 69 Number | Easy | [Rust](./problems/1323_maximum-69-number/lib.rs) |
+| [1325](https://leetcode.com/problems/delete-leaves-with-a-given-value) | Delete Leaves With a Given Value | Medium | [Python](./problems/1325_delete-leaves-with-a-given-value/__main__.py) |
 | [1335](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule) | Minimum Difficulty of a Job Schedule | Hard | [Python](./problems/1335_minimum-difficulty-of-a-job-schedule/__main__.py) |
 | [1337](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix) | The K Weakest Rows in a Matrix | Easy | [Python](./problems/1337_the-k-weakest-rows-in-a-matrix/__main__.py) |
 | [1345](https://leetcode.com/problems/jump-game-iv) | Jump Game IV | Hard | [TypeScript](./problems/1345_jump-game-iv/index.ts) |
@@ -856,6 +861,7 @@
 | [2305](https://leetcode.com/problems/fair-distribution-of-cookies) | Fair Distribution of Cookies | Medium | [Python](./problems/2305_fair-distribution-of-cookies/__main__.py) |
 | [2306](https://leetcode.com/problems/naming-a-company) | Naming a Company | Hard | [Go](./problems/2306_naming-a-company/main.go) |
 | [2316](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph) | Count Unreachable Pairs of Nodes in an Undirected Graph | Medium | [Go](./problems/2316_count-unreachable-pairs-of-nodes-in-an-undirected-graph/main.go) |
+| [2331](https://leetcode.com/problems/evaluate-boolean-binary-tree) | Evaluate Boolean Binary Tree | Easy | [Python](./problems/2331_evaluate-boolean-binary-tree/__main__.py) |
 | [2336](https://leetcode.com/problems/smallest-number-in-infinite-set) | Smallest Number in Infinite Set | Medium | [Go](./problems/2336_smallest-number-in-infinite-set/main.go) [Python](./problems/2336_smallest-number-in-infinite-set/__main__.py) |
 | [2348](https://leetcode.com/problems/number-of-zero-filled-subarrays) | Number of Zero-Filled Subarrays | Medium | [TypeScript](./problems/2348_number-of-zero-filled-subarrays/index.ts) [Go](./problems/2348_number-of-zero-filled-subarrays/main.go) |
 | [2352](https://leetcode.com/problems/equal-row-and-column-pairs) | Equal Row and Column Pairs | Medium | [Python](./problems/2352_equal-row-and-column-pairs/__main__.py) |
@@ -889,6 +895,7 @@
 | [2707](https://leetcode.com/problems/extra-characters-in-a-string) | Extra Characters in a String | Medium | [Python](./problems/2707_extra-characters-in-a-string/__main__.py) |
 | [2709](https://leetcode.com/problems/greatest-common-divisor-traversal) | Greatest Common Divisor Traversal | Hard | [Python](./problems/2709_greatest-common-divisor-traversal/__main__.py) |
 | [2785](https://leetcode.com/problems/sort-vowels-in-a-string) | Sort Vowels in a String | Medium | [Python](./problems/2785_sort-vowels-in-a-string/__main__.py) |
+| [2812](https://leetcode.com/problems/find-the-safest-path-in-a-grid) | Find the Safest Path in a Grid | Medium | [Python](./problems/2812_find-the-safest-path-in-a-grid/__main__.py) |
 | [2816](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list) | Double a Number Represented as a Linked List | Medium | [Python](./problems/2816_double-a-number-represented-as-a-linked-list/__main__.py) |
 | [2849](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time) | Determine if a Cell Is Reachable at a Given Time | Medium | [Python](./problems/2849_determine-if-a-cell-is-reachable-at-a-given-time/__main__.py) |
 | [2864](https://leetcode.com/problems/maximum-odd-binary-number) | Maximum Odd Binary Number | Easy | [Python](./problems/2864_maximum-odd-binary-number/__main__.py) |
