@@ -581,6 +581,7 @@
 | [976](https://leetcode.com/problems/largest-perimeter-triangle) | Largest Perimeter Triangle | Easy | [JavaScript](./problems/976_largest-perimeter-triangle/index.js) |
 | [977](https://leetcode.com/problems/squares-of-a-sorted-array) | Squares of a Sorted Array | Easy | [JavaScript](./problems/977_squares-of-a-sorted-array/index.js) [Python](./problems/977_squares-of-a-sorted-array/__main__.py) |
 | [978](https://leetcode.com/problems/longest-turbulent-subarray) | Longest Turbulent Subarray | Medium | [JavaScript](./problems/978_longest-turbulent-subarray/index.js) |
+| [979](https://leetcode.com/problems/distribute-coins-in-binary-tree) | Distribute Coins in Binary Tree | Medium | [Python](./problems/979_distribute-coins-in-binary-tree/__main__.py) |
 | [981](https://leetcode.com/problems/time-based-key-value-store) | Time Based Key-Value Store | Medium | [JavaScript](./problems/981_time-based-key-value-store/index.js) |
 | [983](https://leetcode.com/problems/minimum-cost-for-tickets) | Minimum Cost For Tickets | Medium | [Go](./problems/983_minimum-cost-for-tickets/main.go) |
 | [984](https://leetcode.com/problems/string-without-aaa-or-bbb) | String Without AAA or BBB | Medium | [JavaScript](./problems/984_string-without-aaa-or-bbb/index.js) |
