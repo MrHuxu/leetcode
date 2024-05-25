@@ -65,7 +65,7 @@
 | [73](https://leetcode.com/problems/set-matrix-zeroes) | Set Matrix Zeroes | Medium | [JavaScript](./problems/73_set-matrix-zeroes/index.js) |
 | [75](https://leetcode.com/problems/sort-colors) | Sort Colors | Medium | [JavaScript](./problems/75_sort-colors/index.js) |
 | [77](https://leetcode.com/problems/combinations) | Combinations | Medium | [JavaScript](./problems/77_combinations/index.js) |
-| [78](https://leetcode.com/problems/subsets) | Subsets | Medium | [JavaScript](./problems/78_subsets/index.js) [Rust](./problems/78_subsets/lib.rs) |
+| [78](https://leetcode.com/problems/subsets) | Subsets | Medium | [JavaScript](./problems/78_subsets/index.js) [Python](./problems/78_subsets/__main__.py) [Rust](./problems/78_subsets/lib.rs) |
 | [79](https://leetcode.com/problems/word-search) | Word Search | Medium | [JavaScript](./problems/79_word-search/index.js) [Python](./problems/79_word-search/__main__.py) |
 | [80](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | Remove Duplicates from Sorted Array II | Medium | [JavaScript](./problems/80_remove-duplicates-from-sorted-array-ii/index.js) [Rust](./problems/80_remove-duplicates-from-sorted-array-ii/lib.rs) |
 | [83](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | Remove Duplicates from Sorted List | Easy | [JavaScript](./problems/83_remove-duplicates-from-sorted-list/index.js) |
@@ -109,7 +109,7 @@
 | [128](https://leetcode.com/problems/longest-consecutive-sequence) | Longest Consecutive Sequence | Medium | [Go](./problems/128_longest-consecutive-sequence/main.go) |
 | [129](https://leetcode.com/problems/sum-root-to-leaf-numbers) | Sum Root to Leaf Numbers | Medium | [JavaScript](./problems/129_sum-root-to-leaf-numbers/index.js) [TypeScript](./problems/129_sum-root-to-leaf-numbers/index.ts) [Go](./problems/129_sum-root-to-leaf-numbers/main.go) |
 | [130](https://leetcode.com/problems/surrounded-regions) | Surrounded Regions | Medium | [JavaScript](./problems/130_surrounded-regions/index.js) |
-| [131](https://leetcode.com/problems/palindrome-partitioning) | Palindrome Partitioning | Medium | [JavaScript](./problems/131_palindrome-partitioning/index.js) |
+| [131](https://leetcode.com/problems/palindrome-partitioning) | Palindrome Partitioning | Medium | [JavaScript](./problems/131_palindrome-partitioning/index.js) [Python](./problems/131_palindrome-partitioning/__main__.py) |
 | [134](https://leetcode.com/problems/gas-station) | Gas Station | Medium | [JavaScript](./problems/134_gas-station/index.js) |
 | [135](https://leetcode.com/problems/candy) | Candy | Hard | [Go](./problems/135_candy/main.go) [Java](./problems/135_candy/Solution.java) |
 | [136](https://leetcode.com/problems/single-number) | Single Number | Easy | [JavaScript](./problems/136_single-number/index.js) |
@@ -688,6 +688,7 @@
 | [1252](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix) | Cells with Odd Values in a Matrix | Easy | [JavaScript](./problems/1252_cells-with-odd-values-in-a-matrix/index.js) |
 | [1253](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix) | Reconstruct a 2-Row Binary Matrix | Medium | [JavaScript](./problems/1253_reconstruct-a-2-row-binary-matrix/index.js) |
 | [1254](https://leetcode.com/problems/number-of-closed-islands) | Number of Closed Islands | Medium | [JavaScript](./problems/1254_number-of-closed-islands/index.js) [TypeScript](./problems/1254_number-of-closed-islands/index.ts) [Go](./problems/1254_number-of-closed-islands/main.go) |
+| [1255](https://leetcode.com/problems/maximum-score-words-formed-by-letters) | Maximum Score Words Formed by Letters | Hard | [Python](./problems/1255_maximum-score-words-formed-by-letters/__main__.py) |
 | [1260](https://leetcode.com/problems/shift-2d-grid) | Shift 2D Grid | Easy | [JavaScript](./problems/1260_shift-2d-grid/index.js) [Rust](./problems/1260_shift-2d-grid/lib.rs) |
 | [1261](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree) | Find Elements in a Contaminated Binary Tree | Medium | [JavaScript](./problems/1261_find-elements-in-a-contaminated-binary-tree/index.js) |
 | [1262](https://leetcode.com/problems/greatest-sum-divisible-by-three) | Greatest Sum Divisible by Three | Medium | [JavaScript](./problems/1262_greatest-sum-divisible-by-three/index.js) |
@@ -827,6 +828,7 @@
 | [1845](https://leetcode.com/problems/seat-reservation-manager) | Seat Reservation Manager | Medium | [Python](./problems/1845_seat-reservation-manager/__main__.py) |
 | [1846](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging) | Maximum Element After Decreasing and Rearranging | Medium | [Python](./problems/1846_maximum-element-after-decreasing-and-rearranging/__main__.py) |
 | [1857](https://leetcode.com/problems/largest-color-value-in-a-directed-graph) | Largest Color Value in a Directed Graph | Hard | [Go](./problems/1857_largest-color-value-in-a-directed-graph/main.go) |
+| [1863](https://leetcode.com/problems/sum-of-all-subset-xor-totals) | Sum of All Subset XOR Totals | Easy | [Python](./problems/1863_sum-of-all-subset-xor-totals/__main__.py) |
 | [1870](https://leetcode.com/problems/minimum-speed-to-arrive-on-time) | Minimum Speed to Arrive on Time | Medium | [Python](./problems/1870_minimum-speed-to-arrive-on-time/__main__.py) |
 | [1877](https://leetcode.com/problems/minimize-maximum-pair-sum-in-array) | Minimize Maximum Pair Sum in Array | Medium | [Python](./problems/1877_minimize-maximum-pair-sum-in-array/__main__.py) |
 | [1887](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal) | Reduction Operations to Make the Array Elements Equal | Medium | [Python](./problems/1887_reduction-operations-to-make-the-array-elements-equal/__main__.py) |
@@ -889,6 +891,7 @@
 | [2492](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities) | Minimum Score of a Path Between Two Cities | Medium | [TypeScript](./problems/2492_minimum-score-of-a-path-between-two-cities/index.ts) [Go](./problems/2492_minimum-score-of-a-path-between-two-cities/main.go) |
 | [2540](https://leetcode.com/problems/minimum-common-value) | Minimum Common Value | Easy | [Python](./problems/2540_minimum-common-value/__main__.py) |
 | [2542](https://leetcode.com/problems/maximum-subsequence-score) | Maximum Subsequence Score | Medium | [Python](./problems/2542_maximum-subsequence-score/__main__.py) |
+| [2597](https://leetcode.com/problems/the-number-of-beautiful-subsets) | The Number of Beautiful Subsets | Medium | [Python](./problems/2597_the-number-of-beautiful-subsets/__main__.py) |
 | [2610](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions) | Convert an Array Into a 2D Array With Conditions | Medium | [Python](./problems/2610_convert-an-array-into-a-2d-array-with-conditions/__main__.py) |
 | [2616](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs) | Minimize the Maximum Difference of Pairs | Medium | [Python](./problems/2616_minimize-the-maximum-difference-of-pairs/__main__.py) |
 | [2642](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Design Graph With Shortest Path Calculator | Hard | [Python](./problems/2642_design-graph-with-shortest-path-calculator/__main__.py) |
