@@ -942,3 +942,5 @@
 | [3122](https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions) | Minimum Number of Operations to Satisfy Conditions | Medium | [Python](./problems/3122_minimum-number-of-operations-to-satisfy-conditions/__main__.py) |
 | [3146](https://leetcode.com/problems/permutation-difference-between-two-strings) | Permutation Difference between Two Strings | Easy | [Python](./problems/3146_permutation-difference-between-two-strings/__main__.py) |
 | [3147](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon) | Taking Maximum Energy From the Mystic Dungeon | Medium | [Python](./problems/3147_taking-maximum-energy-from-the-mystic-dungeon/__main__.py) |
+| [3162](https://leetcode.com/problems/find-the-number-of-good-pairs-i) | Find the Number of Good Pairs I | Easy | [Python](./problems/3162_find-the-number-of-good-pairs-i/__main__.py) |
+| [3163](https://leetcode.com/problems/string-compression-iii) | String Compression III | Medium | [Python](./problems/3163_string-compression-iii/__main__.py) |
