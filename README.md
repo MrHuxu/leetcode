@@ -733,6 +733,7 @@
 | [1383](https://leetcode.com/problems/maximum-performance-of-a-team) | Maximum Performance of a Team | Hard | [Go](./problems/1383_maximum-performance-of-a-team/main.go) |
 | [1396](https://leetcode.com/problems/design-underground-system) | Design Underground System | Medium | [Python](./problems/1396_design-underground-system/__main__.py) |
 | [1402](https://leetcode.com/problems/reducing-dishes) | Reducing Dishes | Hard | [Go](./problems/1402_reducing-dishes/main.go) |
+| [1404](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one) | Number of Steps to Reduce a Number in Binary Representation to One | Medium | [Python](./problems/1404_number-of-steps-to-reduce-a-number-in-binary-representation-to-one/__main__.py) |
 | [1416](https://leetcode.com/problems/restore-the-array) | Restore The Array | Hard | [Go](./problems/1416_restore-the-array/main.go) |
 | [1422](https://leetcode.com/problems/maximum-score-after-splitting-a-string) | Maximum Score After Splitting a String | Easy | [Go](./problems/1422_maximum-score-after-splitting-a-string/main.go) [Python](./problems/1422_maximum-score-after-splitting-a-string/__main__.py) |
 | [1423](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards) | Maximum Points You Can Obtain from Cards | Medium | [Go](./problems/1423_maximum-points-you-can-obtain-from-cards/main.go) |
