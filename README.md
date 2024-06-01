@@ -936,6 +936,7 @@
 | [3099](https://leetcode.com/problems/harshad-number) | Harshad Number | Easy | [Python](./problems/3099_harshad-number/__main__.py) |
 | [3100](https://leetcode.com/problems/water-bottles-ii) | Water Bottles II | Medium | [Python](./problems/3100_water-bottles-ii/__main__.py) |
 | [3101](https://leetcode.com/problems/count-alternating-subarrays) | Count Alternating Subarrays | Medium | [Python](./problems/3101_count-alternating-subarrays/__main__.py) |
+| [3110](https://leetcode.com/problems/score-of-a-string) | Score of a String | Easy | [Python](./problems/3110_score-of-a-string/__main__.py) |
 | [3114](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters) | Latest Time You Can Obtain After Replacing Characters | Easy | [Python](./problems/3114_latest-time-you-can-obtain-after-replacing-characters/__main__.py) |
 | [3115](https://leetcode.com/problems/maximum-prime-difference) | Maximum Prime Difference | Medium | [Python](./problems/3115_maximum-prime-difference/__main__.py) |
 | [3120](https://leetcode.com/problems/count-the-number-of-special-characters-i) | Count the Number of Special Characters I | Easy | [Python](./problems/3120_count-the-number-of-special-characters-i/__main__.py) |
