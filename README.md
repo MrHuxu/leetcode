@@ -222,7 +222,7 @@
 | [341](https://leetcode.com/problems/flatten-nested-list-iterator) | Flatten Nested List Iterator | Medium | [Go](./problems/341_flatten-nested-list-iterator/main.go) |
 | [342](https://leetcode.com/problems/power-of-four) | Power of Four | Easy | [Python](./problems/342_power-of-four/__main__.py) |
 | [343](https://leetcode.com/problems/integer-break) | Integer Break | Medium | [JavaScript](./problems/343_integer-break/index.js) [Python](./problems/343_integer-break/__main__.py) |
-| [344](https://leetcode.com/problems/reverse-string) | Reverse String | Easy | [JavaScript](./problems/344_reverse-string/index.js) [Rust](./problems/344_reverse-string/lib.rs) |
+| [344](https://leetcode.com/problems/reverse-string) | Reverse String | Easy | [JavaScript](./problems/344_reverse-string/index.js) [Python](./problems/344_reverse-string/__main__.py) [Rust](./problems/344_reverse-string/lib.rs) |
 | [345](https://leetcode.com/problems/reverse-vowels-of-a-string) | Reverse Vowels of a String | Easy | [JavaScript](./problems/345_reverse-vowels-of-a-string/index.js) |
 | [347](https://leetcode.com/problems/top-k-frequent-elements) | Top K Frequent Elements | Medium | [JavaScript](./problems/347_top-k-frequent-elements/index.js) [Python](./problems/347_top-k-frequent-elements/__main__.py) |
 | [349](https://leetcode.com/problems/intersection-of-two-arrays) | Intersection of Two Arrays | Easy | [JavaScript](./problems/349_intersection-of-two-arrays/index.js) [Python](./problems/349_intersection-of-two-arrays/__main__.py) |
