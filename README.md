@@ -946,3 +946,6 @@
 | [3147](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon) | Taking Maximum Energy From the Mystic Dungeon | Medium | [Python](./problems/3147_taking-maximum-energy-from-the-mystic-dungeon/__main__.py) |
 | [3162](https://leetcode.com/problems/find-the-number-of-good-pairs-i) | Find the Number of Good Pairs I | Easy | [Python](./problems/3162_find-the-number-of-good-pairs-i/__main__.py) |
 | [3163](https://leetcode.com/problems/string-compression-iii) | String Compression III | Medium | [Python](./problems/3163_string-compression-iii/__main__.py) |
+| [3168](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room) | Minimum Number of Chairs in a Waiting Room | Easy | [Python](./problems/3168_minimum-number-of-chairs-in-a-waiting-room/__main__.py) |
+| [3169](https://leetcode.com/problems/count-days-without-meetings) | Count Days Without Meetings | Medium | [Python](./problems/3169_count-days-without-meetings/__main__.py) |
+| [3170](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars) | Lexicographically Minimum String After Removing Stars | Medium | [Python](./problems/3170_lexicographically-minimum-string-after-removing-stars/__main__.py) |
