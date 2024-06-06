@@ -511,6 +511,7 @@
 | [841](https://leetcode.com/problems/keys-and-rooms) | Keys and Rooms | Medium | [JavaScript](./problems/841_keys-and-rooms/index.js) |
 | [842](https://leetcode.com/problems/split-array-into-fibonacci-sequence) | Split Array into Fibonacci Sequence | Medium | [JavaScript](./problems/842_split-array-into-fibonacci-sequence/index.js) |
 | [844](https://leetcode.com/problems/backspace-string-compare) | Backspace String Compare | Easy | [Python](./problems/844_backspace-string-compare/__main__.py) |
+| [846](https://leetcode.com/problems/hand-of-straights) | Hand of Straights | Medium | [Python](./problems/846_hand-of-straights/__main__.py) |
 | [849](https://leetcode.com/problems/maximize-distance-to-closest-person) | Maximize Distance to Closest Person | Medium | [Rust](./problems/849_maximize-distance-to-closest-person/lib.rs) |
 | [852](https://leetcode.com/problems/peak-index-in-a-mountain-array) | Peak Index in a Mountain Array | Medium | [Python](./problems/852_peak-index-in-a-mountain-array/__main__.py) |
 | [856](https://leetcode.com/problems/score-of-parentheses) | Score of Parentheses | Medium | [JavaScript](./problems/856_score-of-parentheses/index.js) |
