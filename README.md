@@ -390,7 +390,7 @@
 | [645](https://leetcode.com/problems/set-mismatch) | Set Mismatch | Easy | [Python](./problems/645_set-mismatch/__main__.py) |
 | [646](https://leetcode.com/problems/maximum-length-of-pair-chain) | Maximum Length of Pair Chain | Medium | [JavaScript](./problems/646_maximum-length-of-pair-chain/index.js) |
 | [647](https://leetcode.com/problems/palindromic-substrings) | Palindromic Substrings | Medium | [JavaScript](./problems/647_palindromic-substrings/index.js) [Go](./problems/647_palindromic-substrings/main.go) |
-| [648](https://leetcode.com/problems/replace-words) | Replace Words | Medium | [JavaScript](./problems/648_replace-words/index.js) |
+| [648](https://leetcode.com/problems/replace-words) | Replace Words | Medium | [JavaScript](./problems/648_replace-words/index.js) [Python](./problems/648_replace-words/__main__.py) |
 | [649](https://leetcode.com/problems/dota2-senate) | Dota2 Senate | Medium | [Python](./problems/649_dota2-senate/__main__.py) |
 | [650](https://leetcode.com/problems/2-keys-keyboard) | 2 Keys Keyboard | Medium | [JavaScript](./problems/650_2-keys-keyboard/index.js) |
 | [652](https://leetcode.com/problems/find-duplicate-subtrees) | Find Duplicate Subtrees | Medium | [Go](./problems/652_find-duplicate-subtrees/main.go) |
