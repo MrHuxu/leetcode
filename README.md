@@ -329,7 +329,7 @@
 | [520](https://leetcode.com/problems/detect-capital) | Detect Capital | Easy | [JavaScript](./problems/520_detect-capital/index.js) |
 | [521](https://leetcode.com/problems/longest-uncommon-subsequence-i) | Longest Uncommon Subsequence I | Easy | [Python](./problems/521_longest-uncommon-subsequence-i/__main__.py) |
 | [522](https://leetcode.com/problems/longest-uncommon-subsequence-ii) | Longest Uncommon Subsequence II | Medium | [Go](./problems/522_longest-uncommon-subsequence-ii/main.go) |
-| [523](https://leetcode.com/problems/continuous-subarray-sum) | Continuous Subarray Sum | Medium | [Go](./problems/523_continuous-subarray-sum/main.go) |
+| [523](https://leetcode.com/problems/continuous-subarray-sum) | Continuous Subarray Sum | Medium | [Go](./problems/523_continuous-subarray-sum/main.go) [Python](./problems/523_continuous-subarray-sum/__main__.py) |
 | [524](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting) | Longest Word in Dictionary through Deleting | Medium | [Python](./problems/524_longest-word-in-dictionary-through-deleting/__main__.py) |
 | [525](https://leetcode.com/problems/contiguous-array) | Contiguous Array | Medium | [Python](./problems/525_contiguous-array/__main__.py) [Rust](./problems/525_contiguous-array/lib.rs) |
 | [526](https://leetcode.com/problems/beautiful-arrangement) | Beautiful Arrangement | Medium | [Python](./problems/526_beautiful-arrangement/__main__.py) |
