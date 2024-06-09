@@ -950,3 +950,5 @@
 | [3168](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room) | Minimum Number of Chairs in a Waiting Room | Easy | [Python](./problems/3168_minimum-number-of-chairs-in-a-waiting-room/__main__.py) |
 | [3169](https://leetcode.com/problems/count-days-without-meetings) | Count Days Without Meetings | Medium | [Python](./problems/3169_count-days-without-meetings/__main__.py) |
 | [3170](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars) | Lexicographically Minimum String After Removing Stars | Medium | [Python](./problems/3170_lexicographically-minimum-string-after-removing-stars/__main__.py) |
+| [3178](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds) | Find the Child Who Has the Ball After K Seconds | Easy | [Python](./problems/3178_find-the-child-who-has-the-ball-after-k-seconds/__main__.py) |
+| [3179](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds) | Find the N-th Value After K Seconds | Medium | [Python](./problems/3179_find-the-n-th-value-after-k-seconds/__main__.py) |
