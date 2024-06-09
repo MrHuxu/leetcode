@@ -580,7 +580,7 @@
 | [970](https://leetcode.com/problems/powerful-integers) | Powerful Integers | Medium | [JavaScript](./problems/970_powerful-integers/index.js) [Go](./problems/970_powerful-integers/main.go) |
 | [971](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal) | Flip Binary Tree To Match Preorder Traversal | Medium | [JavaScript](./problems/971_flip-binary-tree-to-match-preorder-traversal/index.js) [Go](./problems/971_flip-binary-tree-to-match-preorder-traversal/main.go) |
 | [973](https://leetcode.com/problems/k-closest-points-to-origin) | K Closest Points to Origin | Medium | [JavaScript](./problems/973_k-closest-points-to-origin/index.js) |
-| [974](https://leetcode.com/problems/subarray-sums-divisible-by-k) | Subarray Sums Divisible by K | Medium | [Go](./problems/974_subarray-sums-divisible-by-k/main.go) |
+| [974](https://leetcode.com/problems/subarray-sums-divisible-by-k) | Subarray Sums Divisible by K | Medium | [Go](./problems/974_subarray-sums-divisible-by-k/main.go) [Python](./problems/974_subarray-sums-divisible-by-k/__main__.py) |
 | [976](https://leetcode.com/problems/largest-perimeter-triangle) | Largest Perimeter Triangle | Easy | [JavaScript](./problems/976_largest-perimeter-triangle/index.js) |
 | [977](https://leetcode.com/problems/squares-of-a-sorted-array) | Squares of a Sorted Array | Easy | [JavaScript](./problems/977_squares-of-a-sorted-array/index.js) [Python](./problems/977_squares-of-a-sorted-array/__main__.py) |
 | [978](https://leetcode.com/problems/longest-turbulent-subarray) | Longest Turbulent Subarray | Medium | [JavaScript](./problems/978_longest-turbulent-subarray/index.js) |
