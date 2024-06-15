@@ -315,7 +315,7 @@
 | [498](https://leetcode.com/problems/diagonal-traverse) | Diagonal Traverse | Medium | [Python](./problems/498_diagonal-traverse/__main__.py) |
 | [500](https://leetcode.com/problems/keyboard-row) | Keyboard Row | Easy | [Python](./problems/500_keyboard-row/__main__.py) |
 | [501](https://leetcode.com/problems/find-mode-in-binary-search-tree) | Find Mode in Binary Search Tree | Easy | [Python](./problems/501_find-mode-in-binary-search-tree/__main__.py) |
-| [502](https://leetcode.com/problems/ipo) | IPO | Hard | [Go](./problems/502_ipo/main.go) |
+| [502](https://leetcode.com/problems/ipo) | IPO | Hard | [Go](./problems/502_ipo/main.go) [Python](./problems/502_ipo/__main__.py) |
 | [503](https://leetcode.com/problems/next-greater-element-ii) | Next Greater Element II | Medium | [Python](./problems/503_next-greater-element-ii/__main__.py) |
 | [504](https://leetcode.com/problems/base-7) | Base 7 | Easy | [Python](./problems/504_base-7/__main__.py) |
 | [506](https://leetcode.com/problems/relative-ranks) | Relative Ranks | Easy | [JavaScript](./problems/506_relative-ranks/index.js) [Python](./problems/506_relative-ranks/__main__.py) |
