@@ -380,7 +380,7 @@
 | [622](https://leetcode.com/problems/design-circular-queue) | Design Circular Queue | Medium | [Go](./problems/622_design-circular-queue/main.go) |
 | [623](https://leetcode.com/problems/add-one-row-to-tree) | Add One Row to Tree | Medium | [Python](./problems/623_add-one-row-to-tree/__main__.py) |
 | [628](https://leetcode.com/problems/maximum-product-of-three-numbers) | Maximum Product of Three Numbers | Easy | [Python](./problems/628_maximum-product-of-three-numbers/__main__.py) |
-| [633](https://leetcode.com/problems/sum-of-square-numbers) | Sum of Square Numbers | Medium | [JavaScript](./problems/633_sum-of-square-numbers/index.js) |
+| [633](https://leetcode.com/problems/sum-of-square-numbers) | Sum of Square Numbers | Medium | [JavaScript](./problems/633_sum-of-square-numbers/index.js) [Python](./problems/633_sum-of-square-numbers/__main__.py) |
 | [636](https://leetcode.com/problems/exclusive-time-of-functions) | Exclusive Time of Functions | Medium | [Python](./problems/636_exclusive-time-of-functions/__main__.py) |
 | [637](https://leetcode.com/problems/average-of-levels-in-binary-tree) | Average of Levels in Binary Tree | Easy | [JavaScript](./problems/637_average-of-levels-in-binary-tree/index.js) |
 | [638](https://leetcode.com/problems/shopping-offers) | Shopping Offers | Medium | [Python](./problems/638_shopping-offers/__main__.py) |
