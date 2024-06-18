@@ -504,6 +504,7 @@
 | [820](https://leetcode.com/problems/short-encoding-of-words) | Short Encoding of Words | Medium | [Go](./problems/820_short-encoding-of-words/main.go) [Java](./problems/820_short-encoding-of-words/Solution.java) |
 | [822](https://leetcode.com/problems/card-flipping-game) | Card Flipping Game | Medium | [JavaScript](./problems/822_card-flipping-game/index.js) |
 | [823](https://leetcode.com/problems/binary-trees-with-factors) | Binary Trees With Factors | Medium | [Python](./problems/823_binary-trees-with-factors/__main__.py) |
+| [826](https://leetcode.com/problems/most-profit-assigning-work) | Most Profit Assigning Work | Medium | [Python](./problems/826_most-profit-assigning-work/__main__.py) |
 | [833](https://leetcode.com/problems/find-and-replace-in-string) | Find And Replace in String | Medium | [JavaScript](./problems/833_find-and-replace-in-string/index.js) |
 | [835](https://leetcode.com/problems/image-overlap) | Image Overlap | Medium | [JavaScript](./problems/835_image-overlap/index.js) |
 | [838](https://leetcode.com/problems/push-dominoes) | Push Dominoes | Medium | [JavaScript](./problems/838_push-dominoes/index.js) [Rust](./problems/838_push-dominoes/lib.rs) |
