@@ -773,6 +773,7 @@
 | [1539](https://leetcode.com/problems/kth-missing-positive-number) | Kth Missing Positive Number | Easy | [Go](./problems/1539_kth-missing-positive-number/main.go) |
 | [1544](https://leetcode.com/problems/make-the-string-great) | Make The String Great | Easy | [Python](./problems/1544_make-the-string-great/__main__.py) [Rust](./problems/1544_make-the-string-great/lib.rs) |
 | [1551](https://leetcode.com/problems/minimum-operations-to-make-array-equal) | Minimum Operations to Make Array Equal | Medium | [Go](./problems/1551_minimum-operations-to-make-array-equal/main.go) |
+| [1552](https://leetcode.com/problems/magnetic-force-between-two-balls) | Magnetic Force Between Two Balls | Medium | [Python](./problems/1552_magnetic-force-between-two-balls/__main__.py) |
 | [1557](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes) | Minimum Number of Vertices to Reach All Nodes | Medium | [Python](./problems/1557_minimum-number-of-vertices-to-reach-all-nodes/__main__.py) |
 | [1561](https://leetcode.com/problems/maximum-number-of-coins-you-can-get) | Maximum Number of Coins You Can Get | Medium | [Python](./problems/1561_maximum-number-of-coins-you-can-get/__main__.py) |
 | [1572](https://leetcode.com/problems/matrix-diagonal-sum) | Matrix Diagonal Sum | Easy | [TypeScript](./problems/1572_matrix-diagonal-sum/index.ts) [Go](./problems/1572_matrix-diagonal-sum/main.go) [Python](./problems/1572_matrix-diagonal-sum/__main__.py) [Java](./problems/1572_matrix-diagonal-sum/Solution.java) |
