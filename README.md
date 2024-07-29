@@ -735,6 +735,7 @@
 | [1379](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) | Find a Corresponding Node of a Binary Tree in a Clone of That Tree | Easy | [Java](./problems/1379_find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/Solution.java) |
 | [1380](https://leetcode.com/problems/lucky-numbers-in-a-matrix) | Lucky Numbers in a Matrix | Easy | [Python](./problems/1380_lucky-numbers-in-a-matrix/__main__.py) |
 | [1383](https://leetcode.com/problems/maximum-performance-of-a-team) | Maximum Performance of a Team | Hard | [Go](./problems/1383_maximum-performance-of-a-team/main.go) |
+| [1395](https://leetcode.com/problems/count-number-of-teams) | Count Number of Teams | Medium | [Python](./problems/1395_count-number-of-teams/__main__.py) |
 | [1396](https://leetcode.com/problems/design-underground-system) | Design Underground System | Medium | [Python](./problems/1396_design-underground-system/__main__.py) |
 | [1402](https://leetcode.com/problems/reducing-dishes) | Reducing Dishes | Hard | [Go](./problems/1402_reducing-dishes/main.go) |
 | [1404](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one) | Number of Steps to Reduce a Number in Binary Representation to One | Medium | [Python](./problems/1404_number-of-steps-to-reduce-a-number-in-binary-representation-to-one/__main__.py) |
