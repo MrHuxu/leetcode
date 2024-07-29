@@ -720,6 +720,7 @@
 | [1320](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers) | Minimum Distance to Type a Word Using Two Fingers | Hard | [Go](./problems/1320_minimum-distance-to-type-a-word-using-two-fingers/main.go) |
 | [1323](https://leetcode.com/problems/maximum-69-number) | Maximum 69 Number | Easy | [Rust](./problems/1323_maximum-69-number/lib.rs) |
 | [1325](https://leetcode.com/problems/delete-leaves-with-a-given-value) | Delete Leaves With a Given Value | Medium | [Python](./problems/1325_delete-leaves-with-a-given-value/__main__.py) |
+| [1334](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) | Find the City With the Smallest Number of Neighbors at a Threshold Distance | Medium | [Python](./problems/1334_find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/__main__.py) |
 | [1335](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule) | Minimum Difficulty of a Job Schedule | Hard | [Python](./problems/1335_minimum-difficulty-of-a-job-schedule/__main__.py) |
 | [1337](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix) | The K Weakest Rows in a Matrix | Easy | [Python](./problems/1337_the-k-weakest-rows-in-a-matrix/__main__.py) |
 | [1345](https://leetcode.com/problems/jump-game-iv) | Jump Game IV | Hard | [TypeScript](./problems/1345_jump-game-iv/index.ts) |
