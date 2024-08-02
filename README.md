@@ -864,6 +864,7 @@
 | [2108](https://leetcode.com/problems/find-first-palindromic-string-in-the-array) | Find First Palindromic String in the Array | Easy | [Python](./problems/2108_find-first-palindromic-string-in-the-array/__main__.py) |
 | [2125](https://leetcode.com/problems/number-of-laser-beams-in-a-bank) | Number of Laser Beams in a Bank | Medium | [Python](./problems/2125_number-of-laser-beams-in-a-bank/__main__.py) |
 | [2130](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list) | Maximum Twin Sum of a Linked List | Medium | [Go](./problems/2130_maximum-twin-sum-of-a-linked-list/main.go) [Python](./problems/2130_maximum-twin-sum-of-a-linked-list/__main__.py) |
+| [2134](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii) | Minimum Swaps to Group All 1's Together II | Medium | [Python](./problems/2134_minimum-swaps-to-group-all-1s-together-ii/__main__.py) |
 | [2140](https://leetcode.com/problems/solving-questions-with-brainpower) | Solving Questions With Brainpower | Medium | [Python](./problems/2140_solving-questions-with-brainpower/__main__.py) |
 | [2141](https://leetcode.com/problems/maximum-running-time-of-n-computers) | Maximum Running Time of N Computers | Hard | [Python](./problems/2141_maximum-running-time-of-n-computers/__main__.py) |
 | [2147](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor) | Number of Ways to Divide a Long Corridor | Hard | [Python](./problems/2147_number-of-ways-to-divide-a-long-corridor/__main__.py) |
