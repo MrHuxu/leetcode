@@ -966,3 +966,5 @@
 | [3179](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds) | Find the N-th Value After K Seconds | Medium | [Python](./problems/3179_find-the-n-th-value-after-k-seconds/__main__.py) |
 | [3200](https://leetcode.com/problems/maximum-height-of-a-triangle) | Maximum Height of a Triangle | Easy | [Python](./problems/3200_maximum-height-of-a-triangle/__main__.py) |
 | [3201](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i) | Find the Maximum Length of Valid Subsequence I | Medium | [Python](./problems/3201_find-the-maximum-length-of-valid-subsequence-i/__main__.py) |
+| [3248](https://leetcode.com/problems/snake-in-matrix) | Snake in Matrix | Easy | [Python](./problems/3248_snake-in-matrix/__main__.py) |
+| [3249](https://leetcode.com/problems/count-the-number-of-good-nodes) | Count the Number of Good Nodes | Medium | [Python](./problems/3249_count-the-number-of-good-nodes/__main__.py) |
