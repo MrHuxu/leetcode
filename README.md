@@ -636,8 +636,10 @@
 | [1051](https://leetcode.com/problems/height-checker) | Height Checker | Easy | [JavaScript](./problems/1051_height-checker/index.js) [Python](./problems/1051_height-checker/__main__.py) |
 | [1054](https://leetcode.com/problems/distant-barcodes) | Distant Barcodes | Medium | [JavaScript](./problems/1054_distant-barcodes/index.js) |
 | [1071](https://leetcode.com/problems/greatest-common-divisor-of-strings) | Greatest Common Divisor of Strings | Easy | [Go](./problems/1071_greatest-common-divisor-of-strings/main.go) |
+| [1072](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows) | Flip Columns For Maximum Number of Equal Rows | Medium | [Python](./problems/1072_flip-columns-for-maximum-number-of-equal-rows/__main__.py) |
 | [1074](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target) | Number of Submatrices That Sum to Target | Hard | [Go](./problems/1074_number-of-submatrices-that-sum-to-target/main.go) [Python](./problems/1074_number-of-submatrices-that-sum-to-target/__main__.py) |
 | [1078](https://leetcode.com/problems/occurrences-after-bigram) | Occurrences After Bigram | Easy | [JavaScript](./problems/1078_occurrences-after-bigram/index.js) |
+| [1079](https://leetcode.com/problems/letter-tile-possibilities) | Letter Tile Possibilities | Medium | [Python](./problems/1079_letter-tile-possibilities/__main__.py) |
 | [1080](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths) | Insufficient Nodes in Root to Leaf Paths | Medium | [JavaScript](./problems/1080_insufficient-nodes-in-root-to-leaf-paths/index.js) [Go](./problems/1080_insufficient-nodes-in-root-to-leaf-paths/main.go) |
 | [1089](https://leetcode.com/problems/duplicate-zeros) | Duplicate Zeros | Easy | [JavaScript](./problems/1089_duplicate-zeros/index.js) |
 | [1090](https://leetcode.com/problems/largest-values-from-labels) | Largest Values From Labels | Medium | [JavaScript](./problems/1090_largest-values-from-labels/index.js) |
@@ -726,6 +728,7 @@
 | [1345](https://leetcode.com/problems/jump-game-iv) | Jump Game IV | Hard | [TypeScript](./problems/1345_jump-game-iv/index.ts) |
 | [1347](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram) | Minimum Number of Steps to Make Two Strings Anagram | Medium | [Python](./problems/1347_minimum-number-of-steps-to-make-two-strings-anagram/__main__.py) |
 | [1351](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) | Count Negative Numbers in a Sorted Matrix | Easy | [Python](./problems/1351_count-negative-numbers-in-a-sorted-matrix/__main__.py) |
+| [1352](https://leetcode.com/problems/product-of-the-last-k-numbers) | Product of the Last K Numbers | Medium | [Python](./problems/1352_product-of-the-last-k-numbers/__main__.py) |
 | [1354](https://leetcode.com/problems/construct-target-array-with-multiple-sums) | Construct Target Array With Multiple Sums | Hard | [Go](./problems/1354_construct-target-array-with-multiple-sums/main.go) |
 | [1356](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) | Sort Integers by The Number of 1 Bits | Easy | [Python](./problems/1356_sort-integers-by-the-number-of-1-bits/__main__.py) |
 | [1359](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options) | Count All Valid Pickup and Delivery Options | Hard | [Rust](./problems/1359_count-all-valid-pickup-and-delivery-options/lib.rs) |
@@ -739,6 +742,8 @@
 | [1396](https://leetcode.com/problems/design-underground-system) | Design Underground System | Medium | [Python](./problems/1396_design-underground-system/__main__.py) |
 | [1402](https://leetcode.com/problems/reducing-dishes) | Reducing Dishes | Hard | [Go](./problems/1402_reducing-dishes/main.go) |
 | [1404](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one) | Number of Steps to Reduce a Number in Binary Representation to One | Medium | [Python](./problems/1404_number-of-steps-to-reduce-a-number-in-binary-representation-to-one/__main__.py) |
+| [1408](https://leetcode.com/problems/string-matching-in-an-array) | String Matching in an Array | Easy | [Python](./problems/1408_string-matching-in-an-array/__main__.py) |
+| [1415](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) | The k-th Lexicographical String of All Happy Strings of Length n | Medium | [Python](./problems/1415_the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/__main__.py) |
 | [1416](https://leetcode.com/problems/restore-the-array) | Restore The Array | Hard | [Go](./problems/1416_restore-the-array/main.go) |
 | [1422](https://leetcode.com/problems/maximum-score-after-splitting-a-string) | Maximum Score After Splitting a String | Easy | [Go](./problems/1422_maximum-score-after-splitting-a-string/main.go) [Python](./problems/1422_maximum-score-after-splitting-a-string/__main__.py) |
 | [1423](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards) | Maximum Points You Can Obtain from Cards | Medium | [Go](./problems/1423_maximum-points-you-can-obtain-from-cards/main.go) |
@@ -750,12 +755,14 @@
 | [1444](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza) | Number of Ways of Cutting a Pizza | Hard | [Go](./problems/1444_number-of-ways-of-cutting-a-pizza/main.go) |
 | [1457](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree) | Pseudo-Palindromic Paths in a Binary Tree | Medium | [Python](./problems/1457_pseudo-palindromic-paths-in-a-binary-tree/__main__.py) |
 | [1461](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k) | Check If a String Contains All Binary Codes of Size K | Medium | [Java](./problems/1461_check-if-a-string-contains-all-binary-codes-of-size-k/Solution.java) |
+| [1462](https://leetcode.com/problems/course-schedule-iv) | Course Schedule IV | Medium | [Python](./problems/1462_course-schedule-iv/__main__.py) |
 | [1463](https://leetcode.com/problems/cherry-pickup-ii) | Cherry Pickup II | Hard | [Python](./problems/1463_cherry-pickup-ii/__main__.py) [Rust](./problems/1463_cherry-pickup-ii/lib.rs) |
 | [1464](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array) | Maximum Product of Two Elements in an Array | Easy | [Python](./problems/1464_maximum-product-of-two-elements-in-an-array/__main__.py) |
 | [1465](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts) | Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts | Medium | [Go](./problems/1465_maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/main.go) |
 | [1466](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero) | Reorder Routes to Make All Paths Lead to the City Zero | Medium | [TypeScript](./problems/1466_reorder-routes-to-make-all-paths-lead-to-the-city-zero/index.ts) [Go](./problems/1466_reorder-routes-to-make-all-paths-lead-to-the-city-zero/main.go) |
 | [1472](https://leetcode.com/problems/design-browser-history) | Design Browser History | Medium | [TypeScript](./problems/1472_design-browser-history/index.ts) |
 | [1473](https://leetcode.com/problems/paint-house-iii) | Paint House III | Hard | [Rust](./problems/1473_paint-house-iii/lib.rs) |
+| [1475](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop) | Final Prices With a Special Discount in a Shop | Easy | [Python](./problems/1475_final-prices-with-a-special-discount-in-a-shop/__main__.py) |
 | [1480](https://leetcode.com/problems/running-sum-of-1d-array) | Running Sum of 1d Array | Easy | [Go](./problems/1480_running-sum-of-1d-array/main.go) |
 | [1481](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals) | Least Number of Unique Integers after K Removals | Medium | [Python](./problems/1481_least-number-of-unique-integers-after-k-removals/__main__.py) |
 | [1486](https://leetcode.com/problems/xor-operation-in-an-array) | XOR Operation in an Array | Easy | [Go](./problems/1486_xor-operation-in-an-array/main.go) |
@@ -799,6 +806,7 @@
 | [1642](https://leetcode.com/problems/furthest-building-you-can-reach) | Furthest Building You Can Reach | Medium | [Python](./problems/1642_furthest-building-you-can-reach/__main__.py) [Java](./problems/1642_furthest-building-you-can-reach/Solution.java) |
 | [1646](https://leetcode.com/problems/get-maximum-in-generated-array) | Get Maximum in Generated Array | Easy | [Go](./problems/1646_get-maximum-in-generated-array/main.go) |
 | [1647](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique) | Minimum Deletions to Make Character Frequencies Unique | Medium | [Go](./problems/1647_minimum-deletions-to-make-character-frequencies-unique/main.go) [Python](./problems/1647_minimum-deletions-to-make-character-frequencies-unique/__main__.py) |
+| [1652](https://leetcode.com/problems/defuse-the-bomb) | Defuse the Bomb | Easy | [Python](./problems/1652_defuse-the-bomb/__main__.py) |
 | [1653](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced) | Minimum Deletions to Make String Balanced | Medium | [Python](./problems/1653_minimum-deletions-to-make-string-balanced/__main__.py) |
 | [1656](https://leetcode.com/problems/design-an-ordered-stream) | Design an Ordered Stream | Easy | [Go](./problems/1656_design-an-ordered-stream/main.go) |
 | [1657](https://leetcode.com/problems/determine-if-two-strings-are-close) | Determine if Two Strings Are Close | Medium | [Go](./problems/1657_determine-if-two-strings-are-close/main.go) [Python](./problems/1657_determine-if-two-strings-are-close/__main__.py) |
@@ -826,9 +834,12 @@
 | [1744](https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day) | Can You Eat Your Favorite Candy on Your Favorite Day? | Medium | [Go](./problems/1744_can-you-eat-your-favorite-candy-on-your-favorite-day/main.go) |
 | [1750](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends) | Minimum Length of String After Deleting Similar Ends | Medium | [Python](./problems/1750_minimum-length-of-string-after-deleting-similar-ends/__main__.py) |
 | [1751](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii) | Maximum Number of Events That Can Be Attended II | Hard | [Python](./problems/1751_maximum-number-of-events-that-can-be-attended-ii/__main__.py) |
+| [1752](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated) | Check if Array Is Sorted and Rotated | Easy | [Python](./problems/1752_check-if-array-is-sorted-and-rotated/__main__.py) |
 | [1758](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) | Minimum Changes To Make Alternating Binary String | Easy | [Python](./problems/1758_minimum-changes-to-make-alternating-binary-string/__main__.py) |
 | [1759](https://leetcode.com/problems/count-number-of-homogenous-substrings) | Count Number of Homogenous Substrings | Medium | [Python](./problems/1759_count-number-of-homogenous-substrings/__main__.py) |
+| [1765](https://leetcode.com/problems/map-of-highest-peak) | Map of Highest Peak | Medium | [Python](./problems/1765_map-of-highest-peak/__main__.py) |
 | [1768](https://leetcode.com/problems/merge-strings-alternately) | Merge Strings Alternately | Easy | [Go](./problems/1768_merge-strings-alternately/main.go) |
+| [1769](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box) | Minimum Number of Operations to Move All Balls to Each Box | Medium | [Python](./problems/1769_minimum-number-of-operations-to-move-all-balls-to-each-box/__main__.py) |
 | [1784](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones) | Check if Binary String Has at Most One Segment of Ones | Easy | [Go](./problems/1784_check-if-binary-string-has-at-most-one-segment-of-ones/main.go) |
 | [1785](https://leetcode.com/problems/minimum-elements-to-add-to-form-a-given-sum) | Minimum Elements to Add to Form a Given Sum | Medium | [Go](./problems/1785_minimum-elements-to-add-to-form-a-given-sum/main.go) |
 | [1786](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node) | Number of Restricted Paths From First to Last Node | Medium | [Go](./problems/1786_number-of-restricted-paths-from-first-to-last-node/main.go) |
@@ -845,6 +856,7 @@
 | [1887](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal) | Reduction Operations to Make the Array Elements Equal | Medium | [Python](./problems/1887_reduction-operations-to-make-the-array-elements-equal/__main__.py) |
 | [1897](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal) | Redistribute Characters to Make All Strings Equal | Easy | [Python](./problems/1897_redistribute-characters-to-make-all-strings-equal/__main__.py) |
 | [1903](https://leetcode.com/problems/largest-odd-number-in-string) | Largest Odd Number in String | Easy | [Go](./problems/1903_largest-odd-number-in-string/main.go) [Python](./problems/1903_largest-odd-number-in-string/__main__.py) |
+| [1910](https://leetcode.com/problems/remove-all-occurrences-of-a-substring) | Remove All Occurrences of a Substring | Medium | [Python](./problems/1910_remove-all-occurrences-of-a-substring/__main__.py) |
 | [1913](https://leetcode.com/problems/maximum-product-difference-between-two-pairs) | Maximum Product Difference Between Two Pairs | Easy | [Python](./problems/1913_maximum-product-difference-between-two-pairs/__main__.py) |
 | [1921](https://leetcode.com/problems/eliminate-maximum-number-of-monsters) | Eliminate Maximum Number of Monsters | Medium | [Python](./problems/1921_eliminate-maximum-number-of-monsters/__main__.py) |
 | [1930](https://leetcode.com/problems/unique-length-3-palindromic-subsequences) | Unique Length-3 Palindromic Subsequences | Medium | [Python](./problems/1930_unique-length-3-palindromic-subsequences/__main__.py) |
@@ -856,12 +868,14 @@
 | [2009](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous) | Minimum Number of Operations to Make Array Continuous | Hard | [Python](./problems/2009_minimum-number-of-operations-to-make-array-continuous/__main__.py) |
 | [2024](https://leetcode.com/problems/maximize-the-confusion-of-an-exam) | Maximize the Confusion of an Exam | Medium | [Python](./problems/2024_maximize-the-confusion-of-an-exam/__main__.py) |
 | [2050](https://leetcode.com/problems/parallel-courses-iii) | Parallel Courses III | Hard | [Python](./problems/2050_parallel-courses-iii/__main__.py) |
+| [2070](https://leetcode.com/problems/most-beautiful-item-for-each-query) | Most Beautiful Item for Each Query | Medium | [Python](./problems/2070_most-beautiful-item-for-each-query/__main__.py) |
 | [2073](https://leetcode.com/problems/time-needed-to-buy-tickets) | Time Needed to Buy Tickets | Easy | [Python](./problems/2073_time-needed-to-buy-tickets/__main__.py) |
 | [2090](https://leetcode.com/problems/k-radius-subarray-averages) | K Radius Subarray Averages | Medium | [Python](./problems/2090_k-radius-subarray-averages/__main__.py) |
 | [2092](https://leetcode.com/problems/find-all-people-with-secret) | Find All People With Secret | Hard | [Python](./problems/2092_find-all-people-with-secret/__main__.py) |
 | [2096](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another) | Step-By-Step Directions From a Binary Tree Node to Another | Medium | [Python](./problems/2096_step-by-step-directions-from-a-binary-tree-node-to-another/__main__.py) |
 | [2101](https://leetcode.com/problems/detonate-the-maximum-bombs) | Detonate the Maximum Bombs | Medium | [Python](./problems/2101_detonate-the-maximum-bombs/__main__.py) |
 | [2108](https://leetcode.com/problems/find-first-palindromic-string-in-the-array) | Find First Palindromic String in the Array | Easy | [Python](./problems/2108_find-first-palindromic-string-in-the-array/__main__.py) |
+| [2109](https://leetcode.com/problems/adding-spaces-to-a-string) | Adding Spaces to a String | Medium | [Python](./problems/2109_adding-spaces-to-a-string/__main__.py) |
 | [2125](https://leetcode.com/problems/number-of-laser-beams-in-a-bank) | Number of Laser Beams in a Bank | Medium | [Python](./problems/2125_number-of-laser-beams-in-a-bank/__main__.py) |
 | [2130](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list) | Maximum Twin Sum of a Linked List | Medium | [Go](./problems/2130_maximum-twin-sum-of-a-linked-list/main.go) [Python](./problems/2130_maximum-twin-sum-of-a-linked-list/__main__.py) |
 | [2134](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii) | Minimum Swaps to Group All 1's Together II | Medium | [Python](./problems/2134_minimum-swaps-to-group-all-1s-together-ii/__main__.py) |
@@ -869,18 +883,22 @@
 | [2141](https://leetcode.com/problems/maximum-running-time-of-n-computers) | Maximum Running Time of N Computers | Hard | [Python](./problems/2141_maximum-running-time-of-n-computers/__main__.py) |
 | [2147](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor) | Number of Ways to Divide a Long Corridor | Hard | [Python](./problems/2147_number-of-ways-to-divide-a-long-corridor/__main__.py) |
 | [2149](https://leetcode.com/problems/rearrange-array-elements-by-sign) | Rearrange Array Elements by Sign | Medium | [Python](./problems/2149_rearrange-array-elements-by-sign/__main__.py) |
+| [2182](https://leetcode.com/problems/construct-string-with-repeat-limit) | Construct String With Repeat Limit | Medium | [Python](./problems/2182_construct-string-with-repeat-limit/__main__.py) |
 | [2187](https://leetcode.com/problems/minimum-time-to-complete-trips) | Minimum Time to Complete Trips | Medium | [Go](./problems/2187_minimum-time-to-complete-trips/main.go) |
 | [2191](https://leetcode.com/problems/sort-the-jumbled-numbers) | Sort the Jumbled Numbers | Medium | [Python](./problems/2191_sort-the-jumbled-numbers/__main__.py) |
 | [2196](https://leetcode.com/problems/create-binary-tree-from-descriptions) | Create Binary Tree From Descriptions | Medium | [Python](./problems/2196_create-binary-tree-from-descriptions/__main__.py) |
 | [2225](https://leetcode.com/problems/find-players-with-zero-or-one-losses) | Find Players With Zero or One Losses | Medium | [Python](./problems/2225_find-players-with-zero-or-one-losses/__main__.py) |
 | [2251](https://leetcode.com/problems/number-of-flowers-in-full-bloom) | Number of Flowers in Full Bloom | Hard | [Python](./problems/2251_number-of-flowers-in-full-bloom/__main__.py) |
+| [2257](https://leetcode.com/problems/count-unguarded-cells-in-the-grid) | Count Unguarded Cells in the Grid | Medium | [Python](./problems/2257_count-unguarded-cells-in-the-grid/__main__.py) |
 | [2264](https://leetcode.com/problems/largest-3-same-digit-number-in-string) | Largest 3-Same-Digit Number in String | Easy | [Python](./problems/2264_largest-3-same-digit-number-in-string/__main__.py) |
 | [2265](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree) | Count Nodes Equal to Average of Subtree | Medium | [Python](./problems/2265_count-nodes-equal-to-average-of-subtree/__main__.py) |
+| [2270](https://leetcode.com/problems/number-of-ways-to-split-array) | Number of Ways to Split Array | Medium | [Python](./problems/2270_number-of-ways-to-split-array/__main__.py) |
 | [2305](https://leetcode.com/problems/fair-distribution-of-cookies) | Fair Distribution of Cookies | Medium | [Python](./problems/2305_fair-distribution-of-cookies/__main__.py) |
 | [2306](https://leetcode.com/problems/naming-a-company) | Naming a Company | Hard | [Go](./problems/2306_naming-a-company/main.go) |
 | [2316](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph) | Count Unreachable Pairs of Nodes in an Undirected Graph | Medium | [Go](./problems/2316_count-unreachable-pairs-of-nodes-in-an-undirected-graph/main.go) |
 | [2331](https://leetcode.com/problems/evaluate-boolean-binary-tree) | Evaluate Boolean Binary Tree | Easy | [Python](./problems/2331_evaluate-boolean-binary-tree/__main__.py) |
 | [2336](https://leetcode.com/problems/smallest-number-in-infinite-set) | Smallest Number in Infinite Set | Medium | [Go](./problems/2336_smallest-number-in-infinite-set/main.go) [Python](./problems/2336_smallest-number-in-infinite-set/__main__.py) |
+| [2337](https://leetcode.com/problems/move-pieces-to-obtain-a-string) | Move Pieces to Obtain a String | Medium | [Python](./problems/2337_move-pieces-to-obtain-a-string/__main__.py) |
 | [2348](https://leetcode.com/problems/number-of-zero-filled-subarrays) | Number of Zero-Filled Subarrays | Medium | [TypeScript](./problems/2348_number-of-zero-filled-subarrays/index.ts) [Go](./problems/2348_number-of-zero-filled-subarrays/main.go) |
 | [2352](https://leetcode.com/problems/equal-row-and-column-pairs) | Equal Row and Column Pairs | Medium | [Python](./problems/2352_equal-row-and-column-pairs/__main__.py) |
 | [2353](https://leetcode.com/problems/design-a-food-rating-system) | Design a Food Rating System | Medium | [Python](./problems/2353_design-a-food-rating-system/__main__.py) |
@@ -889,38 +907,51 @@
 | [2369](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array) | Check if There is a Valid Partition For The Array | Medium | [Python](./problems/2369_check-if-there-is-a-valid-partition-for-the-array/__main__.py) |
 | [2370](https://leetcode.com/problems/longest-ideal-subsequence) | Longest Ideal Subsequence | Medium | [Python](./problems/2370_longest-ideal-subsequence/__main__.py) |
 | [2373](https://leetcode.com/problems/largest-local-values-in-a-matrix) | Largest Local Values in a Matrix | Easy | [Python](./problems/2373_largest-local-values-in-a-matrix/__main__.py) |
+| [2375](https://leetcode.com/problems/construct-smallest-number-from-di-string) | Construct Smallest Number From DI String | Medium | [Python](./problems/2375_construct-smallest-number-from-di-string/__main__.py) |
 | [2385](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected) | Amount of Time for Binary Tree to Be Infected | Medium | [Python](./problems/2385_amount-of-time-for-binary-tree-to-be-infected/__main__.py) |
 | [2390](https://leetcode.com/problems/removing-stars-from-a-string) | Removing Stars From a String | Medium | [TypeScript](./problems/2390_removing-stars-from-a-string/index.ts) [Go](./problems/2390_removing-stars-from-a-string/main.go) |
 | [2391](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage) | Minimum Amount of Time to Collect Garbage | Medium | [Python](./problems/2391_minimum-amount-of-time-to-collect-garbage/__main__.py) |
 | [2405](https://leetcode.com/problems/optimal-partition-of-string) | Optimal Partition of String | Medium | [Go](./problems/2405_optimal-partition-of-string/main.go) |
+| [2415](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree) | Reverse Odd Levels of Binary Tree | Medium | [Python](./problems/2415_reverse-odd-levels-of-binary-tree/__main__.py) |
 | [2418](https://leetcode.com/problems/sort-the-people) | Sort the People | Easy | [Python](./problems/2418_sort-the-people/__main__.py) |
+| [2425](https://leetcode.com/problems/bitwise-xor-of-all-pairings) | Bitwise XOR of All Pairings | Medium | [Python](./problems/2425_bitwise-xor-of-all-pairings/__main__.py) |
+| [2429](https://leetcode.com/problems/minimize-xor) | Minimize XOR | Medium | [Python](./problems/2429_minimize-xor/__main__.py) |
 | [2433](https://leetcode.com/problems/find-the-original-array-of-prefix-xor) | Find The Original Array of Prefix Xor | Medium | [Python](./problems/2433_find-the-original-array-of-prefix-xor/__main__.py) |
 | [2439](https://leetcode.com/problems/minimize-maximum-of-array) | Minimize Maximum of Array | Medium | [Go](./problems/2439_minimize-maximum-of-array/main.go) |
 | [2444](https://leetcode.com/problems/count-subarrays-with-fixed-bounds) | Count Subarrays With Fixed Bounds | Hard | [Go](./problems/2444_count-subarrays-with-fixed-bounds/main.go) |
 | [2448](https://leetcode.com/problems/minimum-cost-to-make-array-equal) | Minimum Cost to Make Array Equal | Hard | [Python](./problems/2448_minimum-cost-to-make-array-equal/__main__.py) |
 | [2462](https://leetcode.com/problems/total-cost-to-hire-k-workers) | Total Cost to Hire K Workers | Medium | [Python](./problems/2462_total-cost-to-hire-k-workers/__main__.py) |
 | [2466](https://leetcode.com/problems/count-ways-to-build-good-strings) | Count Ways To Build Good Strings | Medium | [Python](./problems/2466_count-ways-to-build-good-strings/__main__.py) |
+| [2467](https://leetcode.com/problems/most-profitable-path-in-a-tree) | Most Profitable Path in a Tree | Medium | [Python](./problems/2467_most-profitable-path-in-a-tree/__main__.py) |
 | [2477](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital) | Minimum Fuel Cost to Report to the Capital | Medium | [Go](./problems/2477_minimum-fuel-cost-to-report-to-the-capital/main.go) |
 | [2482](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column) | Difference Between Ones and Zeros in Row and Column | Medium | [Python](./problems/2482_difference-between-ones-and-zeros-in-row-and-column/__main__.py) |
 | [2483](https://leetcode.com/problems/minimum-penalty-for-a-shop) | Minimum Penalty for a Shop | Medium | [Python](./problems/2483_minimum-penalty-for-a-shop/__main__.py) |
 | [2485](https://leetcode.com/problems/find-the-pivot-integer) | Find the Pivot Integer | Easy | [Python](./problems/2485_find-the-pivot-integer/__main__.py) |
 | [2492](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities) | Minimum Score of a Path Between Two Cities | Medium | [TypeScript](./problems/2492_minimum-score-of-a-path-between-two-cities/index.ts) [Go](./problems/2492_minimum-score-of-a-path-between-two-cities/main.go) |
+| [2516](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right) | Take K of Each Character From Left and Right | Medium | [Python](./problems/2516_take-k-of-each-character-from-left-and-right/__main__.py) |
 | [2540](https://leetcode.com/problems/minimum-common-value) | Minimum Common Value | Easy | [Python](./problems/2540_minimum-common-value/__main__.py) |
 | [2542](https://leetcode.com/problems/maximum-subsequence-score) | Maximum Subsequence Score | Medium | [Python](./problems/2542_maximum-subsequence-score/__main__.py) |
+| [2554](https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i) | Maximum Number of Integers to Choose From a Range I | Medium | [Python](./problems/2554_maximum-number-of-integers-to-choose-from-a-range-i/__main__.py) |
+| [2558](https://leetcode.com/problems/take-gifts-from-the-richest-pile) | Take Gifts From the Richest Pile | Easy | [Python](./problems/2558_take-gifts-from-the-richest-pile/__main__.py) |
+| [2559](https://leetcode.com/problems/count-vowel-strings-in-ranges) | Count Vowel Strings in Ranges | Medium | [Python](./problems/2559_count-vowel-strings-in-ranges/__main__.py) |
+| [2577](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid) | Minimum Time to Visit a Cell In a Grid | Hard | [Python](./problems/2577_minimum-time-to-visit-a-cell-in-a-grid/__main__.py) |
 | [2597](https://leetcode.com/problems/the-number-of-beautiful-subsets) | The Number of Beautiful Subsets | Medium | [Python](./problems/2597_the-number-of-beautiful-subsets/__main__.py) |
 | [2601](https://leetcode.com/problems/prime-subtraction-operation) | Prime Subtraction Operation | Medium | [Python](./problems/2601_prime-subtraction-operation/__main__.py) |
 | [2610](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions) | Convert an Array Into a 2D Array With Conditions | Medium | [Python](./problems/2610_convert-an-array-into-a-2d-array-with-conditions/__main__.py) |
 | [2616](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs) | Minimize the Maximum Difference of Pairs | Medium | [Python](./problems/2616_minimize-the-maximum-difference-of-pairs/__main__.py) |
 | [2642](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Design Graph With Shortest Path Calculator | Hard | [Python](./problems/2642_design-graph-with-shortest-path-calculator/__main__.py) |
+| [2657](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays) | Find the Prefix Common Array of Two Arrays | Medium | [Python](./problems/2657_find-the-prefix-common-array-of-two-arrays/__main__.py) |
 | [2706](https://leetcode.com/problems/buy-two-chocolates) | Buy Two Chocolates | Easy | [Python](./problems/2706_buy-two-chocolates/__main__.py) |
 | [2707](https://leetcode.com/problems/extra-characters-in-a-string) | Extra Characters in a String | Medium | [Python](./problems/2707_extra-characters-in-a-string/__main__.py) |
 | [2709](https://leetcode.com/problems/greatest-common-divisor-traversal) | Greatest Common Divisor Traversal | Hard | [Python](./problems/2709_greatest-common-divisor-traversal/__main__.py) |
 | [2785](https://leetcode.com/problems/sort-vowels-in-a-string) | Sort Vowels in a String | Medium | [Python](./problems/2785_sort-vowels-in-a-string/__main__.py) |
 | [2812](https://leetcode.com/problems/find-the-safest-path-in-a-grid) | Find the Safest Path in a Grid | Medium | [Python](./problems/2812_find-the-safest-path-in-a-grid/__main__.py) |
 | [2816](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list) | Double a Number Represented as a Linked List | Medium | [Python](./problems/2816_double-a-number-represented-as-a-linked-list/__main__.py) |
+| [2825](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments) | Make String a Subsequence Using Cyclic Increments | Medium | [Python](./problems/2825_make-string-a-subsequence-using-cyclic-increments/__main__.py) |
 | [2849](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time) | Determine if a Cell Is Reachable at a Given Time | Medium | [Python](./problems/2849_determine-if-a-cell-is-reachable-at-a-given-time/__main__.py) |
 | [2864](https://leetcode.com/problems/maximum-odd-binary-number) | Maximum Odd Binary Number | Easy | [Python](./problems/2864_maximum-odd-binary-number/__main__.py) |
 | [2870](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty) | Minimum Number of Operations to Make Array Empty | Medium | [Python](./problems/2870_minimum-number-of-operations-to-make-array-empty/__main__.py) |
+| [2924](https://leetcode.com/problems/find-champion-ii) | Find Champion II | Medium | [Python](./problems/2924_find-champion-ii/__main__.py) |
 | [2958](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency) | Length of Longest Subarray With at Most K Frequency | Medium | [Python](./problems/2958_length-of-longest-subarray-with-at-most-k-frequency/__main__.py) |
 | [2962](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times) | Count Subarrays Where Max Element Appears at Least K Times | Medium | [Python](./problems/2962_count-subarrays-where-max-element-appears-at-least-k-times/__main__.py) |
 | [2966](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference) | Divide Array Into Arrays With Max Difference | Medium | [Go](./problems/2966_divide-array-into-arrays-with-max-difference/main.go) |
@@ -935,6 +966,7 @@
 | [3044](https://leetcode.com/problems/most-frequent-prime) | Most Frequent Prime | Medium | [Python](./problems/3044_most-frequent-prime/__main__.py) |
 | [3046](https://leetcode.com/problems/split-the-array) | Split the Array | Easy | [Python](./problems/3046_split-the-array/__main__.py) |
 | [3047](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles) | Find the Largest Area of Square Inside Two Rectangles | Medium | [Python](./problems/3047_find-the-largest-area-of-square-inside-two-rectangles/__main__.py) |
+| [3066](https://leetcode.com/problems/minimum-operations-to-exceed-threshold-value-ii) | Minimum Operations to Exceed Threshold Value II | Medium | [Python](./problems/3066_minimum-operations-to-exceed-threshold-value-ii/__main__.py) |
 | [3069](https://leetcode.com/problems/distribute-elements-into-two-arrays-i) | Distribute Elements Into Two Arrays I | Easy | [Python](./problems/3069_distribute-elements-into-two-arrays-i/__main__.py) |
 | [3070](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k) | Count Submatrices with Top-Left Element and Sum Less Than k | Medium | [Python](./problems/3070_count-submatrices-with-top-left-element-and-sum-less-than-k/__main__.py) |
 | [3071](https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid) | Minimum Operations to Write the Letter Y on a Grid | Medium | [Python](./problems/3071_minimum-operations-to-write-the-letter-y-on-a-grid/__main__.py) |
@@ -950,6 +982,7 @@
 | [3099](https://leetcode.com/problems/harshad-number) | Harshad Number | Easy | [Python](./problems/3099_harshad-number/__main__.py) |
 | [3100](https://leetcode.com/problems/water-bottles-ii) | Water Bottles II | Medium | [Python](./problems/3100_water-bottles-ii/__main__.py) |
 | [3101](https://leetcode.com/problems/count-alternating-subarrays) | Count Alternating Subarrays | Medium | [Python](./problems/3101_count-alternating-subarrays/__main__.py) |
+| [3105](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray) | Longest Strictly Increasing or Strictly Decreasing Subarray | Easy | [Python](./problems/3105_longest-strictly-increasing-or-strictly-decreasing-subarray/__main__.py) |
 | [3110](https://leetcode.com/problems/score-of-a-string) | Score of a String | Easy | [Python](./problems/3110_score-of-a-string/__main__.py) |
 | [3114](https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters) | Latest Time You Can Obtain After Replacing Characters | Easy | [Python](./problems/3114_latest-time-you-can-obtain-after-replacing-characters/__main__.py) |
 | [3115](https://leetcode.com/problems/maximum-prime-difference) | Maximum Prime Difference | Medium | [Python](./problems/3115_maximum-prime-difference/__main__.py) |
@@ -958,17 +991,23 @@
 | [3122](https://leetcode.com/problems/minimum-number-of-operations-to-satisfy-conditions) | Minimum Number of Operations to Satisfy Conditions | Medium | [Python](./problems/3122_minimum-number-of-operations-to-satisfy-conditions/__main__.py) |
 | [3146](https://leetcode.com/problems/permutation-difference-between-two-strings) | Permutation Difference between Two Strings | Easy | [Python](./problems/3146_permutation-difference-between-two-strings/__main__.py) |
 | [3147](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon) | Taking Maximum Energy From the Mystic Dungeon | Medium | [Python](./problems/3147_taking-maximum-energy-from-the-mystic-dungeon/__main__.py) |
+| [3151](https://leetcode.com/problems/special-array-i) | Special Array I | Easy | [Python](./problems/3151_special-array-i/__main__.py) |
+| [3152](https://leetcode.com/problems/special-array-ii) | Special Array II | Medium | [Python](./problems/3152_special-array-ii/__main__.py) |
 | [3162](https://leetcode.com/problems/find-the-number-of-good-pairs-i) | Find the Number of Good Pairs I | Easy | [Python](./problems/3162_find-the-number-of-good-pairs-i/__main__.py) |
 | [3163](https://leetcode.com/problems/string-compression-iii) | String Compression III | Medium | [Python](./problems/3163_string-compression-iii/__main__.py) |
 | [3168](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room) | Minimum Number of Chairs in a Waiting Room | Easy | [Python](./problems/3168_minimum-number-of-chairs-in-a-waiting-room/__main__.py) |
 | [3169](https://leetcode.com/problems/count-days-without-meetings) | Count Days Without Meetings | Medium | [Python](./problems/3169_count-days-without-meetings/__main__.py) |
 | [3170](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars) | Lexicographically Minimum String After Removing Stars | Medium | [Python](./problems/3170_lexicographically-minimum-string-after-removing-stars/__main__.py) |
+| [3174](https://leetcode.com/problems/clear-digits) | Clear Digits | Easy | [Python](./problems/3174_clear-digits/__main__.py) |
 | [3178](https://leetcode.com/problems/find-the-child-who-has-the-ball-after-k-seconds) | Find the Child Who Has the Ball After K Seconds | Easy | [Python](./problems/3178_find-the-child-who-has-the-ball-after-k-seconds/__main__.py) |
 | [3179](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds) | Find the N-th Value After K Seconds | Medium | [Python](./problems/3179_find-the-n-th-value-after-k-seconds/__main__.py) |
 | [3200](https://leetcode.com/problems/maximum-height-of-a-triangle) | Maximum Height of a Triangle | Easy | [Python](./problems/3200_maximum-height-of-a-triangle/__main__.py) |
 | [3201](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i) | Find the Maximum Length of Valid Subsequence I | Medium | [Python](./problems/3201_find-the-maximum-length-of-valid-subsequence-i/__main__.py) |
+| [3223](https://leetcode.com/problems/minimum-length-of-string-after-operations) | Minimum Length of String After Operations | Medium | [Python](./problems/3223_minimum-length-of-string-after-operations/__main__.py) |
+| [3243](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i) | Shortest Distance After Road Addition Queries I | Medium | [Python](./problems/3243_shortest-distance-after-road-addition-queries-i/__main__.py) |
 | [3248](https://leetcode.com/problems/snake-in-matrix) | Snake in Matrix | Easy | [Python](./problems/3248_snake-in-matrix/__main__.py) |
 | [3249](https://leetcode.com/problems/count-the-number-of-good-nodes) | Count the Number of Good Nodes | Medium | [Python](./problems/3249_count-the-number-of-good-nodes/__main__.py) |
+| [3264](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i) | Final Array State After K Multiplication Operations I | Easy | [Python](./problems/3264_final-array-state-after-k-multiplication-operations-i/__main__.py) |
 | [3370](https://leetcode.com/problems/smallest-number-with-all-set-bits) | Smallest Number With All Set Bits | Easy | [Python](./problems/3370_smallest-number-with-all-set-bits/__main__.py) |
 | [3371](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array) | Identify the Largest Outlier in an Array | Medium | [Python](./problems/3371_identify-the-largest-outlier-in-an-array/__main__.py) |
 | [3372](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i) | Maximize the Number of Target Nodes After Connecting Trees I | Medium | [Python](./problems/3372_maximize-the-number-of-target-nodes-after-connecting-trees-i/__main__.py) |
