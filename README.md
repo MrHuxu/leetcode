@@ -908,6 +908,7 @@
 | [2540](https://leetcode.com/problems/minimum-common-value) | Minimum Common Value | Easy | [Python](./problems/2540_minimum-common-value/__main__.py) |
 | [2542](https://leetcode.com/problems/maximum-subsequence-score) | Maximum Subsequence Score | Medium | [Python](./problems/2542_maximum-subsequence-score/__main__.py) |
 | [2597](https://leetcode.com/problems/the-number-of-beautiful-subsets) | The Number of Beautiful Subsets | Medium | [Python](./problems/2597_the-number-of-beautiful-subsets/__main__.py) |
+| [2601](https://leetcode.com/problems/prime-subtraction-operation) | Prime Subtraction Operation | Medium | [Python](./problems/2601_prime-subtraction-operation/__main__.py) |
 | [2610](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions) | Convert an Array Into a 2D Array With Conditions | Medium | [Python](./problems/2610_convert-an-array-into-a-2d-array-with-conditions/__main__.py) |
 | [2616](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs) | Minimize the Maximum Difference of Pairs | Medium | [Python](./problems/2616_minimize-the-maximum-difference-of-pairs/__main__.py) |
 | [2642](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) | Design Graph With Shortest Path Calculator | Hard | [Python](./problems/2642_design-graph-with-shortest-path-calculator/__main__.py) |
