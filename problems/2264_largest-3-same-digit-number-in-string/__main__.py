@@ -5,4 +5,4 @@ class Solution:
             if not (num[i] == num[i + 1] and num[i + 1] == num[i + 2]):
                 continue
             largest = max(int(num[i]), largest)
-        return '' if largest == -1 else str(largest) * 3
+        return "" if largest == -1 else str(largest) * 3

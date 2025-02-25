@@ -1,6 +1,6 @@
 class TrieNode:
     def __init__(self):
-        self.children: Dict[str,TrieNode] = {}
+        self.children: Dict[str, TrieNode] = {}
 
 
 class Solution:
@@ -23,7 +23,9 @@ class Solution:
 
     def getLongestPrefix(self, trie1: TrieNode, trie2: TrieNode) -> int:
         ret = 0
-        for i in ['0', '1', '2', '3', '4','5','6', '7', '8', '9']:
+        for i in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]:
             if i in trie1.children and i in trie2.children:
-                ret = max(ret, self.getLongestPrefix(trie1.children[i], trie2.children[i]) + 1)
+                ret = max(
+                    ret, self.getLongestPrefix(trie1.children[i], trie2.children[i]) + 1
+                )
         return ret

@@ -7,4 +7,3 @@ class Solution:
                 ret = pre_sum + num
             pre_sum += num
         return ret
-        

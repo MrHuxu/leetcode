@@ -31,7 +31,11 @@ class Solution:
         for row in grid:
             tmp = root
             for val in row:
-                tmp = tmp.children[val] if tmp is not None and val in tmp.children else None
+                tmp = (
+                    tmp.children[val]
+                    if tmp is not None and val in tmp.children
+                    else None
+                )
             ret += tmp.cnt if tmp is not None else 0
         return ret
 
@@ -39,7 +43,10 @@ class Solution:
 class TestSolution(unittest.TestCase):
     def test(self):
         solution = Solution()
-        self.assertEqual(solution.equalPairs(
-            [[3, 2, 1], [1, 7, 6], [2, 7, 7]]), 1)
-        self.assertEqual(solution.equalPairs(
-            [[3, 1, 2, 2], [1, 4, 4, 5], [2, 4, 2, 2], [2, 4, 2, 2]]), 3)
+        self.assertEqual(solution.equalPairs([[3, 2, 1], [1, 7, 6], [2, 7, 7]]), 1)
+        self.assertEqual(
+            solution.equalPairs(
+                [[3, 1, 2, 2], [1, 4, 4, 5], [2, 4, 2, 2], [2, 4, 2, 2]]
+            ),
+            3,
+        )

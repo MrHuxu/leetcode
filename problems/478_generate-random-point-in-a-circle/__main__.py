@@ -4,7 +4,7 @@ class Solution:
         self.r, self.x, self.y = radius, x_center, y_center
 
     def randPoint(self) -> List[float]:
-        ang, r = random.uniform(0, 2 * math.pi), math.sqrt(random.uniform(0, self.r ** 2))
+        ang, r = random.uniform(0, 2 * math.pi), math.sqrt(random.uniform(0, self.r**2))
         return [self.x + r * math.cos(ang), self.y + r * math.sin(ang)]
 
 

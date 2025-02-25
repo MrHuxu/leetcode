@@ -5,10 +5,10 @@ class Solution:
         for i in range(query_row):
             for j in range(i + 1):
                 tmp = max(0, (dp[i][j] - 1) / 2)
-                dp[i + 1][j] += tmp 
+                dp[i + 1][j] += tmp
                 dp[i + 1][j + 1] += tmp
         return min(1, dp[query_row][query_glass])
 
 
 solution = Solution()
-print(solution.champagneTower(25,6, 1))
+print(solution.champagneTower(25, 6, 1))

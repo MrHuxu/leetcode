@@ -18,7 +18,8 @@ class Solution:
                     left += 1
         return ret
 
+
 solution = Solution()
-print(solution.maxFrequency([1,2,4], 5))
-print(solution.maxFrequency(nums = [1,4,8,13], k = 5))
-print(solution.maxFrequency(nums = [3,9,6], k = 2))
+print(solution.maxFrequency([1, 2, 4], 5))
+print(solution.maxFrequency(nums=[1, 4, 8, 13], k=5))
+print(solution.maxFrequency(nums=[3, 9, 6], k=2))

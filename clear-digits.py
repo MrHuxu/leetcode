@@ -10,5 +10,6 @@ class Solution:
             ch for i, ch in enumerate(s) if ch.isalpha() and i not in remove_char_ids
         )
 
-print(Solution().clearDigits('abc'))
-print(Solution().clearDigits('cb34'))
+
+print(Solution().clearDigits("abc"))
+print(Solution().clearDigits("cb34"))

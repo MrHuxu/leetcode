@@ -12,7 +12,9 @@ class Solution:
                     return False
         return True
 
-    def dfs(self, idx: int, div: int, idxDiv: Dict[int, int], graph: List[List[int]]) -> bool:
+    def dfs(
+        self, idx: int, div: int, idxDiv: Dict[int, int], graph: List[List[int]]
+    ) -> bool:
         if idx in idxDiv and idxDiv[idx] != div:
             return False
 

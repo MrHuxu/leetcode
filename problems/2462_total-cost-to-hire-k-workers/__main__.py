@@ -6,8 +6,7 @@ class Solution:
     def totalCost(self, costs: List[int], k: int, candidates: int) -> int:
         ret = 0
 
-        left_idx, right_idx, left_queue, right_queue = 0, len(
-            costs) - 1, [], []
+        left_idx, right_idx, left_queue, right_queue = 0, len(costs) - 1, [], []
 
         while k > 0:
             while len(left_queue) < candidates and left_idx <= right_idx:

@@ -16,8 +16,7 @@ class Solution:
 
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
         n = len(grid)
-        queue: List[Tuple[int, int, int]] = [
-            (0, 0, 1)] if grid[0][0] == 0 else []
+        queue: List[Tuple[int, int, int]] = [(0, 0, 1)] if grid[0][0] == 0 else []
         while len(queue) > 0:
             x, y, step = queue.pop(0)
             if x == n - 1 and y == n - 1:
@@ -31,7 +30,9 @@ class Solution:
         return -1
 
     def validate(self, grid: List[List[int]], x: int, y: int) -> bool:
-        return x >= 0 and y >= 0 and x < len(grid) and y < len(grid[0]) and grid[x][y] == 0
+        return (
+            x >= 0 and y >= 0 and x < len(grid) and y < len(grid[0]) and grid[x][y] == 0
+        )
 
 
 class TestSolution(unittest.TestCase):
@@ -58,7 +59,8 @@ class TestSolution(unittest.TestCase):
             [0, 1, 1, 0, 1, 0],
             [0, 0, 0, 1, 1, 0],
             [1, 1, 1, 1, 1, 0],
-            [1, 1, 1, 1, 1, 0]]
+            [1, 1, 1, 1, 1, 0],
+        ]
         self.assertEqual(14, Solution().shortestPathBinaryMatrix(grid))
 
         self.assertEqual(Solution().shortestPathBinaryMatrix([[0]]), 1)

@@ -38,7 +38,13 @@ class Solution:
                 nx, ny = x + dx, y + dy
                 if (nx, ny) in visited:
                     continue
-                if 0 <= nx and nx < len(board) and 0 <= ny and ny < len(board[0]) and board[nx][ny] == 0:
+                if (
+                    0 <= nx
+                    and nx < len(board)
+                    and 0 <= ny
+                    and ny < len(board[0])
+                    and board[nx][ny] == 0
+                ):
                     board[nx][ny] = 1
                     queue.append((nx, ny))
                     visited.add((nx, ny))
@@ -46,9 +52,12 @@ class Solution:
 
 
 solution = Solution()
-print(solution.latestDayToCross(row=2, col=2,
-      cells=[[1, 1], [2, 1], [1, 2], [2, 2]]))
-print(solution.latestDayToCross(row=2, col=2,
-      cells=[[1, 1], [1, 2], [2, 1], [2, 2]]))
-print(solution.latestDayToCross(row=3, col=3, cells=[
-      [1, 2], [2, 1], [3, 3], [2, 2], [1, 1], [1, 3], [2, 3], [3, 2], [3, 1]]))
+print(solution.latestDayToCross(row=2, col=2, cells=[[1, 1], [2, 1], [1, 2], [2, 2]]))
+print(solution.latestDayToCross(row=2, col=2, cells=[[1, 1], [1, 2], [2, 1], [2, 2]]))
+print(
+    solution.latestDayToCross(
+        row=3,
+        col=3,
+        cells=[[1, 2], [2, 1], [3, 3], [2, 2], [1, 1], [1, 3], [2, 3], [3, 2], [3, 1]],
+    )
+)

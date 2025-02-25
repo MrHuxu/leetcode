@@ -14,7 +14,8 @@ class Solution:
                 return arr[idx_1]
         return arr[idx_1]
 
+
 solution = Solution()
-print(solution.getWinner(arr = [2,1,3,5,4,6,7], k = 2))
-print(solution.getWinner(arr = [3,2,1], k = 10))
-print(solution.getWinner([1,25,35,42,68,70],1))
+print(solution.getWinner(arr=[2, 1, 3, 5, 4, 6, 7], k=2))
+print(solution.getWinner(arr=[3, 2, 1], k=10))
+print(solution.getWinner([1, 25, 35, 42, 68, 70], 1))

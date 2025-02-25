@@ -23,6 +23,7 @@ class Solution:
                 adjacent.setdefault(node.val, []).append(node.right.val)
                 adjacent.setdefault(node.right.val, []).append(node.val)
                 buildGraph(node.right)
+
         buildGraph(root)
 
         def dfs(val: int, distance: int):
@@ -33,6 +34,7 @@ class Solution:
                         dfs(neighbor, distance + 1)
             else:
                 ret.append(val)
+
         dfs(target.val, 0)
 
         return ret

@@ -14,7 +14,16 @@ class Solution:
                 ret = max(ret, len(adj[i]) + len(adj[j]) - (1 if i in adj[j] else 0))
         return ret
 
+
 solution = Solution()
-print(solution.maximalNetworkRank(4, [[0,1],[0,3],[1,2],[1,3]]))
-print(solution.maximalNetworkRank(n = 5, roads = [[0,1],[0,3],[1,2],[1,3],[2,3],[2,4]]))
-print(solution.maximalNetworkRank(n = 8, roads = [[0,1],[1,2],[2,3],[2,4],[5,6],[5,7]]))
+print(solution.maximalNetworkRank(4, [[0, 1], [0, 3], [1, 2], [1, 3]]))
+print(
+    solution.maximalNetworkRank(
+        n=5, roads=[[0, 1], [0, 3], [1, 2], [1, 3], [2, 3], [2, 4]]
+    )
+)
+print(
+    solution.maximalNetworkRank(
+        n=8, roads=[[0, 1], [1, 2], [2, 3], [2, 4], [5, 6], [5, 7]]
+    )
+)

@@ -15,18 +15,18 @@ class Solution:
             else:
                 cnt1 -= 1
                 cnt2 -= 1
-        
+
         cnt1, cnt2 = 0, 0
         for num in nums:
             if num == candidate1:
                 cnt1 += 1
             elif num == candidate2:
                 cnt2 += 1
-        
+
         n, ret = len(nums) / 3, []
         if cnt1 > n:
             ret.append(candidate1)
         if cnt2 > n:
             ret.append(candidate2)
-        
+
         return ret

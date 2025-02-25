@@ -28,8 +28,5 @@ class Solution:
 class TestSolution(unittest.TestCase):
     def test(self):
         solution = Solution()
-        self.assertEqual(solution.maxScore(
-            [1, 3, 3, 2], [2, 1, 3, 4], 3), 12)
-        self.assertEqual(solution.maxScore(
-            [4, 2, 3, 1, 1], [7, 5, 10, 9, 6], 1
-        ), 30)
+        self.assertEqual(solution.maxScore([1, 3, 3, 2], [2, 1, 3, 4], 3), 12)
+        self.assertEqual(solution.maxScore([4, 2, 3, 1, 1], [7, 5, 10, 9, 6], 1), 30)

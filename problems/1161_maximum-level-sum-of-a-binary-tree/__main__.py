@@ -39,5 +39,9 @@ class Solution:
 class TestSolution(unittest.TestCase):
     def test(self):
         solution = Solution()
-        self.assertEqual(solution.maxLevelSum(
-            TreeNode(1, TreeNode(7), TreeNode(0, TreeNode(-8), None))), 2)
+        self.assertEqual(
+            solution.maxLevelSum(
+                TreeNode(1, TreeNode(7), TreeNode(0, TreeNode(-8), None))
+            ),
+            2,
+        )

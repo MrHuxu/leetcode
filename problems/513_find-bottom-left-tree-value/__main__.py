@@ -10,8 +10,10 @@ class Solution:
         while True:
             next_row = []
             for node in row:
-                if node.left: next_row.append(node.left)
-                if node.right: next_row.append(node.right)
+                if node.left:
+                    next_row.append(node.left)
+                if node.right:
+                    next_row.append(node.right)
             if not next_row:
                 break
             row = next_row

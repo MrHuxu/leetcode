@@ -20,13 +20,18 @@ class Solution:
             return sys.maxsize, -sys.maxsize, sys.maxsize
         left_min, left_max, left_ret = self.helper(root.left)
         right_min, right_max, right_ret = self.helper(root.right)
-        ret = min(left_ret, right_ret, abs(
-            left_max - root.val), abs(right_min - root.val))
+        ret = min(
+            left_ret, right_ret, abs(left_max - root.val), abs(right_min - root.val)
+        )
         return min(left_min, root.val), max(right_max, root.val), ret
 
 
 class TestSolution(unittest.TestCase):
     def test(self):
         solution = Solution()
-        self.assertEqual(solution.getMinimumDifference(
-            TreeNode(4, TreeNode(2, TreeNode(1), TreeNode(3)))), 1)
+        self.assertEqual(
+            solution.getMinimumDifference(
+                TreeNode(4, TreeNode(2, TreeNode(1), TreeNode(3)))
+            ),
+            1,
+        )

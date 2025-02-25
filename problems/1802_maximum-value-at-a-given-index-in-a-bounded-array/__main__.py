@@ -7,16 +7,29 @@ class Solution:
         while left <= right:
             mid = (left + right) // 2
             leftLen = index
-            leftMin, leftMax = mid - leftLen if mid > leftLen else 1, mid - 1 if mid > 1 else 1
-            leftSum = (leftMin + leftMax) * (leftMax - leftMin + 1) // 2 + (leftLen - leftMax if leftLen >= leftMax else 0) if leftLen > 0 else 0
+            leftMin, leftMax = mid - leftLen if mid > leftLen else 1, (
+                mid - 1 if mid > 1 else 1
+            )
+            leftSum = (
+                (leftMin + leftMax) * (leftMax - leftMin + 1) // 2
+                + (leftLen - leftMax if leftLen >= leftMax else 0)
+                if leftLen > 0
+                else 0
+            )
             rightLen = n - index
             rightMin, rightMax = mid - rightLen + 1 if rightLen <= mid else 1, mid
-            rightSum = (rightMin + rightMax) * (rightMax - rightMin + 1) // 2 + (rightLen - rightMax if rightLen >= rightMax else 0) if rightLen > 0 else 0
+            rightSum = (
+                (rightMin + rightMax) * (rightMax - rightMin + 1) // 2
+                + (rightLen - rightMax if rightLen >= rightMax else 0)
+                if rightLen > 0
+                else 0
+            )
             if leftSum + rightSum <= maxSum:
                 left = mid + 1
             else:
                 right = mid - 1
-        return right 
+        return right
+
 
 class TestSolution(unittest.TestCase):
     def test(self):

@@ -9,7 +9,7 @@ class Solution:
         for i in range(len(isConnected)):
             if i in visited:
                 continue
-            
+
             ret += 1
             self.dfs(i, visited, isConnected)
         return ret
@@ -20,8 +20,9 @@ class Solution:
             if isConnected[start][i] == 1 and i not in visited:
                 self.dfs(i, visited, isConnected)
 
+
 class TestSolution(unittest.TestCase):
     def test(self):
         solution = Solution()
-        self.assertEqual(solution.findCircleNum([[1,1,0],[1,1,0],[0,0,1]]), 2)
-        self.assertEqual(solution.findCircleNum([[1,0,0],[0,1,0],[0,0,1]]), 3)
+        self.assertEqual(solution.findCircleNum([[1, 1, 0], [1, 1, 0], [0, 0, 1]]), 2)
+        self.assertEqual(solution.findCircleNum([[1, 0, 0], [0, 1, 0], [0, 0, 1]]), 3)

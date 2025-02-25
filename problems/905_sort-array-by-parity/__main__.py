@@ -8,7 +8,7 @@ class Solution:
             if nums[j] % 2 == 1:
                 j -= 1
                 continue
-            
+
             nums[i], nums[j] = nums[j], nums[i]
             i += 1
             j -= 1

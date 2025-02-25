@@ -2,15 +2,12 @@ from math import ceil
 from typing import Dict
 
 
-OPERATIONS = [
-    [4, 0],
-    [3, 1],
-    [2, 2],
-    [1, 3]
-]
+OPERATIONS = [[4, 0], [3, 1], [2, 2], [1, 3]]
+
 
 class Solution:
-    dp: Dict[int,Dict[int, float]] = {}
+    dp: Dict[int, Dict[int, float]] = {}
+
     def soupServings(self, n: int) -> float:
         m = ceil(n / 25)
         for i in range(m + 1):
@@ -29,12 +26,13 @@ class Solution:
 
         if a in self.dp and b in self.dp[a]:
             return self.dp[a][b]
-        
+
         ret = 0
         for op in OPERATIONS:
             ret += 0.25 * self.dfs(a - op[0], b - op[1])
         self.dp[a][b] = ret
         return ret
+
 
 solution = Solution()
 print(solution.soupServings(50))

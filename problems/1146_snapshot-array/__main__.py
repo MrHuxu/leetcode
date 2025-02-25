@@ -6,7 +6,6 @@ class SnapshotArray:
     def __init__(self, length: int):
         self.snap_id = 0
         self.data: List[List[List[int]]] = [[] for _ in range(length)]
-        
 
     def set(self, index: int, val: int) -> None:
         if len(self.data[index]) == 0 or self.data[index][-1][0] != self.snap_id:
@@ -17,7 +16,6 @@ class SnapshotArray:
     def snap(self) -> int:
         self.snap_id += 1
         return self.snap_id - 1
-        
 
     def get(self, index: int, snap_id: int) -> int:
         left, right = 0, len(self.data[index]) - 1
@@ -36,7 +34,7 @@ class SnapshotArray:
 # param_2 = obj.snap()
 # param_3 = obj.get(index,snap_id)
 snapshotArray = SnapshotArray(3)
-snapshotArray.set(0,5)
+snapshotArray.set(0, 5)
 snapshotArray.snap()
-snapshotArray.set(0,6)
+snapshotArray.set(0, 6)
 print(snapshotArray.get(0, 0))

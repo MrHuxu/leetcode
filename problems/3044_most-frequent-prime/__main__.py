@@ -9,6 +9,7 @@ DIRECTIONS = [
     (1, 1),
 ]
 
+
 class Solution:
     def mostFrequentPrime(self, mat: List[List[int]]) -> int:
         nums: Dict[int, int] = {}
@@ -27,7 +28,7 @@ class Solution:
             if self.is_prime(num):
                 return num
         return -1
-    
+
     def is_prime(self, number):
         if number < 2:
             return False

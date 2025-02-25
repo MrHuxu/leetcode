@@ -12,6 +12,7 @@ class MyHashSet:
     def contains(self, key: int) -> bool:
         return self.data[key]
 
+
 # Your MyHashSet object will be instantiated and called as such:
 # obj = MyHashSet()
 # obj.add(key)

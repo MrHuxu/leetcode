@@ -1,4 +1,5 @@
-MOD = 10 ** 9 + 7
+MOD = 10**9 + 7
+
 
 class Solution:
     def countVowelPermutation(self, n: int) -> int:
@@ -12,6 +13,7 @@ class Solution:
             cnt[4] = (c1) % MOD
 
         return sum(cnt) % MOD
+
 
 solution = Solution()
 print(solution.countVowelPermutation(1))

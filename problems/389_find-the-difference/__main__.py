@@ -7,4 +7,4 @@ class Solution:
             if ch not in cnt or cnt[ch] == 0:
                 return ch
             cnt[ch] -= 1
-        return ''
+        return ""

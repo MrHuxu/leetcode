@@ -14,4 +14,5 @@ class Solution:
             return (
                 (None, True) if l_no_1 and r_no_1 and node.val != 1 else (node, False)
             )
+
         return helper(root)[0]

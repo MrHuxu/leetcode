@@ -9,8 +9,7 @@ class Solution:
             )
 
         return [
-            nums[idx]
-            for _, idx in sorted((conv(num), i) for i, num in enumerate(nums))
+            nums[idx] for _, idx in sorted((conv(num), i) for i, num in enumerate(nums))
         ]
 
 

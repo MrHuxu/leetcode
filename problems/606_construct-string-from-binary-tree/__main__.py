@@ -7,5 +7,13 @@
 class Solution:
     def tree2str(self, root: Optional[TreeNode]) -> str:
         if not root:
-            return ''
-        return str(root.val) + (f'({self.tree2str(root.left)})' if root.left else ('()' if root.right else '')) + (f'({self.tree2str(root.right)})' if root.right else '')
+            return ""
+        return (
+            str(root.val)
+            + (
+                f"({self.tree2str(root.left)})"
+                if root.left
+                else ("()" if root.right else "")
+            )
+            + (f"({self.tree2str(root.right)})" if root.right else "")
+        )

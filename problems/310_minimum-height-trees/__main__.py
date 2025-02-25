@@ -16,4 +16,3 @@ class Solution:
                 for neighbor in adj[n]:
                     in_degree[neighbor] -= 1
         return list(nodes)
-        

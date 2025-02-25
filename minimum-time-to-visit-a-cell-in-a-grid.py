@@ -17,7 +17,7 @@ class Solution:
             time, x, y = heapq.heappop(queue)
             if x == m - 1 and y == n - 1:
                 return time
-            
+
             if (x, y) in visited:
                 continue
             visited.add((x, y))

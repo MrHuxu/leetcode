@@ -13,15 +13,17 @@ class UndergroundSystem:
 
     def checkOut(self, id: int, stationName: str, t: int) -> None:
         start_station, start_time = self.users[id]
-        self.total_time.setdefault(
-            start_station, {}).setdefault(stationName, 0)
+        self.total_time.setdefault(start_station, {}).setdefault(stationName, 0)
         self.total_cnt.setdefault(start_station, {}).setdefault(stationName, 0)
         self.total_time[start_station][stationName] += t - start_time
         self.total_cnt[start_station][stationName] += 1
         del self.users[id]
 
     def getAverageTime(self, startStation: str, endStation: str) -> float:
-        return self.total_time[startStation][endStation] / self.total_cnt[startStation][endStation]
+        return (
+            self.total_time[startStation][endStation]
+            / self.total_cnt[startStation][endStation]
+        )
 
 
 # Your UndergroundSystem object will be instantiated and called as such:

@@ -11,4 +11,3 @@ class Solution:
             if v % n != 0:
                 return False
         return True
-                

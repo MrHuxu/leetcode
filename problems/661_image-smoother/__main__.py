@@ -9,6 +9,7 @@ DIRECTIONS = [
     [1, 1],
 ]
 
+
 class Solution:
     def imageSmoother(self, img: List[List[int]]) -> List[List[int]]:
         m, n = len(img), len(img[0])

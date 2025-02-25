@@ -12,7 +12,7 @@ class Solution:
             else:
                 left = mid + 1
         return left
-        
+
     def validate(self, val: int, nums: List[int], p: int) -> bool:
         i, cnt = 0, 0
         while i < len(nums) - 1:
@@ -23,6 +23,7 @@ class Solution:
                 return True
             i += 1
         return False
+
 
 solution = Solution()
 print(solution.minimizeMax([10, 1, 2, 7, 1, 3], 2))

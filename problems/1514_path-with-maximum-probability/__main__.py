@@ -2,7 +2,14 @@ from typing import Dict, List
 
 
 class Solution:
-    def maxProbability(self, n: int, edges: List[List[int]], succProb: List[float], start: int, end: int) -> float:
+    def maxProbability(
+        self,
+        n: int,
+        edges: List[List[int]],
+        succProb: List[float],
+        start: int,
+        end: int,
+    ) -> float:
         graph: Dict[int, Dict[int, float]] = {i: {} for i in range(n)}
         for i, edge in enumerate(edges):
             graph[edge[0]][edge[1]] = succProb[i]
@@ -26,11 +33,23 @@ class Solution:
 
 
 solution = Solution()
-print(solution.maxProbability(n=3, edges=[[0, 1], [1, 2], [
-      0, 2]], succProb=[0.5, 0.5, 0.2], start=0, end=2))
-print(solution.maxProbability(n=3, edges=[[0, 1], [1, 2], [
-      0, 2]], succProb=[0.5, 0.5, 0.3], start=0, end=2))
-print(solution.maxProbability(n=3, edges=[[0, 1]], succProb=[
-      0.5], start=0, end=2))
-print(solution.maxProbability(5, [[1, 4], [2, 4], [0, 4], [0, 3], [
-      0, 2], [2, 3]], [0.37, 0.17, 0.93, 0.23, 0.39, 0.04], 3, 4))
+print(
+    solution.maxProbability(
+        n=3, edges=[[0, 1], [1, 2], [0, 2]], succProb=[0.5, 0.5, 0.2], start=0, end=2
+    )
+)
+print(
+    solution.maxProbability(
+        n=3, edges=[[0, 1], [1, 2], [0, 2]], succProb=[0.5, 0.5, 0.3], start=0, end=2
+    )
+)
+print(solution.maxProbability(n=3, edges=[[0, 1]], succProb=[0.5], start=0, end=2))
+print(
+    solution.maxProbability(
+        5,
+        [[1, 4], [2, 4], [0, 4], [0, 3], [0, 2], [2, 3]],
+        [0.37, 0.17, 0.93, 0.23, 0.39, 0.04],
+        3,
+        4,
+    )
+)

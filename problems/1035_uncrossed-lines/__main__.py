@@ -21,5 +21,6 @@ class TestSolution(unittest.TestCase):
     def test(self):
         solution = Solution()
         self.assertEqual(2, solution.maxUncrossedLines([1, 2, 4], [1, 4, 2]))
-        self.assertEqual(3, solution.maxUncrossedLines(
-            [2, 5, 1, 2, 5], [10, 5, 2, 1, 5, 2]))
+        self.assertEqual(
+            3, solution.maxUncrossedLines([2, 5, 1, 2, 5], [10, 5, 2, 1, 5, 2])
+        )

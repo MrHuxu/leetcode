@@ -1,5 +1,6 @@
 from math import ceil
 
+
 class Solution:
     def kthGrammar(self, n: int, k: int) -> int:
         if n == 1:

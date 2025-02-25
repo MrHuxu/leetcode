@@ -23,18 +23,20 @@ class Solution:
         (_, maxVal) = self.helper(head, 0, n // 2)
         return maxVal
 
-    def helper(self, head: Optional[ListNode], step: int, half: int) -> Tuple[Optional[ListNode], int]:
+    def helper(
+        self, head: Optional[ListNode], step: int, half: int
+    ) -> Tuple[Optional[ListNode], int]:
         if step == half:
             return (head, head.val if head else 0)
 
         (twin, maxVal) = self.helper(head.next if head else None, step + 1, half)
-        maxVal = max(maxVal, (head.val if head else 0) +
-                     (twin.val if twin else 0))
+        maxVal = max(maxVal, (head.val if head else 0) + (twin.val if twin else 0))
         return (twin.next if twin else None, maxVal)
 
 
 class TestSolution(unittest.TestCase):
     def test(self):
         solution = Solution()
-        self.assertEqual(solution.pairSum(
-            ListNode(5, ListNode(4, ListNode(2, ListNode(1))))), 6)
+        self.assertEqual(
+            solution.pairSum(ListNode(5, ListNode(4, ListNode(2, ListNode(1))))), 6
+        )

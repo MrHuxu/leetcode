@@ -2,7 +2,9 @@ from typing import Dict, List, Set
 
 
 class Solution:
-    def numBusesToDestination(self, routes: List[List[int]], source: int, target: int) -> int:
+    def numBusesToDestination(
+        self, routes: List[List[int]], source: int, target: int
+    ) -> int:
         if source == target:
             return 0
 
@@ -22,12 +24,20 @@ class Solution:
                 if target in routes[bus]:
                     return step
                 for next_stop in routes[bus]:
-                    if next_stop not in visited_stop or step + 1 < visited_stop[next_stop]:
+                    if (
+                        next_stop not in visited_stop
+                        or step + 1 < visited_stop[next_stop]
+                    ):
                         visited_stop[next_stop] = step + 1
                         queue.append([next_stop, step + 1])
         return -1
 
+
 solution = Solution()
-print(solution.numBusesToDestination([[1,2,7],[3,6,7]], 1, 6))
-print(solution.numBusesToDestination([[1,2,7],[3,6,7]], 1, 2))
-print(solution.numBusesToDestination([[7,12],[4,5,15],[6],[15,19],[9,12,13]], 15, 12))
+print(solution.numBusesToDestination([[1, 2, 7], [3, 6, 7]], 1, 6))
+print(solution.numBusesToDestination([[1, 2, 7], [3, 6, 7]], 1, 2))
+print(
+    solution.numBusesToDestination(
+        [[7, 12], [4, 5, 15], [6], [15, 19], [9, 12, 13]], 15, 12
+    )
+)

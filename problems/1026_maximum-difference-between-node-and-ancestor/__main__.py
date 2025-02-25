@@ -7,7 +7,7 @@
 class Solution:
     def maxAncestorDiff(self, root: Optional[TreeNode]) -> int:
         return self.helper(root)[0]
-    
+
     def helper(self, root: Optional[TreeNode]) -> Tuple[int, int, int]:
         if not root.left and not root.right:
             return 0, root.val, root.val
@@ -18,4 +18,8 @@ class Solution:
                 max_diff = max(max_diff, sub_max_diff)
                 min_val = min(min_val, sub_min)
                 max_val = max(max_val, sub_max)
-        return max(max_diff, abs(root.val - min_val), abs(root.val - max_val)), min_val, max_val
+        return (
+            max(max_diff, abs(root.val - min_val), abs(root.val - max_val)),
+            min_val,
+            max_val,
+        )

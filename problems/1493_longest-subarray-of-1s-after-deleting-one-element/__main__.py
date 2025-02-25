@@ -24,8 +24,11 @@ class Solution:
             if c > 0:
                 ret = max(ret, c)
             elif c == -1:
-                ret = max(ret, (cnt[i - 1] if i > 0 else 0) +
-                          (cnt[i + 1] if i < len(cnt) - 1 else 0))
+                ret = max(
+                    ret,
+                    (cnt[i - 1] if i > 0 else 0)
+                    + (cnt[i + 1] if i < len(cnt) - 1 else 0),
+                )
         if not has_1:
             return 0
         if has_0:

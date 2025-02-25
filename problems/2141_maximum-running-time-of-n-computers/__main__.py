@@ -14,7 +14,10 @@ class Solution:
         return left - 1
 
     def check(self, time: int, n: int, batteries: List[int]) -> bool:
-        return sum(time if battery > time else battery for battery in batteries) / n >= time
+        return (
+            sum(time if battery > time else battery for battery in batteries) / n
+            >= time
+        )
 
 
 solution = Solution()

@@ -2,7 +2,7 @@ class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
         cnt = [0] * 26
         for t in tasks:
-            cnt[ord(t) - ord('A')] += 1
+            cnt[ord(t) - ord("A")] += 1
         cnt.sort(key=lambda x: -x)
         chunk = cnt[0] - 1
         idle = chunk * n

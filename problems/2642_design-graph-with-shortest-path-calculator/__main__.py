@@ -8,11 +8,9 @@ class Graph:
         self.adj = {}
         for edge in edges:
             self.adj.setdefault(edge[0], {})[edge[1]] = edge[2]
-        
 
     def addEdge(self, edge: List[int]) -> None:
         self.adj.setdefault(edge[0], {})[edge[1]] = edge[2]
-        
 
     def shortestPath(self, node1: int, node2: int) -> int:
         if node1 == node2:
@@ -33,7 +31,6 @@ class Graph:
                     visited[neighbor] = next_distance
                     queue.append((neighbor, next_distance))
         return ret
-        
 
 
 # Your Graph object will be instantiated and called as such:

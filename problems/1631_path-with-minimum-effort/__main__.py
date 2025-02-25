@@ -1,11 +1,7 @@
 from typing import List
 
-DIRECTIONS = [
-    [-1, 0],
-    [0, 1],
-    [1, 0],
-    [0, -1]
-]
+DIRECTIONS = [[-1, 0], [0, 1], [1, 0], [0, -1]]
+
 
 class Solution:
     def minimumEffortPath(self, heights: List[List[int]]) -> int:
@@ -14,18 +10,27 @@ class Solution:
         low, high = 0, max_height - min_height
         while low < high:
             mid = (low + high) // 2
-            visited: List[List[bool]] = [[False for _ in range(len(heights[0]))] for _ in range(len(heights))]
+            visited: List[List[bool]] = [
+                [False for _ in range(len(heights[0]))] for _ in range(len(heights))
+            ]
             if self.dfs(mid, 0, 0, visited, heights):
                 high = mid
             else:
                 low = mid + 1
         return high
 
-    def dfs(self, distance: int, i: int, j: int, visited: List[List[bool]], heights: List[List[int]]) -> bool:
-        if i == len(heights) -1 and j == len(heights[0]) - 1:
+    def dfs(
+        self,
+        distance: int,
+        i: int,
+        j: int,
+        visited: List[List[bool]],
+        heights: List[List[int]],
+    ) -> bool:
+        if i == len(heights) - 1 and j == len(heights[0]) - 1:
             return True
         visited[i][j] = True
-        
+
         ret = False
         for direction in DIRECTIONS:
             x, y = i + direction[0], j + direction[1]

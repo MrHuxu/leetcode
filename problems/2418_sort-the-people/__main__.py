@@ -7,4 +7,4 @@ class Solution:
 
 
 print(Solution().sortPeople(names=["Mary", "John", "Emma"], heights=[180, 165, 170]))
-print(Solution().sortPeople(["Alice","Bob","Bob"], heights = [155,185,150]))
+print(Solution().sortPeople(["Alice", "Bob", "Bob"], heights=[155, 185, 150]))
