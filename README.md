@@ -966,3 +966,10 @@
 | [3179](https://leetcode.com/problems/find-the-n-th-value-after-k-seconds) | Find the N-th Value After K Seconds | Medium | [Python](./problems/3179_find-the-n-th-value-after-k-seconds/__main__.py) |
 | [3200](https://leetcode.com/problems/maximum-height-of-a-triangle) | Maximum Height of a Triangle | Easy | [Python](./problems/3200_maximum-height-of-a-triangle/__main__.py) |
 | [3201](https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i) | Find the Maximum Length of Valid Subsequence I | Medium | [Python](./problems/3201_find-the-maximum-length-of-valid-subsequence-i/__main__.py) |
+| [3248](https://leetcode.com/problems/snake-in-matrix) | Snake in Matrix | Easy | [Python](./problems/3248_snake-in-matrix/__main__.py) |
+| [3249](https://leetcode.com/problems/count-the-number-of-good-nodes) | Count the Number of Good Nodes | Medium | [Python](./problems/3249_count-the-number-of-good-nodes/__main__.py) |
+| [3370](https://leetcode.com/problems/smallest-number-with-all-set-bits) | Smallest Number With All Set Bits | Easy | [Python](./problems/3370_smallest-number-with-all-set-bits/__main__.py) |
+| [3371](https://leetcode.com/problems/identify-the-largest-outlier-in-an-array) | Identify the Largest Outlier in an Array | Medium | [Python](./problems/3371_identify-the-largest-outlier-in-an-array/__main__.py) |
+| [3372](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i) | Maximize the Number of Target Nodes After Connecting Trees I | Medium | [Python](./problems/3372_maximize-the-number-of-target-nodes-after-connecting-trees-i/__main__.py) |
+| [3461](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i) | Check If Digits Are Equal in String After Operations I | Easy | [Python](./problems/3461_check-if-digits-are-equal-in-string-after-operations-i/__main__.py) |
+| [3462](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements) | Maximum Sum With at Most K Elements | Medium | [Python](./problems/3462_maximum-sum-with-at-most-k-elements/__main__.py) |
