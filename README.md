@@ -1014,3 +1014,5 @@
 | [3372](https://leetcode.com/problems/maximize-the-number-of-target-nodes-after-connecting-trees-i) | Maximize the Number of Target Nodes After Connecting Trees I | Medium | [Python](./problems/3372_maximize-the-number-of-target-nodes-after-connecting-trees-i/__main__.py) |
 | [3461](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i) | Check If Digits Are Equal in String After Operations I | Easy | [Python](./problems/3461_check-if-digits-are-equal-in-string-after-operations-i/__main__.py) |
 | [3462](https://leetcode.com/problems/maximum-sum-with-at-most-k-elements) | Maximum Sum With at Most K Elements | Medium | [Python](./problems/3462_maximum-sum-with-at-most-k-elements/__main__.py) |
+| [3487](https://leetcode.com/problems/maximum-unique-subarray-sum-after-deletion) | Maximum Unique Subarray Sum After Deletion | Easy | [Python](./problems/3487_maximum-unique-subarray-sum-after-deletion/__main__.py) |
+| [3488](https://leetcode.com/problems/closest-equal-element-queries) | Closest Equal Element Queries | Medium | [Python](./problems/3488_closest-equal-element-queries/__main__.py) |
